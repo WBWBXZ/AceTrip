@@ -2,56 +2,32 @@ name: Daily Data Update
 
 on:
   schedule:
-    # 每天 UTC 00:00 (北京时间 08:00)
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 支持手动触发
+    - cron: '0 0 * * *'  # UTC 0:00 = 北京时间 8:00
+  workflow_dispatch:  # 手动触发
 
 jobs:
-  update-data:
+  update:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: '22'
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Run data update
+      - name: Fetch latest data
         run: node scripts/fetch-data.js
-
-      - name: Update player name mapping
-        run: |
-          node -e "
-          const fs = require('fs');
-          const data = JSON.parse(fs.readFileSync('data/players_final.json', 'utf-8'));
-          const map = {};
-          for (const p of data.players || []) {
-            const cn = p.nameCn || '';
-            if (!cn) continue;
-            if (p.displayName) map[p.displayName.toUpperCase()] = cn;
-            if (p.firstName && p.lastName) {
-              map[(p.lastName + ' ' + p.firstName).toUpperCase()] = cn;
-              map[p.lastName.toUpperCase() + ' ' + p.firstName] = cn;
-            }
-          }
-          fs.writeFileSync('data/player_name_cn.json', JSON.stringify(map, null, 2));
-          console.log('Updated player_name_cn.json: ' + Object.keys(map).length + ' entries');
-          "
+        env:
+          NODE_ENV: production
 
       - name: Fetch WTA news
         run: |
-          curl -sL "https://news.google.com/rss/search?q=WTA+tennis&hl=en&gl=US&ceid=US:en" -o /tmp/wta_rss.xml
-          if [ -s /tmp/wta_rss.xml ]; then
-            node scripts/fetch-news.js /tmp/wta_rss.xml
-          else
-            echo "Warning: Could not fetch Google News RSS, skipping news update"
+          curl -sL "https://news.google.com/rss/search?q=WTA+tennis&hl=en&gl=US&ceid=US:en" -o /tmp/wta_news.xml 2>/dev/null || true
+          if [ -f /tmp/wta_news.xml ] && [ -s /tmp/wta_news.xml ]; then
+            node scripts/fetch-news.js /tmp/wta_news.xml
           fi
 
       - name: Check for changes
@@ -63,7 +39,20 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "AceTrip Bot"
-          git config user.email "acetrip-bot@users.noreply.github.com"
+          git config user.email "bot@acetrip.app"
           git add data/
-          git commit -m "📊 Daily data update $(date -u '+%Y-%m-%d')"
+          git commit -m "chore: daily data update $(date +%Y-%m-%d)"
           git push
+
+      - name: Deploy to Vercel
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          npx vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+          npx vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }}
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          NEXT_PUBLIC_SUPABASE_ANON_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_ANON_KEY }}
+          NEXT_PUBLIC_MAPBOX_TOKEN: ${{ secrets.NEXT_PUBLIC_MAPBOX_TOKEN }}
