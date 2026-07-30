@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { MessageSquarePlus, X, Send } from 'lucide-react';
 import { useAuth } from '@/lib/auth-context';
 import { supabase } from '@/lib/supabase';
@@ -27,14 +28,21 @@ export default function FeedbackButton() {
     setTimeout(() => { setSent(false); setOpen(false); }, 1500);
   };
 
-  // 未登录不显示反馈按钮
-  if (!user) return null;
+  const router = useRouter();
+
+  const handleClick = () => {
+    if (!user) {
+      router.push('/login');
+      return;
+    }
+    setOpen(true);
+  };
 
   return (
     <>
       {/* 悬浮按钮 */}
       <button
-        onClick={() => setOpen(true)}
+        onClick={handleClick}
         className="fixed bottom-24 right-4 z-50 w-11 h-11 rounded-full shadow-lg flex items-center justify-center transition-all hover:scale-110 active:scale-95"
         style={{ background: 'var(--tennis-green)', color: 'white' }}
         title="意见反馈"
