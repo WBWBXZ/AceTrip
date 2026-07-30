@@ -136,17 +136,20 @@ npm run dev
 
 ## 📸 截图
 
-| 首页 Hero | 功能特色 |
-|---|---|
-| ![首页](docs/screenshots/home-hero.png) | ![功能特色](docs/screenshots/home-features.png) |
+### 首页
+![首页 Hero](./docs/screenshots/home-hero.png)
 
-| 球员排名 | 即将开赛 |
-|---|---|
-| ![球员排名](docs/screenshots/home-rankings.png) | ![即将开赛](docs/screenshots/home-upcoming.png) |
+### 功能特色
+![功能特色](./docs/screenshots/home-features.png)
 
-| 四大满贯 |
-|---|
-| ![四大满贯](docs/screenshots/home-grandslam.png) |
+### 球员排名
+![球员排名](./docs/screenshots/home-rankings.png)
+
+### 即将开赛
+![即将开赛](./docs/screenshots/home-upcoming.png)
+
+### 四大满贯
+![四大满贯](./docs/screenshots/home-grandslam.png)
 
 ---
 
