@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "fetch-data": "node scripts/fetch-data.js",
-    "prebuild": "node scripts/fetch-data.js"
+    "fetch-data": "node scripts/fetch-data.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.0",
