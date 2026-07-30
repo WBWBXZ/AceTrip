@@ -136,7 +136,17 @@ npm run dev
 
 ## 📸 截图
 
-> *截图即将添加*
+| 首页 Hero | 功能特色 |
+|---|---|
+| ![首页](docs/screenshots/home-hero.png) | ![功能特色](docs/screenshots/home-features.png) |
+
+| 球员排名 | 即将开赛 |
+|---|---|
+| ![球员排名](docs/screenshots/home-rankings.png) | ![即将开赛](docs/screenshots/home-upcoming.png) |
+
+| 四大满贯 |
+|---|
+| ![四大满贯](docs/screenshots/home-grandslam.png) |
 
 ---
 
