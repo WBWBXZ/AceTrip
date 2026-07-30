@@ -1,0 +1,69 @@
+name: Daily Data Update
+
+on:
+  schedule:
+    # 每天 UTC 00:00 (北京时间 08:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # 支持手动触发
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run data update
+        run: node scripts/fetch-data.js
+
+      - name: Update player name mapping
+        run: |
+          node -e "
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('data/players_final.json', 'utf-8'));
+          const map = {};
+          for (const p of data.players || []) {
+            const cn = p.nameCn || '';
+            if (!cn) continue;
+            if (p.displayName) map[p.displayName.toUpperCase()] = cn;
+            if (p.firstName && p.lastName) {
+              map[(p.lastName + ' ' + p.firstName).toUpperCase()] = cn;
+              map[p.lastName.toUpperCase() + ' ' + p.firstName] = cn;
+            }
+          }
+          fs.writeFileSync('data/player_name_cn.json', JSON.stringify(map, null, 2));
+          console.log('Updated player_name_cn.json: ' + Object.keys(map).length + ' entries');
+          "
+
+      - name: Fetch WTA news
+        run: |
+          curl -sL "https://news.google.com/rss/search?q=WTA+tennis&hl=en&gl=US&ceid=US:en" -o /tmp/wta_rss.xml
+          if [ -s /tmp/wta_rss.xml ]; then
+            node scripts/fetch-news.js /tmp/wta_rss.xml
+          else
+            echo "Warning: Could not fetch Google News RSS, skipping news update"
+          fi
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "AceTrip Bot"
+          git config user.email "acetrip-bot@users.noreply.github.com"
+          git add data/
+          git commit -m "📊 Daily data update $(date -u '+%Y-%m-%d')"
+          git push

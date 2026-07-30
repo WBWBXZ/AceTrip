@@ -1,0 +1,178 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Tennis Around the World — Design System
+   Colors: Tennis Green + White + Warm Beige
+   Style: Apple × Airbnb × Notion
+   ============================================================ */
+
+:root {
+  /* Brand Colors */
+  --tennis-green: #2D6A4F;
+  --tennis-green-light: #40916C;
+  --tennis-green-dark: #1B4332;
+  --warm-beige: #F5F0E8;
+  --warm-cream: #FDFBF7;
+  --warm-sand: #E8E0D0;
+
+  /* Surfaces */
+  --surface-hard: #4A90D9;
+  --surface-clay: #D4742C;
+  --surface-grass: #52B788;
+
+  /* Text */
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6B6B;
+  --text-muted: #9B9B9B;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04), 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.04), 0 2px 4px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.06), 0 4px 10px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.08), 0 8px 16px rgba(0, 0, 0, 0.04);
+
+  /* Glass */
+  --glass-bg: rgba(255, 255, 255, 0.72);
+  --glass-border: rgba(255, 255, 255, 0.2);
+}
+
+/* ---- Base ---- */
+
+body {
+  background: var(--warm-cream);
+  color: var(--text-primary);
+  font-feature-settings: 'cv11', 'ss01';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- Glassmorphism ---- */
+
+.glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  border: 1px solid var(--glass-border);
+}
+
+.glass-strong {
+  background: rgba(253, 251, 247, 0.85);
+  backdrop-filter: blur(40px) saturate(200%);
+  -webkit-backdrop-filter: blur(40px) saturate(200%);
+}
+
+/* ---- Cards ---- */
+
+.card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.card-flat {
+  background: white;
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+/* ---- Badges ---- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.badge-gs { background: #FEF3C7; color: #92400E; }
+.badge-wta1000 { background: #EDE9FE; color: #5B21B6; }
+.badge-wta500 { background: #CFFAFE; color: #0E7490; }
+.badge-wta250 { background: #D1FAE5; color: #065F46; }
+.badge-wta125 { background: #E5E7EB; color: #4B5563; }
+.badge-finals { background: #FCE7F3; color: #9D174D; }
+
+/* ---- Rank trend arrows ---- */
+
+.trend-up { color: #059669; }
+.trend-down { color: #DC2626; }
+.trend-same { color: #9B9B9B; }
+
+/* ---- Scrollbar ---- */
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* ---- Surface indicators ---- */
+
+.surface-hard { background: var(--surface-hard); }
+.surface-clay { background: var(--surface-clay); }
+.surface-grass { background: var(--surface-grass); }
+
+/* ---- Page transitions ---- */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-up {
+  animation: slideUp 0.6s ease-out;
+}
+
+/* ---- Mapbox overrides ---- */
+
+.mapboxgl-canvas {
+  border-radius: 16px;
+}
+
+/* ---- Responsive helpers ---- */
+
+.container-tight {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  .container-tight {
+    padding: 0 32px;
+  }
+}

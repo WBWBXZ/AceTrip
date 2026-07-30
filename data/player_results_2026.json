@@ -1,0 +1,2782 @@
+{
+  "316738": {
+    "tournaments": [
+      {
+        "name": "AUCKLAND",
+        "startDate": "2026-01-05",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 13,
+    "totalWins": 35,
+    "totalLosses": 11,
+    "titles": 2
+  },
+  "316956": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 11,
+    "totalWins": 35,
+    "totalLosses": 9,
+    "titles": 2
+  },
+  "316959": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "PARIS 125",
+        "startDate": "2026-05-11",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "EASTBOURNE",
+        "startDate": "2026-06-22",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 12,
+    "totalWins": 29,
+    "totalLosses": 11,
+    "titles": 1
+  },
+  "317306": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MANILA 125",
+        "startDate": "2026-01-26",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-02-02",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BRISBANE 2",
+        "startDate": "2026-02-09",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "KYOTO",
+        "startDate": "2026-03-09",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "KOFU",
+        "startDate": "2026-03-16",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "LUAN",
+        "startDate": "2026-03-30",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "TOKYO",
+        "startDate": "2026-04-20",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "GIFU",
+        "startDate": "2026-04-27",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "'S-HERTOGENBOSCH",
+        "startDate": "2026-06-08",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 13,
+    "totalWins": 20,
+    "totalLosses": 14,
+    "titles": 0
+  },
+  "318314": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "HOBART",
+        "startDate": "2026-01-12",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "PARMA 125",
+        "startDate": "2026-05-11",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "'S-HERTOGENBOSCH",
+        "startDate": "2026-06-08",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "EASTBOURNE",
+        "startDate": "2026-06-22",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ATHENS",
+        "startDate": "2026-07-13",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 11,
+    "totalWins": 20,
+    "totalLosses": 10,
+    "titles": 1
+  },
+  "318516": {
+    "tournaments": [
+      {
+        "name": "AUCKLAND",
+        "startDate": "2026-01-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MANILA 125",
+        "startDate": "2026-01-26",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MÉRIDA",
+        "startDate": "2026-02-23",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTIN 125 #1",
+        "startDate": "2026-03-09",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "LINZ",
+        "startDate": "2026-04-06",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ISTANBUL 125",
+        "startDate": "2026-05-04",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 16,
+    "totalWins": 26,
+    "totalLosses": 16,
+    "titles": 1
+  },
+  "319001": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 10,
+    "totalWins": 24,
+    "totalLosses": 9,
+    "titles": 0
+  },
+  "319280": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MÉRIDA",
+        "startDate": "2026-02-23",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "EASTBOURNE",
+        "startDate": "2026-06-22",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 13,
+    "totalWins": 15,
+    "totalLosses": 13,
+    "titles": 0
+  },
+  "319939": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ABU DHABI",
+        "startDate": "2026-02-01",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "LINZ",
+        "startDate": "2026-04-06",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "EASTBOURNE",
+        "startDate": "2026-06-22",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 15,
+    "totalWins": 21,
+    "totalLosses": 15,
+    "titles": 0
+  },
+  "319998": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 9,
+    "totalWins": 20,
+    "totalLosses": 9,
+    "titles": 0
+  },
+  "320760": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 9,
+    "totalWins": 36,
+    "totalLosses": 6,
+    "titles": 3
+  },
+  "322191": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 11,
+    "totalWins": 35,
+    "totalLosses": 9,
+    "titles": 2
+  },
+  "324166": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 13,
+    "totalWins": 34,
+    "totalLosses": 11,
+    "titles": 2
+  },
+  "324325": {
+    "tournaments": [
+      {
+        "name": "CANBERRA 125",
+        "startDate": "2026-01-05",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CLUJ-NAPOCA",
+        "startDate": "2026-02-01",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "OEIRAS 125 INDOOR #2",
+        "startDate": "2026-02-16",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTIN",
+        "startDate": "2026-02-23",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTIN 125 #1",
+        "startDate": "2026-03-09",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 125",
+        "startDate": "2026-04-06",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "OEIRAS 125 OUTDOOR #2",
+        "startDate": "2026-04-20",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "SAINT MALO 125",
+        "startDate": "2026-04-27",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "PARMA 125",
+        "startDate": "2026-05-11",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "'S-HERTOGENBOSCH",
+        "startDate": "2026-06-08",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ISTANBUL 125 #2",
+        "startDate": "2026-07-13",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 19,
+    "totalWins": 19,
+    "totalLosses": 21,
+    "titles": 0
+  },
+  "325410": {
+    "tournaments": [
+      {
+        "name": "AUCKLAND",
+        "startDate": "2026-01-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ABU DHABI",
+        "startDate": "2026-02-01",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MÉRIDA",
+        "startDate": "2026-02-23",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTIN 125 #1",
+        "startDate": "2026-03-09",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "PARIS 125",
+        "startDate": "2026-05-11",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STRASBOURG",
+        "startDate": "2026-05-17",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "'S-HERTOGENBOSCH",
+        "startDate": "2026-06-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "NOTTINGHAM",
+        "startDate": "2026-06-15",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 17,
+    "totalWins": 19,
+    "totalLosses": 16,
+    "titles": 1
+  },
+  "326160": {
+    "tournaments": [
+      {
+        "name": "MAANSHAN 3",
+        "startDate": "2026-03-16",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "MAANSHAN 4",
+        "startDate": "2026-03-23",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "LUAN",
+        "startDate": "2026-03-30",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAOTOU",
+        "startDate": "2026-04-20",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "HUZHOU 125",
+        "startDate": "2026-04-27",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MODENA 125",
+        "startDate": "2026-06-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BRESCIA 125",
+        "startDate": "2026-06-15",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 9,
+    "totalWins": 32,
+    "totalLosses": 6,
+    "titles": 3
+  },
+  "326376": {
+    "tournaments": [
+      {
+        "name": "AUCKLAND",
+        "startDate": "2026-01-05",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "HOBART",
+        "startDate": "2026-01-12",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CLUJ-NAPOCA",
+        "startDate": "2026-02-01",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTIN",
+        "startDate": "2026-02-23",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROUEN",
+        "startDate": "2026-04-13",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "LA BISBAL D'EMPORDÁ 125",
+        "startDate": "2026-04-27",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STRASBOURG",
+        "startDate": "2026-05-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 17,
+    "totalWins": 20,
+    "totalLosses": 17,
+    "titles": 0
+  },
+  "326384": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 9,
+    "totalWins": 17,
+    "totalLosses": 9,
+    "titles": 0
+  },
+  "326408": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 11,
+    "totalWins": 23,
+    "totalLosses": 12,
+    "titles": 0
+  },
+  "326482": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROUEN",
+        "startDate": "2026-04-13",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 8,
+    "totalWins": 27,
+    "totalLosses": 6,
+    "titles": 2
+  },
+  "326735": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ABU DHABI",
+        "startDate": "2026-02-01",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "PARIS 125",
+        "startDate": "2026-05-11",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STRASBOURG",
+        "startDate": "2026-05-17",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "NOTTINGHAM",
+        "startDate": "2026-06-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 19,
+    "totalWins": 12,
+    "totalLosses": 19,
+    "titles": 0
+  },
+  "328120": {
+    "tournaments": [
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "NOTTINGHAM",
+        "startDate": "2026-06-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ATHENS",
+        "startDate": "2026-07-13",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 11,
+    "totalWins": 11,
+    "totalLosses": 11,
+    "titles": 0
+  },
+  "328366": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "HOBART",
+        "startDate": "2026-01-12",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CLUJ-NAPOCA",
+        "startDate": "2026-02-01",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STRASBOURG",
+        "startDate": "2026-05-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 10,
+    "totalWins": 12,
+    "totalLosses": 10,
+    "titles": 0
+  },
+  "328560": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 12,
+    "totalWins": 31,
+    "totalLosses": 12,
+    "titles": 0
+  },
+  "329668": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R128",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 13,
+    "totalWins": 28,
+    "totalLosses": 11,
+    "titles": 2
+  },
+  "330482": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BERLIN",
+        "startDate": "2026-06-15",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 15,
+    "totalWins": 19,
+    "totalLosses": 15,
+    "titles": 0
+  },
+  "331006": {
+    "tournaments": [
+      {
+        "name": "UNITED CUP",
+        "startDate": "2026-01-02",
+        "bestRound": "",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STRASBOURG",
+        "startDate": "2026-05-17",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 10,
+    "totalWins": 24,
+    "totalLosses": 10,
+    "titles": 0
+  },
+  "331809": {
+    "tournaments": [
+      {
+        "name": "BRISBANE",
+        "startDate": "2026-01-04",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ADELAIDE",
+        "startDate": "2026-01-12",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DOHA",
+        "startDate": "2026-02-08",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "LINZ",
+        "startDate": "2026-04-06",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "STUTTGART",
+        "startDate": "2026-04-13",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "F",
+        "isChampion": true,
+        "level": ""
+      },
+      {
+        "name": "BAD HOMBURG",
+        "startDate": "2026-06-21",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 14,
+    "totalWins": 38,
+    "totalLosses": 11,
+    "titles": 3
+  },
+  "332285": {
+    "tournaments": [
+      {
+        "name": "AUCKLAND",
+        "startDate": "2026-01-05",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "HOBART",
+        "startDate": "2026-01-12",
+        "bestRound": "F",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTRALIAN OPEN",
+        "startDate": "2026-01-18",
+        "bestRound": "Q",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "DUBAI",
+        "startDate": "2026-02-15",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "AUSTIN",
+        "startDate": "2026-02-23",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "INDIAN WELLS",
+        "startDate": "2026-03-04",
+        "bestRound": "R64",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MIAMI",
+        "startDate": "2026-03-17",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "CHARLESTON",
+        "startDate": "2026-03-30",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "MADRID 1000",
+        "startDate": "2026-04-21",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROME",
+        "startDate": "2026-05-05",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "STRASBOURG",
+        "startDate": "2026-05-17",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "ROLAND GARROS",
+        "startDate": "2026-05-24",
+        "bestRound": "R32",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "QUEENS",
+        "startDate": "2026-06-08",
+        "bestRound": "S",
+        "isChampion": false,
+        "level": ""
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29",
+        "bestRound": "R16",
+        "isChampion": false,
+        "level": ""
+      }
+    ],
+    "totalTournaments": 14,
+    "totalWins": 29,
+    "totalLosses": 14,
+    "titles": 0
+  }
+}
