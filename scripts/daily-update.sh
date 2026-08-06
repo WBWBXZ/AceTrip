@@ -3,7 +3,7 @@
 # 用法: ./scripts/daily-update.sh
 # 自动更新排名、积分、赛事冠军、参赛记录
 
-set -e
+set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 PROJECT_DIR="$(dirname "$SCRIPT_DIR")"

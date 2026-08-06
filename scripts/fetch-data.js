@@ -9,6 +9,12 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+let hadCriticalError = false;
+
+function markCriticalError(message) {
+  hadCriticalError = true;
+  console.error(message);
+}
 
 async function fetchJSON(url) {
   const resp = await fetch(url, {
@@ -57,8 +63,11 @@ async function updateRankings() {
     
     fs.writeFileSync(playersPath, JSON.stringify(playersData, null, 2));
     console.log(`  ✅ 更新了 ${updated} 个球员的排名`);
+    if (updated === 0) {
+      markCriticalError('  ❌ 排名更新失败: 没有匹配到任何球员');
+    }
   } catch (e) {
-    console.error(`  ❌ 排名更新失败: ${e.message}`);
+    markCriticalError(`  ❌ 排名更新失败: ${e.message}`);
   }
 }
 
@@ -138,7 +147,7 @@ async function updateTournamentWinners() {
     fs.writeFileSync(tournamentsPath, JSON.stringify(tournamentsData, null, 2));
     console.log(`  ✅ 更新了 ${updated} 个赛事的冠军`);
   } catch (e) {
-    console.error(`  ❌ 冠军更新失败: ${e.message}`);
+    markCriticalError(`  ❌ 冠军更新失败: ${e.message}`);
   }
 }
 
@@ -293,7 +302,7 @@ async function updatePlayerSchedules() {
       };
       updated++;
     } catch (e) {
-      // 保留旧数据
+      console.error(`  ⚠️ ${player.displayName || player.id} 参赛记录更新失败: ${e.message}`);
     }
     
     // 礼貌性延迟
@@ -302,6 +311,9 @@ async function updatePlayerSchedules() {
   
   fs.writeFileSync(schedulePath, JSON.stringify(existingSchedule, null, 2));
   console.log(`  ✅ 更新了 ${updated} 个球员的参赛记录`);
+  if (featuredPlayers.length > 0 && updated === 0) {
+    markCriticalError('  ❌ 球员参赛记录更新失败: 没有成功更新任何球员');
+  }
 }
 
 async function updatePointsBreakdown() {
@@ -346,12 +358,17 @@ async function updatePointsBreakdown() {
       
       existing[player.id] = { total, entries };
       updated++;
-    } catch {}
+    } catch (e) {
+      console.error(`  ⚠️ ${player.displayName || player.id} 积分明细更新失败: ${e.message}`);
+    }
     await new Promise(r => setTimeout(r, 200));
   }
   
   fs.writeFileSync(breakdownPath, JSON.stringify(existing, null, 2));
   console.log(`  ✅ 更新了 ${updated} 个球员的积分明细`);
+  if (updated === 0) {
+    markCriticalError('  ❌ 积分明细更新失败: 没有成功更新任何球员');
+  }
 }
 
 // fetchText helper
@@ -372,6 +389,9 @@ async function main() {
   await updateTournamentWinners();
   await updatePlayerSchedules();
   await updatePointsBreakdown();
+  if (hadCriticalError) {
+    throw new Error('数据刷新存在关键失败，请查看上方日志');
+  }
   console.log('\n✅ 数据刷新完成');
 }
 
