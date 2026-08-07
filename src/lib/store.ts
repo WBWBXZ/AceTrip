@@ -49,25 +49,49 @@ export const useAppStore = create<AppState>()(
 
     // ---- Bucket List ----
     bucketList: [],
-    addToBucketList: (tournamentId) => {
+    addToBucketList: async (tournamentId) => {
       const userId = get().userId;
-      set((state) => ({
-        bucketList: [
-          ...state.bucketList,
-          { tournamentId, addedAt: new Date().toISOString(), completed: false },
-        ],
-      }));
+      const newItem: BucketListItem = {
+        tournamentId,
+        addedAt: new Date().toISOString(),
+        completed: false,
+      };
+      set((state) => ({ bucketList: [...state.bucketList, newItem] }));
       if (userId) {
-        supabase.from('user_wishlist').insert({ user_id: userId, tournament_id: tournamentId }).then();
+        const { error } = await supabase
+          .from('user_wishlist')
+          .insert({ user_id: userId, tournament_id: tournamentId });
+        if (error && get().userId === userId) {
+          set((state) => ({
+            bucketList: state.bucketList.filter((item) => item !== newItem),
+          }));
+        }
       }
     },
-    removeFromBucketList: (tournamentId) => {
+    removeFromBucketList: async (tournamentId) => {
       const userId = get().userId;
+      const previousItems = get().bucketList;
+      const removedIndex = previousItems.findIndex((item) => item.tournamentId === tournamentId);
+      const removedItem = previousItems[removedIndex];
       set((state) => ({
-        bucketList: state.bucketList.filter((b) => b.tournamentId !== tournamentId),
+        bucketList: state.bucketList.filter((item) => item.tournamentId !== tournamentId),
       }));
       if (userId) {
-        supabase.from('user_wishlist').delete().eq('user_id', userId).eq('tournament_id', tournamentId).then();
+        const { error } = await supabase
+          .from('user_wishlist')
+          .delete()
+          .eq('user_id', userId)
+          .eq('tournament_id', tournamentId);
+        if (error && removedItem && get().userId === userId) {
+          set((state) => {
+            if (state.bucketList.some((item) => item.tournamentId === tournamentId)) {
+              return state;
+            }
+            const bucketList = [...state.bucketList];
+            bucketList.splice(Math.min(removedIndex, bucketList.length), 0, removedItem);
+            return { bucketList };
+          });
+        }
       }
     },
     toggleBucketItem: (tournamentId) =>
@@ -95,25 +119,48 @@ export const useAppStore = create<AppState>()(
 
     // ---- Followed Players ----
     followedPlayers: [],
-    followPlayer: (playerId) => {
+    followPlayer: async (playerId) => {
       const userId = get().userId;
-      set((state) => ({
-        followedPlayers: [
-          ...state.followedPlayers,
-          { playerId, followedAt: new Date().toISOString() },
-        ],
-      }));
+      const newItem: FollowedPlayer = {
+        playerId,
+        followedAt: new Date().toISOString(),
+      };
+      set((state) => ({ followedPlayers: [...state.followedPlayers, newItem] }));
       if (userId) {
-        supabase.from('user_follows').insert({ user_id: userId, player_id: playerId }).then();
+        const { error } = await supabase
+          .from('user_follows')
+          .insert({ user_id: userId, player_id: playerId });
+        if (error && get().userId === userId) {
+          set((state) => ({
+            followedPlayers: state.followedPlayers.filter((item) => item !== newItem),
+          }));
+        }
       }
     },
-    unfollowPlayer: (playerId) => {
+    unfollowPlayer: async (playerId) => {
       const userId = get().userId;
+      const previousItems = get().followedPlayers;
+      const removedIndex = previousItems.findIndex((item) => item.playerId === playerId);
+      const removedItem = previousItems[removedIndex];
       set((state) => ({
-        followedPlayers: state.followedPlayers.filter((f) => f.playerId !== playerId),
+        followedPlayers: state.followedPlayers.filter((item) => item.playerId !== playerId),
       }));
       if (userId) {
-        supabase.from('user_follows').delete().eq('user_id', userId).eq('player_id', playerId).then();
+        const { error } = await supabase
+          .from('user_follows')
+          .delete()
+          .eq('user_id', userId)
+          .eq('player_id', playerId);
+        if (error && removedItem && get().userId === userId) {
+          set((state) => {
+            if (state.followedPlayers.some((item) => item.playerId === playerId)) {
+              return state;
+            }
+            const followedPlayers = [...state.followedPlayers];
+            followedPlayers.splice(Math.min(removedIndex, followedPlayers.length), 0, removedItem);
+            return { followedPlayers };
+          });
+        }
       }
     },
     reorderFollowedPlayers: (playerIds) =>
