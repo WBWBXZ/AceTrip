@@ -9,6 +9,7 @@ const fs = require('fs');
 const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const REQUEST_TIMEOUT_MS = 15000;
 let hadCriticalError = false;
 
 function markCriticalError(message) {
@@ -19,6 +20,7 @@ function markCriticalError(message) {
 async function fetchJSON(url) {
   const resp = await fetch(url, {
     headers: { 'Accept': 'application/json' },
+    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
   });
   if (!resp.ok) throw new Error(`HTTP ${resp.status}: ${url}`);
   return resp.json();
@@ -375,11 +377,15 @@ async function updatePointsBreakdown() {
 async function fetchText(url) {
   return new Promise((resolve, reject) => {
     const mod = url.startsWith('https') ? require('https') : require('http');
-    mod.get(url, { headers: { 'User-Agent': 'AceTrip/1.0' } }, res => {
+    const req = mod.get(url, { headers: { 'User-Agent': 'AceTrip/1.0' }, timeout: REQUEST_TIMEOUT_MS }, res => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => resolve(data));
-    }).on('error', reject);
+    });
+    req.on('timeout', () => {
+      req.destroy(new Error(`Request timeout after ${REQUEST_TIMEOUT_MS}ms: ${url}`));
+    });
+    req.on('error', reject);
   });
 }
 
@@ -395,4 +401,7 @@ async function main() {
   console.log('\n✅ 数据刷新完成');
 }
 
-main().catch(console.error);
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});

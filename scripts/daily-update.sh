@@ -37,12 +37,16 @@ console.log('✅ 更新了 player_name_cn.json: ' + Object.keys(map).length + ' 
 # 更新 WTA 新闻
 echo "$(date '+%Y-%m-%d %H:%M:%S') 正在更新 WTA 新闻..." | tee -a "$LOG_FILE"
 RSS_TMP="/tmp/wta_rss_$$.xml"
-curl -sL "https://news.google.com/rss/search?q=WTA+tennis&hl=en&gl=US&ceid=US:en" -o "$RSS_TMP" 2>&1 | tee -a "$LOG_FILE"
-if [ -s "$RSS_TMP" ]; then
-  node scripts/fetch-news.js "$RSS_TMP" 2>&1 | tee -a "$LOG_FILE"
-  rm -f "$RSS_TMP"
+if curl --fail --silent --show-error --location --max-time 30 "https://news.google.com/rss/search?q=WTA+tennis&hl=en&gl=US&ceid=US:en" -o "$RSS_TMP" 2>&1 | tee -a "$LOG_FILE"; then
+  if [ -s "$RSS_TMP" ]; then
+    node scripts/fetch-news.js "$RSS_TMP" 2>&1 | tee -a "$LOG_FILE"
+    rm -f "$RSS_TMP"
+  else
+    echo "⚠️ Google News RSS 返回空内容，跳过新闻更新" | tee -a "$LOG_FILE"
+  fi
 else
   echo "⚠️ 无法获取 Google News RSS，跳过新闻更新" | tee -a "$LOG_FILE"
+  rm -f "$RSS_TMP"
 fi
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') ✅ 每日数据更新完成" | tee -a "$LOG_FILE"
