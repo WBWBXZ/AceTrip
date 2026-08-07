@@ -649,7 +649,12 @@
       "venue": "William H.G. FitzGerald Tennis Center",
       "timezone": "America/New_York",
       "timezoneCn": "美东时间 UTC-5",
-      "liveTennisId": 31045
+      "liveTennisId": 31045,
+      "winner": {
+        "name": "Alexandra Eala",
+        "nameCn": "伊拉",
+        "countryCode": "PHI"
+      }
     },
     {
       "id": "national-bank-open",
