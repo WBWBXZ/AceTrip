@@ -100,3 +100,47 @@ After dedup: 85 items
 }
 2026-08-07 03:48:40 ✅ 每日数据更新完成
 ---
+2026-08-07 05:54:03 🔄 开始每日数据更新...
+🔄 AceTrip 数据刷新
+
+📊 正在更新 WTA 排名...
+  ✅ 更新了 147 个球员的排名
+🏆 正在更新赛事冠军...
+  ✅ 更新了 21 个赛事的冠军
+
+🎾 正在更新球员参赛记录...
+  ✅ 更新了 150 个球员的参赛记录
+
+💰 正在更新球员积分明细（live-tennis.cn）...
+  ✅ 更新了 150 个球员的积分明细
+
+✅ 数据刷新完成
+✅ 更新了 player_name_cn.json: 449 条
+2026-08-07 05:55:48 正在更新 WTA 新闻...
+Reading RSS from file: /tmp/wta_rss_2215.xml
+Found 100 items
+After filtering: 85 items
+After dedup: 83 items
+✅ 写入 3 条新闻到 /home/runner/work/AceTrip/AceTrip/data/wta_news.json
+{
+  "news": [
+    {
+      "title": "Garcia welcomes first child, son Pablo: 'Words can't express' - wtatennis.com",
+      "source": "wtatennis.com",
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Around Toronto's grounds: 斯瓦泰克's newest book, 科斯丘克's super strength &amp; McCoco - wtatennis.com",
+      "source": "wtatennis.com",
+      "date": "2026-08-07"
+    },
+    {
+      "title": "Top women’s tennis players are not giving left-wing activists the WTA sex testing outrage they wanted",
+      "source": "Fox News",
+      "date": "2026-08-06"
+    }
+  ],
+  "updatedAt": "2026-08-07T05:55:49.248Z"
+}
+2026-08-07 05:55:49 ✅ 每日数据更新完成
+---
