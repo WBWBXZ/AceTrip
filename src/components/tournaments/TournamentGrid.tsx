@@ -55,12 +55,12 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
       {/* Filters */}
       <div className="flex flex-wrap gap-3 mb-6">
         {/* Level Filter */}
-        <div className="flex gap-1.5">
+        <div className="flex flex-wrap gap-1.5">
           {(['all', 'GS', 'WTA1000', 'WTA500', 'Finals'] as FilterLevel[]).map(level => (
             <button
               key={level}
               onClick={() => setLevelFilter(level)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              className={`min-h-11 px-3 py-2.5 rounded-lg text-xs font-medium transition-all ${
                 levelFilter === level
                   ? 'bg-[var(--tennis-green)] text-white'
                   : 'bg-white border border-black/8 text-[var(--text-secondary)] hover:bg-black/4'
@@ -72,12 +72,12 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
         </div>
 
         {/* Status Filter */}
-        <div className="flex gap-1.5">
+        <div className="flex flex-wrap gap-1.5">
           {(['all', 'upcoming', 'ongoing', 'completed'] as FilterStatus[]).map(status => (
             <button
               key={status}
               onClick={() => setStatusFilter(status)}
-              className={`px-3 py-1.5 rounded-lg text-xs font-medium transition-all ${
+              className={`min-h-11 px-3 py-2.5 rounded-lg text-xs font-medium transition-all ${
                 statusFilter === status
                   ? 'bg-[var(--tennis-green)] text-white'
                   : 'bg-white border border-black/8 text-[var(--text-secondary)] hover:bg-black/4'
@@ -110,7 +110,7 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
                   }
                 });
               }}
-              className="absolute top-3 right-3 p-1.5 rounded-full hover:bg-rose-50 transition-colors z-10"
+              className="absolute top-2 right-2 flex min-h-11 min-w-11 items-center justify-center rounded-full hover:bg-rose-50 transition-colors z-10"
               title={isBucketListed(t.id) ? '移出心愿单' : '加入心愿单'}
             >
               <Heart

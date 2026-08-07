@@ -25,7 +25,7 @@ export default function HomePage() {
                 <span className="w-[6px] h-[6px] rounded-full bg-[var(--tennis-green)] animate-pulse" />
                 {ongoing ? `LIVE · ${ongoing.nameCn || ongoing.name}` : '2026 WTA Season'}
               </div>
-              <h1 className="text-5xl md:text-6xl font-bold leading-[1.1] tracking-tight text-[var(--tennis-green-dark)]" style={{ fontFamily: 'var(--font-serif)' }}>
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.1] tracking-tight text-[var(--tennis-green-dark)]" style={{ fontFamily: 'var(--font-serif)' }}>
                 Game, Set, World
               </h1>
               <p className="mt-4 text-sm text-[var(--text-secondary)] max-w-md leading-relaxed">

@@ -46,7 +46,7 @@ export function PlayerList({ players }: Props) {
             placeholder="搜索球员姓名、中文名或国籍..."
             value={search}
             onChange={e => setSearch(e.target.value)}
-            className="w-full pl-9 pr-4 py-2.5 rounded-xl bg-white border border-black/8 text-sm focus:outline-none focus:ring-2 focus:ring-[var(--tennis-green)]/20 focus:border-[var(--tennis-green)]/40 transition"
+            className="w-full min-h-11 pl-9 pr-4 py-2.5 rounded-xl bg-white border border-black/8 text-base sm:text-sm focus:outline-none focus:ring-2 focus:ring-[var(--tennis-green)]/20 focus:border-[var(--tennis-green)]/40 transition"
           />
         </div>
       </div>
@@ -106,7 +106,7 @@ export function PlayerList({ players }: Props) {
                 e.stopPropagation();
                 requireAuth(() => follow.requestFollow(player.id, player.nameCn || player.displayName));
               }}
-              className="flex-shrink-0 p-1.5 rounded-full hover:bg-rose-50 transition-colors"
+              className="flex min-h-11 min-w-11 flex-shrink-0 items-center justify-center rounded-full hover:bg-rose-50 transition-colors"
               title={isFollowing(player.id) ? '取消关注' : '关注'}
             >
               <Heart

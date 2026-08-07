@@ -43,7 +43,7 @@ export default function FeedbackButton() {
       {/* 悬浮按钮 */}
       <button
         onClick={handleClick}
-        className="fixed bottom-24 right-4 z-50 w-11 h-11 rounded-full shadow-lg flex items-center justify-center transition-all hover:scale-110 active:scale-95"
+        className="fixed bottom-[calc(5.5rem+env(safe-area-inset-bottom))] right-4 z-40 w-11 h-11 rounded-full shadow-lg flex items-center justify-center transition-all hover:scale-110 active:scale-95 md:bottom-6"
         style={{ background: 'var(--tennis-green)', color: 'white' }}
         title="意见反馈"
       >

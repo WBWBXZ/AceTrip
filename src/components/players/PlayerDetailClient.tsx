@@ -314,7 +314,7 @@ export function PlayerDetailClient({ player }: Props) {
 
           {/* 中文名 */}
           <div className="flex items-center gap-3 mb-1 flex-wrap">
-            <h1 className="font-noto-serif text-4xl md:text-5xl font-bold text-gray-900 leading-tight tracking-tight">
+            <h1 className="font-noto-serif text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 leading-tight tracking-tight break-words">
               {player.nameCn || player.displayName}
             </h1>
             {/* 关注按钮 */}
@@ -363,7 +363,7 @@ export function PlayerDetailClient({ player }: Props) {
 
           {/* 排名 + 积分 */}
           <div className="flex items-baseline gap-3 mb-6">
-            <span className="font-noto-serif text-6xl md:text-7xl font-black text-gray-900/8 leading-none">#{player.rank}</span>
+            <span className="font-noto-serif text-5xl sm:text-6xl md:text-7xl font-black text-gray-900/8 leading-none">#{player.rank}</span>
           </div>
           <div className="flex items-center gap-2">
             <span className="text-sm text-gray-400">WTA 世界排名</span>
@@ -482,7 +482,7 @@ export function PlayerDetailClient({ player }: Props) {
           <h2 className="font-noto-serif text-2xl font-bold text-gray-900 mb-2">积分来源</h2>
 
           {/* 双积分大字 */}
-          <div className="flex items-baseline gap-8 mb-8">
+          <div className="flex flex-col items-start gap-4 mb-8 sm:flex-row sm:items-baseline sm:gap-8">
             <div>
               <p className="text-[10px] uppercase tracking-[0.25em] text-gray-600 font-light">世界排名积分</p>
               <p className="font-noto-serif text-3xl font-light tracking-tight text-gray-900 tabular-nums">{breakdownTotal.toLocaleString()}</p>

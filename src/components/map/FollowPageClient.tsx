@@ -172,7 +172,7 @@ function StatsDashboard({ player }: StatsDashboardProps) {
         <TrendingUp size={15} className="text-[var(--tennis-green)]" />
         <span className="text-sm font-bold tracking-tight">赛季数据</span>
       </div>
-      <div className="flex items-center justify-around gap-2">
+      <div className="grid grid-cols-3 gap-x-2 gap-y-4 sm:flex sm:items-center sm:justify-around">
 
         {/* 参赛站数 — 圆形进度 */}
         <div className="flex flex-col items-center gap-1.5">

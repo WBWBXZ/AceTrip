@@ -24,7 +24,7 @@ export function Header() {
     <header className="sticky top-0 z-50 glass-strong">
       <div className="container-tight flex items-center justify-between h-16">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5 group">
+        <Link href="/" className="flex min-h-11 min-w-11 items-center gap-2.5 group">
           <div className="w-8 h-8 rounded-lg flex items-center justify-center"
                style={{ background: 'var(--tennis-green)' }}>
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,7 +68,7 @@ export function Header() {
               </span>
               <button
                 onClick={() => setShowLogoutConfirm(true)}
-                className="p-1.5 rounded-lg transition-colors hover:bg-black/5"
+                className="min-h-11 min-w-11 p-2.5 rounded-lg transition-colors hover:bg-black/5"
                 title="退出登录"
               >
                 <LogOut size={16} style={{ color: 'var(--text-secondary)' }} />
@@ -77,7 +77,7 @@ export function Header() {
           ) : (
             <Link
               href="/login"
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium transition-all hover:bg-black/5"
+              className="flex min-h-11 items-center gap-1.5 px-3 py-2.5 rounded-lg text-xs font-medium transition-all hover:bg-black/5"
               style={{ color: 'var(--tennis-green)' }}
             >
               <User size={15} />

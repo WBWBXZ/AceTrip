@@ -250,7 +250,19 @@ export function DrawViewer({ liveTennisId, year = 2026 }: Props) {
           border-left: 2px solid rgba(0,0,0,0.08);
         }
         .draw-viewer .cDrawPartS {
-          min-width: 800px;
+          min-width: 0;
+          width: 100%;
+          max-width: 100%;
+        }
+        .draw-viewer table {
+          width: 100%;
+          max-width: 100%;
+          table-layout: fixed;
+        }
+        .draw-viewer td,
+        .draw-viewer th {
+          min-width: 0;
+          overflow-wrap: anywhere;
         }
         .draw-viewer .BgOdd {
           background: rgba(0,0,0,0.01);
