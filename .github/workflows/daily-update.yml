@@ -3,10 +3,15 @@ name: Daily Data Update
 on:
   schedule:
     - cron: '0 0 * * *'  # UTC 0:00 = 北京时间 8:00
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
+  statuses: read
+
+concurrency:
+  group: daily-data-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -20,23 +25,90 @@ jobs:
           node-version: '22'
 
       - name: Fetch latest data
+        id: fetch
         timeout-minutes: 20
         run: bash scripts/daily-update.sh
         env:
           NODE_ENV: production
+          UPDATE_STATUS_FILE: ${{ runner.temp }}/update-status.json
 
-      - name: Check for changes
+      - name: Check core data changes
         id: changes
         run: |
-          git diff --quiet data/ || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet -- data ':(exclude)data/update.log'; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          if git diff --quiet -- data/wta_news.json; then
+            echo "news_changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "news_changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
-      - name: Commit and push
+      - name: Commit and push core data
+        id: commit
         if: steps.changes.outputs.changed == 'true'
         run: |
-          # Use the repository owner's GitHub identity so Vercel's Git integration
-          # recognizes the commit author and starts a production deployment.
           git config user.name "WBWBXZ"
           git config user.email "304601021+WBWBXZ$(printf '\x40')users.noreply.github.com"
-          git add data/
+          git add data ':(exclude)data/update.log'
           git commit -m "chore: daily data update $(date +%Y-%m-%d)"
           git push
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for Vercel deployment
+        if: steps.changes.outputs.changed == 'true'
+        timeout-minutes: 10
+        env:
+          GH_TOKEN: ${{ github.token }}
+          COMMIT_SHA: ${{ steps.commit.outputs.sha }}
+        run: |
+          for attempt in $(seq 1 40); do
+            state=$(gh api "repos/$GITHUB_REPOSITORY/commits/$COMMIT_SHA/status" --jq '[.statuses[] | select(.context == "Vercel")][0].state // "missing"')
+            echo "Vercel status: $state (attempt $attempt/40)"
+            if [ "$state" = "success" ]; then
+              exit 0
+            fi
+            if [ "$state" = "failure" ] || [ "$state" = "error" ]; then
+              exit 1
+            fi
+            sleep 15
+          done
+          echo "Vercel deployment did not complete within 10 minutes"
+          exit 1
+
+      - name: Verify production data
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          NEWS_CHANGED: ${{ steps.changes.outputs.news_changed }}
+        run: |
+          response=$(curl --fail --silent --show-error --retry 5 --retry-delay 10 --max-time 30 https://acetrip.vercel.app/api/news)
+          if [ "$NEWS_CHANGED" = "true" ]; then
+            expected=$(node -p "require('./data/wta_news.json').updatedAt")
+            actual=$(node -e "const input=JSON.parse(process.argv[1]); process.stdout.write(input.updatedAt || '')" "$response")
+            test "$actual" = "$expected" || { echo "Production data is stale: expected $expected, got $actual"; exit 1; }
+          fi
+
+      - name: Publish update status
+        if: always()
+        run: |
+          echo "## Daily Data Update" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Workflow result: ${{ job.status }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Core data changed: ${{ steps.changes.outputs.changed || 'unknown' }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -f "${{ runner.temp }}/update-status.json" ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat "${{ runner.temp }}/update-status.json" >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload diagnostic logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-update-diagnostics-${{ github.run_id }}
+          path: |
+            data/update.log
+            ${{ runner.temp }}/update-status.json
+          if-no-files-found: warn
+          retention-days: 14

@@ -10,10 +10,10 @@ const path = require('path');
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const REQUEST_TIMEOUT_MS = 15000;
-let hadCriticalError = false;
+const sourceFailures = [];
 
-function markCriticalError(message) {
-  hadCriticalError = true;
+function recordSourceFailure(source, message) {
+  sourceFailures.push({ source, message });
   console.error(message);
 }
 
@@ -66,10 +66,10 @@ async function updateRankings() {
     fs.writeFileSync(playersPath, JSON.stringify(playersData, null, 2));
     console.log(`  ✅ 更新了 ${updated} 个球员的排名`);
     if (updated === 0) {
-      markCriticalError('  ❌ 排名更新失败: 没有匹配到任何球员');
+      recordSourceFailure('ESPN rankings', '  ⚠️ 排名更新失败: 没有匹配到任何球员');
     }
   } catch (e) {
-    markCriticalError(`  ❌ 排名更新失败: ${e.message}`);
+    recordSourceFailure('ESPN rankings', `  ⚠️ 排名更新失败: ${e.message}`);
   }
 }
 
@@ -149,7 +149,7 @@ async function updateTournamentWinners() {
     fs.writeFileSync(tournamentsPath, JSON.stringify(tournamentsData, null, 2));
     console.log(`  ✅ 更新了 ${updated} 个赛事的冠军`);
   } catch (e) {
-    markCriticalError(`  ❌ 冠军更新失败: ${e.message}`);
+    recordSourceFailure('WTA tournaments', `  ⚠️ 冠军更新失败: ${e.message}`);
   }
 }
 
@@ -189,6 +189,7 @@ async function updatePlayerSchedules() {
   // 只更新有 wtaId 的球员
   const featuredPlayers = playersData.players.filter(p => p.wtaId);
   let updated = 0;
+  let failed = 0;
   
   for (const player of featuredPlayers) {
     try {
@@ -304,6 +305,7 @@ async function updatePlayerSchedules() {
       };
       updated++;
     } catch (e) {
+      failed++;
       console.error(`  ⚠️ ${player.displayName || player.id} 参赛记录更新失败: ${e.message}`);
     }
     
@@ -314,7 +316,9 @@ async function updatePlayerSchedules() {
   fs.writeFileSync(schedulePath, JSON.stringify(existingSchedule, null, 2));
   console.log(`  ✅ 更新了 ${updated} 个球员的参赛记录`);
   if (featuredPlayers.length > 0 && updated === 0) {
-    markCriticalError('  ❌ 球员参赛记录更新失败: 没有成功更新任何球员');
+    recordSourceFailure('WTA player matches', '  ⚠️ 球员参赛记录更新失败: 没有成功更新任何球员');
+  } else if (failed > 0) {
+    recordSourceFailure('WTA player matches', `  ⚠️ 球员参赛记录部分失败: ${failed} 个球员保留旧数据`);
   }
 }
 
@@ -327,6 +331,7 @@ async function updatePointsBreakdown() {
   try { existing = JSON.parse(fs.readFileSync(breakdownPath, 'utf8')); } catch {}
   
   let updated = 0;
+  let failed = 0;
   for (const player of players) {
     if (!player.wtaId) continue;
     try {
@@ -361,6 +366,7 @@ async function updatePointsBreakdown() {
       existing[player.id] = { total, entries };
       updated++;
     } catch (e) {
+      failed++;
       console.error(`  ⚠️ ${player.displayName || player.id} 积分明细更新失败: ${e.message}`);
     }
     await new Promise(r => setTimeout(r, 200));
@@ -369,7 +375,9 @@ async function updatePointsBreakdown() {
   fs.writeFileSync(breakdownPath, JSON.stringify(existing, null, 2));
   console.log(`  ✅ 更新了 ${updated} 个球员的积分明细`);
   if (updated === 0) {
-    markCriticalError('  ❌ 积分明细更新失败: 没有成功更新任何球员');
+    recordSourceFailure('live-tennis points', '  ⚠️ 积分明细更新失败: 没有成功更新任何球员');
+  } else if (failed > 0) {
+    recordSourceFailure('live-tennis points', `  ⚠️ 积分明细部分失败: ${failed} 个球员保留旧数据`);
   }
 }
 
@@ -395,13 +403,33 @@ async function main() {
   await updateTournamentWinners();
   await updatePlayerSchedules();
   await updatePointsBreakdown();
-  if (hadCriticalError) {
-    throw new Error('数据刷新存在关键失败，请查看上方日志');
+
+  const status = {
+    completedAt: new Date().toISOString(),
+    success: true,
+    degraded: sourceFailures.length > 0,
+    sourceFailures,
+  };
+  if (process.env.UPDATE_STATUS_FILE) {
+    fs.writeFileSync(process.env.UPDATE_STATUS_FILE, JSON.stringify(status, null, 2));
   }
-  console.log('\n✅ 数据刷新完成');
+  if (sourceFailures.length > 0) {
+    console.warn(`\n⚠️ 数据刷新完成，但有 ${sourceFailures.length} 个数据源异常，已保留对应旧数据`);
+  } else {
+    console.log('\n✅ 数据刷新完成');
+  }
 }
 
 main().catch((error) => {
+  if (process.env.UPDATE_STATUS_FILE) {
+    fs.writeFileSync(process.env.UPDATE_STATUS_FILE, JSON.stringify({
+      completedAt: new Date().toISOString(),
+      success: false,
+      degraded: false,
+      sourceFailures,
+      fatalError: error.message,
+    }, null, 2));
+  }
   console.error(error);
   process.exit(1);
 });
