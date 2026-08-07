@@ -153,6 +153,13 @@ npm run dev
 
 ---
 
+## 📚 项目文档
+
+- [产品需求文档](./docs/PRD.md)
+- [项目交接文档](./docs/HANDOFF.md)
+
+---
+
 ## 🙋 关于
 
 AceTrip 由一个没有技术背景的文科生独立开发，灵感来自对 WTA 网球和 Elena Rybakina 的热爱。
