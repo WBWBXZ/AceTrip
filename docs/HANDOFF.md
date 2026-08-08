@@ -1,6 +1,6 @@
 # AceTrip 项目交接文档
 
-最后更新：2026-08-07
+最后更新：2026-08-09
 
 ## 1. 项目概览
 
@@ -16,7 +16,7 @@ AceTrip 是面向 WTA 球迷的赛事旅行指南，提供球员排名与赛程�
 
 页面不仅展示赛事卡片，还包含网球旅行护照、赛事打卡、成就徽章、旅程规划、打卡日记、赛事评分和分享卡片等交互。完成赛事打卡后，可记录日记与评分，并生成护照或打卡分享内容。
 
-登录用户的心愿单基础关系会同步到 Supabase 的 `user_wishlist` 表。当前 `completed`、日记和评分等扩展状态只保存在前端 Zustand 状态中，没有写入 Supabase；刷新页面或重新登录后，这些扩展状态不会从云端恢复。后续如需长期保存，应扩展 `user_wishlist` 表并补充同步逻辑。
+登录用户的心愿单关系与扩展状态会同步到 Supabase 的 `tournament_wishlists` 表。`completed`、`diary`、`diary_date` 和 `rating` 采用 Zustand 乐观更新，并在写入失败时回滚；刷新页面或重新登录后会从云端恢复。
 
 主要代码：
 
@@ -50,10 +50,10 @@ AceTrip 是面向 WTA 球迷的赛事旅行指南，提供球员排名与赛程�
 | 表名 | 主要字段 | 用途 |
 |---|---|---|
 | `user_follows` | `user_id`、`player_id`、`created_at` | 保存用户关注的球员 |
-| `user_wishlist` | `user_id`、`tournament_id`、`created_at` | 保存用户加入心愿单的赛事 |
+| `tournament_wishlists` | `user_id`、`tournament_id`、`created_at`、`completed`、`diary`、`diary_date`、`rating` | 保存用户心愿赛事与观赛记录 |
 | `feedback` | `user_id`、`phone`、`message`、`created_at` | 保存登录用户提交的意见反馈 |
 
-建议为 `user_follows(user_id, player_id)` 和 `user_wishlist(user_id, tournament_id)` 建立唯一约束，避免重复关注或重复加入心愿单。`user_id` 应关联 `auth.users.id`，并为常用的 `user_id` 查询建立索引。
+建议为 `user_follows(user_id, player_id)` 建立联合唯一约束；`tournament_wishlists(user_id, tournament_id)` 已由 migration 补充联合唯一约束，避免重复关注或重复加入心愿单。`user_id` 应关联 `auth.users.id`，并为常用的 `user_id` 查询建立索引。
 
 ### 3.3 RLS 行级安全策略
 
@@ -63,7 +63,7 @@ AceTrip 是面向 WTA 球迷的赛事旅行指南，提供球员排名与赛程�
 auth.uid() = user_id
 ```
 
-`user_follows` 和 `user_wishlist` 需要为 `SELECT`、`INSERT`、`DELETE` 分别配置策略；如未来增加可编辑字段，还需要配置 `UPDATE`。插入策略应使用 `WITH CHECK (auth.uid() = user_id)`，查询、更新和删除策略使用 `USING (auth.uid() = user_id)`。
+`user_follows` 需要为 `SELECT`、`INSERT`、`DELETE` 配置策略；`tournament_wishlists` 需要为 `SELECT`、`INSERT`、`UPDATE`、`DELETE` 配置策略。插入策略使用 `WITH CHECK (auth.uid() = user_id)`，查询、更新和删除策略使用 `USING (auth.uid() = user_id)`，更新策略同时使用 `WITH CHECK`。
 
 `feedback` 至少需要允许登录用户插入自己的反馈。若前端不需要展示历史反馈，可以不开放普通用户的 `SELECT`；反馈读取应仅授予管理员或服务端角色。
 

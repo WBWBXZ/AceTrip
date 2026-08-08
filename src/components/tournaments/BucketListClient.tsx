@@ -509,7 +509,7 @@ function BucketCard({
                     )}
                   </div>
                   <textarea
-                    value={diaryText}
+                    value={diaryDirty ? diaryText : (item.diary || '')}
                     onChange={(e) => handleDiaryChange(e.target.value)}
                     placeholder="记录你的观赛感受、精彩瞬间……"
                     className="w-full text-sm rounded-xl border border-black/10 bg-black/2 px-3 py-2.5 resize-none focus:outline-none focus:border-[#2D6A4F]/50 transition-colors min-h-[80px] placeholder:text-[var(--text-muted)]"

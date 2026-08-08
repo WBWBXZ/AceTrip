@@ -18,10 +18,10 @@ interface AppState {
   bucketList: BucketListItem[];
   addToBucketList: (tournamentId: string) => void;
   removeFromBucketList: (tournamentId: string) => void;
-  toggleBucketItem: (tournamentId: string) => void;
+  toggleBucketItem: (tournamentId: string) => Promise<void>;
   isBucketListed: (tournamentId: string) => boolean;
-  updateBucketDiary: (tournamentId: string, diary: string) => void;
-  updateBucketRating: (tournamentId: string, rating: number) => void;
+  updateBucketDiary: (tournamentId: string, diary: string) => Promise<void>;
+  updateBucketRating: (tournamentId: string, rating: number) => Promise<void>;
 
   // Followed Players
   followedPlayers: FollowedPlayer[];
@@ -59,7 +59,7 @@ export const useAppStore = create<AppState>()(
       set((state) => ({ bucketList: [...state.bucketList, newItem] }));
       if (userId) {
         const { error } = await supabase
-          .from('user_wishlist')
+          .from('tournament_wishlists')
           .insert({ user_id: userId, tournament_id: tournamentId });
         if (error && get().userId === userId) {
           set((state) => ({
@@ -78,7 +78,7 @@ export const useAppStore = create<AppState>()(
       }));
       if (userId) {
         const { error } = await supabase
-          .from('user_wishlist')
+          .from('tournament_wishlists')
           .delete()
           .eq('user_id', userId)
           .eq('tournament_id', tournamentId);
@@ -94,28 +94,94 @@ export const useAppStore = create<AppState>()(
         }
       }
     },
-    toggleBucketItem: (tournamentId) =>
+    toggleBucketItem: async (tournamentId) => {
+      const userId = get().userId;
+      const previousItem = get().bucketList.find((item) => item.tournamentId === tournamentId);
+      if (!previousItem) return;
+
+      const completed = !previousItem.completed;
       set((state) => ({
-        bucketList: state.bucketList.map((b) =>
-          b.tournamentId === tournamentId ? { ...b, completed: !b.completed } : b
+        bucketList: state.bucketList.map((item) =>
+          item.tournamentId === tournamentId ? { ...item, completed } : item
         ),
-      })),
+      }));
+
+      if (userId) {
+        const { error } = await supabase
+          .from('tournament_wishlists')
+          .update({ completed })
+          .eq('user_id', userId)
+          .eq('tournament_id', tournamentId);
+        if (error && get().userId === userId) {
+          set((state) => ({
+            bucketList: state.bucketList.map((item) =>
+              item.tournamentId === tournamentId && item.completed === completed
+                ? { ...item, completed: previousItem.completed }
+                : item
+            ),
+          }));
+        }
+      }
+    },
     isBucketListed: (tournamentId) =>
       get().bucketList.some((b) => b.tournamentId === tournamentId),
-    updateBucketDiary: (tournamentId, diary) =>
+    updateBucketDiary: async (tournamentId, diary) => {
+      const userId = get().userId;
+      const previousItem = get().bucketList.find((item) => item.tournamentId === tournamentId);
+      if (!previousItem) return;
+
+      const diaryDate = new Date().toISOString().slice(0, 10);
       set((state) => ({
-        bucketList: state.bucketList.map((b) =>
-          b.tournamentId === tournamentId
-            ? { ...b, diary, diaryDate: new Date().toISOString() }
-            : b
+        bucketList: state.bucketList.map((item) =>
+          item.tournamentId === tournamentId ? { ...item, diary, diaryDate } : item
         ),
-      })),
-    updateBucketRating: (tournamentId, rating) =>
+      }));
+
+      if (userId) {
+        const { error } = await supabase
+          .from('tournament_wishlists')
+          .update({ diary, diary_date: diaryDate })
+          .eq('user_id', userId)
+          .eq('tournament_id', tournamentId);
+        if (error && get().userId === userId) {
+          set((state) => ({
+            bucketList: state.bucketList.map((item) =>
+              item.tournamentId === tournamentId && item.diary === diary && item.diaryDate === diaryDate
+                ? { ...item, diary: previousItem.diary, diaryDate: previousItem.diaryDate }
+                : item
+            ),
+          }));
+        }
+      }
+    },
+    updateBucketRating: async (tournamentId, rating) => {
+      const userId = get().userId;
+      const previousItem = get().bucketList.find((item) => item.tournamentId === tournamentId);
+      if (!previousItem) return;
+
       set((state) => ({
-        bucketList: state.bucketList.map((b) =>
-          b.tournamentId === tournamentId ? { ...b, rating } : b
+        bucketList: state.bucketList.map((item) =>
+          item.tournamentId === tournamentId ? { ...item, rating } : item
         ),
-      })),
+      }));
+
+      if (userId) {
+        const { error } = await supabase
+          .from('tournament_wishlists')
+          .update({ rating })
+          .eq('user_id', userId)
+          .eq('tournament_id', tournamentId);
+        if (error && get().userId === userId) {
+          set((state) => ({
+            bucketList: state.bucketList.map((item) =>
+              item.tournamentId === tournamentId && item.rating === rating
+                ? { ...item, rating: previousItem.rating }
+                : item
+            ),
+          }));
+        }
+      }
+    },
 
     // ---- Followed Players ----
     followedPlayers: [],
@@ -188,7 +254,10 @@ export const useAppStore = create<AppState>()(
     loadFromSupabase: async (userId: string) => {
       const [followsRes, wishlistRes] = await Promise.all([
         supabase.from('user_follows').select('player_id, created_at').eq('user_id', userId),
-        supabase.from('user_wishlist').select('tournament_id, created_at').eq('user_id', userId),
+        supabase
+          .from('tournament_wishlists')
+          .select('tournament_id, created_at, completed, diary, diary_date, rating')
+          .eq('user_id', userId),
       ]);
 
       const followedPlayers: FollowedPlayer[] = (followsRes.data || []).map((r: { player_id: string; created_at: string }) => ({
@@ -196,10 +265,20 @@ export const useAppStore = create<AppState>()(
         followedAt: r.created_at,
       }));
 
-      const bucketList: BucketListItem[] = (wishlistRes.data || []).map((r: { tournament_id: string; created_at: string }) => ({
+      const bucketList: BucketListItem[] = (wishlistRes.data || []).map((r: {
+        tournament_id: string;
+        created_at: string;
+        completed: boolean | null;
+        diary: string | null;
+        diary_date: string | null;
+        rating: number | null;
+      }) => ({
         tournamentId: r.tournament_id,
         addedAt: r.created_at,
-        completed: false,
+        completed: r.completed ?? false,
+        diary: r.diary ?? undefined,
+        diaryDate: r.diary_date ?? undefined,
+        rating: r.rating ?? undefined,
       }));
 
       set({ userId, followedPlayers, bucketList });
