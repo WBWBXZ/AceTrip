@@ -3,7 +3,8 @@ import { SeasonTimeline } from '@/components/tournaments/SeasonTimeline';
 import Link from 'next/link';
 import GlobeLoader from '@/components/ui/GlobeLoader';
 import DailyFeed from '@/components/ui/DailyFeed';
-
+import { Heart, MapPin, Trophy, Users } from 'lucide-react';
+import type { LucideIcon } from 'lucide-react';
 
 export default function HomePage() {
   const topPlayers = getTopPlayers(20);
@@ -15,56 +16,62 @@ export default function HomePage() {
   return (
     <div className="animate-fade-in">
       {/* ========== HERO ========== */}
-      <section className="relative overflow-hidden" style={{ background: 'linear-gradient(160deg, #f0faf2 0%, #f7faf5 50%, var(--warm-cream) 100%)' }}>
-        <div className="container-tight relative z-10 pt-8 pb-14 md:pt-10 md:pb-20">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-
-            {/* 左：文案 */}
-            <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[var(--tennis-green)]/10 text-[var(--tennis-green)] text-[11px] font-medium mb-5">
-                <span className="w-[6px] h-[6px] rounded-full bg-[var(--tennis-green)] animate-pulse" />
+      <section className="relative overflow-hidden border-b border-[var(--tennis-green-dark)]/10" style={{ background: 'linear-gradient(145deg, #edf7ef 0%, #f5f8f1 52%, var(--warm-cream) 100%)' }}>
+        <div className="pointer-events-none absolute -left-20 top-24 h-56 w-56 rounded-full border border-[var(--tennis-green)]/10 md:h-80 md:w-80" />
+        <div className="pointer-events-none absolute left-10 top-44 h-36 w-36 rounded-full border border-[var(--tennis-green)]/10 md:h-52 md:w-52" />
+        <div className="container-tight relative z-10 pb-8 pt-7 md:pb-10 md:pt-9">
+          <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-[1.05fr_0.95fr] md:gap-8">
+            <div className="relative z-10">
+              <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--tennis-green)]/10 bg-white/65 px-3 py-1.5 text-[11px] font-medium text-[var(--tennis-green)] shadow-sm backdrop-blur-sm">
+                <span className="h-[6px] w-[6px] rounded-full bg-[var(--tennis-green)] animate-pulse" />
                 {ongoing ? `LIVE · ${ongoing.nameCn || ongoing.name}` : '2026 WTA Season'}
               </div>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-[1.1] tracking-tight text-[var(--tennis-green-dark)]" style={{ fontFamily: 'var(--font-serif)' }}>
-                Game, Set, World
+              <h1 className="max-w-xl text-4xl font-bold leading-[1.04] tracking-[-0.035em] text-[var(--tennis-green-dark)] sm:text-5xl md:text-6xl" style={{ fontFamily: 'var(--font-serif)' }}>
+                Game, Set,<br />World.
               </h1>
-              <p className="mt-4 text-sm text-[var(--text-secondary)] max-w-md leading-relaxed">
-                追踪 WTA 球员赛程，探索赛事城市，规划你的网球之旅
+              <p className="mt-3 max-w-md text-sm leading-relaxed text-[var(--text-secondary)]">
+                沿着 WTA 赛历探索世界，把每一场热爱变成下一段旅程。
               </p>
-              <div className="flex gap-3 mt-7">
-                <Link href="/players" className="px-6 py-3 rounded-full text-sm font-semibold text-white transition-all hover:opacity-90 shadow-md" style={{ background: 'var(--tennis-green-dark)' }}>
-                  浏览球员
-                </Link>
-                <Link href="/tournaments" className="px-6 py-3 rounded-full text-sm font-medium border border-black/10 text-[var(--text-primary)] hover:bg-white/60 transition-all">
+              <div className="mt-5 flex gap-3">
+                <Link href="/tournaments" className="rounded-full bg-[var(--tennis-green-dark)] px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:-translate-y-0.5 hover:shadow-lg">
                   探索赛事
                 </Link>
+                <Link href="/players" className="rounded-full border border-[var(--tennis-green-dark)]/15 bg-white/45 px-6 py-3 text-sm font-medium text-[var(--tennis-green-dark)] transition-all hover:bg-white/80">
+                  浏览球员
+                </Link>
               </div>
-              <div className="flex gap-6 mt-8">
-                <div><span className="text-lg font-bold text-[var(--tennis-green-dark)]">33</span><span className="text-[10px] text-[var(--text-muted)] ml-1">赛事</span></div>
-                <div><span className="text-lg font-bold text-[var(--tennis-green-dark)]">31</span><span className="text-[10px] text-[var(--text-muted)] ml-1">城市</span></div>
-                <div><span className="text-lg font-bold text-[var(--tennis-green-dark)]">15</span><span className="text-[10px] text-[var(--text-muted)] ml-1">国家</span></div>
+
+              <div className="mt-6 grid max-w-lg grid-cols-3 overflow-hidden rounded-2xl bg-[var(--tennis-green-dark)] text-white shadow-xl shadow-[var(--tennis-green-dark)]/10">
+                {[
+                  ['33', '赛事'],
+                  ['31', '城市'],
+                  ['15', '国家'],
+                ].map(([value, label], index) => (
+                  <div key={label} className={`px-4 py-4 sm:px-5 ${index > 0 ? 'border-l border-white/15' : ''}`}>
+                    <div className="text-3xl font-semibold leading-none tracking-[-0.06em] sm:text-4xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
+                    <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.2em] text-white/55">{label}</div>
+                  </div>
+                ))}
               </div>
             </div>
 
-            {/* 右：动态地球 */}
-            <div className="hidden md:flex items-center justify-center" style={{ minHeight: 420 }}>
-              <div style={{ width: 420, height: 420 }}>
+            <div className="hidden min-h-[350px] items-center justify-center md:flex">
+              <div className="h-[370px] w-[370px] lg:h-[400px] lg:w-[400px]">
                 <GlobeLoader />
               </div>
             </div>
-
           </div>
         </div>
+        <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[var(--warm-cream)]/45 to-transparent" />
       </section>
 
-      {/* ========== DAILY FEED ========== */}
-      {/* ========== 功能特色 ========== */}
-      <section className="container-tight pt-8 pb-0">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-          <FeatureCard emoji="🎾" title="实时排名" desc="每日更新积分与排名数据" />
-          <FeatureCard emoji="📋" title="完整签表" desc="覆盖所有重要赛事" />
-          <FeatureCard emoji="✈️" title="旅行指南" desc="天气 · 汇率 · 交通攻略" />
-          <FeatureCard emoji="❤️" title="关注球员" desc="追踪你喜爱球员的征程" />
+      {/* ========== 功能入口 ========== */}
+      <section className="container-tight py-6 md:py-7">
+        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+          <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
+          <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
+          <FeatureCard href="/tournaments" icon={MapPin} title="旅行指南" desc="天气、汇率与交通" />
+          <FeatureCard href="/follow" icon={Heart} title="关注球员" desc="追踪喜爱球员征程" />
         </div>
       </section>
 
@@ -190,14 +197,19 @@ export default function HomePage() {
   );
 }
 
-function FeatureCard({ emoji, title, desc }: { emoji: string; title: string; desc: string }) {
+function FeatureCard({ href, icon: Icon, title, desc }: { href: string; icon: LucideIcon; title: string; desc: string }) {
   return (
-    <div className="flex items-center gap-3 p-4 rounded-xl bg-white border border-black/[0.05] shadow-sm">
-      <div className="w-10 h-10 rounded-xl bg-[var(--tennis-green)]/10 flex items-center justify-center text-lg flex-shrink-0">{emoji}</div>
-      <div>
-        <h4 className="text-xs font-bold text-[var(--tennis-green-dark)]">{title}</h4>
-        <p className="text-[10px] text-[var(--text-muted)] mt-0.5 leading-snug">{desc}</p>
+    <Link href={href} className="group flex min-h-[92px] items-center gap-3 rounded-2xl border border-[var(--tennis-green-dark)]/[0.08] bg-white/80 p-3.5 shadow-sm transition-all hover:-translate-y-0.5 hover:border-[var(--tennis-green)]/20 hover:bg-white hover:shadow-md sm:p-4">
+      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-[var(--tennis-green)]/10 text-[var(--tennis-green)] transition-colors group-hover:bg-[var(--tennis-green)] group-hover:text-white">
+        <Icon size={19} strokeWidth={1.8} />
       </div>
-    </div>
+      <div className="min-w-0 flex-1">
+        <div className="flex items-center justify-between gap-1">
+          <h4 className="text-xs font-bold text-[var(--tennis-green-dark)]">{title}</h4>
+          <span className="text-xs text-[var(--tennis-green)]/45 transition-transform group-hover:translate-x-0.5">→</span>
+        </div>
+        <p className="mt-1 text-[10px] leading-snug text-[var(--text-muted)]">{desc}</p>
+      </div>
+    </Link>
   );
 }
