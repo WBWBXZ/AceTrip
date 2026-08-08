@@ -4,6 +4,7 @@ import { useState, useMemo, } from 'react';
 import Link from 'next/link';
 import type { Tournament, BucketListItem } from '@/types';
 import { useAppStore } from '@/lib/store';
+import { useAuth } from '@/lib/auth-context';
 import { formatDateRange, getCountryFlag, LEVEL_LABELS } from '@/lib/data';
 import {
   Heart, Check, Trash2, MapPin, Calendar, Plane, Globe, Trophy,
@@ -333,6 +334,7 @@ function BucketCard({
   onRemove,
   onSaveDiary,
   onRate,
+  onShare,
 }: {
   item: BucketListItem;
   tournament: Tournament;
@@ -340,6 +342,7 @@ function BucketCard({
   onRemove: () => void;
   onSaveDiary: (text: string) => void;
   onRate: (stars: number) => void;
+  onShare: () => void;
 }) {
   const [expanded, setExpanded] = useState(false);
   const [diaryText, setDiaryText] = useState(item.diary || '');
@@ -449,13 +452,23 @@ function BucketCard({
             </button>
           </div>
 
-          {/* Remove */}
-          <button
-            onClick={onRemove}
-            className="text-[var(--text-muted)] hover:text-rose-500 transition-colors flex-shrink-0 p-1"
-          >
-            <Trash2 size={14} />
-          </button>
+          <div className="flex flex-shrink-0 items-center gap-1">
+            <button
+              onClick={onShare}
+              aria-label={`分享${tournament.nameCn || tournament.name}`}
+              title="生成赛事分享卡片"
+              className="p-2 text-[var(--text-muted)] transition-colors hover:text-[#2D6A4F]"
+            >
+              <Share2 size={15} />
+            </button>
+            <button
+              onClick={onRemove}
+              aria-label={`移除${tournament.nameCn || tournament.name}`}
+              className="p-2 text-[var(--text-muted)] transition-colors hover:text-rose-500"
+            >
+              <Trash2 size={15} />
+            </button>
+          </div>
         </div>
 
         {/* Expanded details */}
@@ -969,6 +982,7 @@ interface Props {
 }
 
 export function BucketListClient({ tournaments }: Props) {
+  const { user } = useAuth();
   const { bucketList, toggleBucketItem, removeFromBucketList, updateBucketDiary, updateBucketRating } =
     useAppStore();
 
@@ -1035,6 +1049,29 @@ export function BucketListClient({ tournaments }: Props) {
   }, []);
 
   // ── Share handlers ──
+  const handleShareTournament = useCallback((tournament: Tournament, visited: boolean) => {
+    const userName = user?.user_metadata?.display_name
+      || user?.email?.replace('@acetrip.app', '')
+      || 'AceTrip 旅行者';
+
+    setShareCard({
+      mode: 'tournament',
+      onClose: () => setShareCard(null),
+      tournamentData: {
+        tournamentName: tournament.nameCn || tournament.name,
+        tournamentNameEn: tournament.name,
+        city: tournament.cityCn || tournament.city,
+        country: tournament.countryCn || tournament.countryName,
+        venue: tournament.venue,
+        date: formatDateRange(tournament.dateStart, tournament.dateEnd),
+        level: tournament.level,
+        surface: tournament.surface,
+        userName,
+        visited,
+      },
+    });
+  }, [user]);
+
   const handleSharePassport = useCallback(() => {
     const unlockedAchievements = ACHIEVEMENTS.filter(a => a.check(completedItems));
     setShareCard({
@@ -1174,6 +1211,7 @@ export function BucketListClient({ tournaments }: Props) {
                 onRemove={() => removeFromBucketList(b.tournamentId)}
                 onSaveDiary={(text) => updateBucketDiary(b.tournamentId, text)}
                 onRate={(stars) => updateBucketRating(b.tournamentId, stars)}
+                onShare={() => handleShareTournament(b.tournament, b.completed)}
               />
             ))}
           </div>
@@ -1193,6 +1231,7 @@ export function BucketListClient({ tournaments }: Props) {
                 onRemove={() => removeFromBucketList(b.tournamentId)}
                 onSaveDiary={(text) => updateBucketDiary(b.tournamentId, text)}
                 onRate={(stars) => updateBucketRating(b.tournamentId, stars)}
+                onShare={() => handleShareTournament(b.tournament, b.completed)}
               />
             ))}
           </div>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef, useState } from 'react';
 import { Download, X } from 'lucide-react';
 
 // ─────────────────────────────────────────────────────────────
@@ -8,8 +8,21 @@ import { Download, X } from 'lucide-react';
 // ─────────────────────────────────────────────────────────────
 
 export interface ShareCardProps {
-  mode: 'passport' | 'checkin' | 'season' | 'player';
+  mode: 'passport' | 'checkin' | 'season' | 'player' | 'tournament';
   onClose: () => void;
+
+  tournamentData?: {
+    tournamentName: string;
+    tournamentNameEn?: string;
+    city: string;
+    country: string;
+    venue?: string;
+    date: string;
+    level: string;
+    surface: string;
+    userName: string;
+    visited: boolean;
+  };
 
   // passport 模式
   passportData?: {
@@ -1305,6 +1318,71 @@ function AvatarPlaceholder({
   );
 }
 
+function TournamentCard({ data }: { data: NonNullable<ShareCardProps['tournamentData']> }) {
+  const surfaceLabel = data.surface === 'Hard' ? '硬地' : data.surface === 'Clay' ? '红土' : data.surface === 'Grass' ? '草地' : data.surface;
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100%', minHeight: '436px' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' }}>
+        <div>
+          <p style={{ fontSize: '10px', letterSpacing: '0.24em', color: 'rgba(246,216,96,0.72)', textTransform: 'uppercase', margin: 0 }}>Tennis Journey</p>
+          <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.58)', margin: '5px 0 0' }}>{data.visited ? '我的观赛足迹' : '我的网球旅行心愿'}</p>
+        </div>
+        <div style={{ width: '42px', height: '42px', borderRadius: '50%', border: '1px solid rgba(246,216,96,0.42)', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(246,216,96,0.1)', fontSize: '20px' }}>🎾</div>
+      </div>
+
+      <div style={{ position: 'relative', height: '142px', borderRadius: '20px', overflow: 'hidden', marginBottom: '24px', background: 'linear-gradient(155deg, #8ec5b0 0%, #40916C 48%, #1B4332 100%)' }}>
+        <div style={{ position: 'absolute', width: '150px', height: '150px', borderRadius: '50%', right: '-25px', top: '-62px', background: 'rgba(246,216,96,0.2)' }} />
+        <div style={{ position: 'absolute', left: '-8%', right: '-8%', bottom: '-48px', height: '112px', borderRadius: '50% 50% 0 0', border: '2px solid rgba(255,255,255,0.28)', background: 'linear-gradient(180deg, rgba(255,255,255,0.12), rgba(246,216,96,0.1))' }} />
+        <div style={{ position: 'absolute', left: '50%', bottom: '-8px', width: '2px', height: '70px', background: 'rgba(255,255,255,0.35)', transform: 'rotate(16deg)' }} />
+        <div style={{ position: 'absolute', left: '20px', bottom: '18px', right: '20px', display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between' }}>
+          <div>
+            <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '10px', letterSpacing: '0.14em', margin: '0 0 4px' }}>DESTINATION</p>
+            <p style={{ color: '#fff', fontSize: '20px', fontWeight: 800, margin: 0 }}>{data.city}</p>
+          </div>
+          <span style={{ color: '#F6D860', fontSize: '12px', fontWeight: 700 }}>{getLevelLabel(data.level)}</span>
+        </div>
+      </div>
+
+      <div style={{ flex: 1 }}>
+        <h2 style={{ color: '#fff', fontSize: '28px', lineHeight: 1.2, fontWeight: 800, margin: '0 0 6px', maxWidth: '300px' }}>{data.tournamentName}</h2>
+        {data.tournamentNameEn && data.tournamentNameEn !== data.tournamentName && (
+          <p style={{ color: 'rgba(255,255,255,0.42)', fontSize: '11px', letterSpacing: '0.04em', margin: '0 0 18px' }}>{data.tournamentNameEn}</p>
+        )}
+        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', padding: '16px', borderRadius: '16px', background: 'rgba(255,255,255,0.07)' }}>
+          <div>
+            <p style={{ color: 'rgba(255,255,255,0.38)', fontSize: '9px', letterSpacing: '0.16em', margin: '0 0 4px' }}>地点</p>
+            <p style={{ color: '#fff', fontSize: '12px', fontWeight: 600, margin: 0 }}>{data.city} · {data.country}</p>
+          </div>
+          <div>
+            <p style={{ color: 'rgba(255,255,255,0.38)', fontSize: '9px', letterSpacing: '0.16em', margin: '0 0 4px' }}>日期</p>
+            <p style={{ color: '#fff', fontSize: '12px', fontWeight: 600, margin: 0 }}>{data.date}</p>
+          </div>
+          <div>
+            <p style={{ color: 'rgba(255,255,255,0.38)', fontSize: '9px', letterSpacing: '0.16em', margin: '0 0 4px' }}>球场</p>
+            <p style={{ color: '#fff', fontSize: '12px', fontWeight: 600, margin: 0 }}>{data.venue || '城市中心球场'}</p>
+          </div>
+          <div>
+            <p style={{ color: 'rgba(255,255,255,0.38)', fontSize: '9px', letterSpacing: '0.16em', margin: '0 0 4px' }}>场地</p>
+            <p style={{ color: '#F6D860', fontSize: '12px', fontWeight: 700, margin: 0 }}>{surfaceLabel}</p>
+          </div>
+        </div>
+      </div>
+
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '22px', paddingTop: '15px', borderTop: '1px solid rgba(255,255,255,0.14)' }}>
+        <div>
+          <p style={{ color: 'rgba(255,255,255,0.38)', fontSize: '9px', margin: '0 0 3px' }}>{data.visited ? '已由' : '心愿来自'}</p>
+          <p style={{ color: '#fff', fontSize: '12px', fontWeight: 650, margin: 0 }}>{data.userName}</p>
+        </div>
+        <div style={{ textAlign: 'right' }}>
+          <p style={{ color: '#F6D860', fontSize: '13px', fontWeight: 800, margin: 0 }}>AceTrip</p>
+          <p style={{ color: 'rgba(255,255,255,0.32)', fontSize: '9px', margin: '3px 0 0' }}>acetrip.vercel.app</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // ─────────────────────────────────────────────────────────────
 // Card: Passport
 // ─────────────────────────────────────────────────────────────
@@ -1740,8 +1818,9 @@ function PlayerCardMinimal({
 // Main ShareCard component
 // ─────────────────────────────────────────────────────────────
 
-export function ShareCard({ mode, onClose, passportData, checkinData, seasonData, playerData }: ShareCardProps) {
+export function ShareCard({ mode, onClose, tournamentData, passportData, checkinData, seasonData, playerData }: ShareCardProps) {
   const [saving, setSaving] = useState(false);
+  const [exportError, setExportError] = useState('');
   const cardRef = useRef<HTMLDivElement>(null);
   const [cardStyle, setCardStyle] = useState<CardStyle>('classic');
   
@@ -1786,20 +1865,31 @@ export function ShareCard({ mode, onClose, passportData, checkinData, seasonData
   const handleSave = async () => {
     if (!cardRef.current || saving) return;
     setSaving(true);
+    setExportError('');
     try {
+      await document.fonts.ready;
       const html2canvas = (await import('html2canvas')).default;
       const canvas = await html2canvas(cardRef.current, {
-        scale: 2,
+        scale: Math.max(2, Math.min(3, window.devicePixelRatio || 2)),
         useCORS: true,
-        allowTaint: true,
+        allowTaint: false,
         backgroundColor: null,
+        logging: false,
       });
+      const blob = await new Promise<Blob>((resolve, reject) => {
+        canvas.toBlob((result) => result ? resolve(result) : reject(new Error('PNG generation failed')), 'image/png');
+      });
+      const objectUrl = URL.createObjectURL(blob);
       const link = document.createElement('a');
-      link.download = `acetrip-${mode}-${Date.now()}.png`;
-      link.href = canvas.toDataURL('image/png');
+      link.download = `acetrip-${mode}-${new Date().toISOString().slice(0, 10)}.png`;
+      link.href = objectUrl;
+      document.body.appendChild(link);
       link.click();
+      link.remove();
+      window.setTimeout(() => URL.revokeObjectURL(objectUrl), 1000);
     } catch (err) {
       console.error('Export failed:', err);
+      setExportError('图片生成失败，请稍后重试');
     } finally {
       setSaving(false);
     }
@@ -1812,7 +1902,7 @@ export function ShareCard({ mode, onClose, passportData, checkinData, seasonData
 
   return (
     <div
-      className="fixed inset-0 z-[200] flex flex-col items-center justify-center px-4"
+      className="fixed inset-0 z-[200] flex flex-col items-center justify-start overflow-y-auto px-4 py-5 sm:justify-center"
       style={{ background: 'rgba(0,0,0,0.6)', backdropFilter: 'blur(6px)' }}
       onClick={(e) => { if (e.target === e.currentTarget) onClose(); }}
     >
@@ -1825,7 +1915,7 @@ export function ShareCard({ mode, onClose, passportData, checkinData, seasonData
       <div
         ref={cardRef}
         style={{
-          width: '375px',
+          width: 'min(375px, calc(100vw - 32px))',
           minHeight: '500px',
           boxSizing: 'border-box',
           position: 'relative',
@@ -1850,6 +1940,7 @@ export function ShareCard({ mode, onClose, passportData, checkinData, seasonData
 
         {/* Inner content */}
         <div style={{ position: 'relative', zIndex: 2, height: '100%' }}>
+          {mode === 'tournament' && tournamentData && <TournamentCard data={tournamentData} />}
           {mode === 'passport' && passportData && <PassportCard data={passportData} />}
           {mode === 'checkin' && checkinData && <CheckinCard data={checkinData} />}
           {mode === 'season' && seasonData && <SeasonCard data={seasonData} />}
@@ -1884,7 +1975,9 @@ export function ShareCard({ mode, onClose, passportData, checkinData, seasonData
         </button>
       </div>
 
-      <p className="text-white/40 text-xs mt-3">点击遮罩关闭</p>
+      <p className={`text-xs mt-3 ${exportError ? 'text-rose-300' : 'text-white/50'}`}>
+        {exportError || '下载后可直接分享，手机端也可在图片中长按保存'}
+      </p>
     </div>
   );
 }
