@@ -59,7 +59,7 @@ export const useAppStore = create<AppState>()(
       set((state) => ({ bucketList: [...state.bucketList, newItem] }));
       if (userId) {
         const { error } = await supabase
-          .from('tournament_wishlists')
+          .from('user_wishlist')
           .insert({ user_id: userId, tournament_id: tournamentId });
         if (error && get().userId === userId) {
           set((state) => ({
@@ -78,7 +78,7 @@ export const useAppStore = create<AppState>()(
       }));
       if (userId) {
         const { error } = await supabase
-          .from('tournament_wishlists')
+          .from('user_wishlist')
           .delete()
           .eq('user_id', userId)
           .eq('tournament_id', tournamentId);
@@ -108,7 +108,7 @@ export const useAppStore = create<AppState>()(
 
       if (userId) {
         const { error } = await supabase
-          .from('tournament_wishlists')
+          .from('user_wishlist')
           .update({ completed })
           .eq('user_id', userId)
           .eq('tournament_id', tournamentId);
@@ -139,7 +139,7 @@ export const useAppStore = create<AppState>()(
 
       if (userId) {
         const { error } = await supabase
-          .from('tournament_wishlists')
+          .from('user_wishlist')
           .update({ diary, diary_date: diaryDate })
           .eq('user_id', userId)
           .eq('tournament_id', tournamentId);
@@ -167,7 +167,7 @@ export const useAppStore = create<AppState>()(
 
       if (userId) {
         const { error } = await supabase
-          .from('tournament_wishlists')
+          .from('user_wishlist')
           .update({ rating })
           .eq('user_id', userId)
           .eq('tournament_id', tournamentId);
@@ -255,7 +255,7 @@ export const useAppStore = create<AppState>()(
       const [followsRes, wishlistRes] = await Promise.all([
         supabase.from('user_follows').select('player_id, created_at').eq('user_id', userId),
         supabase
-          .from('tournament_wishlists')
+          .from('user_wishlist')
           .select('tournament_id, created_at, completed, diary, diary_date, rating')
           .eq('user_id', userId),
       ]);
