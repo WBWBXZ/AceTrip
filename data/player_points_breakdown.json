@@ -743,7 +743,7 @@
     ]
   },
   "swiatek": {
-    "total": 3539,
+    "total": 3634,
     "entries": [
       {
         "level": "Grand Slam",
@@ -783,6 +783,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Toronto",
+        "points": 215,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Indian Wells",
         "points": 215,
         "round": "QF"
@@ -802,12 +808,6 @@
       {
         "level": "WTA 1000",
         "name": "25 Beijing",
-        "points": 120,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Toronto",
         "points": 120,
         "round": "R16"
       },
@@ -933,7 +933,7 @@
     ]
   },
   "svitolina": {
-    "total": 4354,
+    "total": 4449,
     "entries": [
       {
         "level": "Grand Slam",
@@ -949,13 +949,13 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "25 US Open",
         "points": 10,
         "round": "R128"
       },
       {
         "level": "Grand Slam",
-        "name": "25 US Open",
+        "name": "26 Wimbledon",
         "points": 10,
         "round": "R128"
       },
@@ -979,13 +979,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Doha",
-        "points": 120,
-        "round": "R16"
+        "name": "26 Toronto",
+        "points": 215,
+        "round": "QF"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
+        "name": "26 Doha",
         "points": 120,
         "round": "R16"
       },
@@ -1622,7 +1622,7 @@
     ]
   },
   "shnaider": {
-    "total": 2703,
+    "total": 2798,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1651,8 +1651,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Toronto",
-        "points": 120,
-        "round": "R16"
+        "points": 215,
+        "round": "QF"
       },
       {
         "level": "WTA 1000",
@@ -3096,7 +3096,7 @@
     ]
   },
   "alexandrova": {
-    "total": 2301,
+    "total": 2396,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3125,8 +3125,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Toronto",
-        "points": 120,
-        "round": "R16"
+        "points": 215,
+        "round": "QF"
       },
       {
         "level": "WTA 1000",
@@ -10148,7 +10148,7 @@
     ]
   },
   "hanne-vandewinkel": {
-    "total": 819,
+    "total": 869,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10218,6 +10218,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Landisville/100",
+        "points": 65,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Queretaro/125",
         "points": 49,
         "round": "SF"
@@ -10249,12 +10255,6 @@
       {
         "level": "Challengers",
         "name": "26 Parma/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Mumbai/125",
         "points": 15,
         "round": "R16"
       }
@@ -11230,7 +11230,7 @@
     ]
   },
   "anastasia-zakharova": {
-    "total": 792,
+    "total": 827,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11323,10 +11323,10 @@
         "round": "R16"
       },
       {
-        "level": "WTA 250",
-        "name": "26 Cluj-Napoca",
-        "points": 30,
-        "round": "R16"
+        "level": "Challengers",
+        "name": "26 Landisville/100",
+        "points": 65,
+        "round": "F"
       },
       {
         "level": "Challengers",
