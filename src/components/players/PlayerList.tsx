@@ -8,9 +8,6 @@ import { useAppStore } from '@/lib/store';
 import { useFollowConfirm, FollowDialogs } from '@/components/ui/FollowDialogs';
 import { useRequireAuth } from '@/lib/use-require-auth';
 import { Search, ChevronUp, ChevronDown, Minus, Heart } from 'lucide-react';
-import pointsBreakdownData from '../../../data/player_points_breakdown.json';
-
-const pointsMap = pointsBreakdownData as Record<string, { total: number; entries: any[] }>;
 
 interface Props {
   players: Player[];
@@ -90,7 +87,7 @@ export function PlayerList({ players }: Props) {
               <div className="flex items-center gap-2 mt-0.5">
                 <span className="text-sm">{getCountryFlag(player.country)}</span>
                 <span className="text-xs text-[var(--text-muted)] truncate">{player.displayName}</span>
-                <span className="text-xs text-[var(--text-muted)] whitespace-nowrap ml-auto">{(pointsMap[player.id]?.total ?? player.points).toLocaleString()} 分</span>
+                <span className="text-xs text-[var(--text-muted)] whitespace-nowrap ml-auto">{player.points.toLocaleString()} 分</span>
               </div>
             </div>
 

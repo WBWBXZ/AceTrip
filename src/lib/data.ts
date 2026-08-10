@@ -5,10 +5,71 @@
 import playersRaw from '../../data/players_final.json';
 import tournamentsRaw from '../../data/tournaments_2026.json';
 import type { Player, Tournament, TournamentLevel, TournamentWithStatus } from '@/types';
+import { fetchLiveTennisRankings, normalizePlayerName, type LiveRankingItem } from '@/lib/liveTennis';
 
 // ---- Players -----------------------------------------------
 
-const allPlayers: Player[] = (playersRaw as any).players;
+const allPlayers: Player[] = (playersRaw as { players: Player[] }).players;
+
+function withStaticRankingSource(players: Player[]): Player[] {
+  return players.map(player => ({ ...player, rankingSource: 'static' as const }));
+}
+
+function buildLiveRankingIndexes(rankings: LiveRankingItem[]) {
+  const byWtaId = new Map<string, LiveRankingItem>();
+  const byName = new Map<string, LiveRankingItem>();
+
+  rankings.forEach(ranking => {
+    if (ranking.wtaId) byWtaId.set(ranking.wtaId, ranking);
+    const normalizedName = normalizePlayerName(ranking.engName || ranking.playerName);
+    if (normalizedName) byName.set(normalizedName, ranking);
+  });
+
+  return { byWtaId, byName };
+}
+
+function mergePlayerWithLiveRanking(player: Player, ranking: LiveRankingItem | undefined, updatedAt: string): Player {
+  if (!ranking) return { ...player, rankingSource: 'static' };
+
+  return {
+    ...player,
+    rank: ranking.rank,
+    previousRank: ranking.previousRank,
+    points: ranking.points,
+    country: ranking.country || player.country,
+    age: ranking.age ?? player.age,
+    rankingSource: 'live-tennis',
+    rankingUpdatedAt: updatedAt,
+  };
+}
+
+export async function getPlayersWithLiveRankings(): Promise<Player[]> {
+  try {
+    const { rankings, updatedAt } = await fetchLiveTennisRankings();
+    const { byWtaId, byName } = buildLiveRankingIndexes(rankings);
+
+    return allPlayers
+      .map(player => {
+        const wtaId = player.wtaId?.toString();
+        const ranking = (wtaId ? byWtaId.get(wtaId) : undefined) ?? byName.get(normalizePlayerName(player.displayName));
+        return mergePlayerWithLiveRanking(player, ranking, updatedAt);
+      })
+      .sort((a, b) => a.rank - b.rank);
+  } catch (err) {
+    console.error('Live rankings merge failed, using static player data:', err);
+    return withStaticRankingSource(allPlayers);
+  }
+}
+
+export async function getPlayerWithLiveRanking(id: string): Promise<Player | undefined> {
+  const players = await getPlayersWithLiveRankings();
+  return players.find(p => p.id === id);
+}
+
+export async function getTopPlayersWithLiveRankings(n: number = 20): Promise<Player[]> {
+  const players = await getPlayersWithLiveRankings();
+  return players.slice(0, n);
+}
 
 export function getAllPlayers(): Player[] {
   return allPlayers;
@@ -42,7 +103,7 @@ export function searchPlayers(query: string): Player[] {
 
 // ---- Tournaments -------------------------------------------
 
-const allTournaments: Tournament[] = (tournamentsRaw as any).tournaments;
+const allTournaments: Tournament[] = (tournamentsRaw as { tournaments: Tournament[] }).tournaments;
 
 export function getAllTournaments(): Tournament[] {
   return allTournaments;

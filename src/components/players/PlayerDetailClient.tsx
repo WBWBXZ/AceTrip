@@ -339,7 +339,7 @@ export function PlayerDetailClient({ player }: Props) {
                     nameCn: player.nameCn || player.displayName,
                     nameEn: player.displayName,
                     rank: player.rank,
-                    points: breakdown?.total ?? player.points,
+                    points: player.points,
                     country: getCountryCn(player.country) || player.country,
                     countryFlag: getCountryFlag(player.country),
                     headshot: player.headshot || '',
@@ -368,7 +368,7 @@ export function PlayerDetailClient({ player }: Props) {
           <div className="flex items-center gap-2">
             <span className="text-sm text-gray-400">WTA 世界排名</span>
             <span className="text-sm text-gray-300">·</span>
-            <span className="text-sm font-medium text-[var(--tennis-green)]">{(breakdown?.total ?? player.points).toLocaleString()} 积分</span>
+            <span className="text-sm font-medium text-[var(--tennis-green)]">{player.points.toLocaleString()} 积分</span>
           </div>
         </div>
       </div>

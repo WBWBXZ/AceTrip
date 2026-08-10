@@ -1,4 +1,4 @@
-import { getTopPlayers, getUpcomingTournaments, getTournamentsWithStatus, getCountryFlag, LEVEL_LABELS, formatDateRange } from '@/lib/data';
+import { getTopPlayersWithLiveRankings, getUpcomingTournaments, getTournamentsWithStatus, getCountryFlag, LEVEL_LABELS, formatDateRange } from '@/lib/data';
 import { SeasonTimeline } from '@/components/tournaments/SeasonTimeline';
 import Link from 'next/link';
 import GlobeLoader from '@/components/ui/GlobeLoader';
@@ -6,8 +6,8 @@ import DailyFeed from '@/components/ui/DailyFeed';
 import { Heart, MapPin, Trophy, Users } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
-export default function HomePage() {
-  const topPlayers = getTopPlayers(20);
+export default async function HomePage() {
+  const topPlayers = await getTopPlayersWithLiveRankings(20);
   const upcoming = getUpcomingTournaments().slice(0, 4);
   const allTournaments = getTournamentsWithStatus();
   const ongoing = allTournaments.find(t => t.status === 'ongoing');

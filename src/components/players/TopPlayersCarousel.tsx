@@ -3,9 +3,6 @@
 import Link from 'next/link';
 import type { Player } from '@/types';
 import { getCountryFlag, getRankTrend } from '@/lib/data';
-import pointsBreakdownData from '../../../data/player_points_breakdown.json';
-
-const pointsMap = pointsBreakdownData as Record<string, { total: number; entries: any[] }>;
 import { ChevronUp, ChevronDown, Minus } from 'lucide-react';
 
 interface Props {
@@ -59,7 +56,7 @@ export function TopPlayersCarousel({ players }: Props) {
               <span className="text-xs text-[var(--text-secondary)]">{player.country}</span>
             </div>
             <p className="text-xs text-[var(--text-muted)] mt-1.5">
-              {(pointsMap[player.id]?.total ?? player.points).toLocaleString()} pts
+              {player.points.toLocaleString()} pts
             </p>
           </div>
         </Link>

@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getAllPlayers, getPlayerById } from '@/lib/data';
+import { getAllPlayers, getPlayerWithLiveRanking } from '@/lib/data';
 import { PlayerDetailClient } from '@/components/players/PlayerDetailClient';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props) {
   const { id } = await params;
-  const player = getPlayerById(id);
+  const player = await getPlayerWithLiveRanking(id);
   if (!player) return { title: '球员未找到' };
   return {
     title: `${player.nameCn || player.displayName} | AceTrip`,
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props) {
 
 export default async function PlayerPage({ params }: Props) {
   const { id } = await params;
-  const player = getPlayerById(id);
+  const player = await getPlayerWithLiveRanking(id);
   if (!player) notFound();
 
   return (

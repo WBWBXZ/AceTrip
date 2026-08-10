@@ -5,9 +5,12 @@
 export interface Player {
   id: string;
   espnId: string;
+  wtaId?: number | string;
   rank: number;
   previousRank: number | null;
   points: number;
+  rankingSource?: 'live-tennis' | 'static';
+  rankingUpdatedAt?: string;
   displayName: string;
   firstName: string;
   lastName: string;

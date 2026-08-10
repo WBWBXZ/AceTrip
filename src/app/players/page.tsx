@@ -1,17 +1,16 @@
-import { getAllPlayers } from '@/lib/data';
+import { getPlayersWithLiveRankings } from '@/lib/data';
 import { PlayerList } from '@/components/players/PlayerList';
-import playersRaw from '../../../data/players_final.json';
 
 export const metadata = {
   title: '球员 | AceTrip',
   description: 'WTA 单打排名 — 全球顶尖女子网球球员',
 };
 
-export default function PlayersPage() {
-  const players = getAllPlayers();
-  const updateTime = (playersRaw as any).updateTime;
-  const updateDate = updateTime
-    ? (() => { const d = new Date(updateTime); return `${d.getFullYear()}.${d.getMonth()+1}.${d.getDate()}`; })()
+export default async function PlayersPage() {
+  const players = await getPlayersWithLiveRankings();
+  const liveUpdatedAt = players.find(player => player.rankingSource === 'live-tennis')?.rankingUpdatedAt;
+  const updateDate = liveUpdatedAt
+    ? (() => { const d = new Date(liveUpdatedAt); return `${d.getFullYear()}.${d.getMonth()+1}.${d.getDate()}`; })()
     : (() => { const d = new Date(); return `${d.getFullYear()}.${d.getMonth()+1}.${d.getDate()}`; })();
 
   return (
