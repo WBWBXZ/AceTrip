@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import playersData from '../../../../../data/players_final.json';
+import { fetchLiveTennisPlayerSeason } from '@/lib/liveTennis';
 
 export const revalidate = 3600;
 
@@ -21,18 +22,16 @@ const NAME_TO_ID: Record<string, string> = {
   MIAMI: 'miami-open', CHARLESTON: 'charleston', LINZ: 'linz',
   STUTTGART: 'stuttgart', MADRID: 'madrid-open', ROME: 'rome',
   STRASBOURG: 'strasbourg', 'ROLAND GARROS': 'roland-garros',
-  "QUEEN'S CLUB": 'queens', EASTBOURNE: 'queens', BERLIN: 'berlin',
-  'BAD HOMBURG': 'bad-homburg', WIMBLEDON: 'wimbledon',
-  WASHINGTON: 'washington-dc', TORONTO: 'national-bank-open',
-  'CANADA OPEN': 'national-bank-open', 'NATIONAL BANK OPEN': 'national-bank-open',
-  MONTREAL: 'national-bank-open',
-  CINCINNATI: 'cincinnati-open', MONTERREY: 'monterrey',
-  'US OPEN': 'us-open', GUADALAJARA: 'guadalajara',
-  SINGAPORE: 'singapore-open', 'CHINA OPEN': 'china-open',
-  BEIJING: 'china-open', WUHAN: 'wuhan-open',
-  NINGBO: 'ningbo-open', TOKYO: 'toray-pan-pacific',
-  'WTA FINALS': 'wta-finals', 'UNITED CUP': 'united-cup',
-  AUCKLAND: 'adelaide',
+  'FRENCH OPEN': 'roland-garros', "QUEEN'S CLUB": 'queens',
+  EASTBOURNE: 'queens', BERLIN: 'berlin', 'BAD HOMBURG': 'bad-homburg',
+  WIMBLEDON: 'wimbledon', WASHINGTON: 'washington-dc',
+  TORONTO: 'national-bank-open', 'CANADA OPEN': 'national-bank-open',
+  'NATIONAL BANK OPEN': 'national-bank-open', MONTREAL: 'national-bank-open',
+  CINCINNATI: 'cincinnati-open', MONTERREY: 'monterrey', 'US OPEN': 'us-open',
+  GUADALAJARA: 'guadalajara', SINGAPORE: 'singapore-open',
+  'CHINA OPEN': 'china-open', BEIJING: 'china-open', WUHAN: 'wuhan-open',
+  NINGBO: 'ningbo-open', TOKYO: 'toray-pan-pacific', 'WTA FINALS': 'wta-finals',
+  'UNITED CUP': 'united-cup', AUCKLAND: 'adelaide',
 };
 
 interface WtaMatch {
@@ -60,9 +59,10 @@ interface TournamentSummary {
   wins: number;
   losses: number;
   level: string;
+  points: number;
 }
 
-async function fetchMatches(wtaId: string | number, year: number): Promise<WtaMatch[]> {
+async function fetchWtaMatches(wtaId: string | number, year: number): Promise<WtaMatch[]> {
   const response = await fetch(
     `https://api.wtatennis.com/tennis/players/${wtaId}/matches?year=${year}&page=0&pageSize=200`,
     {
@@ -79,6 +79,108 @@ async function fetchMatches(wtaId: string | number, year: number): Promise<WtaMa
   );
 }
 
+function mapTournamentId(name: string): string | null {
+  const nameUpper = name.toUpperCase();
+  if (NAME_TO_ID[nameUpper]) return NAME_TO_ID[nameUpper];
+
+  for (const [knownName, mappedId] of Object.entries(NAME_TO_ID)) {
+    if (nameUpper.includes(knownName) || knownName.includes(nameUpper)) return mappedId;
+  }
+  return null;
+}
+
+function buildStatsResponse(tournaments: TournamentSummary[], year: number, source: 'live-tennis' | 'wta') {
+  const sortedTournaments = [...tournaments].sort(
+    (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime(),
+  );
+  const tournamentIds: string[] = [];
+  const results = sortedTournaments.map(tournament => {
+    const tournamentId = mapTournamentId(tournament.name);
+    if (tournamentId) tournamentIds.push(tournamentId);
+
+    return {
+      name: tournament.name,
+      startDate: tournament.startDate,
+      bestRound: tournament.bestRound,
+      isChampion: tournament.isChampion,
+      tournamentId,
+      points: tournament.points,
+      level: tournament.level,
+    };
+  });
+  const thisYearTournaments = sortedTournaments.filter(
+    tournament => tournament.startDate && new Date(tournament.startDate).getFullYear() === year,
+  );
+
+  return {
+    source,
+    tournamentIds: [...new Set(tournamentIds)],
+    totalTournaments: sortedTournaments.length,
+    totalWins: sortedTournaments.reduce((sum, tournament) => sum + tournament.wins, 0),
+    totalLosses: sortedTournaments.reduce((sum, tournament) => sum + tournament.losses, 0),
+    titles: sortedTournaments.filter(tournament => tournament.isChampion).length,
+    thisYearTournaments: thisYearTournaments.length,
+    thisYearWins: thisYearTournaments.reduce((sum, tournament) => sum + tournament.wins, 0),
+    thisYearLosses: thisYearTournaments.reduce((sum, tournament) => sum + tournament.losses, 0),
+    thisYearTitles: thisYearTournaments.filter(tournament => tournament.isChampion).length,
+    results,
+  };
+}
+
+function summarizeWtaMatches(matches: WtaMatch[]): TournamentSummary[] {
+  const tournamentMap: Record<string, TournamentSummary> = {};
+
+  for (const match of matches) {
+    const name = (match.TournamentName || '').trim();
+    if (!name) continue;
+    if (!tournamentMap[name]) {
+      tournamentMap[name] = {
+        name,
+        startDate: match.StartDate || '',
+        bestRound: '',
+        bestRoundOrder: 0,
+        isChampion: false,
+        wins: 0,
+        losses: 0,
+        level: match.TournamentLevel || '',
+        points: 0,
+      };
+    }
+
+    const tournament = tournamentMap[name];
+    const round = match.round_name || '';
+    const roundOrder = ROUND_ORDER[round] || 0;
+    if (roundOrder > tournament.bestRoundOrder) {
+      tournament.bestRound = round;
+      tournament.bestRoundOrder = roundOrder;
+    }
+    if (match.winner === 1) {
+      tournament.wins++;
+      if (round === 'F') tournament.isChampion = true;
+    } else {
+      tournament.losses++;
+    }
+    if (match.points_1 && match.points_1 > tournament.points) {
+      tournament.points = match.points_1;
+    }
+  }
+
+  return Object.values(tournamentMap);
+}
+
+async function fetchWtaFallback(wtaId: string | number, year: number): Promise<TournamentSummary[]> {
+  const [allMatchesThisYear, allMatchesLastYear] = await Promise.all([
+    fetchWtaMatches(wtaId, year),
+    fetchWtaMatches(wtaId, year - 1),
+  ]);
+  const fiftyTwoWeeksAgo = new Date(Date.now() - 52 * 7 * 24 * 60 * 60 * 1000);
+  const matches = [...allMatchesThisYear, ...allMatchesLastYear].filter(match => {
+    const startDate = new Date(match.StartDate || '');
+    return startDate >= fiftyTwoWeeksAgo;
+  });
+  return summarizeWtaMatches(matches);
+}
+
 export async function GET(
   _request: Request,
   { params }: { params: Promise<{ id: string }> },
@@ -90,97 +192,21 @@ export async function GET(
     return NextResponse.json({ error: 'Player not found' }, { status: 404 });
   }
 
+  const year = new Date().getFullYear();
   try {
-    const year = new Date().getFullYear();
-    const [allMatchesThisYear, allMatchesLastYear] = await Promise.all([
-      fetchMatches(player.wtaId, year),
-      fetchMatches(player.wtaId, year - 1),
-    ]);
+    const liveTournaments = await fetchLiveTennisPlayerSeason(player.wtaId, year);
+    const tournaments = liveTournaments.map(tournament => ({
+      ...tournament,
+      bestRoundOrder: ROUND_ORDER[tournament.bestRound] || 0,
+    }));
+    return NextResponse.json(buildStatsResponse(tournaments, year, 'live-tennis'));
+  } catch (liveTennisError) {
+    console.warn(`live-tennis player stats fetch failed (${id}), falling back to WTA:`, liveTennisError);
+  }
 
-    const fiftyTwoWeeksAgo = new Date(Date.now() - 52 * 7 * 24 * 60 * 60 * 1000);
-    const matches = [...allMatchesThisYear, ...allMatchesLastYear].filter(match => {
-      const startDate = new Date(match.StartDate || '');
-      return startDate >= fiftyTwoWeeksAgo;
-    });
-
-    const tournamentMap: Record<string, TournamentSummary> = {};
-    for (const match of matches) {
-      const name = (match.TournamentName || '').trim();
-      if (!name) continue;
-      if (!tournamentMap[name]) {
-        tournamentMap[name] = {
-          name,
-          startDate: match.StartDate || '',
-          bestRound: '',
-          bestRoundOrder: 0,
-          isChampion: false,
-          wins: 0,
-          losses: 0,
-          level: match.TournamentLevel || '',
-        };
-      }
-
-      const tournament = tournamentMap[name];
-      const round = match.round_name || '';
-      const roundOrder = ROUND_ORDER[round] || 0;
-      if (roundOrder > tournament.bestRoundOrder) {
-        tournament.bestRound = round;
-        tournament.bestRoundOrder = roundOrder;
-      }
-      if (match.winner === 1) {
-        tournament.wins++;
-        if (round === 'F') tournament.isChampion = true;
-      } else {
-        tournament.losses++;
-      }
-    }
-
-    const tournaments = Object.values(tournamentMap);
-    const tournamentIds: string[] = [];
-    const results = tournaments.map(tournament => {
-      const nameUpper = tournament.name.toUpperCase();
-      let tournamentId = NAME_TO_ID[nameUpper];
-      if (!tournamentId) {
-        for (const [name, mappedId] of Object.entries(NAME_TO_ID)) {
-          if (nameUpper.includes(name) || name.includes(nameUpper)) {
-            tournamentId = mappedId;
-            break;
-          }
-        }
-      }
-      if (tournamentId) tournamentIds.push(tournamentId);
-
-      const points = matches
-        .filter(match => (match.TournamentName || '').trim() === tournament.name)
-        .reduce((highest, match) => match.points_1 && match.points_1 > highest ? match.points_1 : highest, 0);
-
-      return {
-        name: tournament.name,
-        startDate: tournament.startDate,
-        bestRound: tournament.bestRound,
-        isChampion: tournament.isChampion,
-        tournamentId: tournamentId || null,
-        points,
-        level: tournament.level,
-      };
-    });
-
-    const thisYearTournaments = tournaments.filter(
-      tournament => tournament.startDate && new Date(tournament.startDate).getFullYear() === year,
-    );
-
-    return NextResponse.json({
-      tournamentIds,
-      totalTournaments: tournaments.length,
-      totalWins: tournaments.reduce((sum, tournament) => sum + tournament.wins, 0),
-      totalLosses: tournaments.reduce((sum, tournament) => sum + tournament.losses, 0),
-      titles: tournaments.filter(tournament => tournament.isChampion).length,
-      thisYearTournaments: thisYearTournaments.length,
-      thisYearWins: thisYearTournaments.reduce((sum, tournament) => sum + tournament.wins, 0),
-      thisYearLosses: thisYearTournaments.reduce((sum, tournament) => sum + tournament.losses, 0),
-      thisYearTitles: thisYearTournaments.filter(tournament => tournament.isChampion).length,
-      results,
-    });
+  try {
+    const tournaments = await fetchWtaFallback(player.wtaId, year);
+    return NextResponse.json(buildStatsResponse(tournaments, year, 'wta'));
   } catch (error) {
     console.error(`Player stats fetch error (${id}):`, error);
     return NextResponse.json({ error: 'Failed to fetch player stats' }, { status: 502 });

@@ -182,3 +182,171 @@ export function normalizePlayerName(name: string): string {
     .trim()
     .toLowerCase();
 }
+
+export interface LiveTennisSeasonTournament {
+  name: string;
+  startDate: string;
+  bestRound: string;
+  isChampion: boolean;
+  wins: number;
+  losses: number;
+  level: string;
+  points: number;
+}
+
+const LIVE_TENNIS_ACTIVITY_QUERY_URL = 'https://www.live-tennis.cn/en/history/activity/query';
+const LIVE_TENNIS_ACTIVITY_REFERER = 'https://www.live-tennis.cn/en/history/activity';
+const LIVE_TENNIS_REQUEST_TIMEOUT_MS = 15000;
+const LIVE_TENNIS_ROUND_ORDER: Record<string, number> = {
+  R128: 1,
+  R64: 2,
+  R32: 3,
+  R16: 4,
+  Q: 5,
+  S: 6,
+  F: 7,
+};
+
+function decodeHtml(value: string): string {
+  const namedEntities: Record<string, string> = {
+    amp: '&',
+    apos: "'",
+    gt: '>',
+    lt: '<',
+    nbsp: ' ',
+    quot: '"',
+  };
+
+  return value.replace(/&(#x[\da-f]+|#\d+|[a-z]+);/gi, (entity, code: string) => {
+    if (code[0] !== '#') return namedEntities[code.toLowerCase()] ?? entity;
+    const radix = code[1]?.toLowerCase() === 'x' ? 16 : 10;
+    const rawCodePoint = radix === 16 ? code.slice(2) : code.slice(1);
+    const codePoint = parseInt(rawCodePoint, radix);
+    return Number.isFinite(codePoint) ? String.fromCodePoint(codePoint) : entity;
+  });
+}
+
+function textContent(html: string): string {
+  return decodeHtml(html.replace(/<[^>]*>/g, ' ')).replace(/\s+/g, ' ').trim();
+}
+
+function normalizeActivityRound(round: string): string {
+  if (round === 'QF') return 'Q';
+  if (round === 'SF') return 'S';
+  return round;
+}
+
+function inferActivityLevel(headerHtml: string, tournamentName: string): string {
+  const logo = headerHtml.match(/class=["']?cActivityLogo["']?[^>]*src=["']([^"']+)/i)?.[1] ?? '';
+  const normalized = `${logo} ${tournamentName}`.toUpperCase();
+
+  if (/GS-|AUSTRALIAN OPEN|FRENCH OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/.test(normalized)) return 'GS';
+  if (/WTA[-_]?FINALS|WTA FINALS/.test(normalized)) return 'FINALS';
+  if (/WTA[-_]?1000/.test(normalized)) return 'PM';
+  if (/WTA[-_]?500/.test(normalized)) return 'P';
+  if (/WTA[-_]?250/.test(normalized)) return 'I';
+  if (/WTA[-_]?125/.test(normalized)) return '125';
+  return '';
+}
+
+function parseActivityTournament(headerHtml: string, matchesHtml: string): LiveTennisSeasonTournament | null {
+  const headerSpans = [...headerHtml.matchAll(/<span(?:\s[^>]*)?>([\s\S]*?)<\/span>/gi)];
+  const name = textContent(headerSpans[0]?.[1] ?? '');
+  const startDate = textContent(headerSpans[1]?.[1] ?? '');
+  if (!name || !/^\d{4}-\d{2}-\d{2}$/.test(startDate)) return null;
+
+  const pointsHtml = headerHtml.match(/class=["'][^"']*\bcActivityPoint\b[^"']*["'][^>]*>([\s\S]*?)<\/span>/i)?.[1] ?? '';
+  const points = toNumber(textContent(pointsHtml));
+  let bestRound = '';
+  let bestRoundOrder = 0;
+  let wins = 0;
+  let losses = 0;
+  let isChampion = false;
+
+  for (const rowMatch of matchesHtml.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
+    const cells = [...rowMatch[1].matchAll(/<td[^>]*>([\s\S]*?)<\/td>/gi)];
+    if (cells.length < 2) continue;
+
+    const round = normalizeActivityRound(textContent(cells[0][1]));
+    const outcome = textContent(cells[1][1]).toUpperCase();
+    const roundOrder = LIVE_TENNIS_ROUND_ORDER[round] ?? 0;
+    if (roundOrder > bestRoundOrder) {
+      bestRound = round;
+      bestRoundOrder = roundOrder;
+    }
+
+    if (outcome === 'W') {
+      wins++;
+      if (round === 'F') isChampion = true;
+    } else if (outcome === 'L') {
+      losses++;
+    }
+  }
+
+  return {
+    name,
+    startDate,
+    bestRound,
+    isChampion,
+    wins,
+    losses,
+    level: inferActivityLevel(headerHtml, name),
+    points,
+  };
+}
+
+export function parseLiveTennisSeasonHtml(html: string): LiveTennisSeasonTournament[] {
+  const headerPattern = /<tr[^>]*>\s*<td[^>]*class=["']?cActivityTour["']?[^>]*>([\s\S]*?)<\/td>\s*<\/tr>/gi;
+  const headers = [...html.matchAll(headerPattern)];
+
+  return headers.flatMap((header, index) => {
+    const headerEnd = (header.index ?? 0) + header[0].length;
+    const nextHeaderStart = headers[index + 1]?.index ?? html.length;
+    const tournament = parseActivityTournament(header[1], html.slice(headerEnd, nextHeaderStart));
+    return tournament ? [tournament] : [];
+  });
+}
+
+export async function fetchLiveTennisPlayerSeason(
+  wtaId: string | number,
+  year: number,
+): Promise<LiveTennisSeasonTournament[]> {
+  const url = new URL(LIVE_TENNIS_ACTIVITY_QUERY_URL);
+  const query = {
+    status: 'ok',
+    sd: 's',
+    p1id: String(wtaId),
+    year: String(year),
+    type: 'wta',
+    surface: 'a',
+    level: 't',
+    onlyMD: 'y',
+    roundOnly: '',
+    bagel: '',
+    vstop: '0',
+    vsrank: '',
+    onlyH2H: 'n',
+  };
+  Object.entries(query).forEach(([key, value]) => url.searchParams.set(key, value));
+
+  const response = await fetch(url, {
+    headers: {
+      Accept: 'text/html',
+      Referer: LIVE_TENNIS_ACTIVITY_REFERER,
+      'User-Agent': 'Mozilla/5.0',
+      'X-Requested-With': 'XMLHttpRequest',
+    },
+    next: { revalidate: 3600 },
+    signal: AbortSignal.timeout(LIVE_TENNIS_REQUEST_TIMEOUT_MS),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch live-tennis player season: ${response.status}`);
+  }
+
+  const tournaments = parseLiveTennisSeasonHtml(await response.text());
+  if (!tournaments.length) {
+    throw new Error(`live-tennis returned no season data for player ${wtaId}`);
+  }
+  return tournaments;
+}
