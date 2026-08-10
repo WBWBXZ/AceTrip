@@ -336,7 +336,7 @@ export async function fetchLiveTennisPlayerSeason(
       'User-Agent': 'Mozilla/5.0',
       'X-Requested-With': 'XMLHttpRequest',
     },
-    next: { revalidate: 3600 },
+    cache: 'no-store',
     signal: AbortSignal.timeout(LIVE_TENNIS_REQUEST_TIMEOUT_MS),
   });
 

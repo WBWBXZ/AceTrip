@@ -2,9 +2,13 @@ import { NextResponse } from 'next/server';
 import playersData from '../../../../../data/players_final.json';
 import { fetchLiveTennisPlayerSeason } from '@/lib/liveTennis';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 const REQUEST_TIMEOUT_MS = 15000;
+const PLAYER_ID_ALIASES: Record<string, string> = {
+  'gauff-c': 'gauff',
+};
 const ROUND_ORDER: Record<string, number> = {
   R128: 1,
   R64: 2,
@@ -67,7 +71,7 @@ async function fetchWtaMatches(wtaId: string | number, year: number): Promise<Wt
     `https://api.wtatennis.com/tennis/players/${wtaId}/matches?year=${year}&page=0&pageSize=200`,
     {
       headers: { Accept: 'application/json' },
-      next: { revalidate: 3600 },
+      cache: 'no-store',
       signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     },
   );
@@ -186,7 +190,8 @@ export async function GET(
   { params }: { params: Promise<{ id: string }> },
 ) {
   const { id } = await params;
-  const player = playersData.players.find(item => item.id === id);
+  const canonicalId = PLAYER_ID_ALIASES[id] ?? id;
+  const player = playersData.players.find(item => item.id === canonicalId);
 
   if (!player?.wtaId) {
     return NextResponse.json({ error: 'Player not found' }, { status: 404 });

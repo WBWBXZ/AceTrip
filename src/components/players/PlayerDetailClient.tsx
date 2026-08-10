@@ -210,7 +210,10 @@ export function PlayerDetailClient({ player }: Props) {
     const controller = new AbortController();
     const fallbackSchedule = (playerScheduleData as Record<string, PlayerScheduleEntry>)[player.id] ?? null;
 
-    fetch(`/api/player-stats/${encodeURIComponent(player.id)}`, { signal: controller.signal })
+    fetch(`/api/player-stats/${encodeURIComponent(player.id)}`, {
+      cache: 'no-store',
+      signal: controller.signal,
+    })
       .then(response => {
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         return response.json() as Promise<PlayerScheduleEntry>;
