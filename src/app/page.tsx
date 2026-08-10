@@ -26,8 +26,8 @@ export default function HomePage() {
                 <span className="h-[6px] w-[6px] rounded-full bg-[var(--tennis-green)] animate-pulse" />
                 {ongoing ? `LIVE · ${ongoing.nameCn || ongoing.name}` : '2026 WTA Season'}
               </div>
-              <h1 className="max-w-xl text-4xl font-bold leading-[1.04] tracking-[-0.035em] text-[var(--tennis-green-dark)] sm:text-5xl md:text-6xl" style={{ fontFamily: 'var(--font-serif)' }}>
-                Game, Set,<br />World.
+              <h1 className="max-w-xl whitespace-nowrap text-[clamp(2.1rem,10vw,3.75rem)] font-bold leading-[1.04] tracking-[-0.035em] text-[var(--tennis-green-dark)] sm:text-5xl md:text-6xl" style={{ fontFamily: 'var(--font-serif)' }}>
+                Game, Set, World
               </h1>
               <p className="mt-3 max-w-md text-sm leading-relaxed text-[var(--text-secondary)]">
                 沿着 WTA 赛历探索世界，把每一场热爱变成下一段旅程。
@@ -48,7 +48,7 @@ export default function HomePage() {
                   ['15', '国家'],
                 ].map(([value, label], index) => (
                   <div key={label} className={`px-4 py-4 sm:px-5 ${index > 0 ? 'border-l border-white/15' : ''}`}>
-                    <div className="text-3xl font-semibold leading-none tracking-[-0.06em] sm:text-4xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
+                    <div className="text-2xl font-semibold leading-none tracking-[-0.04em] sm:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
                     <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.2em] text-white/55">{label}</div>
                   </div>
                 ))}
