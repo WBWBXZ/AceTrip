@@ -3,9 +3,9 @@
 import type { DrawData, Match, Player } from '@/lib/parseDraw';
 
 const CARD_WIDTH = 240;
-const CARD_HEIGHT = 108;
+const CARD_HEIGHT = 128;
 const COLUMN_GAP = 52;
-const ROW_UNIT = 132;
+const ROW_UNIT = 152;
 
 interface Props {
   data: DrawData;
@@ -64,7 +64,7 @@ function PlayerRow({ player, isWinner, isLoser }: {
 function MatchCard({ match }: { match: Match }) {
   const completed = match.winner !== undefined;
   return (
-    <div className="h-[108px] overflow-hidden rounded-lg border border-gray-200 bg-white shadow-[0_2px_10px_rgba(15,61,46,0.06)]">
+    <div className="overflow-hidden rounded-lg border border-gray-200 bg-white shadow-[0_2px_10px_rgba(15,61,46,0.06)]">
       <PlayerRow player={match.player1} isWinner={match.winner === 1} isLoser={completed && match.winner !== 1} />
       <div className="h-px bg-gray-100" />
       <PlayerRow player={match.player2} isWinner={match.winner === 2} isLoser={completed && match.winner !== 2} />
