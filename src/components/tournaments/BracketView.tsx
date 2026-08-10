@@ -74,7 +74,7 @@ function MatchCard({ match }: { match: Match }) {
         </span>
         {match.odds && (
           <span className="shrink-0 font-normal text-gray-400">
-            赔率 {match.odds[0]} / {match.odds[1]}
+            {match.odds[0]} / {match.odds[1]}
           </span>
         )}
       </div>

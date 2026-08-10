@@ -152,7 +152,6 @@ export function DrawViewer({ liveTennisId, year = 2026 }: Props) {
               <div className="mb-3 flex items-end justify-between">
                 <div>
                   <h3 className="font-noto-serif text-lg font-bold text-gray-900">最新进展</h3>
-                  <p className="mt-1 text-xs text-gray-400">聚焦赛事最后三轮</p>
                 </div>
               </div>
               <BracketView data={miniDraw} />

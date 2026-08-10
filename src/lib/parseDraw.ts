@@ -104,10 +104,27 @@ function formatShanghaiTime(timestamp: number): string | undefined {
   return month && day && hour && minute ? `${month}月${day}日 ${hour}:${minute}` : undefined;
 }
 
-function metadataInColumn(rows: Element[], column: number): Pick<Match, 'score' | 'time' | 'odds'> {
+function parseOdds(text: string): [string, string] | undefined {
+  const match = cleanText(text).match(/(?:^|\s)(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)(?:\s|$)/);
+  return match ? [match[2], match[1]] : undefined;
+}
+
+function oddsForMatch(rows: Element[], resultColumn: number): [string, string] | undefined {
+  for (const row of rows) {
+    const resultCell = cellsForRow(row)[resultColumn];
+    if (!resultCell?.classList.contains('cDrawGridScore')) continue;
+
+    for (const cell of cellsForRow(row)) {
+      const odds = parseOdds(cell.textContent || '');
+      if (odds) return odds;
+    }
+  }
+  return undefined;
+}
+
+function metadataInColumn(rows: Element[], column: number): Pick<Match, 'score' | 'time'> {
   let score: string | undefined;
   let time: string | undefined;
-  let odds: [string, string] | undefined;
 
   for (const row of rows) {
     const cell = cellsForRow(row)[column];
@@ -119,15 +136,12 @@ function metadataInColumn(rows: Element[], column: number): Pick<Match, 'score' 
     }
 
     const text = cleanText(cell.textContent);
-    const oddsMatch = text.match(/(?:^|\s)(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)(?:\s|$)/);
-    if (oddsMatch) odds = [oddsMatch[2], oddsMatch[1]];
-
     if (cell.classList.contains('cDrawGridScore') && !timestampText && /\d/.test(text)) {
       score = text;
     }
   }
 
-  return { score, time, odds };
+  return { score, time };
 }
 
 function parseTableRounds(table: Element, roundLimit?: number): Match[][] {
@@ -164,7 +178,6 @@ function parseTableRounds(table: Element, roundLimit?: number): Match[][] {
       }
 
       const primaryMetadata = metadataInColumn(resultRows, resultColumn);
-      const adjacentMetadata = metadataInColumn(resultRows, resultColumn + 1);
 
       matches.push({
         id: `${table.getAttribute('data-bracket-index') || 'block'}-${roundIndex}-${start / matchSpan}`,
@@ -172,7 +185,7 @@ function parseTableRounds(table: Element, roundLimit?: number): Match[][] {
         player2: { ...player2 },
         score: primaryMetadata.score,
         time: winner ? undefined : primaryMetadata.time,
-        odds: adjacentMetadata.odds,
+        odds: oddsForMatch(resultRows, resultColumn),
         winner,
       });
     }
