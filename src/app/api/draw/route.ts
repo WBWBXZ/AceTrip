@@ -55,7 +55,7 @@ export async function GET(request: NextRequest) {
     const url = `https://www.live-tennis.cn/en/draw/ajax/${ltId}/${year}/device/0/horizontal/true`;
     const response = await fetch(url, {
       headers: { 'User-Agent': 'Mozilla/5.0 AceTrip/1.0' },
-      next: { revalidate: 3600 },
+      next: { revalidate: 60 },
     });
 
     if (!response.ok) {
