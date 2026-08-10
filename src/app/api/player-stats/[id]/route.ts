@@ -24,6 +24,8 @@ const NAME_TO_ID: Record<string, string> = {
   "QUEEN'S CLUB": 'queens', EASTBOURNE: 'queens', BERLIN: 'berlin',
   'BAD HOMBURG': 'bad-homburg', WIMBLEDON: 'wimbledon',
   WASHINGTON: 'washington-dc', TORONTO: 'national-bank-open',
+  'CANADA OPEN': 'national-bank-open', 'NATIONAL BANK OPEN': 'national-bank-open',
+  MONTREAL: 'national-bank-open',
   CINCINNATI: 'cincinnati-open', MONTERREY: 'monterrey',
   'US OPEN': 'us-open', GUADALAJARA: 'guadalajara',
   SINGAPORE: 'singapore-open', 'CHINA OPEN': 'china-open',
