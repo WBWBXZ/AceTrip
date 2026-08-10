@@ -111,13 +111,12 @@ function parseOdds(text: string): [string, string] | undefined {
 
 function oddsForMatch(rows: Element[], resultColumn: number): [string, string] | undefined {
   for (const row of rows) {
-    const resultCell = cellsForRow(row)[resultColumn];
-    if (!resultCell?.classList.contains('cDrawGridScore')) continue;
+    const cell = cellsForRow(row)[resultColumn];
+    if (!cell?.classList.contains('cDrawGrid')) continue;
+    if (!cell.querySelector('a[onclick*="open_h2h"]')) continue;
 
-    for (const cell of cellsForRow(row)) {
-      const odds = parseOdds(cell.textContent || '');
-      if (odds) return odds;
-    }
+    const odds = parseOdds(cell.textContent || '');
+    if (odds) return odds;
   }
   return undefined;
 }
@@ -185,7 +184,7 @@ function parseTableRounds(table: Element, roundLimit?: number): Match[][] {
         player2: { ...player2 },
         score: primaryMetadata.score,
         time: winner ? undefined : primaryMetadata.time,
-        odds: oddsForMatch(resultRows, resultColumn),
+        odds: oddsForMatch(resultRows, resultColumn + 1),
         winner,
       });
     }

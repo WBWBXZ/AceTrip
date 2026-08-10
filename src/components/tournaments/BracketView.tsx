@@ -3,9 +3,9 @@
 import type { DrawData, Match, Player } from '@/lib/parseDraw';
 
 const CARD_WIDTH = 240;
-const CARD_HEIGHT = 92;
+const CARD_HEIGHT = 108;
 const COLUMN_GAP = 52;
-const ROW_UNIT = 116;
+const ROW_UNIT = 132;
 
 interface Props {
   data: DrawData;
@@ -64,20 +64,20 @@ function PlayerRow({ player, isWinner, isLoser }: {
 function MatchCard({ match }: { match: Match }) {
   const completed = match.winner !== undefined;
   return (
-    <div className="h-[92px] overflow-hidden rounded-lg border border-gray-200 bg-white shadow-[0_2px_10px_rgba(15,61,46,0.06)]">
+    <div className="h-[108px] overflow-hidden rounded-lg border border-gray-200 bg-white shadow-[0_2px_10px_rgba(15,61,46,0.06)]">
       <PlayerRow player={match.player1} isWinner={match.winner === 1} isLoser={completed && match.winner !== 1} />
       <div className="h-px bg-gray-100" />
       <PlayerRow player={match.player2} isWinner={match.winner === 2} isLoser={completed && match.winner !== 2} />
-      <div className="flex h-[29px] items-center justify-between gap-2 border-t border-gray-100 bg-gray-50/70 px-3 text-[10px] font-medium text-gray-400">
+      <div className="flex h-[23px] items-center border-t border-gray-100 bg-gray-50/70 px-3 text-[10px] font-medium text-gray-400">
         <span className="truncate">
           {match.score || match.time || (match.player1.bye || match.player2.bye ? '轮空晋级' : 'TBD')}
         </span>
-        {match.odds && (
-          <span className="shrink-0 font-normal text-gray-400">
-            {match.odds[0]} / {match.odds[1]}
-          </span>
-        )}
       </div>
+      {match.odds && (
+        <div className="flex h-[20px] items-center border-t border-gray-100 bg-gray-50/70 px-3 text-[10px] font-normal tabular-nums text-gray-500">
+          赔率 {match.odds[0]} / {match.odds[1]}
+        </div>
+      )}
     </div>
   );
 }
