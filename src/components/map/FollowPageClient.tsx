@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import type { Player, Tournament } from '@/types';
 import { useAppStore } from '@/lib/store';
@@ -13,8 +13,8 @@ import tournamentsData from '../../../data/tournaments_2026.json';
 // 赛事名称映射（WTA API 英文名 → 中文名）
 const TOURNAMENT_NAME_CN: Record<string, string> = {};
 // 赛事名称 → 赛事对象（用于当 tournamentId 为空时按名称查找）
-const TOURNAMENT_BY_NAME: Record<string, any> = {};
-(tournamentsData as any).tournaments.forEach((t: any) => {
+const TOURNAMENT_BY_NAME: Record<string, Tournament> = {};
+(tournamentsData as { tournaments: Tournament[] }).tournaments.forEach(t => {
   if (t.nameCn) {
     const upper = t.name.toUpperCase();
     TOURNAMENT_NAME_CN[upper] = t.nameCn;
@@ -115,10 +115,15 @@ interface PlayerScheduleData {
   totalWins: number;
   totalLosses: number;
   titles: number;
+  thisYearTournaments?: number;
+  thisYearWins?: number;
+  thisYearLosses?: number;
+  thisYearTitles?: number;
   results: ScheduleResult[];
 }
 
-const scheduleMap = playerScheduleData as Record<string, PlayerScheduleData>;
+type PlayerScheduleMap = Record<string, PlayerScheduleData>;
+const staticScheduleMap = playerScheduleData as PlayerScheduleMap;
 
 // ── 工具函数 ──────────────────────────────────────────────
 
@@ -142,21 +147,22 @@ function getDaysUntil(dateStr: string): number {
 
 interface StatsDashboardProps {
   player: Player;
+  scheduleMap: PlayerScheduleMap;
 }
 
-function StatsDashboard({ player }: StatsDashboardProps) {
+function StatsDashboard({ player, scheduleMap }: StatsDashboardProps) {
   const schedule = scheduleMap[player.id];
   if (!schedule) return null;
 
   // 只统计当年数据
   const currentYear = new Date().getFullYear();
   const thisYearResults = schedule.results
-    ? schedule.results.filter((r: any) => r.startDate && new Date(r.startDate).getFullYear() === currentYear)
+    ? schedule.results.filter(r => r.startDate && new Date(r.startDate).getFullYear() === currentYear)
     : [];
-  const totalTournaments = (schedule as any).thisYearTournaments ?? thisYearResults.length;
-  const titles = (schedule as any).thisYearTitles ?? thisYearResults.filter((r: any) => r.isChampion).length;
-  const totalWins = (schedule as any).thisYearWins ?? schedule.totalWins;
-  const totalLosses = (schedule as any).thisYearLosses ?? schedule.totalLosses;
+  const totalTournaments = schedule.thisYearTournaments ?? thisYearResults.length;
+  const titles = schedule.thisYearTitles ?? thisYearResults.filter(r => r.isChampion).length;
+  const totalWins = schedule.thisYearWins ?? schedule.totalWins;
+  const totalLosses = schedule.thisYearLosses ?? schedule.totalLosses;
   const winRate = totalWins + totalLosses > 0
     ? Math.round((totalWins / (totalWins + totalLosses)) * 100)
     : 0;
@@ -250,7 +256,7 @@ interface H2HConflict {
   roundB: string;
 }
 
-function buildH2H(followedPlayers: Player[]): H2HConflict[] {
+function buildH2H(followedPlayers: Player[], scheduleMap: PlayerScheduleMap): H2HConflict[] {
   if (followedPlayers.length < 2) return [];
   const conflicts: H2HConflict[] = [];
   const seen = new Set<string>();
@@ -294,10 +300,11 @@ function buildH2H(followedPlayers: Player[]): H2HConflict[] {
 
 interface HeadToHeadSectionProps {
   followedPlayers: Player[];
+  scheduleMap: PlayerScheduleMap;
 }
 
-function HeadToHeadSection({ followedPlayers }: HeadToHeadSectionProps) {
-  const conflicts = useMemo(() => buildH2H(followedPlayers), [followedPlayers]);
+function HeadToHeadSection({ followedPlayers, scheduleMap }: HeadToHeadSectionProps) {
+  const conflicts = useMemo(() => buildH2H(followedPlayers, scheduleMap), [followedPlayers, scheduleMap]);
   if (conflicts.length === 0) return null;
 
   return (
@@ -373,9 +380,10 @@ interface HighlightItem {
 
 interface SeasonHighlightSectionProps {
   followedPlayers: Player[];
+  scheduleMap: PlayerScheduleMap;
 }
 
-function SeasonHighlightSection({ followedPlayers }: SeasonHighlightSectionProps) {
+function SeasonHighlightSection({ followedPlayers, scheduleMap }: SeasonHighlightSectionProps) {
   const now = new Date();
 
   return (
@@ -405,11 +413,11 @@ function SeasonHighlightSection({ followedPlayers }: SeasonHighlightSectionProps
 
           if (highlights.length === 0) return null;
 
-          const yrResults = schedule.results.filter((r: any) => r.startDate && new Date(r.startDate).getFullYear() === thisYr);
-          const yrTournaments = yrResults.length;
-          const yrTitles = yrResults.filter((r: any) => r.isChampion).length;
-          const yrW = (schedule as any).thisYearWins ?? schedule.totalWins;
-          const yrL = (schedule as any).thisYearLosses ?? schedule.totalLosses;
+          const yrResults = schedule.results.filter(r => r.startDate && new Date(r.startDate).getFullYear() === thisYr);
+          const yrTournaments = schedule.thisYearTournaments ?? yrResults.length;
+          const yrTitles = schedule.thisYearTitles ?? yrResults.filter(r => r.isChampion).length;
+          const yrW = schedule.thisYearWins ?? schedule.totalWins;
+          const yrL = schedule.thisYearLosses ?? schedule.totalLosses;
           const totalMatches = yrW + yrL;
           const winRate = totalMatches > 0
             ? Math.round((yrW / totalMatches) * 100)
@@ -664,6 +672,43 @@ export function FollowPageClient({ players, tournaments }: Props) {
 
   const currentPlayerId = activeTab || (followedPlayerData.length > 0 ? followedPlayerData[0].id : null);
   const currentPlayer = followedPlayerData.find(p => p.id === currentPlayerId);
+  const followedPlayerIds = useMemo(
+    () => followedPlayers.map(player => player.playerId),
+    [followedPlayers],
+  );
+  const [scheduleMap, setScheduleMap] = useState<PlayerScheduleMap>(staticScheduleMap);
+  const [scheduleLoading, setScheduleLoading] = useState(true);
+
+  useEffect(() => {
+    const controller = new AbortController();
+
+    Promise.all(followedPlayerIds.map(async id => {
+      try {
+        const response = await fetch(`/api/player-stats/${encodeURIComponent(id)}`, {
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return [id, await response.json() as PlayerScheduleData] as const;
+      } catch (error) {
+        if (!(error instanceof DOMException && error.name === 'AbortError')) {
+          console.error(`Failed to load live stats for ${id}, using static fallback:`, error);
+        }
+        return [id, staticScheduleMap[id]] as const;
+      }
+    }))
+      .then(entries => {
+        if (controller.signal.aborted) return;
+        setScheduleMap(current => ({
+          ...current,
+          ...Object.fromEntries(entries.filter((entry): entry is readonly [string, PlayerScheduleData] => Boolean(entry[1]))),
+        }));
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setScheduleLoading(false);
+      });
+
+    return () => controller.abort();
+  }, [followedPlayerIds]);
 
   // 心愿单 tournamentId 集合
   const bucketListIds = useMemo(
@@ -672,7 +717,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
   );
 
   // ── 当前球员时间轴
-  const timeline = useMemo(() => {
+  const timeline = (() => {
     if (!currentPlayer) return [];
     const schedule = scheduleMap[currentPlayer.id];
     const now = new Date();
@@ -733,10 +778,10 @@ export function FollowPageClient({ players, tournaments }: Props) {
     });
     entries.forEach((e, i) => { e.idx = i; });
     return entries;
-  }, [currentPlayer, tournaments, bucketListIds]);
+  })();
 
   // 按月份分组
-  const timelineByMonth = useMemo(() => {
+  const timelineByMonth = (() => {
     const groups: { month: number; entries: (TimelineEntry & { idx: number })[] }[] = [];
     const monthMap = new Map<number, (TimelineEntry & { idx: number })[]>();
     timeline.forEach(entry => {
@@ -747,10 +792,10 @@ export function FollowPageClient({ players, tournaments }: Props) {
       monthMap.get(entry.month)!.push(entry);
     });
     return groups;
-  }, [timeline]);
+  })();
 
   // ── 我和球员的交集
-  const intersection = useMemo(() => {
+  const intersection = (() => {
     if (!currentPlayer) return [];
     const schedule = scheduleMap[currentPlayer.id];
     if (!schedule) return [];
@@ -769,7 +814,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
         return { tournament: t, result: isFuture ? null : result };
       })
       .filter(item => item.tournament != null) as { tournament: Tournament; result: ScheduleResult | null }[];
-  }, [currentPlayer, tournaments, bucketListIds]);
+  })();
 
   // ── 空状态
   if (followedPlayerData.length === 0) {
@@ -831,7 +876,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
       <div className="flex gap-3 mb-5 overflow-x-auto pb-2 scrollbar-hide">
         {followedPlayerData.map((player, idx) => {
           const isActive = currentPlayerId === player.id;
-          const ps = scheduleMap[player.id];
+          const ps = scheduleLoading ? undefined : scheduleMap[player.id];
           const isDragging = dragIdx === idx;
           const isDragTarget = dragOverIdx === idx && dragIdx !== idx;
           const isBouncing = bouncingIdx === idx;
@@ -889,7 +934,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
                   <div className="text-sm font-semibold truncate">{player.nameCn || player.displayName}</div>
                   <div className={`text-[11px] mt-0.5 ${isActive ? 'text-white/70' : 'text-[var(--text-muted)]'}`}>
                     #{player.rank} {getCountryFlag(player.country)}
-                    {ps && ((ps as any).thisYearTitles ?? ps.titles) > 0 && <span className="ml-1">🏆{(ps as any).thisYearTitles ?? ps.titles}</span>}
+                    {ps && (ps.thisYearTitles ?? ps.titles) > 0 && <span className="ml-1">🏆{ps.thisYearTitles ?? ps.titles}</span>}
                   </div>
                 </div>
                 <span
@@ -909,7 +954,13 @@ export function FollowPageClient({ players, tournaments }: Props) {
       {currentPlayer && (
         <>
           {/* 功能 A：数据看板 */}
-          <StatsDashboard player={currentPlayer} />
+          {scheduleLoading ? (
+            <div className="card-flat p-6 mb-5 text-center text-sm text-[var(--text-muted)]">
+              赛季数据加载中...
+            </div>
+          ) : (
+            <StatsDashboard player={currentPlayer} scheduleMap={scheduleMap} />
+          )}
 
           {/* 赛季故事线 */}
           <div className="mb-6">
@@ -923,7 +974,11 @@ export function FollowPageClient({ players, tournaments }: Props) {
               已参赛成绩 · 未来大满贯 / WTA1000 预计参赛
             </p>
 
-            {timelineByMonth.length === 0 ? (
+            {scheduleLoading ? (
+              <div className="card-flat p-6 text-center text-sm text-[var(--text-muted)]">
+                参赛记录加载中...
+              </div>
+            ) : timelineByMonth.length === 0 ? (
               <div className="card-flat p-6 text-center text-sm text-[var(--text-muted)]">
                 暂无赛事数据
               </div>
@@ -953,7 +1008,9 @@ export function FollowPageClient({ players, tournaments }: Props) {
           </div>
 
           {/* 赛季高光 */}
-          <SeasonHighlightSection followedPlayers={followedPlayerData} />
+          {!scheduleLoading && (
+            <SeasonHighlightSection followedPlayers={followedPlayerData} scheduleMap={scheduleMap} />
+          )}
 
           {/* 我和她的交集（放最后） */}
           <div className="mb-8">
