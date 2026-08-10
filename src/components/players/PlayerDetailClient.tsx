@@ -36,6 +36,10 @@ interface PlayerScheduleEntry {
   totalWins: number;
   totalLosses: number;
   titles: number;
+  thisYearTournaments?: number;
+  thisYearWins?: number;
+  thisYearLosses?: number;
+  thisYearTitles?: number;
   results: ScheduleResult[];
 }
 
@@ -196,8 +200,33 @@ export function PlayerDetailClient({ player }: Props) {
   const [followConfirm, setFollowConfirm] = useState<'follow' | 'unfollow' | null>(null);
   const [followCelebrate, setFollowCelebrate] = useState(false);
   const [followCount, setFollowCount] = useState(0);
+  const [schedule, setSchedule] = useState<PlayerScheduleEntry | null>(null);
+  const [scheduleLoading, setScheduleLoading] = useState(true);
   
+  // Zustand persistence is only available after hydration.
+  // eslint-disable-next-line react-hooks/set-state-in-effect
   useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    const controller = new AbortController();
+    const fallbackSchedule = (playerScheduleData as Record<string, PlayerScheduleEntry>)[player.id] ?? null;
+
+    fetch(`/api/player-stats/${encodeURIComponent(player.id)}`, { signal: controller.signal })
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json() as Promise<PlayerScheduleEntry>;
+      })
+      .then(setSchedule)
+      .catch(error => {
+        if (error instanceof DOMException && error.name === 'AbortError') return;
+        console.error('Failed to load live player stats, using static fallback:', error);
+        setSchedule(fallbackSchedule);
+      })
+      .finally(() => {
+        if (!controller.signal.aborted) setScheduleLoading(false);
+      });
+
+    return () => controller.abort();
+  }, [player.id]);
   const following = mounted && isFollowing(player.id);
 
   const handleFollowClick = () => {
@@ -233,7 +262,6 @@ export function PlayerDetailClient({ player }: Props) {
     : '';
 
   // Schedule data
-  const schedule = (playerScheduleData as Record<string, PlayerScheduleEntry>)[player.id] ?? null;
   const heightCm = convertHeightToCm(player.height);
   const weightKg = convertWeightToKg(player.weight);
   const countryCn = getCountryCn(player.country);
@@ -241,10 +269,10 @@ export function PlayerDetailClient({ player }: Props) {
   // 赛季数据只显示当年
   const currentYear = new Date().getFullYear();
   const thisYearResults = schedule ? schedule.results.filter(r => r.startDate && new Date(r.startDate).getFullYear() === currentYear) : [];
-  const yearWins = (schedule as any)?.thisYearWins ?? 0;
-  const yearLosses = (schedule as any)?.thisYearLosses ?? 0;
-  const thisYearTournaments = (schedule as any)?.thisYearTournaments ?? thisYearResults.length;
-  const thisYearTitles = (schedule as any)?.thisYearTitles ?? thisYearResults.filter(r => r.isChampion).length;
+  const yearWins = schedule?.thisYearWins ?? 0;
+  const yearLosses = schedule?.thisYearLosses ?? 0;
+  const thisYearTournaments = schedule?.thisYearTournaments ?? thisYearResults.length;
+  const thisYearTitles = schedule?.thisYearTitles ?? thisYearResults.filter(r => r.isChampion).length;
   const winRate = yearWins + yearLosses > 0 ? Math.round((yearWins / (yearWins + yearLosses)) * 100) : null;
   
   const now = new Date();
@@ -262,10 +290,10 @@ export function PlayerDetailClient({ player }: Props) {
   }
   const breakdownTotal = breakdown?.total ?? 0;
 
-  // 冠军积分（Race）：2026 赛季 results 中有 points 字段的总和
+  // 冠军积分（Race）：本赛季 results 中有 points 字段的总和
   const racePoints = schedule
     ? schedule.results
-        .filter(r => r.startDate && new Date(r.startDate).getFullYear() === 2026)
+        .filter(r => r.startDate && new Date(r.startDate).getFullYear() === currentYear)
         .reduce((sum, r) => sum + (r.points ?? 0), 0)
     : 0;
 
@@ -381,7 +409,7 @@ export function PlayerDetailClient({ player }: Props) {
             { label: '身高', value: heightCm != null ? `${heightCm}` : '—', unit: heightCm ? 'cm' : '' },
             { label: '体重', value: weightKg != null ? `${weightKg}` : '—', unit: weightKg ? 'kg' : '' },
             { label: '出生地', value: player.birthPlaceCn || player.birthPlace || '—', unit: '' },
-            { label: '出生日期', value: formatDob((player as any).dob), unit: '' },
+            { label: '出生日期', value: formatDob(player.dateOfBirth), unit: '' },
           ].map((item, idx) => (
             <div
               key={item.label}
@@ -399,7 +427,10 @@ export function PlayerDetailClient({ player }: Props) {
 
       {/* ══ C. 赛季数据 ══ */}
       <div className="py-8 border-b border-black/5">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-y-4">
+        {scheduleLoading ? (
+          <p className="py-4 text-center text-sm text-gray-400">赛季数据加载中...</p>
+        ) : (
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-y-4">
           <div className="flex flex-col items-center text-center px-3">
             <span className="font-noto-serif text-[10px] uppercase tracking-[0.25em] text-gray-600 font-light mb-1.5">参赛</span>
             <span className="font-noto-serif text-xl font-light tracking-tight text-gray-900">{schedule ? `${thisYearTournaments} 站` : '—'}</span>
@@ -422,16 +453,19 @@ export function PlayerDetailClient({ player }: Props) {
             <span className="font-noto-serif text-[10px] uppercase tracking-[0.25em] text-gray-600 font-light mb-1.5">🏆 冠军</span>
             <span className="font-noto-serif text-xl font-light tracking-tight text-amber-600">{schedule != null ? thisYearTitles : '—'}</span>
           </div>
-        </div>
+          </div>
+        )}
       </div>
 
       {/* ══ D. 赛季故事线 ══ */}
       <div className="py-10 border-b border-black/5">
-        <h2 className="font-noto-serif text-2xl font-bold text-gray-900 mb-1">2026 赛季故事线</h2>
+        <h2 className="font-noto-serif text-2xl font-bold text-gray-900 mb-1">{currentYear} 赛季故事线</h2>
         <p className="text-xs text-gray-400 tracking-wide mb-8">本赛季参赛记录</p>
 
-        {pastResults.length === 0 ? (
-          <p className="text-sm text-gray-400 py-4">暂无 2026 赛季参赛记录</p>
+        {scheduleLoading ? (
+          <p className="text-sm text-gray-400 py-4">参赛记录加载中...</p>
+        ) : pastResults.length === 0 ? (
+          <p className="text-sm text-gray-400 py-4">暂无 {currentYear} 赛季参赛记录</p>
         ) : (
           <div className="relative pl-6">
             <div className="absolute left-0 top-0 bottom-0 w-px bg-gray-200" />
@@ -491,7 +525,7 @@ export function PlayerDetailClient({ player }: Props) {
             <div className="border-l border-black/10 pl-8">
               <p className="text-[10px] uppercase tracking-[0.25em] text-amber-700 font-light">冠军积分（Race）</p>
               <p className="font-noto-serif text-3xl font-light tracking-tight text-amber-700 tabular-nums">{racePoints.toLocaleString()}</p>
-              <p className="text-[10px] text-amber-500/70">2026 赛季</p>
+              <p className="text-[10px] text-amber-500/70">{currentYear} 赛季</p>
             </div>
           </div>
 
