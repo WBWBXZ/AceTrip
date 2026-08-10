@@ -26550,9 +26550,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 23,
-    "totalWins": 42,
-    "totalLosses": 22,
+    "totalTournaments": 22,
+    "totalWins": 41,
+    "totalLosses": 21,
     "titles": 1,
     "thisYearTournaments": 16,
     "thisYearWins": 29,
@@ -26702,15 +26702,6 @@
         "tournamentId": null,
         "points": 18,
         "level": "IS"
-      },
-      {
-        "name": "SASKATOON",
-        "startDate": "2025-08-11T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 6,
-        "level": "ITF"
       },
       {
         "name": "US OPEN",
@@ -29292,10 +29283,10 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 24,
-    "totalWins": 55,
+    "totalTournaments": 23,
+    "totalWins": 50,
     "totalLosses": 21,
-    "titles": 3,
+    "titles": 2,
     "thisYearTournaments": 17,
     "thisYearWins": 40,
     "thisYearLosses": 15,
@@ -29453,15 +29444,6 @@
         "tournamentId": null,
         "points": 27,
         "level": "C"
-      },
-      {
-        "name": "MONASTIR 32",
-        "startDate": "2025-08-11T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 15,
-        "level": "ITF"
       },
       {
         "name": "MONASTIR 38",
@@ -29789,9 +29771,9 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 29,
-    "totalWins": 50,
-    "totalLosses": 28,
+    "totalTournaments": 28,
+    "totalWins": 47,
+    "totalLosses": 27,
     "titles": 1,
     "thisYearTournaments": 16,
     "thisYearWins": 27,
@@ -29941,15 +29923,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "VIGO",
-        "startDate": "2025-08-11T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 14,
-        "level": "ITF"
       },
       {
         "name": "TRIESTE",
@@ -30346,10 +30319,10 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 26,
-    "totalWins": 42,
+    "totalTournaments": 25,
+    "totalWins": 37,
     "totalLosses": 26,
-    "titles": 2,
+    "titles": 1,
     "thisYearTournaments": 19,
     "thisYearWins": 24,
     "thisYearLosses": 21,
@@ -30525,15 +30498,6 @@
         "tournamentId": null,
         "points": 27,
         "level": "C"
-      },
-      {
-        "name": "SASKATOON",
-        "startDate": "2025-08-11T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 50,
-        "level": "ITF"
       },
       {
         "name": "TEMPLETON",
@@ -31841,9 +31805,9 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 27,
-    "totalWins": 56,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 54,
+    "totalLosses": 24,
     "titles": 2,
     "thisYearTournaments": 16,
     "thisYearWins": 32,
@@ -31993,15 +31957,6 @@
         "tournamentId": null,
         "points": 18,
         "level": "IS"
-      },
-      {
-        "name": "ERWITTE",
-        "startDate": "2025-08-11T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 8,
-        "level": "ITF"
       },
       {
         "name": "WANFERCEE-BAULET",
@@ -33280,9 +33235,9 @@
       "washington-dc",
       "dubai-championships"
     ],
-    "totalTournaments": 23,
-    "totalWins": 34,
-    "totalLosses": 22,
+    "totalTournaments": 22,
+    "totalWins": 32,
+    "totalLosses": 21,
     "titles": 2,
     "thisYearTournaments": 17,
     "thisYearWins": 19,
@@ -33441,15 +33396,6 @@
         "tournamentId": "washington-dc",
         "points": 1,
         "level": "P"
-      },
-      {
-        "name": "VIGO",
-        "startDate": "2025-08-11T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 8,
-        "level": "ITF"
       },
       {
         "name": "LE NEUBOURG",
