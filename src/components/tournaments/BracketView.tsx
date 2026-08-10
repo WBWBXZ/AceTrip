@@ -68,8 +68,15 @@ function MatchCard({ match }: { match: Match }) {
       <PlayerRow player={match.player1} isWinner={match.winner === 1} isLoser={completed && match.winner !== 1} />
       <div className="h-px bg-gray-100" />
       <PlayerRow player={match.player2} isWinner={match.winner === 2} isLoser={completed && match.winner !== 2} />
-      <div className="flex h-[29px] items-center justify-end border-t border-gray-100 bg-gray-50/70 px-3 text-[10px] font-medium text-gray-400">
-        {match.score || (match.player1.bye || match.player2.bye ? '轮空晋级' : 'TBD')}
+      <div className="flex h-[29px] items-center justify-between gap-2 border-t border-gray-100 bg-gray-50/70 px-3 text-[10px] font-medium text-gray-400">
+        <span className="truncate">
+          {match.score || match.time || (match.player1.bye || match.player2.bye ? '轮空晋级' : 'TBD')}
+        </span>
+        {match.odds && (
+          <span className="shrink-0 font-normal text-gray-400">
+            赔率 {match.odds[0]} / {match.odds[1]}
+          </span>
+        )}
       </div>
     </div>
   );

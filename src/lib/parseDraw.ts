@@ -11,6 +11,8 @@ export interface Match {
   player1: Player;
   player2: Player;
   score?: string;
+  time?: string;
+  odds?: [string, string];
   winner?: 1 | 2;
 }
 
@@ -82,15 +84,50 @@ function playerInColumn(rows: Element[], column: number): Player | null {
   return null;
 }
 
-function scoreInColumn(rows: Element[], column: number): string | undefined {
+function formatShanghaiTime(timestamp: number): string | undefined {
+  if (!Number.isFinite(timestamp) || timestamp < 1_000_000_000) return undefined;
+
+  const parts = new Intl.DateTimeFormat('zh-CN', {
+    timeZone: 'Asia/Shanghai',
+    month: 'numeric',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hourCycle: 'h23',
+  }).formatToParts(new Date(timestamp * 1000));
+  const value = (type: Intl.DateTimeFormatPartTypes) => parts.find(part => part.type === type)?.value;
+  const month = value('month');
+  const day = value('day');
+  const hour = value('hour');
+  const minute = value('minute');
+
+  return month && day && hour && minute ? `${month}月${day}日 ${hour}:${minute}` : undefined;
+}
+
+function metadataInColumn(rows: Element[], column: number): Pick<Match, 'score' | 'time' | 'odds'> {
+  let score: string | undefined;
+  let time: string | undefined;
+  let odds: [string, string] | undefined;
+
   for (const row of rows) {
     const cell = cellsForRow(row)[column];
-    if (cell?.classList.contains('cDrawGridScore')) {
-      const score = cleanText(cell.textContent);
-      if (score) return score;
+    if (!cell) continue;
+
+    const timestampText = cleanText(cell.querySelector('.unixtime')?.textContent);
+    if (timestampText && /^\d{10}$/.test(timestampText)) {
+      time = formatShanghaiTime(Number(timestampText));
+    }
+
+    const text = cleanText(cell.textContent);
+    const oddsMatch = text.match(/(?:^|\s)(\d+(?:\.\d+)?)-(\d+(?:\.\d+)?)(?:\s|$)/);
+    if (oddsMatch) odds = [oddsMatch[2], oddsMatch[1]];
+
+    if (cell.classList.contains('cDrawGridScore') && !timestampText && /\d/.test(text)) {
+      score = text;
     }
   }
-  return undefined;
+
+  return { score, time, odds };
 }
 
 function parseTableRounds(table: Element, roundLimit?: number): Match[][] {
@@ -126,11 +163,16 @@ function parseTableRounds(table: Element, roundLimit?: number): Match[][] {
         if (secondCell?.classList.contains('cDrawEntryWin')) winner = 2;
       }
 
+      const primaryMetadata = metadataInColumn(resultRows, resultColumn);
+      const adjacentMetadata = metadataInColumn(resultRows, resultColumn + 1);
+
       matches.push({
         id: `${table.getAttribute('data-bracket-index') || 'block'}-${roundIndex}-${start / matchSpan}`,
         player1: { ...player1 },
         player2: { ...player2 },
-        score: scoreInColumn(resultRows, resultColumn),
+        score: primaryMetadata.score,
+        time: winner ? undefined : primaryMetadata.time,
+        odds: adjacentMetadata.odds,
         winner,
       });
     }

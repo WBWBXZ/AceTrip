@@ -74,6 +74,12 @@ export function DrawViewer({ liveTennisId, year = 2026 }: Props) {
     }
   }, [activePart, data]);
 
+  const miniDraw = useMemo<ParsedDrawData | null>(() => {
+    if (!parsedDraw || parsedDraw.rounds.length < 2) return null;
+    const roundCount = Math.min(3, parsedDraw.rounds.length);
+    return { rounds: parsedDraw.rounds.slice(-roundCount) };
+  }, [parsedDraw]);
+
   useEffect(() => {
     if (!fallbackRef.current || parsedDraw || !activePart) return;
     fallbackRef.current.querySelectorAll<HTMLElement>('.cDrawPart').forEach(part => {
@@ -140,7 +146,23 @@ export function DrawViewer({ liveTennisId, year = 2026 }: Props) {
       )}
 
       {parsedDraw ? (
-        <BracketView data={parsedDraw} />
+        <div className="space-y-8">
+          {miniDraw && (
+            <section>
+              <div className="mb-3 flex items-end justify-between">
+                <div>
+                  <h3 className="font-noto-serif text-lg font-bold text-gray-900">最新进展</h3>
+                  <p className="mt-1 text-xs text-gray-400">聚焦赛事最后三轮</p>
+                </div>
+              </div>
+              <BracketView data={miniDraw} />
+            </section>
+          )}
+          <section>
+            <h3 className="mb-3 font-noto-serif text-lg font-bold text-gray-900">完整签表</h3>
+            <BracketView data={parsedDraw} />
+          </section>
+        </div>
       ) : (
         <div
           ref={fallbackRef}
