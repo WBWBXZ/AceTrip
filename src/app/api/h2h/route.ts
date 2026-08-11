@@ -14,6 +14,7 @@ interface H2HPlayer {
 interface H2HMatch {
   year: string;
   tournament: string;
+  level: string;
   surface: string;
   round: string;
   winner: string;
@@ -33,6 +34,17 @@ function numberFrom(element: Cheerio<Element>): number {
 function percentageFrom(element: Cheerio<Element>): number {
   const value = text(element).match(/(\d+(?:\.\d+)?)\s*%/)?.[1];
   return value ? Number(value) : 0;
+}
+
+function normalizeLevel(rawLevel: string, tournament: string): string {
+  const normalized = `${rawLevel} ${tournament}`.toUpperCase();
+  if (/\bGS\b|大满贯|澳网|法网|温网|美网/.test(normalized)) return '大满贯';
+  if (/YEC|FINALS|年终/.test(normalized)) return 'WTA 年终总决赛';
+  if (/1000|皇冠|超五/.test(normalized)) return 'WTA 1000';
+  if (/\b500\b/.test(normalized)) return 'WTA 500';
+  if (/\b250\b/.test(normalized)) return 'WTA 250';
+  if (/\b125\b/.test(normalized)) return 'WTA 125';
+  return rawLevel || 'WTA';
 }
 
 function parseH2H(html: string, p1id: string, p2id: string) {
@@ -72,10 +84,12 @@ function parseH2H(html: string, p1id: string, p2id: string) {
         ? players[1].name
         : result.split(/\s+d\.\s+/i)[0]?.replace(/^\([^)]*\)\s*/, '') || '';
 
+    const tournament = text(cells.eq(3));
     matches.push({
       year: text(cells.eq(0)),
+      level: normalizeLevel(text(cells.eq(1)), tournament),
       surface: text(cells.eq(2)),
-      tournament: text(cells.eq(3)),
+      tournament,
       round: text(cells.eq(4)),
       winner,
       winnerId,

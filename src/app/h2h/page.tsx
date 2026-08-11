@@ -14,16 +14,23 @@ interface Props {
 export default async function H2HPage({ searchParams }: Props) {
   const { p1, p2 } = await searchParams;
   const players = getAllPlayers();
+  const availablePlayers: SelectedPlayer[] = players
+    .filter(player => player.wtaId)
+    .sort((a, b) => a.rank - b.rank)
+    .map(player => ({
+      id: String(player.wtaId),
+      name: player.nameCn || player.displayName,
+      nameCn: player.nameCn,
+      nameEn: player.displayName,
+      country: player.country,
+      rank: player.rank,
+      headshot: player.headshot,
+    }));
 
   function resolvePlayer(id: string | undefined): SelectedPlayer | null {
     if (!id) return null;
-    const player = players.find(item => String(item.wtaId) === id || item.id === id);
-    if (!player) return /^\d+$/.test(id) ? { id, name: `球员 ${id}` } : null;
-    return {
-      id: String(player.wtaId ?? player.id),
-      name: player.nameCn || player.displayName,
-      country: player.country,
-    };
+    return availablePlayers.find(player => player.id === id)
+      ?? (/^\d+$/.test(id) ? { id, name: `球员 ${id}`, nameCn: `球员 ${id}`, nameEn: '' } : null);
   }
 
   return (
@@ -41,7 +48,7 @@ export default async function H2HPage({ searchParams }: Props) {
       </section>
 
       <div className="container-tight py-8 md:py-10">
-        <H2HClient initialPlayers={[resolvePlayer(p1), resolvePlayer(p2)]} />
+        <H2HClient initialPlayers={[resolvePlayer(p1), resolvePlayer(p2)]} availablePlayers={availablePlayers} />
       </div>
     </main>
   );

@@ -1,13 +1,18 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Search, Swords, X } from 'lucide-react';
+import Image from 'next/image';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 
 export interface SelectedPlayer {
   id: string;
   name: string;
+  nameCn: string;
+  nameEn: string;
   country?: string;
+  rank?: number;
+  headshot?: string;
 }
 
 interface H2HPlayer extends SelectedPlayer {
@@ -18,6 +23,7 @@ interface H2HPlayer extends SelectedPlayer {
 interface H2HMatch {
   year: string;
   tournament: string;
+  level: string;
   surface: string;
   round: string;
   winner: string;
@@ -33,9 +39,10 @@ interface H2HResult {
 
 interface Props {
   initialPlayers: [SelectedPlayer | null, SelectedPlayer | null];
+  availablePlayers: SelectedPlayer[];
 }
 
-export function H2HClient({ initialPlayers }: Props) {
+export function H2HClient({ initialPlayers, availablePlayers }: Props) {
   const [players, setPlayers] = useState(initialPlayers);
   const [result, setResult] = useState<H2HResult | null>(null);
   const [loading, setLoading] = useState(
@@ -63,11 +70,24 @@ export function H2HClient({ initialPlayers }: Props) {
         return data;
       })
       .then(data => {
-        setResult(data);
-        setPlayers(current => [
-          current[0] ? { ...current[0], name: data.players[0].name || current[0].name } : current[0],
-          current[1] ? { ...current[1], name: data.players[1].name || current[1].name } : current[1],
-        ]);
+        const localFirst = availablePlayers.find(player => player.id === p1id);
+        const localSecond = availablePlayers.find(player => player.id === p2id);
+        const localizedPlayers: [H2HPlayer, H2HPlayer] = [
+          { ...data.players[0], ...(localFirst ?? {}), name: localFirst?.nameCn || localFirst?.nameEn || data.players[0].name },
+          { ...data.players[1], ...(localSecond ?? {}), name: localSecond?.nameCn || localSecond?.nameEn || data.players[1].name },
+        ];
+        setResult({
+          ...data,
+          players: localizedPlayers,
+          matches: data.matches.map(match => ({
+            ...match,
+            winner: match.winnerId === p1id
+              ? localizedPlayers[0].name
+              : match.winnerId === p2id
+                ? localizedPlayers[1].name
+                : match.winner,
+          })),
+        });
       })
       .catch(fetchError => {
         if (fetchError instanceof DOMException && fetchError.name === 'AbortError') return;
@@ -79,7 +99,7 @@ export function H2HClient({ initialPlayers }: Props) {
       });
 
     return () => controller.abort();
-  }, [p1id, p2id]);
+  }, [availablePlayers, p1id, p2id]);
 
   function selectPlayer(index: 0 | 1, player: SelectedPlayer | null) {
     const nextPlayers: [SelectedPlayer | null, SelectedPlayer | null] = index === 0
@@ -104,6 +124,7 @@ export function H2HClient({ initialPlayers }: Props) {
           <PlayerSearch
             label="球员 1"
             value={players[0]}
+            availablePlayers={availablePlayers}
             excludedId={players[1]?.id}
             onSelect={player => selectPlayer(0, player)}
           />
@@ -113,6 +134,7 @@ export function H2HClient({ initialPlayers }: Props) {
           <PlayerSearch
             label="球员 2"
             value={players[1]}
+            availablePlayers={availablePlayers}
             excludedId={players[0]?.id}
             onSelect={player => selectPlayer(1, player)}
           />
@@ -147,57 +169,26 @@ export function H2HClient({ initialPlayers }: Props) {
   );
 }
 
-function PlayerSearch({ label, value, excludedId, onSelect }: {
+function PlayerSearch({ label, value, availablePlayers, excludedId, onSelect }: {
   label: string;
   value: SelectedPlayer | null;
+  availablePlayers: SelectedPlayer[];
   excludedId?: string;
   onSelect: (player: SelectedPlayer | null) => void;
 }) {
   const [query, setQuery] = useState(value?.name ?? '');
-  const [suggestions, setSuggestions] = useState<SelectedPlayer[]>([]);
   const [open, setOpen] = useState(false);
-  const [searching, setSearching] = useState(false);
-  const requestNumber = useRef(0);
-
-  useEffect(() => {
-    const keyword = query.trim();
-    if (value || keyword.length < 2) return;
-
-    const currentRequest = ++requestNumber.current;
-    const controller = new AbortController();
-    const timer = window.setTimeout(() => {
-      setSearching(true);
-      fetch(`/api/h2h/search?term=${encodeURIComponent(keyword)}`, { signal: controller.signal })
-        .then(async response => {
-          const data = await response.json() as { players?: SelectedPlayer[]; error?: string };
-          if (!response.ok) throw new Error(data.error || '搜索失败');
-          return data.players ?? [];
-        })
-        .then(items => {
-          if (currentRequest !== requestNumber.current) return;
-          setSuggestions(items.filter(item => item.id !== excludedId));
-          setOpen(true);
-        })
-        .catch(searchError => {
-          if (searchError instanceof DOMException && searchError.name === 'AbortError') return;
-          setSuggestions([]);
-        })
-        .finally(() => {
-          if (currentRequest === requestNumber.current) setSearching(false);
-        });
-    }, 350);
-
-    return () => {
-      window.clearTimeout(timer);
-      controller.abort();
-    };
-  }, [excludedId, query, value]);
+  const keyword = query.trim().toLocaleLowerCase();
+  const suggestions = availablePlayers
+    .filter(player => player.id !== excludedId)
+    .filter(player => !keyword
+      || player.nameCn.toLocaleLowerCase().includes(keyword)
+      || player.nameEn.toLocaleLowerCase().includes(keyword))
+    .slice(0, 50);
 
   function clear() {
-    requestNumber.current += 1;
     setQuery('');
-    setSuggestions([]);
-    setOpen(false);
+    setOpen(true);
     onSelect(null);
   }
 
@@ -210,11 +201,12 @@ function PlayerSearch({ label, value, excludedId, onSelect }: {
           value={query}
           onChange={event => {
             setQuery(event.target.value);
+            setOpen(true);
             if (value) onSelect(null);
           }}
-          onFocus={() => suggestions.length > 0 && setOpen(true)}
+          onFocus={() => setOpen(true)}
           onBlur={() => window.setTimeout(() => setOpen(false), 150)}
-          placeholder="输入球员姓名..."
+          placeholder="输入中文名或英文名..."
           autoComplete="off"
           className="min-h-11 w-full rounded-xl border border-black/[0.08] bg-white py-2.5 pl-10 pr-10 text-base transition focus:border-[var(--tennis-green)]/40 focus:outline-none focus:ring-2 focus:ring-[var(--tennis-green)]/15 sm:text-sm"
         />
@@ -225,24 +217,33 @@ function PlayerSearch({ label, value, excludedId, onSelect }: {
         )}
       </div>
 
-      {searching && <span className="absolute right-11 top-[39px] text-[10px] text-[var(--text-muted)]">搜索中</span>}
-
       {open && !value && (
-        <div className="absolute z-30 mt-2 max-h-72 w-full overflow-y-auto rounded-xl border border-black/[0.08] bg-white p-1.5 shadow-xl">
+        <div className="absolute z-30 mt-2 max-h-80 w-full overflow-y-auto rounded-xl border border-black/[0.08] bg-white p-1.5 shadow-xl">
           {suggestions.length ? suggestions.map(player => (
             <button
               type="button"
               key={player.id}
               onMouseDown={event => event.preventDefault()}
               onClick={() => {
-                setQuery(player.name);
+                setQuery(player.nameCn || player.nameEn);
                 setOpen(false);
                 onSelect(player);
               }}
-              className="flex min-h-11 w-full items-center justify-between rounded-lg px-3 py-2 text-left text-sm transition hover:bg-[var(--tennis-green)]/[0.07]"
+              className="flex min-h-14 w-full items-center gap-3 rounded-lg px-3 py-2 text-left transition hover:bg-[var(--tennis-green)]/[0.07]"
             >
-              <span className="font-medium text-[var(--text-primary)]">{player.name}</span>
-              {player.country && <span className="text-[10px] text-[var(--text-muted)]">{player.country}</span>}
+              <span className="w-7 flex-shrink-0 text-center text-xs font-bold text-[var(--text-muted)]">{player.rank ? `#${player.rank}` : '—'}</span>
+              <span className="flex h-9 w-9 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-[var(--warm-beige)]">
+                {player.headshot ? (
+                  <Image src={player.headshot} alt="" width={36} height={36} className="h-full w-full object-cover" />
+                ) : (
+                  <span className="text-xs font-bold text-[var(--tennis-green)]">{(player.nameCn || player.nameEn).slice(0, 1)}</span>
+                )}
+              </span>
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-sm font-semibold text-[var(--text-primary)]">{player.nameCn || player.nameEn}</span>
+                <span className="block truncate text-[11px] text-[var(--text-muted)]">{player.nameEn}</span>
+              </span>
+              {player.country && <span className="flex-shrink-0 text-[10px] text-[var(--text-muted)]">{player.country}</span>}
             </button>
           )) : (
             <p className="px-3 py-4 text-center text-xs text-[var(--text-muted)]">未找到匹配球员</p>
@@ -312,11 +313,12 @@ function MatchTable({ result }: { result: H2HResult }) {
         <div className="rounded-2xl border border-black/[0.05] bg-white px-6 py-12 text-center text-sm text-[var(--text-muted)]">暂无符合条件的交手记录</div>
       ) : (
         <div className="overflow-x-auto rounded-2xl border border-black/[0.06] bg-white shadow-sm">
-          <table className="w-full min-w-[680px] text-left text-sm">
+          <table className="w-full min-w-[780px] text-left text-sm">
             <thead className="bg-[var(--tennis-green)]/[0.055] text-[11px] uppercase tracking-wide text-[var(--text-muted)]">
               <tr>
                 <th className="px-4 py-3 font-medium">年份</th>
                 <th className="px-4 py-3 font-medium">赛事</th>
+                <th className="px-4 py-3 font-medium">级别</th>
                 <th className="px-4 py-3 font-medium">场地</th>
                 <th className="px-4 py-3 font-medium">轮次</th>
                 <th className="px-4 py-3 font-medium">胜者</th>
@@ -330,6 +332,7 @@ function MatchTable({ result }: { result: H2HResult }) {
                   <tr key={`${match.year}-${match.tournament}-${index}`} className={`border-t border-black/[0.05] ${firstPlayerWon ? 'bg-emerald-50/45' : 'bg-sky-50/45'}`}>
                     <td className={`border-l-2 px-4 py-3 font-semibold ${firstPlayerWon ? 'border-emerald-400' : 'border-sky-400'}`}>{match.year}</td>
                     <td className="px-4 py-3 font-medium text-[var(--text-primary)]">{match.tournament}</td>
+                    <td className="whitespace-nowrap px-4 py-3 text-xs font-semibold text-[var(--tennis-green)]">{match.level}</td>
                     <td className="px-4 py-3 text-[var(--text-secondary)]">{match.surface}</td>
                     <td className="px-4 py-3 text-[var(--text-secondary)]">{match.round}</td>
                     <td className={`px-4 py-3 font-semibold ${firstPlayerWon ? 'text-emerald-700' : 'text-sky-700'}`}>{match.winner}</td>
