@@ -16,7 +16,7 @@ export default async function HomePage() {
   return (
     <div className="animate-fade-in">
       {/* ========== HERO ========== */}
-      <section className="relative overflow-hidden border-b border-[var(--tennis-green-dark)]/10" style={{ background: 'linear-gradient(145deg, #edf7ef 0%, #f5f8f1 52%, var(--warm-cream) 100%)' }}>
+      <section className="relative overflow-hidden" style={{ background: 'linear-gradient(145deg, #edf7ef 0%, #f5f8f1 52%, var(--warm-cream) 100%)' }}>
         <div className="pointer-events-none absolute -left-20 top-24 h-56 w-56 rounded-full border border-[var(--tennis-green)]/10 md:h-80 md:w-80" />
         <div className="pointer-events-none absolute left-10 top-44 h-36 w-36 rounded-full border border-[var(--tennis-green)]/10 md:h-52 md:w-52" />
         <div className="container-tight relative z-10 pb-8 pt-7 md:pb-10 md:pt-9">
