@@ -34,7 +34,7 @@ export default async function H2HPage({ searchParams }: Props) {
   }
 
   return (
-    <main className="animate-fade-in pb-24 md:pb-28">
+    <main className="animate-fade-in pb-12 md:pb-16">
       <section className="border-b border-[var(--tennis-green-dark)]/[0.06] bg-gradient-to-br from-[#edf7ef] via-white to-[var(--warm-cream)]/55">
         <div className="container-tight py-10 md:py-14">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--tennis-green)]">Head to Head</p>
