@@ -19,7 +19,7 @@ export default async function HomePage() {
       <section className="relative overflow-hidden" style={{ background: 'linear-gradient(145deg, #edf7ef 0%, #f5f8f1 52%, var(--warm-cream) 100%)' }}>
         <div className="pointer-events-none absolute -left-20 top-24 h-56 w-56 rounded-full border border-[var(--tennis-green)]/10 md:h-80 md:w-80" />
         <div className="pointer-events-none absolute left-10 top-44 h-36 w-36 rounded-full border border-[var(--tennis-green)]/10 md:h-52 md:w-52" />
-        <div className="container-tight relative z-10 pb-16 pt-6 md:pb-10 md:pt-9">
+        <div className="container-tight relative z-10 pb-8 pt-6 md:pb-10 md:pt-9">
           <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-[1.05fr_0.95fr] md:gap-8">
             <div className="relative z-10">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--tennis-green)]/10 bg-white/65 px-3 py-1.5 text-[11px] font-medium text-[var(--tennis-green)] shadow-sm backdrop-blur-sm">
@@ -41,18 +41,6 @@ export default async function HomePage() {
                 </Link>
               </div>
 
-              <div className="mt-6 grid max-w-lg grid-cols-3 overflow-hidden rounded-2xl bg-[var(--tennis-green-dark)] text-white shadow-xl shadow-[var(--tennis-green-dark)]/10">
-                {[
-                  ['33', '赛事'],
-                  ['31', '城市'],
-                  ['15', '国家'],
-                ].map(([value, label], index) => (
-                  <div key={label} className={`px-4 py-4 sm:px-5 ${index > 0 ? 'border-l border-white/15' : ''}`}>
-                    <div className="text-2xl font-semibold leading-none tracking-[-0.04em] sm:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
-                    <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.2em] text-white/55">{label}</div>
-                  </div>
-                ))}
-              </div>
             </div>
 
             <div className="hidden min-h-[350px] items-center justify-center md:flex">
@@ -65,8 +53,24 @@ export default async function HomePage() {
         <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[var(--warm-cream)]/45 to-transparent" />
       </section>
 
+      {/* ========== 数据统计 ========== */}
+      <section className="container-tight pt-8 pb-2 md:pt-10 md:pb-4">
+        <div className="grid max-w-lg grid-cols-3 overflow-hidden rounded-2xl bg-[var(--tennis-green-dark)] text-white shadow-xl shadow-[var(--tennis-green-dark)]/10">
+          {[
+            ['33', '赛事'],
+            ['31', '城市'],
+            ['15', '国家'],
+          ].map(([value, label], index) => (
+            <div key={label} className={`px-4 py-4 sm:px-5 ${index > 0 ? 'border-l border-white/15' : ''}`}>
+              <div className="text-2xl font-semibold leading-none tracking-[-0.04em] sm:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
+              <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.2em] text-white/55">{label}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
       {/* ========== 功能入口 ========== */}
-      <section className="container-tight mt-8 pt-0 pb-8 md:mt-0 md:py-7">
+      <section className="container-tight mt-0 pt-6 pb-8 md:py-7">
         <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
           <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
           <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
