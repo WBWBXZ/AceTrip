@@ -3,7 +3,7 @@ import { SeasonTimeline } from '@/components/tournaments/SeasonTimeline';
 import Link from 'next/link';
 import GlobeLoader from '@/components/ui/GlobeLoader';
 import DailyFeed from '@/components/ui/DailyFeed';
-import { Heart, MapPin, Trophy, Users } from 'lucide-react';
+import { CalendarDays, Heart, Trophy, Users } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 export default async function HomePage() {
@@ -70,7 +70,7 @@ export default async function HomePage() {
         <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
           <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
           <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
-          <FeatureCard href="/tournaments" icon={MapPin} title="旅行指南" desc="天气、汇率与交通" />
+          <FeatureCard href="/schedule" icon={CalendarDays} title="赛程赛果" desc="今日比赛与赛果" />
           <FeatureCard href="/follow" icon={Heart} title="关注球员" desc="追踪喜爱球员征程" />
         </div>
       </section>
