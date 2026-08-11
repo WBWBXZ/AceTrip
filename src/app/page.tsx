@@ -66,7 +66,7 @@ export default async function HomePage() {
       </section>
 
       {/* ========== 功能入口 ========== */}
-      <section className="container-tight pt-6 pb-8 md:py-7">
+      <section className="container-tight mt-8 pt-0 pb-8 md:mt-0 md:py-7">
         <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
           <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
           <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
