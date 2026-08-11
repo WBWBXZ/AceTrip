@@ -141,6 +141,63 @@ function parseSchedule(html: string): ScheduleTournament[] {
   return tournaments;
 }
 
+function dateInShanghai(timestamp: number | null): string | null {
+  if (!timestamp) return null;
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(new Date(timestamp * 1000));
+  const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function previousDate(date: string): string {
+  const value = new Date(`${date}T00:00:00Z`);
+  value.setUTCDate(value.getUTCDate() - 1);
+  return value.toISOString().slice(0, 10);
+}
+
+function mergeSchedules(schedules: ScheduleTournament[][], date: string): ScheduleTournament[] {
+  const tournaments = new Map<string, ScheduleTournament>();
+
+  for (const schedule of schedules) {
+    for (const tournament of schedule) {
+      const existing = tournaments.get(tournament.id);
+      const matches = tournament.matches.filter(match => {
+        const matchDate = dateInShanghai(match.startTime);
+        return !matchDate || matchDate === date;
+      });
+      if (matches.length === 0) continue;
+
+      if (!existing) {
+        tournaments.set(tournament.id, { ...tournament, matches });
+        continue;
+      }
+
+      const knownMatches = new Set(existing.matches.map(match => match.id));
+      existing.matches.push(...matches.filter(match => !knownMatches.has(match.id)));
+    }
+  }
+
+  return Array.from(tournaments.values());
+}
+
+async function fetchSchedule(date: string): Promise<ScheduleTournament[]> {
+  const url = `https://www.live-tennis.cn/zh/result/${date}/only_content?_=${Date.now()}`;
+  const response = await fetch(url, {
+    cache: 'no-store',
+    headers: {
+      Accept: 'text/html,application/xhtml+xml',
+      'User-Agent': 'Mozilla/5.0 AceTrip/1.0',
+    },
+  });
+
+  if (!response.ok) throw new Error(`live-tennis returned ${response.status}`);
+  return parseSchedule(await response.text());
+}
+
 export async function GET(request: NextRequest) {
   const date = request.nextUrl.searchParams.get('date');
   if (!date || !/^\d{4}-\d{2}-\d{2}$/.test(date)) {
@@ -153,19 +210,13 @@ export async function GET(request: NextRequest) {
   }
 
   try {
-    const url = `https://www.live-tennis.cn/zh/result/${date}/only_content?_=${Date.now()}`;
-    const response = await fetch(url, {
-      cache: 'no-store',
-      headers: {
-        Accept: 'text/html,application/xhtml+xml',
-        'User-Agent': 'Mozilla/5.0 AceTrip/1.0',
-      },
-    });
-
-    if (!response.ok) throw new Error(`live-tennis returned ${response.status}`);
-
-    const tournaments = parseSchedule(await response.text());
-    return NextResponse.json({ date, tournaments });
+    // live-tennis 按比赛地日期归档；北美晚场在中国时区已是次日。
+    // 同时读取前一天并按 Asia/Shanghai 日期合并，避免漏掉多伦多、辛辛那提等赛事。
+    const schedules = await Promise.all([
+      fetchSchedule(previousDate(date)),
+      fetchSchedule(date),
+    ]);
+    return NextResponse.json({ date, tournaments: mergeSchedules(schedules, date) });
   } catch (error) {
     console.error('[schedule API]', error);
     return NextResponse.json({ error: '赛程数据暂时无法获取，请稍后再试' }, { status: 502 });

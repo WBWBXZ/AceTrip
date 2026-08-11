@@ -1,6 +1,6 @@
 'use client';
 
-import { CalendarDays, Clock3, MapPin, Trophy } from 'lucide-react';
+import { CalendarDays, ChevronDown, Clock3, MapPin, Trophy } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
 
 type MatchStatus = 'upcoming' | 'live' | 'completed';
@@ -196,6 +196,7 @@ function ScheduleSkeleton() {
 export default function ScheduleClient() {
   const [activeOffset, setActiveOffset] = useState<DayOffset>(0);
   const [reloadToken, setReloadToken] = useState(0);
+  const [collapsedTournaments, setCollapsedTournaments] = useState<Set<string>>(() => new Set());
   const [data, setData] = useState<ScheduleResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
@@ -224,6 +225,14 @@ export default function ScheduleClient() {
     return () => controller.abort();
   }, [date, reloadToken]);
 
+  useEffect(() => {
+    if (activeOffset !== 0) return;
+    const interval = window.setInterval(() => {
+      setReloadToken(value => value + 1);
+    }, 30_000);
+    return () => window.clearInterval(interval);
+  }, [activeOffset]);
+
   function selectDay(offset: DayOffset) {
     if (offset === activeOffset) return;
     setLoading(true);
@@ -235,6 +244,15 @@ export default function ScheduleClient() {
     setLoading(true);
     setError('');
     setReloadToken(value => value + 1);
+  }
+
+  function toggleTournament(id: string) {
+    setCollapsedTournaments(current => {
+      const next = new Set(current);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
   }
 
   return (
@@ -289,20 +307,37 @@ export default function ScheduleClient() {
         </div>
       ) : (
         <div className="space-y-6">
-          {data.tournaments.map(tournament => (
-            <section key={tournament.id} className="rounded-3xl border border-black/[0.05] bg-white/55 p-3 shadow-sm sm:p-5">
-              <header className="flex flex-wrap items-start justify-between gap-3 px-1 pb-4 sm:px-1.5">
-                <div className="min-w-0">
-                  <h3 className="text-base font-semibold text-[var(--tennis-green-dark)] sm:text-lg">{tournament.name}</h3>
-                  {tournament.nameEn && tournament.nameEn !== tournament.name && <p className="mt-1 truncate text-[10px] uppercase tracking-wide text-[var(--text-muted)]">{tournament.nameEn}</p>}
-                </div>
-                <span className={`badge flex-shrink-0 text-[10px] ${levelClass(tournament.level)}`}>{tournament.level}</span>
-              </header>
-              <div className="grid gap-3 md:grid-cols-2">
-                {tournament.matches.map(match => <MatchCard key={match.id} match={match} />)}
-              </div>
-            </section>
-          ))}
+          {data.tournaments.map(tournament => {
+            const isExpanded = !collapsedTournaments.has(tournament.id);
+            return (
+              <section key={tournament.id} className="rounded-3xl border border-black/[0.05] bg-white/55 p-3 shadow-sm sm:p-5">
+                <button
+                  type="button"
+                  onClick={() => toggleTournament(tournament.id)}
+                  className={`flex w-full items-start justify-between gap-3 px-1 text-left sm:px-1.5 ${isExpanded ? 'pb-4' : ''}`}
+                  aria-expanded={isExpanded}
+                >
+                  <div className="min-w-0">
+                    <h3 className="text-base font-semibold text-[var(--tennis-green-dark)] sm:text-lg">{tournament.name}</h3>
+                    {tournament.nameEn && tournament.nameEn !== tournament.name && <p className="mt-1 truncate text-[10px] uppercase tracking-wide text-[var(--text-muted)]">{tournament.nameEn}</p>}
+                  </div>
+                  <div className="flex flex-shrink-0 items-center gap-2">
+                    <span className={`badge text-[10px] ${levelClass(tournament.level)}`}>{tournament.level}</span>
+                    <ChevronDown
+                      size={18}
+                      className={`text-[var(--tennis-green)] transition-transform duration-200 ${isExpanded ? 'rotate-180' : ''}`}
+                      aria-hidden="true"
+                    />
+                  </div>
+                </button>
+                {isExpanded && (
+                  <div className="grid gap-3 md:grid-cols-2">
+                    {tournament.matches.map(match => <MatchCard key={match.id} match={match} />)}
+                  </div>
+                )}
+              </section>
+            );
+          })}
         </div>
       )}
     </div>
