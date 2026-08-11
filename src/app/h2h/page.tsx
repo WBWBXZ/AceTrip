@@ -47,7 +47,7 @@ export default async function H2HPage({ searchParams }: Props) {
         </div>
       </section>
 
-      <div className="container-tight py-8 md:py-10">
+      <div className="container-tight pt-8 pb-24 md:pt-10 md:pb-28">
         <H2HClient initialPlayers={[resolvePlayer(p1), resolvePlayer(p2)]} availablePlayers={availablePlayers} />
       </div>
     </main>
