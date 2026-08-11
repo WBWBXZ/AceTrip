@@ -59,17 +59,17 @@ export function PlayerList({ players }: Props) {
           <Link
             key={player.id}
             href={`/players/${player.id}`}
-            className="card p-4 group cursor-pointer flex items-center gap-4"
+            className="card group flex cursor-pointer items-center gap-2.5 p-3 sm:gap-3 md:gap-4 md:p-4"
           >
             {/* Rank */}
-            <div className="w-10 text-center flex-shrink-0">
+            <div className="w-8 flex-shrink-0 text-center md:w-10">
               <span className="text-lg font-bold text-[var(--text-muted)]">
                 {player.rank}
               </span>
             </div>
 
             {/* Avatar */}
-            <div className="w-11 h-11 rounded-full bg-[var(--warm-beige)] flex-shrink-0 flex items-center justify-center overflow-hidden">
+            <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center overflow-hidden rounded-full bg-[var(--warm-beige)] md:h-11 md:w-11">
               {player.headshot ? (
                 <img src={player.headshot} alt="" className="w-full h-full object-cover" loading="lazy" />
               ) : (
@@ -87,7 +87,7 @@ export function PlayerList({ players }: Props) {
               <div className="flex items-center gap-2 mt-0.5">
                 <span className="text-sm">{getCountryFlag(player.country)}</span>
                 <span className="text-xs text-[var(--text-muted)] truncate">{player.displayName}</span>
-                <span className="text-xs text-[var(--text-muted)] whitespace-nowrap ml-auto">{player.points.toLocaleString()} 分</span>
+                <span className="ml-auto whitespace-nowrap text-[11px] text-[var(--text-muted)] sm:text-xs">{player.points.toLocaleString()} 分</span>
               </div>
             </div>
 

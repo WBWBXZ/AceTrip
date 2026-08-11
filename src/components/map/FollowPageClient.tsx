@@ -173,7 +173,7 @@ function StatsDashboard({ player, scheduleMap }: StatsDashboardProps) {
   const tourDeg = Math.round(tourProgress * 360);
 
   return (
-    <div className="card-flat p-4 mb-5">
+    <div className="card-flat mb-5 p-3 md:p-4">
       <div className="flex items-center gap-2 mb-3">
         <TrendingUp size={15} className="text-[var(--tennis-green)]" />
         <span className="text-sm font-bold tracking-tight">赛季数据</span>
@@ -470,7 +470,7 @@ function SeasonHighlightSection({ followedPlayers, scheduleMap }: SeasonHighligh
                     : 'text-[var(--text-secondary)]';
 
                   return (
-                    <div key={idx} className={`flex items-center gap-3 px-4 py-3 ${rowStyle}`}>
+                    <div key={idx} className={`flex items-start gap-2 px-3 py-3 md:items-center md:gap-3 md:px-4 ${rowStyle}`}>
                       {/* 左侧 emoji */}
                       <span className="text-base flex-shrink-0 w-6 text-center">
                         {isChamp ? '🏆' : result.bestRound === 'F' ? '⭐' : result.bestRound === 'S' ? '💪' : '💥'}
@@ -547,7 +547,7 @@ function TimelineCard({ entry, isFirst, isLast }: TimelineCardProps) {
     : '';
 
   return (
-    <div className="flex gap-3 items-start">
+    <div className="flex items-start gap-2 md:gap-3">
       <div className="flex flex-col items-center flex-shrink-0 w-4">
         {!isFirst && (
           <div
@@ -634,7 +634,7 @@ function TimelineCard({ entry, isFirst, isLast }: TimelineCardProps) {
             </div>
           </div>
 
-          <div className="flex-shrink-0 text-right ml-2">
+          <div className="ml-1 flex flex-shrink-0 flex-col items-end gap-0.5 text-right md:ml-2">
             {isChampion ? (
               <span className="text-xs font-semibold text-amber-700">🏆 冠军</span>
             ) : roundCn ? (
@@ -819,8 +819,8 @@ export function FollowPageClient({ players, tournaments }: Props) {
   // ── 空状态
   if (followedPlayerData.length === 0) {
     return (
-      <div className="container-tight pb-12">
-        <div className="card-flat p-12 text-center">
+      <div className="container-tight pb-24 md:pb-12">
+        <div className="card-flat p-6 text-center md:p-12">
           <UserPlus size={48} className="mx-auto text-[var(--text-muted)] mb-4" />
           <h3 className="text-lg font-semibold mb-2">还没有关注任何球员</h3>
           <p className="text-sm text-[var(--text-secondary)] max-w-sm mx-auto mb-6">
@@ -870,7 +870,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
   };
 
   return (
-    <div className="container-tight pb-12">
+    <div className="container-tight pb-24 md:pb-12">
 
       {/* ── 球员卡片横滑（可拖拽排序）── */}
       <div className="flex gap-3 mb-5 overflow-x-auto pb-2 scrollbar-hide">
@@ -890,7 +890,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
               onDrop={() => handleDrop(idx)}
               onDragEnd={handleDragEnd}
               onClick={() => setActiveTab(player.id)}
-              className={`flex-shrink-0 rounded-2xl p-3 cursor-grab active:cursor-grabbing select-none ${
+              className={`min-w-[148px] flex-shrink-0 cursor-grab select-none rounded-2xl p-3 active:cursor-grabbing md:min-w-[160px] ${
                 isActive
                   ? 'bg-[var(--tennis-green)] text-white shadow-lg'
                   : 'bg-white border hover:shadow-md'
@@ -902,7 +902,6 @@ export function FollowPageClient({ players, tournaments }: Props) {
                   : 'border-black/8'
               }`}
               style={{
-                minWidth: 160,
                 // 拖拽时：放大 + 阴影加深 + 透明度 0.8
                 transform: isDragging
                   ? 'scale(1.06)'
@@ -966,7 +965,7 @@ export function FollowPageClient({ players, tournaments }: Props) {
           <div className="mb-6">
             <div className="flex items-center gap-2 mb-1">
               <Calendar size={16} className="text-[var(--tennis-green)]" />
-              <h2 className="text-lg font-semibold tracking-tight" style={{ fontFamily: "var(--font-serif)" }}>
+              <h2 className="text-base font-semibold tracking-tight md:text-lg" style={{ fontFamily: "var(--font-serif)" }}>
                 {currentPlayer.nameCn || currentPlayer.displayName} 的赛季故事线
               </h2>
             </div>
@@ -985,8 +984,8 @@ export function FollowPageClient({ players, tournaments }: Props) {
             ) : (
               <div>
                 {timelineByMonth.map(group => (
-                  <div key={group.month} className="flex gap-4 mb-2">
-                    <div className="w-8 flex-shrink-0 pt-2 text-right">
+                  <div key={group.month} className="mb-2 flex gap-2 md:gap-4">
+                    <div className="w-7 flex-shrink-0 pt-2 text-right md:w-8">
                       <span className="text-xs font-semibold text-[var(--text-muted)] leading-none">
                         {group.month}月
                       </span>

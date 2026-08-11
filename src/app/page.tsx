@@ -19,7 +19,7 @@ export default async function HomePage() {
       <section className="relative overflow-hidden" style={{ background: 'linear-gradient(145deg, #edf7ef 0%, #f5f8f1 52%, var(--warm-cream) 100%)' }}>
         <div className="pointer-events-none absolute -left-20 top-24 h-56 w-56 rounded-full border border-[var(--tennis-green)]/10 md:h-80 md:w-80" />
         <div className="pointer-events-none absolute left-10 top-44 h-36 w-36 rounded-full border border-[var(--tennis-green)]/10 md:h-52 md:w-52" />
-        <div className="container-tight relative z-10 pb-8 pt-7 md:pb-10 md:pt-9">
+        <div className="container-tight relative z-10 pb-10 pt-6 md:pb-10 md:pt-9">
           <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-[1.05fr_0.95fr] md:gap-8">
             <div className="relative z-10">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--tennis-green)]/10 bg-white/65 px-3 py-1.5 text-[11px] font-medium text-[var(--tennis-green)] shadow-sm backdrop-blur-sm">
@@ -66,8 +66,8 @@ export default async function HomePage() {
       </section>
 
       {/* ========== 功能入口 ========== */}
-      <section className="container-tight py-6 md:py-7">
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-4">
+      <section className="container-tight py-8 md:py-7">
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
           <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
           <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
           <FeatureCard href="/tournaments" icon={MapPin} title="旅行指南" desc="天气、汇率与交通" />
@@ -76,10 +76,10 @@ export default async function HomePage() {
       </section>
 
       {/* ========== 球员排名 — 横向滑动卡片 ========== */}
-      <section className="mt-10">
+      <section className="mt-8 md:mt-10">
         <div className="container-tight">
           <div className="flex items-end justify-between mb-6">
-            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-[var(--tennis-green-dark)]" style={{ fontFamily: 'var(--font-serif)' }}>球员排名</h2>
+            <h2 className="text-xl font-semibold tracking-tight text-[var(--tennis-green-dark)] md:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>球员排名</h2>
             <Link href="/players" className="text-xs font-medium text-[var(--tennis-green)] hover:underline">查看全部 →</Link>
           </div>
 
@@ -112,10 +112,10 @@ export default async function HomePage() {
       </section>
 
       {/* ========== 即将开赛 ========== */}
-      <section className="mt-10">
+      <section className="mt-8 md:mt-10">
         <div className="container-tight">
           <div className="flex items-end justify-between mb-6">
-            <h2 className="text-2xl md:text-3xl font-semibold tracking-tight text-[var(--tennis-green-dark)]" style={{ fontFamily: 'var(--font-serif)' }}>即将开赛</h2>
+            <h2 className="text-xl font-semibold tracking-tight text-[var(--tennis-green-dark)] md:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>即将开赛</h2>
             <Link href="/tournaments" className="text-xs font-medium text-[var(--tennis-green)] hover:underline">全部赛事 →</Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -189,7 +189,7 @@ export default async function HomePage() {
           className="text-[var(--text-muted)] text-center"
           style={{ fontFamily: 'var(--font-caveat), cursive', fontSize: '1.05rem', lineHeight: '1.8rem' }}
         >
-          I'm not a developer. I'm a humanities grad who fell down the Rybakina rabbit hole and never climbed back out. AceTrip started as a question: <em>why isn't there an app for people like me, who plan trips around WTA draws?</em> So I built one, with AI as my co-pilot and way too many late nights. If you're here, you probably understand. Thanks for visiting — and go Elena 🎾
+          I&apos;m not a developer. I&apos;m a humanities grad who fell down the Rybakina rabbit hole and never climbed back out. AceTrip started as a question: <em>why isn&apos;t there an app for people like me, who plan trips around WTA draws?</em> So I built one, with AI as my co-pilot and way too many late nights. If you&apos;re here, you probably understand. Thanks for visiting — and go Elena 🎾
         </p>
       </section>
 

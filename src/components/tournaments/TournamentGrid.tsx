@@ -53,14 +53,14 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
   return (
     <div>
       {/* Filters */}
-      <div className="flex flex-wrap gap-3 mb-6">
+      <div className="mb-6 flex flex-col gap-2 md:flex-row md:flex-wrap md:gap-3">
         {/* Level Filter */}
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex gap-1.5 overflow-x-auto pb-1 md:flex-wrap md:overflow-visible md:pb-0">
           {(['all', 'GS', 'WTA1000', 'WTA500', 'Finals'] as FilterLevel[]).map(level => (
             <button
               key={level}
               onClick={() => setLevelFilter(level)}
-              className={`min-h-11 px-3 py-2.5 rounded-lg text-xs font-medium transition-all ${
+              className={`min-h-11 shrink-0 rounded-lg px-3 py-2.5 text-xs font-medium transition-all ${
                 levelFilter === level
                   ? 'bg-[var(--tennis-green)] text-white'
                   : 'bg-white border border-black/8 text-[var(--text-secondary)] hover:bg-black/4'
@@ -72,12 +72,12 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
         </div>
 
         {/* Status Filter */}
-        <div className="flex flex-wrap gap-1.5">
+        <div className="flex gap-1.5 overflow-x-auto pb-1 md:flex-wrap md:overflow-visible md:pb-0">
           {(['all', 'upcoming', 'ongoing', 'completed'] as FilterStatus[]).map(status => (
             <button
               key={status}
               onClick={() => setStatusFilter(status)}
-              className={`min-h-11 px-3 py-2.5 rounded-lg text-xs font-medium transition-all ${
+              className={`min-h-11 shrink-0 rounded-lg px-3 py-2.5 text-xs font-medium transition-all ${
                 statusFilter === status
                   ? 'bg-[var(--tennis-green)] text-white'
                   : 'bg-white border border-black/8 text-[var(--text-secondary)] hover:bg-black/4'
@@ -95,7 +95,7 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
           <Link
             key={t.id}
             href={`/tournaments/${t.id}`}
-            className="card-flat p-4 group cursor-pointer hover:shadow-lg transition-all flex flex-col justify-between min-h-[88px] relative"
+            className="card-flat group relative flex min-h-[104px] cursor-pointer flex-col justify-between p-3.5 transition-all hover:shadow-lg md:min-h-[88px] md:p-4"
           >
             {/* Heart button */}
             <button
@@ -141,7 +141,7 @@ export function TournamentGrid({ tournaments, defaultStatus = 'all' }: Props) {
               )}
             </div>
 
-            <div className="flex items-center gap-3 mt-2 text-[11px] text-[var(--text-muted)]">
+            <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-[11px] text-[var(--text-muted)]">
               <span className="flex items-center gap-1">
                 <MapPin size={10} /> {t.cityCn || t.city}
               </span>

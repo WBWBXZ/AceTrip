@@ -22,7 +22,7 @@ export function Header() {
   return (
     <>
     <header className="sticky top-0 z-50 glass-strong">
-      <div className="container-tight flex items-center justify-between h-16">
+      <div className="container-tight flex h-14 items-center justify-between md:h-16">
         {/* Logo */}
         <Link href="/" className="flex min-h-11 min-w-11 items-center gap-2.5 group">
           <div className="w-8 h-8 rounded-lg flex items-center justify-center"
