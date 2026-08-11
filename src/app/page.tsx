@@ -19,7 +19,7 @@ export default async function HomePage() {
       <section className="relative overflow-hidden" style={{ background: 'linear-gradient(145deg, #edf7ef 0%, #f5f8f1 52%, var(--warm-cream) 100%)' }}>
         <div className="pointer-events-none absolute -left-20 top-24 h-56 w-56 rounded-full border border-[var(--tennis-green)]/10 md:h-80 md:w-80" />
         <div className="pointer-events-none absolute left-10 top-44 h-36 w-36 rounded-full border border-[var(--tennis-green)]/10 md:h-52 md:w-52" />
-        <div className="container-tight relative z-10 pb-10 pt-6 md:pb-10 md:pt-9">
+        <div className="container-tight relative z-10 pb-16 pt-6 md:pb-10 md:pt-9">
           <div className="grid grid-cols-1 items-center gap-6 md:grid-cols-[1.05fr_0.95fr] md:gap-8">
             <div className="relative z-10">
               <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[var(--tennis-green)]/10 bg-white/65 px-3 py-1.5 text-[11px] font-medium text-[var(--tennis-green)] shadow-sm backdrop-blur-sm">
@@ -66,7 +66,7 @@ export default async function HomePage() {
       </section>
 
       {/* ========== 功能入口 ========== */}
-      <section className="container-tight py-8 md:py-7">
+      <section className="container-tight pt-6 pb-8 md:py-7">
         <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
           <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
           <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
