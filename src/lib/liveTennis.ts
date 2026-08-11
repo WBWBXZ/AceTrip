@@ -242,6 +242,7 @@ function inferActivityLevel(headerHtml: string, tournamentName: string): string 
 
   if (/GS-|AUSTRALIAN OPEN|FRENCH OPEN|ROLAND GARROS|WIMBLEDON|US OPEN/.test(normalized)) return 'GS';
   if (/WTA[-_]?FINALS|WTA FINALS/.test(normalized)) return 'FINALS';
+  if (/LONDON|QUEEN'?S(?: CLUB)?|THE HSBC CHAMPIONSHIPS/.test(normalized)) return 'P';
   if (/WTA[-_]?1000/.test(normalized)) return 'PM';
   if (/WTA[-_]?500/.test(normalized)) return 'P';
   if (/WTA[-_]?250/.test(normalized)) return 'I';
