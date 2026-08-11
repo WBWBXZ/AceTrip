@@ -41,6 +41,18 @@ export default async function HomePage() {
                 </Link>
               </div>
 
+              <div className="mt-6 grid max-w-lg grid-cols-3 overflow-hidden rounded-2xl bg-[var(--tennis-green-dark)] text-white shadow-xl shadow-[var(--tennis-green-dark)]/10">
+                {[
+                  ['33', '赛事'],
+                  ['31', '城市'],
+                  ['15', '国家'],
+                ].map(([value, label], index) => (
+                  <div key={label} className={`px-4 py-4 sm:px-5 ${index > 0 ? 'border-l border-white/15' : ''}`}>
+                    <div className="text-2xl font-semibold leading-none tracking-[-0.04em] sm:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
+                    <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.2em] text-white/55">{label}</div>
+                  </div>
+                ))}
+              </div>
             </div>
 
             <div className="hidden min-h-[350px] items-center justify-center md:flex">
@@ -53,29 +65,15 @@ export default async function HomePage() {
         <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-[var(--warm-cream)]/45 to-transparent" />
       </section>
 
-      {/* ========== 数据统计 ========== */}
-      <section className="container-tight pt-8 pb-2 md:pt-10 md:pb-4">
-        <div className="grid max-w-lg grid-cols-3 overflow-hidden rounded-2xl bg-[var(--tennis-green-dark)] text-white shadow-xl shadow-[var(--tennis-green-dark)]/10">
-          {[
-            ['33', '赛事'],
-            ['31', '城市'],
-            ['15', '国家'],
-          ].map(([value, label], index) => (
-            <div key={label} className={`px-4 py-4 sm:px-5 ${index > 0 ? 'border-l border-white/15' : ''}`}>
-              <div className="text-2xl font-semibold leading-none tracking-[-0.04em] sm:text-3xl" style={{ fontFamily: 'var(--font-serif)' }}>{value}</div>
-              <div className="mt-2 text-[10px] font-medium uppercase tracking-[0.2em] text-white/55">{label}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* ========== 功能入口 ========== */}
-      <section className="container-tight mt-0 pt-6 pb-8 md:py-7">
-        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
-          <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
-          <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
-          <FeatureCard href="/schedule" icon={CalendarDays} title="赛程赛果" desc="今日比赛与赛果" />
-          <FeatureCard href="/follow" icon={Heart} title="关注球员" desc="追踪喜爱球员征程" />
+      <section className="py-8 md:py-7 bg-white/60">
+        <div className="container-tight">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-4 md:gap-3">
+            <FeatureCard href="/players" icon={Users} title="实时排名" desc="每日积分与排名" />
+            <FeatureCard href={ongoing ? `/tournaments/${ongoing.id}` : '/tournaments'} icon={Trophy} title="完整签表" desc="查看赛事对阵进程" />
+            <FeatureCard href="/schedule" icon={CalendarDays} title="赛程赛果" desc="今日比赛与赛果" />
+            <FeatureCard href="/follow" icon={Heart} title="关注球员" desc="追踪喜爱球员征程" />
+          </div>
         </div>
       </section>
 
