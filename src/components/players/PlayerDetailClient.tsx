@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Heart, Share2 } from 'lucide-react';
+import Link from 'next/link';
+import { Heart, Share2, Swords } from 'lucide-react';
 import { useAppStore } from '@/lib/store';
 import { useRequireAuth } from '@/lib/use-require-auth';
 import { getCountryFlag, getCountryCn } from '@/lib/data';
@@ -458,6 +459,15 @@ export function PlayerDetailClient({ player }: Props) {
           </div>
           </div>
         )}
+        <div className="mt-6 flex justify-center">
+          <Link
+            href={{ pathname: '/h2h', query: { p1: String(player.wtaId ?? player.id) } }}
+            className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[var(--tennis-green)]/20 bg-[var(--tennis-green)]/[0.06] px-5 py-2.5 text-sm font-semibold text-[var(--tennis-green-dark)] transition-all hover:-translate-y-0.5 hover:border-[var(--tennis-green)]/35 hover:bg-[var(--tennis-green)]/10"
+          >
+            <Swords size={16} strokeWidth={1.8} />
+            查看 H2H 对战
+          </Link>
+        </div>
       </div>
 
       {/* ══ D. 赛季故事线 ══ */}
