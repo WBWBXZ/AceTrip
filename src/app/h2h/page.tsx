@@ -34,7 +34,7 @@ export default async function H2HPage({ searchParams }: Props) {
   }
 
   return (
-    <main className="animate-fade-in">
+    <main className="animate-fade-in pb-24 md:pb-28">
       <section className="border-b border-[var(--tennis-green-dark)]/[0.06] bg-gradient-to-br from-[#edf7ef] via-white to-[var(--warm-cream)]/55">
         <div className="container-tight py-10 md:py-14">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--tennis-green)]">Head to Head</p>
@@ -47,7 +47,7 @@ export default async function H2HPage({ searchParams }: Props) {
         </div>
       </section>
 
-      <div className="container-tight pt-8 pb-24 md:pt-10 md:pb-28">
+      <div className="container-tight pt-8 md:pt-10">
         <H2HClient initialPlayers={[resolvePlayer(p1), resolvePlayer(p2)]} availablePlayers={availablePlayers} />
       </div>
     </main>
