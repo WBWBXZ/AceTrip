@@ -355,7 +355,7 @@ function drawPassportCard(
   ctx.font = `400 20px Georgia, serif`;
   ctx.fillStyle = 'rgba(255,255,255,0.45)';
   ctx.textAlign = 'right';
-  ctx.fillText('acetrip.vercel.app', width - 60, wmarkY + 34);
+  ctx.fillText('acetrip.cn', width - 60, wmarkY + 34);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -494,7 +494,7 @@ function drawCheckinCard(
   ctx.font = `400 20px Georgia, serif`;
   ctx.fillStyle = 'rgba(255,255,255,0.45)';
   ctx.textAlign = 'right';
-  ctx.fillText('acetrip.vercel.app', width - 60, wmarkY + 34);
+  ctx.fillText('acetrip.cn', width - 60, wmarkY + 34);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -636,7 +636,7 @@ function drawSeasonCard(
   ctx.font = `400 20px Georgia, serif`;
   ctx.fillStyle = 'rgba(255,255,255,0.45)';
   ctx.textAlign = 'right';
-  ctx.fillText('acetrip.vercel.app', width - 60, wmarkY + 34);
+  ctx.fillText('acetrip.cn', width - 60, wmarkY + 34);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -767,7 +767,7 @@ function drawPlayerCard(
     ctx.font = `400 20px Georgia, serif`;
     ctx.fillStyle = 'rgba(255,255,255,0.45)';
     ctx.textAlign = 'right';
-    ctx.fillText('acetrip.vercel.app', width - 60, wmarkY + 34);
+    ctx.fillText('acetrip.cn', width - 60, wmarkY + 34);
 
   } else if (style === 'magazine') {
     // ── Left half: white; Right half: light gray
@@ -891,7 +891,7 @@ function drawPlayerCard(
     ctx.font = `400 18px Georgia, serif`;
     ctx.fillStyle = 'rgba(0,0,0,0.3)';
     ctx.textAlign = 'right';
-    ctx.fillText('acetrip.vercel.app', width - 20, wmarkY2 + 28);
+    ctx.fillText('acetrip.cn', width - 20, wmarkY2 + 28);
 
   } else if (style === 'neon') {
     // ── Neon / Vintage style (warm dark)
@@ -1032,7 +1032,7 @@ function drawPlayerCard(
     ctx.font = `400 18px Georgia, serif`;
     ctx.fillStyle = 'rgba(82,214,138,0.3)';
     ctx.textAlign = 'right';
-    ctx.fillText('acetrip.vercel.app', width - 60, wmarkY3 + 32);
+    ctx.fillText('acetrip.cn', width - 60, wmarkY3 + 32);
 
   } else if (style === 'minimal') {
     // ── Minimal: white background
@@ -1275,7 +1275,7 @@ function Watermark({ dark = true }: { dark?: boolean }) {
         </span>
       </div>
       <span style={{ fontSize: '11px', color: dark ? 'rgba(255,255,255,0.45)' : 'rgba(0,0,0,0.3)', letterSpacing: '0.04em' }}>
-        acetrip.vercel.app
+        acetrip.cn
       </span>
     </div>
   );
@@ -1376,7 +1376,7 @@ function TournamentCard({ data }: { data: NonNullable<ShareCardProps['tournament
         </div>
         <div style={{ textAlign: 'right' }}>
           <p style={{ color: '#F6D860', fontSize: '13px', fontWeight: 800, margin: 0 }}>AceTrip</p>
-          <p style={{ color: 'rgba(255,255,255,0.32)', fontSize: '9px', margin: '3px 0 0' }}>acetrip.vercel.app</p>
+          <p style={{ color: 'rgba(255,255,255,0.32)', fontSize: '9px', margin: '3px 0 0' }}>acetrip.cn</p>
         </div>
       </div>
     </div>
@@ -1665,7 +1665,7 @@ function PlayerCardMagazine({
             <span style={{ fontSize: '16px' }}>🎾</span>
             <span style={{ fontSize: '12px', fontWeight: 700, color: '#2D6A4F', letterSpacing: '0.05em' }}>AceTrip</span>
           </div>
-          <span style={{ fontSize: '10px', color: 'rgba(0,0,0,0.3)', letterSpacing: '0.04em' }}>acetrip.vercel.app</span>
+          <span style={{ fontSize: '10px', color: 'rgba(0,0,0,0.3)', letterSpacing: '0.04em' }}>acetrip.cn</span>
         </div>
       </div>
     </div>
@@ -1740,7 +1740,7 @@ function PlayerCardNeon({
           <span style={{ fontSize: '16px' }}>🎾</span>
           <span style={{ fontSize: '12px', fontWeight: 700, color: '#52d68a', letterSpacing: '0.05em' }}>AceTrip</span>
         </div>
-        <span style={{ fontSize: '10px', color: 'rgba(82,214,138,0.3)', letterSpacing: '0.04em' }}>acetrip.vercel.app</span>
+        <span style={{ fontSize: '10px', color: 'rgba(82,214,138,0.3)', letterSpacing: '0.04em' }}>acetrip.cn</span>
       </div>
     </div>
   );

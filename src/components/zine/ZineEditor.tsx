@@ -408,7 +408,7 @@ export function ZineEditor({ initialTemplate, existingWork, onSave, onClose }: Z
         ctx.font = `${14 * 2}px sans-serif`;
         ctx.fillStyle = 'rgba(255,255,255,0.55)';
         ctx.textAlign = 'center';
-        ctx.fillText('AceTrip · acetrip.vercel.app', canvas.width / 2, canvas.height - 16);
+        ctx.fillText('AceTrip · acetrip.cn', canvas.width / 2, canvas.height - 16);
       }
       const url = canvas.toDataURL('image/png');
       const a = document.createElement('a');
