@@ -1,6 +1,7 @@
 import { load, type Cheerio } from 'cheerio';
 import type { Element } from 'domhandler';
 import { NextRequest, NextResponse } from 'next/server';
+import { formatScore } from '@/lib/scoreFormat';
 
 export const dynamic = 'force-dynamic';
 
@@ -93,7 +94,7 @@ function parseH2H(html: string, p1id: string, p2id: string) {
       round: text(cells.eq(4)),
       winner,
       winnerId,
-      score: text(cells.eq(6)),
+      score: formatScore(text(cells.eq(6))),
     });
   });
 

@@ -2,6 +2,7 @@
 
 import { CalendarDays, ChevronDown, Clock3, MapPin, Trophy } from 'lucide-react';
 import { useEffect, useMemo, useState } from 'react';
+import { formatScore, scoreGames } from '@/lib/scoreFormat';
 
 type MatchStatus = 'upcoming' | 'live' | 'completed';
 
@@ -89,7 +90,7 @@ function scoreLabel(match: ScheduleMatch): string {
   return Array.from({ length: count }, (_, index) => {
     const a = match.playerA.scores[index] ?? '–';
     const b = match.playerB.scores[index] ?? '–';
-    return `${a}-${b}`;
+    return formatScore(`${a}-${b}`);
   }).join('  ');
 }
 
@@ -125,8 +126,8 @@ function MatchCard({ match }: { match: ScheduleMatch }) {
   let aSetsWon = 0;
   let bSetsWon = 0;
   for (let index = 0; index < setCount; index += 1) {
-    const aScore = Number(match.playerA.scores[index]);
-    const bScore = Number(match.playerB.scores[index]);
+    const aScore = scoreGames(match.playerA.scores[index]);
+    const bScore = scoreGames(match.playerB.scores[index]);
     if (aScore > bScore) aSetsWon += 1;
     if (bScore > aScore) bSetsWon += 1;
   }
