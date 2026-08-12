@@ -43,12 +43,29 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.acetrip.cn'),
+  applicationName: 'AceTrip',
   title: {
     default: 'AceTrip - WTA 女子网球赛事与球员数据平台',
     template: '%s',
   },
   description: 'AceTrip 汇集 WTA 女子网球赛事、球员排名、赛程赛果与历史交手数据。',
   keywords: ["WTA", "网球", "旅行", "赛事", "女子网球", "AceTrip"],
+  manifest: '/manifest.webmanifest',
+  appleWebApp: {
+    capable: true,
+    title: 'AceTrip',
+    statusBarStyle: 'default',
+  },
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/icons/icon-192x192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icons/icon-512x512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
 };
 
 export default function RootLayout({
