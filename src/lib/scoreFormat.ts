@@ -3,15 +3,8 @@ function numericScore(value: string): number {
 }
 
 function formatSuperTiebreak(left: string, right: string): string | null {
-  const leftIsPadded = /^0\d$/.test(left);
-  const rightIsPadded = /^0\d$/.test(right);
-  const leftScore = numericScore(left);
-  const rightScore = numericScore(right);
-
-  if (leftIsPadded && !rightIsPadded) return `[10-${rightScore}]`;
-  if (rightIsPadded && !leftIsPadded) return `[10-${leftScore}]`;
-  if (leftScore >= 10 || rightScore >= 10) return `[${left}-${right}]`;
-
+  if (/^0\d$/.test(left)) return `10-${numericScore(left)}`;
+  if (/^0\d$/.test(right)) return `10-${numericScore(right)}`;
   return null;
 }
 
@@ -29,7 +22,7 @@ export function formatScore(score: string): string {
 
 export function scoreGames(value: string | undefined): number {
   if (!value) return Number.NaN;
-  if (/^0\d$/.test(value)) return 10;
+  if (/^0\d$/.test(value)) return numericScore(value);
   if (/^6\d$/.test(value)) return 6;
   return Number(value);
 }
