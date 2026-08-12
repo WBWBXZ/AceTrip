@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
-import { getAllPlayers, getPlayerWithLiveRanking } from '@/lib/data';
+import { getAllPlayers, getPlayerSeasonSummary, getPlayerWithLiveRanking } from '@/lib/data';
+import { createSeoMetadata } from '@/lib/seo';
 import { PlayerDetailClient } from '@/components/players/PlayerDetailClient';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
@@ -16,11 +17,19 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { id } = await params;
   const player = await getPlayerWithLiveRanking(id);
-  if (!player) return { title: '球员未找到' };
-  return {
-    title: `${player.nameCn || player.displayName} | AceTrip`,
-    description: `${player.nameCn || player.displayName} — WTA #${player.rank}，来自${player.country}，${player.points} 积分。`,
-  };
+  if (!player) return { title: '球员未找到 | AceTrip' };
+
+  const name = player.nameCn || player.displayName;
+  const seasonSummary = getPlayerSeasonSummary(player);
+  const description = `${name} WTA 球员资料：当前排名第 ${player.rank} 位，${player.points} 积分，${seasonSummary}。`;
+
+  return createSeoMetadata({
+    title: `${name} - WTA 球员资料 | AceTrip`,
+    description,
+    path: `/players/${player.id}`,
+    image: player.headshot || undefined,
+    type: 'article',
+  });
 }
 
 export default async function PlayerPage({ params }: Props) {

@@ -4,6 +4,7 @@
 
 import playersRaw from '../../data/players_final.json';
 import tournamentsRaw from '../../data/tournaments_2026.json';
+import playerResultsRaw from '../../data/player_results_2026.json';
 import type { Player, Tournament, TournamentLevel, TournamentWithStatus } from '@/types';
 import { fetchLiveTennisRankings, normalizePlayerName, type LiveRankingItem } from '@/lib/liveTennis';
 
@@ -85,6 +86,22 @@ export function getTopPlayers(n: number = 20): Player[] {
 
 export function getPlayerById(id: string): Player | undefined {
   return allPlayers.find(p => p.id === id);
+}
+
+interface PlayerResultTournament {
+  name: string;
+  isChampion?: boolean;
+}
+
+const playerResults = playerResultsRaw as Record<string, { tournaments?: PlayerResultTournament[] }>;
+
+export function getPlayerSeasonSummary(player: Player): string {
+  const wtaId = player.wtaId?.toString();
+  const tournaments = wtaId ? playerResults[wtaId]?.tournaments ?? [] : [];
+  if (!tournaments.length) return '本赛季赛果持续更新中';
+
+  const titles = tournaments.filter(tournament => tournament.isChampion).length;
+  return `本赛季已收录 ${tournaments.length} 站赛事，${titles} 个冠军`;
 }
 
 export function getPlayersByCountry(country: string): Player[] {

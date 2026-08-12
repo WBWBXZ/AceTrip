@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
 import { H2HClient, type SelectedPlayer } from '@/components/h2h/H2HClient';
 import { getAllPlayers } from '@/lib/data';
+import { createSeoMetadata } from '@/lib/seo';
 
-export const metadata: Metadata = {
-  title: '交手记录 | AceTrip',
-  description: '查询 WTA 球员之间的历史交手战绩、胜率与逐场比分。',
-};
+export const metadata: Metadata = createSeoMetadata({
+  title: '球员历史交手记录 | AceTrip',
+  description: '查询 WTA 球员之间的历史交手记录、胜负关系、胜率与逐场比分，辅助赛前对比分析。',
+  path: '/h2h',
+});
 
 interface Props {
   searchParams: Promise<{ p1?: string; p2?: string }>;

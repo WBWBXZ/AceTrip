@@ -42,14 +42,13 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "AceTrip",
-  description: "追随你喜爱的球员，探索世界。一款因网球而生的旅行产品。",
-  keywords: ["WTA", "网球", "旅行", "赛事", "女子网球", "AceTrip"],
-  openGraph: {
-    title: "AceTrip",
-    description: "追随你喜爱的球员，探索世界。",
-    type: "website",
+  metadataBase: new URL('https://www.acetrip.cn'),
+  title: {
+    default: 'AceTrip - WTA 女子网球赛事与球员数据平台',
+    template: '%s',
   },
+  description: 'AceTrip 汇集 WTA 女子网球赛事、球员排名、赛程赛果与历史交手数据。',
+  keywords: ["WTA", "网球", "旅行", "赛事", "女子网球", "AceTrip"],
 };
 
 export default function RootLayout({

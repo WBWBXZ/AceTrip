@@ -1,10 +1,17 @@
 import { getTopPlayersWithLiveRankings, getUpcomingTournaments, getTournamentsWithStatus, getCountryFlag, LEVEL_LABELS, formatDateRange } from '@/lib/data';
+import { createSeoMetadata } from '@/lib/seo';
 import { SeasonTimeline } from '@/components/tournaments/SeasonTimeline';
 import Link from 'next/link';
 import GlobeLoader from '@/components/ui/GlobeLoader';
 import DailyFeed from '@/components/ui/DailyFeed';
 import { CalendarDays, Heart, Swords, Trophy } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
+
+export const metadata = createSeoMetadata({
+  title: 'AceTrip - WTA 女子网球赛事与球员数据平台',
+  description: 'AceTrip 汇集 WTA 女子网球赛事、球员排名、赛程赛果、签表与历史交手数据，帮你追踪喜爱的女子网球球员。',
+  path: '/',
+});
 
 export default async function HomePage() {
   const topPlayers = await getTopPlayersWithLiveRankings(20);

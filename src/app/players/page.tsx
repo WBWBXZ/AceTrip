@@ -1,10 +1,12 @@
 import { getPlayersWithLiveRankings } from '@/lib/data';
+import { createSeoMetadata } from '@/lib/seo';
 import { PlayerList } from '@/components/players/PlayerList';
 
-export const metadata = {
-  title: '球员 | AceTrip',
-  description: 'WTA 单打排名 — 全球顶尖女子网球球员',
-};
+export const metadata = createSeoMetadata({
+  title: 'WTA 球员排名与资料 | AceTrip',
+  description: '查看 WTA 女子网球球员排名、积分、国籍、头像与详细资料，持续追踪全球顶尖球员动态。',
+  path: '/players',
+});
 
 export default async function PlayersPage() {
   const players = await getPlayersWithLiveRankings();

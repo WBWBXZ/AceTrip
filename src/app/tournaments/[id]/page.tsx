@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getAllTournaments, getTournamentById, formatDateRange, LEVEL_LABELS, getCountryFlag } from '@/lib/data';
+import { createSeoMetadata } from '@/lib/seo';
 import { TournamentDetailClient } from '@/components/tournaments/TournamentDetailClient';
 import { ArrowLeft, MapPin, Calendar, Users, Landmark } from 'lucide-react';
 
@@ -15,11 +16,16 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: Props) {
   const { id } = await params;
   const tournament = getTournamentById(id);
-  if (!tournament) return { title: '赛事未找到' };
-  return {
-    title: `${tournament.name} | AceTrip`,
-    description: `${tournament.name} — ${LEVEL_LABELS[tournament.level]}，${tournament.city}，${tournament.countryName}。${formatDateRange(tournament.dateStart, tournament.dateEnd)}。`,
-  };
+  if (!tournament) return { title: '赛事未找到 | AceTrip' };
+
+  const name = tournament.nameCn || tournament.name;
+  const description = `${name} 签表与赛事信息：${LEVEL_LABELS[tournament.level]}，${tournament.cityCn || tournament.city}，${tournament.countryCn || tournament.countryName}，${formatDateRange(tournament.dateStart, tournament.dateEnd)}。`;
+
+  return createSeoMetadata({
+    title: `${name} 签表 | AceTrip`,
+    description,
+    path: `/tournaments/${tournament.id}`,
+  });
 }
 
 const SURFACE_BG: Record<string, string> = {
