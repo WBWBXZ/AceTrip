@@ -83,7 +83,7 @@
     ]
   },
   "rybakina": {
-    "total": 7556,
+    "total": 7731,
     "entries": [
       {
         "level": "Grand Slam",
@@ -123,15 +123,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Toronto",
         "points": 390,
         "round": "SF"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
-        "points": 215,
-        "round": "QF"
+        "name": "26 Miami",
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -309,7 +309,7 @@
     ]
   },
   "gauff": {
-    "total": 5529,
+    "total": 5704,
     "entries": [
       {
         "level": "Grand Slam",
@@ -367,15 +367,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "25 Beijing",
+        "name": "26 Toronto",
         "points": 390,
         "round": "SF"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
-        "points": 215,
-        "round": "QF"
+        "name": "25 Beijing",
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
