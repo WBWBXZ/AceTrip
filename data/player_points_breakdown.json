@@ -83,7 +83,7 @@
     ]
   },
   "rybakina": {
-    "total": 7731,
+    "total": 7991,
     "entries": [
       {
         "level": "Grand Slam",
@@ -117,15 +117,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Indian Wells",
+        "name": "26 Toronto",
         "points": 650,
         "round": "F"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
-        "points": 390,
-        "round": "SF"
+        "name": "26 Indian Wells",
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -737,7 +737,7 @@
     ]
   },
   "swiatek": {
-    "total": 3809,
+    "total": 4069,
     "entries": [
       {
         "level": "Grand Slam",
@@ -772,8 +772,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Toronto",
-        "points": 390,
-        "round": "SF"
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
