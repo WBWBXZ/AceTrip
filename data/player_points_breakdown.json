@@ -737,7 +737,7 @@
     ]
   },
   "swiatek": {
-    "total": 4069,
+    "total": 4419,
     "entries": [
       {
         "level": "Grand Slam",
@@ -772,8 +772,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Toronto",
-        "points": 650,
-        "round": "F"
+        "points": 1000,
+        "round": "W"
       },
       {
         "level": "WTA 1000",

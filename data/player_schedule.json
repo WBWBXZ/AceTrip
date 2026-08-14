@@ -15,15 +15,16 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 16,
-    "totalWins": 36,
-    "totalLosses": 14,
+    "totalTournaments": 17,
+    "totalWins": 40,
+    "totalLosses": 15,
     "titles": 2,
-    "thisYearTournaments": 14,
-    "thisYearWins": 36,
-    "thisYearLosses": 12,
+    "thisYearTournaments": 15,
+    "thisYearWins": 40,
+    "thisYearLosses": 13,
     "thisYearTitles": 2,
     "results": [
       {
@@ -153,6 +154,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "S",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 390,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -186,17 +196,18 @@
       "berlin",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 17,
-    "totalWins": 51,
-    "totalLosses": 13,
+    "totalTournaments": 18,
+    "totalWins": 53,
+    "totalLosses": 14,
     "titles": 2,
-    "thisYearTournaments": 12,
-    "thisYearWins": 38,
-    "thisYearLosses": 10,
+    "thisYearTournaments": 13,
+    "thisYearWins": 40,
+    "thisYearLosses": 11,
     "thisYearTitles": 2,
     "results": [
       {
@@ -308,6 +319,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "S",
@@ -368,16 +388,17 @@
       "queens",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "wta-finals"
     ],
-    "totalTournaments": 15,
-    "totalWins": 29,
-    "totalLosses": 15,
+    "totalTournaments": 16,
+    "totalWins": 30,
+    "totalLosses": 16,
     "titles": 1,
-    "thisYearTournaments": 13,
-    "thisYearWins": 29,
-    "thisYearLosses": 12,
+    "thisYearTournaments": 14,
+    "thisYearWins": 30,
+    "thisYearLosses": 13,
     "thisYearTitles": 1,
     "results": [
       {
@@ -498,6 +519,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -526,18 +556,19 @@
       "toray-pan-pacific",
       "berlin",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 27,
-    "totalLosses": 21,
+    "totalLosses": 22,
     "titles": 0,
-    "thisYearTournaments": 13,
+    "thisYearTournaments": 14,
     "thisYearWins": 20,
-    "thisYearLosses": 14,
+    "thisYearLosses": 15,
     "thisYearTitles": 0,
     "results": [
       {
@@ -658,6 +689,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -731,16 +771,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 16,
+    "totalTournaments": 17,
     "totalWins": 31,
-    "totalLosses": 15,
+    "totalLosses": 16,
     "titles": 1,
-    "thisYearTournaments": 12,
+    "thisYearTournaments": 13,
     "thisYearWins": 23,
-    "thisYearLosses": 11,
+    "thisYearLosses": 12,
     "thisYearTitles": 1,
     "results": [
       {
@@ -852,6 +893,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "Q",
@@ -903,18 +953,19 @@
       "roland-garros",
       "berlin",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 22,
     "totalWins": 30,
-    "totalLosses": 21,
+    "totalLosses": 22,
     "titles": 1,
-    "thisYearTournaments": 16,
+    "thisYearTournaments": 17,
     "thisYearWins": 26,
-    "thisYearLosses": 16,
+    "thisYearLosses": 17,
     "thisYearTitles": 1,
     "results": [
       {
@@ -1062,6 +1113,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R16",
@@ -1120,19 +1180,20 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 16,
-    "totalWins": 37,
-    "totalLosses": 14,
+    "totalTournaments": 17,
+    "totalWins": 40,
+    "totalLosses": 15,
     "titles": 1,
-    "thisYearTournaments": 10,
-    "thisYearWins": 24,
-    "thisYearLosses": 9,
+    "thisYearTournaments": 11,
+    "thisYearWins": 27,
+    "thisYearLosses": 10,
     "thisYearTitles": 0,
     "results": [
       {
@@ -1224,6 +1285,15 @@
         "tournamentId": "wimbledon",
         "points": 240,
         "level": "GS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 215,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -1452,16 +1522,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 17,
+    "totalTournaments": 18,
     "totalWins": 22,
-    "totalLosses": 17,
+    "totalLosses": 18,
     "titles": 0,
-    "thisYearTournaments": 15,
+    "thisYearTournaments": 16,
     "thisYearWins": 21,
-    "thisYearLosses": 15,
+    "thisYearLosses": 16,
     "thisYearTitles": 0,
     "results": [
       {
@@ -1600,6 +1671,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -1631,17 +1711,18 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 14,
-    "totalWins": 30,
-    "totalLosses": 14,
+    "totalTournaments": 15,
+    "totalWins": 33,
+    "totalLosses": 15,
     "titles": 0,
-    "thisYearTournaments": 10,
-    "thisYearWins": 22,
-    "thisYearLosses": 10,
+    "thisYearTournaments": 11,
+    "thisYearWins": 25,
+    "thisYearLosses": 11,
     "thisYearTitles": 0,
     "results": [
       {
@@ -1735,6 +1816,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 215,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "S",
@@ -1783,17 +1873,18 @@
       "roland-garros",
       "berlin",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "wuhan-open",
       "wta-finals"
     ],
-    "totalTournaments": 12,
-    "totalWins": 50,
-    "totalLosses": 8,
+    "totalTournaments": 13,
+    "totalWins": 52,
+    "totalLosses": 9,
     "titles": 4,
-    "thisYearTournaments": 9,
-    "thisYearWins": 36,
-    "thisYearLosses": 6,
+    "thisYearTournaments": 10,
+    "thisYearWins": 38,
+    "thisYearLosses": 7,
     "thisYearTitles": 3,
     "results": [
       {
@@ -1876,6 +1967,15 @@
         "tournamentId": "wimbledon",
         "points": 240,
         "level": "GS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -2094,6 +2194,7 @@
       "roland-garros",
       "berlin",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
@@ -2101,13 +2202,13 @@
       "toray-pan-pacific",
       "wta-finals"
     ],
-    "totalTournaments": 19,
-    "totalWins": 51,
-    "totalLosses": 15,
+    "totalTournaments": 20,
+    "totalWins": 56,
+    "totalLosses": 16,
     "titles": 4,
-    "thisYearTournaments": 13,
-    "thisYearWins": 34,
-    "thisYearLosses": 11,
+    "thisYearTournaments": 14,
+    "thisYearWins": 39,
+    "thisYearLosses": 12,
     "thisYearTitles": 2,
     "results": [
       {
@@ -2228,6 +2329,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 650,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R16",
@@ -2299,13 +2409,13 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 22,
-    "totalLosses": 29,
+    "totalTournaments": 28,
+    "totalWins": 23,
+    "totalLosses": 30,
     "titles": 0,
-    "thisYearTournaments": 20,
-    "thisYearWins": 19,
-    "thisYearLosses": 22,
+    "thisYearTournaments": 21,
+    "thisYearWins": 20,
+    "thisYearLosses": 23,
     "thisYearTitles": 0,
     "results": [
       {
@@ -2489,6 +2599,15 @@
         "level": "IS"
       },
       {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -2569,18 +2688,19 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 26,
-    "totalLosses": 22,
+    "totalLosses": 23,
     "titles": 1,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 20,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 1,
     "results": [
       {
@@ -2746,6 +2866,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R16",
@@ -2805,18 +2934,19 @@
     "tournamentIds": [
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 16,
+    "totalTournaments": 17,
     "totalWins": 38,
-    "totalLosses": 13,
+    "totalLosses": 14,
     "titles": 3,
-    "thisYearTournaments": 10,
+    "thisYearTournaments": 11,
     "thisYearWins": 32,
-    "thisYearLosses": 7,
+    "thisYearLosses": 8,
     "thisYearTitles": 3,
     "results": [
       {
@@ -2910,6 +3040,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -2980,19 +3119,20 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 26,
     "totalWins": 25,
-    "totalLosses": 25,
+    "totalLosses": 26,
     "titles": 0,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 21,
-    "thisYearLosses": 18,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -3158,6 +3298,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "S",
@@ -3232,17 +3381,18 @@
       "miami-open",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wta-finals"
     ],
-    "totalTournaments": 12,
-    "totalWins": 31,
-    "totalLosses": 12,
+    "totalTournaments": 13,
+    "totalWins": 33,
+    "totalLosses": 13,
     "titles": 1,
-    "thisYearTournaments": 9,
-    "thisYearWins": 17,
-    "thisYearLosses": 9,
+    "thisYearTournaments": 10,
+    "thisYearWins": 19,
+    "thisYearLosses": 10,
     "thisYearTitles": 0,
     "results": [
       {
@@ -3327,6 +3477,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "F",
@@ -3368,19 +3527,20 @@
       "roland-garros",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "wta-finals"
     ],
-    "totalTournaments": 16,
-    "totalWins": 36,
+    "totalTournaments": 17,
+    "totalWins": 42,
     "totalLosses": 17,
-    "titles": 1,
-    "thisYearTournaments": 11,
-    "thisYearWins": 23,
+    "titles": 2,
+    "thisYearTournaments": 12,
+    "thisYearWins": 29,
     "thisYearLosses": 12,
-    "thisYearTitles": 0,
+    "thisYearTitles": 1,
     "results": [
       {
         "name": "UNITED CUP",
@@ -3482,6 +3642,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
+        "tournamentId": "national-bank-open",
+        "points": 1000,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "Q",
@@ -3537,17 +3706,18 @@
       "madrid-open",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 12,
-    "totalWins": 33,
-    "totalLosses": 9,
+    "totalTournaments": 13,
+    "totalWins": 35,
+    "totalLosses": 10,
     "titles": 2,
-    "thisYearTournaments": 8,
-    "thisYearWins": 27,
-    "thisYearLosses": 6,
+    "thisYearTournaments": 9,
+    "thisYearWins": 29,
+    "thisYearLosses": 7,
     "thisYearTitles": 2,
     "results": [
       {
@@ -3623,6 +3793,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R16",
@@ -3679,19 +3858,20 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
-    "totalWins": 26,
-    "totalLosses": 26,
+    "totalTournaments": 28,
+    "totalWins": 28,
+    "totalLosses": 27,
     "titles": 1,
-    "thisYearTournaments": 20,
-    "thisYearWins": 13,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 21,
+    "thisYearWins": 15,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -3873,6 +4053,15 @@
         "tournamentId": "washington-dc",
         "points": 60,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -4254,18 +4443,19 @@
       "roland-garros",
       "berlin",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "wta-finals"
     ],
-    "totalTournaments": 16,
-    "totalWins": 44,
-    "totalLosses": 16,
+    "totalTournaments": 17,
+    "totalWins": 48,
+    "totalLosses": 17,
     "titles": 1,
-    "thisYearTournaments": 12,
-    "thisYearWins": 31,
-    "thisYearLosses": 12,
+    "thisYearTournaments": 13,
+    "thisYearWins": 35,
+    "thisYearLosses": 13,
     "thisYearTitles": 0,
     "results": [
       {
@@ -4377,6 +4567,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "S",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 390,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R16",
@@ -4429,18 +4628,19 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 17,
+    "totalTournaments": 18,
     "totalWins": 39,
-    "totalLosses": 15,
+    "totalLosses": 16,
     "titles": 2,
-    "thisYearTournaments": 13,
+    "thisYearTournaments": 14,
     "thisYearWins": 28,
-    "thisYearLosses": 11,
+    "thisYearLosses": 12,
     "thisYearTitles": 2,
     "results": [
       {
@@ -4561,6 +4761,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "Q",
@@ -4616,16 +4825,17 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 19,
-    "totalWins": 26,
-    "totalLosses": 18,
+    "totalTournaments": 20,
+    "totalWins": 29,
+    "totalLosses": 19,
     "titles": 1,
-    "thisYearTournaments": 16,
-    "thisYearWins": 21,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 17,
+    "thisYearWins": 24,
+    "thisYearLosses": 17,
     "thisYearTitles": 0,
     "results": [
       {
@@ -4771,6 +4981,15 @@
         "tournamentId": "washington-dc",
         "points": 195,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 215,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -4989,15 +5208,16 @@
       "roland-garros",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 15,
-    "totalWins": 40,
-    "totalLosses": 12,
+    "totalTournaments": 16,
+    "totalWins": 41,
+    "totalLosses": 13,
     "titles": 3,
-    "thisYearTournaments": 14,
-    "thisYearWins": 38,
-    "thisYearLosses": 11,
+    "thisYearTournaments": 15,
+    "thisYearWins": 39,
+    "thisYearLosses": 12,
     "thisYearTitles": 3,
     "results": [
       {
@@ -5127,6 +5347,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -5150,18 +5379,19 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
-    "totalWins": 41,
-    "totalLosses": 21,
+    "totalTournaments": 22,
+    "totalWins": 42,
+    "totalLosses": 22,
     "titles": 1,
-    "thisYearTournaments": 14,
-    "thisYearWins": 29,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 15,
+    "thisYearWins": 30,
+    "thisYearLosses": 15,
     "thisYearTitles": 0,
     "results": [
       {
@@ -5291,6 +5521,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R16",
@@ -5368,17 +5607,18 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 22,
     "totalWins": 50,
-    "totalLosses": 18,
+    "totalLosses": 19,
     "titles": 2,
-    "thisYearTournaments": 14,
+    "thisYearTournaments": 15,
     "thisYearWins": 34,
-    "thisYearLosses": 12,
+    "thisYearLosses": 13,
     "thisYearTitles": 1,
     "results": [
       {
@@ -5508,6 +5748,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "F",
@@ -5590,17 +5839,18 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 20,
-    "totalLosses": 22,
+    "totalTournaments": 23,
+    "totalWins": 23,
+    "totalLosses": 23,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 11,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 14,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -5766,6 +6016,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 215,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "F",
@@ -5820,18 +6079,19 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 20,
-    "totalWins": 28,
-    "totalLosses": 20,
+    "totalTournaments": 21,
+    "totalWins": 29,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 15,
-    "thisYearWins": 22,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 16,
+    "thisYearWins": 23,
+    "thisYearLosses": 16,
     "thisYearTitles": 0,
     "results": [
       {
@@ -5970,6 +6230,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -6031,19 +6300,20 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 23,
+    "totalTournaments": 24,
     "totalWins": 34,
-    "totalLosses": 22,
+    "totalLosses": 23,
     "titles": 2,
-    "thisYearTournaments": 17,
+    "thisYearTournaments": 18,
     "thisYearWins": 26,
-    "thisYearLosses": 16,
+    "thisYearLosses": 17,
     "thisYearTitles": 2,
     "results": [
       {
@@ -6200,6 +6470,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "S",
@@ -6261,15 +6540,16 @@
       "australian-open",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 19,
+    "totalTournaments": 20,
     "totalWins": 44,
-    "totalLosses": 17,
+    "totalLosses": 18,
     "titles": 2,
-    "thisYearTournaments": 12,
+    "thisYearTournaments": 13,
     "thisYearWins": 29,
-    "thisYearLosses": 11,
+    "thisYearLosses": 12,
     "thisYearTitles": 1,
     "results": [
       {
@@ -6381,6 +6661,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -6460,16 +6749,17 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 16,
-    "totalWins": 27,
-    "totalLosses": 16,
+    "totalTournaments": 17,
+    "totalWins": 28,
+    "totalLosses": 17,
     "titles": 0,
-    "thisYearTournaments": 14,
-    "thisYearWins": 23,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 15,
+    "thisYearWins": 24,
+    "thisYearLosses": 15,
     "thisYearTitles": 0,
     "results": [
       {
@@ -6599,6 +6889,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "Q",
@@ -6633,16 +6932,17 @@
       "berlin",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 18,
-    "totalWins": 30,
-    "totalLosses": 20,
+    "totalTournaments": 19,
+    "totalWins": 31,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 15,
-    "thisYearWins": 26,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 16,
+    "thisYearWins": 27,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -6781,6 +7081,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -6828,17 +7137,18 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "wuhan-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 49,
-    "totalLosses": 26,
+    "totalTournaments": 30,
+    "totalWins": 51,
+    "totalLosses": 27,
     "titles": 3,
-    "thisYearTournaments": 20,
-    "thisYearWins": 35,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 21,
+    "thisYearWins": 37,
+    "thisYearLosses": 19,
     "thisYearTitles": 2,
     "results": [
       {
@@ -7022,6 +7332,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -7121,18 +7440,19 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 22,
+    "totalTournaments": 23,
     "totalWins": 16,
-    "totalLosses": 22,
+    "totalLosses": 23,
     "titles": 0,
-    "thisYearTournaments": 17,
+    "thisYearTournaments": 18,
     "thisYearWins": 13,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -7289,6 +7609,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -7352,17 +7681,18 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 31,
-    "totalLosses": 25,
+    "totalTournaments": 27,
+    "totalWins": 32,
+    "totalLosses": 26,
     "titles": 1,
-    "thisYearTournaments": 19,
-    "thisYearWins": 17,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 20,
+    "thisYearWins": 18,
+    "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
       {
@@ -7537,6 +7867,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "F",
@@ -7615,19 +7954,20 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 21,
-    "totalWins": 22,
-    "totalLosses": 21,
+    "totalTournaments": 22,
+    "totalWins": 23,
+    "totalLosses": 22,
     "titles": 0,
-    "thisYearTournaments": 15,
-    "thisYearWins": 17,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 16,
+    "thisYearWins": 18,
+    "thisYearLosses": 16,
     "thisYearTitles": 0,
     "results": [
       {
@@ -7764,6 +8104,15 @@
         "tournamentId": null,
         "points": 163,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -8026,17 +8375,18 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 17,
+    "totalTournaments": 18,
     "totalWins": 20,
-    "totalLosses": 18,
+    "totalLosses": 19,
     "titles": 0,
-    "thisYearTournaments": 13,
+    "thisYearTournaments": 14,
     "thisYearWins": 15,
-    "thisYearLosses": 14,
+    "thisYearLosses": 15,
     "thisYearTitles": 0,
     "results": [
       {
@@ -8157,6 +8507,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -8210,15 +8569,16 @@
       "roland-garros",
       "queens",
       "wimbledon",
-      "washington-dc"
+      "washington-dc",
+      "national-bank-open"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 10,
-    "totalLosses": 20,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 10,
-    "thisYearLosses": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -8400,6 +8760,15 @@
         "tournamentId": "washington-dc",
         "points": 60,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
       }
     ]
   },
@@ -8416,15 +8785,16 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 32,
-    "totalLosses": 21,
+    "totalTournaments": 25,
+    "totalWins": 33,
+    "totalLosses": 22,
     "titles": 3,
-    "thisYearTournaments": 16,
-    "thisYearWins": 16,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 17,
+    "thisYearWins": 17,
+    "thisYearLosses": 16,
     "thisYearTitles": 1,
     "results": [
       {
@@ -8570,6 +8940,15 @@
         "tournamentId": null,
         "points": 54,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -8899,17 +9278,18 @@
       "strasbourg",
       "roland-garros",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 16,
+    "totalTournaments": 17,
     "totalWins": 13,
-    "totalLosses": 14,
+    "totalLosses": 15,
     "titles": 1,
-    "thisYearTournaments": 13,
+    "thisYearTournaments": 14,
     "thisYearWins": 7,
-    "thisYearLosses": 12,
+    "thisYearLosses": 13,
     "thisYearTitles": 1,
     "results": [
       {
@@ -9030,6 +9410,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "Q",
@@ -9076,18 +9465,19 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
-    "totalWins": 19,
-    "totalLosses": 24,
+    "totalTournaments": 22,
+    "totalWins": 20,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 17,
-    "thisYearWins": 14,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 18,
+    "thisYearWins": 15,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -9244,6 +9634,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -9292,17 +9691,18 @@
       "roland-garros",
       "berlin",
       "wimbledon",
+      "national-bank-open",
       "guadalajara",
       "guadalajara",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 20,
-    "totalWins": 34,
-    "totalLosses": 21,
+    "totalTournaments": 21,
+    "totalWins": 36,
+    "totalLosses": 22,
     "titles": 0,
-    "thisYearTournaments": 15,
-    "thisYearWins": 26,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 16,
+    "thisYearWins": 28,
+    "thisYearLosses": 17,
     "thisYearTitles": 0,
     "results": [
       {
@@ -9441,6 +9841,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "GUADALAJARA 125",
         "startDate": "2025-09-01T00:00:00+00:00",
         "bestRound": "R16",
@@ -9497,15 +9906,16 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 28,
     "totalWins": 48,
-    "totalLosses": 24,
+    "totalLosses": 25,
     "titles": 3,
-    "thisYearTournaments": 15,
+    "thisYearTournaments": 16,
     "thisYearWins": 21,
-    "thisYearLosses": 15,
+    "thisYearLosses": 16,
     "thisYearTitles": 0,
     "results": [
       {
@@ -9644,6 +10054,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -9766,19 +10185,20 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 22,
-    "totalWins": 24,
-    "totalLosses": 22,
+    "totalTournaments": 23,
+    "totalWins": 25,
+    "totalLosses": 23,
     "titles": 0,
-    "thisYearTournaments": 17,
-    "thisYearWins": 17,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 18,
+    "thisYearWins": 18,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -9935,6 +10355,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -9990,17 +10419,18 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
-    "totalWins": 37,
-    "totalLosses": 24,
+    "totalTournaments": 25,
+    "totalWins": 39,
+    "totalLosses": 25,
     "titles": 1,
-    "thisYearTournaments": 17,
-    "thisYearWins": 23,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 18,
+    "thisYearWins": 25,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -10157,6 +10587,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "Q",
@@ -10237,6 +10676,7 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "guadalajara",
@@ -10245,13 +10685,13 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 26,
-    "totalWins": 36,
-    "totalLosses": 26,
+    "totalTournaments": 27,
+    "totalWins": 37,
+    "totalLosses": 27,
     "titles": 0,
-    "thisYearTournaments": 17,
-    "thisYearWins": 27,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 18,
+    "thisYearWins": 28,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -10406,6 +10846,15 @@
         "tournamentId": null,
         "points": 30,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -10792,19 +11241,20 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 30,
-    "totalLosses": 28,
+    "totalTournaments": 27,
+    "totalWins": 31,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 19,
-    "thisYearWins": 16,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 20,
+    "thisYearWins": 17,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -10977,6 +11427,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -11267,19 +11726,20 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 29,
-    "totalLosses": 23,
+    "totalTournaments": 25,
+    "totalWins": 30,
+    "totalLosses": 24,
     "titles": 1,
-    "thisYearTournaments": 17,
-    "thisYearWins": 24,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 18,
+    "thisYearWins": 25,
+    "thisYearLosses": 17,
     "thisYearTitles": 1,
     "results": [
       {
@@ -11436,6 +11896,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -11512,17 +11981,18 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 29,
-    "totalLosses": 24,
+    "totalTournaments": 25,
+    "totalWins": 31,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 22,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 24,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -11686,6 +12156,15 @@
         "tournamentId": null,
         "points": 54,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -12002,17 +12481,18 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 26,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 28,
+    "totalLosses": 26,
     "titles": 0,
-    "thisYearTournaments": 21,
-    "thisYearWins": 18,
-    "thisYearLosses": 22,
+    "thisYearTournaments": 22,
+    "thisYearWins": 20,
+    "thisYearLosses": 23,
     "thisYearTitles": 0,
     "results": [
       {
@@ -12205,6 +12685,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -12252,15 +12741,16 @@
       "roland-garros",
       "berlin",
       "queens",
-      "wimbledon"
+      "wimbledon",
+      "national-bank-open"
     ],
-    "totalTournaments": 19,
+    "totalTournaments": 20,
     "totalWins": 43,
-    "totalLosses": 17,
+    "totalLosses": 18,
     "titles": 3,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 38,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 2,
     "results": [
       {
@@ -12426,6 +12916,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "LIMOGES 125",
         "startDate": "2025-12-08T00:00:00+00:00",
         "bestRound": "F",
@@ -12451,16 +12950,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 21,
-    "totalLosses": 20,
+    "totalLosses": 21,
     "titles": 1,
-    "thisYearTournaments": 17,
+    "thisYearTournaments": 18,
     "thisYearWins": 20,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 1,
     "results": [
       {
@@ -12617,6 +13117,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -12660,19 +13169,20 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 29,
+    "totalTournaments": 30,
     "totalWins": 30,
-    "totalLosses": 30,
+    "totalLosses": 31,
     "titles": 0,
-    "thisYearTournaments": 19,
+    "thisYearTournaments": 20,
     "thisYearWins": 25,
-    "thisYearLosses": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -12847,6 +13357,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -12952,18 +13471,19 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 19,
-    "totalLosses": 27,
+    "totalTournaments": 28,
+    "totalWins": 20,
+    "totalLosses": 28,
     "titles": 0,
-    "thisYearTournaments": 21,
-    "thisYearWins": 15,
-    "thisYearLosses": 21,
+    "thisYearTournaments": 22,
+    "thisYearWins": 16,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -13156,6 +13676,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R32",
@@ -13224,18 +13753,19 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 26,
     "totalWins": 28,
-    "totalLosses": 24,
+    "totalLosses": 25,
     "titles": 1,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 23,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 1,
     "results": [
       {
@@ -13401,6 +13931,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "Q",
@@ -13480,16 +14019,17 @@
       "queens",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 20,
-    "totalWins": 21,
-    "totalLosses": 19,
+    "totalTournaments": 21,
+    "totalWins": 22,
+    "totalLosses": 20,
     "titles": 1,
-    "thisYearTournaments": 17,
-    "thisYearWins": 19,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 18,
+    "thisYearWins": 20,
+    "thisYearLosses": 17,
     "thisYearTitles": 1,
     "results": [
       {
@@ -13646,6 +14186,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -13682,15 +14231,16 @@
       "madrid-open",
       "rome",
       "roland-garros",
-      "wimbledon"
+      "wimbledon",
+      "national-bank-open"
     ],
-    "totalTournaments": 12,
-    "totalWins": 21,
-    "totalLosses": 12,
+    "totalTournaments": 13,
+    "totalWins": 22,
+    "totalLosses": 13,
     "titles": 0,
-    "thisYearTournaments": 10,
-    "thisYearWins": 20,
-    "thisYearLosses": 10,
+    "thisYearTournaments": 11,
+    "thisYearWins": 21,
+    "thisYearLosses": 11,
     "thisYearTitles": 0,
     "results": [
       {
@@ -13784,6 +14334,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "CALDAS DA RAINHA 125",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "R16",
@@ -13817,16 +14376,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "wuhan-open"
     ],
-    "totalTournaments": 19,
+    "totalTournaments": 20,
     "totalWins": 31,
-    "totalLosses": 19,
+    "totalLosses": 20,
     "titles": 0,
-    "thisYearTournaments": 16,
+    "thisYearTournaments": 17,
     "thisYearWins": 21,
-    "thisYearLosses": 16,
+    "thisYearLosses": 17,
     "thisYearTitles": 0,
     "results": [
       {
@@ -13974,6 +14534,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -14016,18 +14585,19 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 28,
     "totalWins": 33,
-    "totalLosses": 28,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 23,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
       {
@@ -14191,6 +14761,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
       },
       {
         "name": "CLEVELAND",
@@ -14529,19 +15108,20 @@
       "berlin",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 35,
-    "totalWins": 31,
-    "totalLosses": 35,
+    "totalTournaments": 36,
+    "totalWins": 32,
+    "totalLosses": 36,
     "titles": 0,
-    "thisYearTournaments": 23,
-    "thisYearWins": 22,
-    "thisYearLosses": 23,
+    "thisYearTournaments": 24,
+    "thisYearWins": 23,
+    "thisYearLosses": 24,
     "thisYearTitles": 0,
     "results": [
       {
@@ -14750,6 +15330,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -15121,18 +15710,19 @@
       "queens",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 30,
-    "totalLosses": 21,
+    "totalLosses": 22,
     "titles": 1,
-    "thisYearTournaments": 14,
+    "thisYearTournaments": 15,
     "thisYearWins": 21,
-    "thisYearLosses": 13,
+    "thisYearLosses": 14,
     "thisYearTitles": 1,
     "results": [
       {
@@ -15262,6 +15852,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R16",
@@ -15373,18 +15972,19 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 18,
-    "totalLosses": 24,
+    "totalTournaments": 25,
+    "totalWins": 21,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 19,
-    "thisYearWins": 12,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 20,
+    "thisYearWins": 15,
+    "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
       {
@@ -15559,6 +16159,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 120,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "Q",
@@ -15618,16 +16227,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "ningbo-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 43,
-    "totalLosses": 28,
+    "totalTournaments": 30,
+    "totalWins": 45,
+    "totalLosses": 29,
     "titles": 2,
-    "thisYearTournaments": 19,
-    "thisYearWins": 27,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 20,
+    "thisYearWins": 29,
+    "thisYearLosses": 20,
     "thisYearTitles": 1,
     "results": [
       {
@@ -15802,6 +16412,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "Q",
@@ -15903,16 +16522,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 30,
-    "totalWins": 39,
-    "totalLosses": 30,
+    "totalTournaments": 31,
+    "totalWins": 40,
+    "totalLosses": 31,
     "titles": 0,
-    "thisYearTournaments": 19,
-    "thisYearWins": 19,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 20,
+    "thisYearWins": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -16087,6 +16707,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -16201,16 +16830,17 @@
       "roland-garros",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 29,
-    "totalLosses": 22,
+    "totalTournaments": 23,
+    "totalWins": 30,
+    "totalLosses": 23,
     "titles": 1,
-    "thisYearTournaments": 16,
-    "thisYearWins": 21,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 17,
+    "thisYearWins": 22,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -16356,6 +16986,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
       },
       {
         "name": "CLEVELAND",
@@ -16915,15 +17554,16 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 50,
-    "totalLosses": 20,
+    "totalTournaments": 26,
+    "totalWins": 54,
+    "totalLosses": 21,
     "titles": 5,
-    "thisYearTournaments": 16,
-    "thisYearWins": 32,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 17,
+    "thisYearWins": 36,
+    "thisYearLosses": 15,
     "thisYearTitles": 2,
     "results": [
       {
@@ -17071,6 +17711,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 140,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -17168,19 +17817,20 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
       "ningbo-open"
     ],
-    "totalTournaments": 33,
-    "totalWins": 32,
-    "totalLosses": 32,
+    "totalTournaments": 34,
+    "totalWins": 33,
+    "totalLosses": 33,
     "titles": 1,
-    "thisYearTournaments": 24,
-    "thisYearWins": 25,
-    "thisYearLosses": 23,
+    "thisYearTournaments": 25,
+    "thisYearWins": 26,
+    "thisYearLosses": 24,
     "thisYearTitles": 1,
     "results": [
       {
@@ -17400,6 +18050,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R16",
@@ -17496,15 +18155,16 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 20,
-    "totalWins": 10,
-    "totalLosses": 20,
+    "totalTournaments": 21,
+    "totalWins": 13,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 17,
-    "thisYearWins": 6,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 18,
+    "thisYearWins": 9,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -17661,6 +18321,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 85,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -17703,6 +18372,7 @@
       "queens",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "guadalajara",
@@ -17711,13 +18381,13 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 24,
-    "totalLosses": 30,
+    "totalTournaments": 29,
+    "totalWins": 26,
+    "totalLosses": 31,
     "titles": 1,
-    "thisYearTournaments": 18,
-    "thisYearWins": 15,
-    "thisYearLosses": 21,
+    "thisYearTournaments": 19,
+    "thisYearWins": 17,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -17883,6 +18553,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R16",
@@ -17988,18 +18667,19 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 32,
-    "totalLosses": 25,
+    "totalLosses": 26,
     "titles": 0,
-    "thisYearTournaments": 17,
+    "thisYearTournaments": 18,
     "thisYearWins": 22,
-    "thisYearLosses": 18,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -18154,6 +18834,15 @@
         "tournamentId": null,
         "points": 30,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -18518,15 +19207,16 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "ningbo-open"
     ],
-    "totalTournaments": 31,
+    "totalTournaments": 32,
     "totalWins": 53,
-    "totalLosses": 29,
+    "totalLosses": 30,
     "titles": 2,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 28,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 1,
     "results": [
       {
@@ -18710,6 +19400,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "MONTREUX 125",
         "startDate": "2025-09-01T00:00:00+00:00",
         "bestRound": "R16",
@@ -18818,16 +19517,17 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 49,
-    "totalLosses": 24,
+    "totalTournaments": 27,
+    "totalWins": 51,
+    "totalLosses": 25,
     "titles": 2,
-    "thisYearTournaments": 18,
-    "thisYearWins": 38,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 19,
+    "thisYearWins": 40,
+    "thisYearLosses": 17,
     "thisYearTitles": 2,
     "results": [
       {
@@ -18993,6 +19693,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 55,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -19076,15 +19785,16 @@
       "roland-garros",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 11,
-    "totalWins": 19,
-    "totalLosses": 12,
+    "totalTournaments": 12,
+    "totalWins": 21,
+    "totalLosses": 13,
     "titles": 0,
-    "thisYearTournaments": 9,
-    "thisYearWins": 15,
-    "thisYearLosses": 10,
+    "thisYearTournaments": 10,
+    "thisYearWins": 17,
+    "thisYearLosses": 11,
     "thisYearTitles": 0,
     "results": [
       {
@@ -19167,6 +19877,15 @@
         "tournamentId": "wimbledon",
         "points": 10,
         "level": "GS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 65,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -19463,16 +20182,17 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 46,
-    "totalLosses": 29,
+    "totalTournaments": 31,
+    "totalWins": 47,
+    "totalLosses": 30,
     "titles": 3,
-    "thisYearTournaments": 23,
-    "thisYearWins": 27,
-    "thisYearLosses": 24,
+    "thisYearTournaments": 24,
+    "thisYearWins": 28,
+    "thisYearLosses": 25,
     "thisYearTitles": 1,
     "results": [
       {
@@ -19683,6 +20403,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R32",
@@ -19761,17 +20490,18 @@
       "berlin",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 19,
     "totalWins": 17,
-    "totalLosses": 18,
+    "totalLosses": 19,
     "titles": 0,
-    "thisYearTournaments": 12,
+    "thisYearTournaments": 13,
     "thisYearWins": 5,
-    "thisYearLosses": 12,
+    "thisYearLosses": 13,
     "thisYearTitles": 0,
     "results": [
       {
@@ -19883,6 +20613,15 @@
         "level": "GS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "Q",
@@ -19952,15 +20691,16 @@
       "roland-garros",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 31,
-    "totalLosses": 25,
+    "totalLosses": 26,
     "titles": 1,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 20,
-    "thisYearLosses": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -20124,6 +20864,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
       },
       {
         "name": "CLEVELAND",
@@ -20883,14 +21632,14 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 50,
+    "totalTournaments": 31,
+    "totalWins": 55,
     "totalLosses": 26,
-    "titles": 4,
-    "thisYearTournaments": 21,
-    "thisYearWins": 33,
+    "titles": 5,
+    "thisYearTournaments": 22,
+    "thisYearWins": 38,
     "thisYearLosses": 18,
-    "thisYearTitles": 3,
+    "thisYearTitles": 4,
     "results": [
       {
         "name": "CANBERRA 125",
@@ -21080,6 +21829,15 @@
         "tournamentId": null,
         "points": 81,
         "level": "C"
+      },
+      {
+        "name": "LANDISVILLE",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
+        "tournamentId": null,
+        "points": 100,
+        "level": "ITF"
       },
       {
         "name": "US OPEN",
@@ -21883,6 +22641,7 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "guadalajara",
@@ -21890,13 +22649,13 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 28,
     "totalWins": 20,
-    "totalLosses": 29,
+    "totalLosses": 30,
     "titles": 0,
-    "thisYearTournaments": 19,
+    "thisYearTournaments": 20,
     "thisYearWins": 10,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
       {
@@ -22071,6 +22830,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -22157,18 +22925,19 @@
       "roland-garros",
       "queens",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 32,
-    "totalLosses": 27,
+    "totalTournaments": 27,
+    "totalWins": 33,
+    "totalLosses": 28,
     "titles": 0,
-    "thisYearTournaments": 19,
-    "thisYearWins": 22,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 20,
+    "thisYearWins": 23,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -22343,6 +23112,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "R32",
@@ -22422,15 +23200,16 @@
       "queens",
       "wimbledon",
       "rome",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 29,
+    "totalTournaments": 30,
     "totalWins": 38,
-    "totalLosses": 27,
+    "totalLosses": 28,
     "titles": 2,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 16,
-    "thisYearLosses": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -22612,6 +23391,15 @@
         "tournamentId": "rome",
         "points": 1,
         "level": "C"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -23349,13 +24137,13 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 31,
-    "totalWins": 42,
-    "totalLosses": 34,
+    "totalTournaments": 32,
+    "totalWins": 46,
+    "totalLosses": 35,
     "titles": 0,
-    "thisYearTournaments": 21,
-    "thisYearWins": 28,
-    "thisYearLosses": 23,
+    "thisYearTournaments": 22,
+    "thisYearWins": 32,
+    "thisYearLosses": 24,
     "thisYearTitles": 0,
     "results": [
       {
@@ -23548,6 +24336,15 @@
         "level": "IS"
       },
       {
+        "name": "LANDISVILLE",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 65,
+        "level": "ITF"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "S",
@@ -23656,13 +24453,13 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 24,
-    "totalLosses": 29,
+    "totalTournaments": 28,
+    "totalWins": 25,
+    "totalLosses": 30,
     "titles": 0,
-    "thisYearTournaments": 22,
-    "thisYearWins": 12,
-    "thisYearLosses": 24,
+    "thisYearTournaments": 23,
+    "thisYearWins": 13,
+    "thisYearLosses": 25,
     "thisYearTitles": 0,
     "results": [
       {
@@ -23864,6 +24661,15 @@
         "level": "IS"
       },
       {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -23929,13 +24735,13 @@
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 26,
     "totalWins": 15,
-    "totalLosses": 24,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 21,
+    "thisYearTournaments": 22,
     "thisYearWins": 6,
-    "thisYearLosses": 21,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -24128,6 +24934,15 @@
         "level": "IS"
       },
       {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "C"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "Q",
@@ -24177,19 +24992,20 @@
       "roland-garros",
       "bad-homburg",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 29,
-    "totalWins": 23,
-    "totalLosses": 29,
+    "totalTournaments": 30,
+    "totalWins": 24,
+    "totalLosses": 30,
     "titles": 1,
-    "thisYearTournaments": 22,
-    "thisYearWins": 16,
-    "thisYearLosses": 23,
+    "thisYearTournaments": 23,
+    "thisYearWins": 17,
+    "thisYearLosses": 24,
     "thisYearTitles": 0,
     "results": [
       {
@@ -24389,6 +25205,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -25006,19 +25831,20 @@
       "queens",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 23,
+    "totalTournaments": 24,
     "totalWins": 10,
-    "totalLosses": 23,
+    "totalLosses": 24,
     "titles": 0,
-    "thisYearTournaments": 17,
+    "thisYearTournaments": 18,
     "thisYearWins": 5,
-    "thisYearLosses": 18,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -25173,6 +25999,15 @@
         "tournamentId": "washington-dc",
         "points": 1,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -25506,18 +26341,19 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 29,
-    "totalWins": 29,
-    "totalLosses": 27,
+    "totalTournaments": 30,
+    "totalWins": 31,
+    "totalLosses": 28,
     "titles": 2,
-    "thisYearTournaments": 21,
-    "thisYearWins": 23,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 22,
+    "thisYearWins": 25,
+    "thisYearLosses": 20,
     "thisYearTitles": 2,
     "results": [
       {
@@ -25710,6 +26546,15 @@
         "level": "C"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 55,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R32",
@@ -25791,19 +26636,20 @@
       "roland-garros",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 39,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 40,
+    "totalLosses": 26,
     "titles": 0,
-    "thisYearTournaments": 16,
-    "thisYearWins": 33,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 17,
+    "thisYearWins": 34,
+    "thisYearLosses": 17,
     "thisYearTitles": 0,
     "results": [
       {
@@ -25951,6 +26797,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
+      },
+      {
         "name": "CLEVELAND",
         "startDate": "2025-08-17T00:00:00+00:00",
         "bestRound": "R16",
@@ -26044,17 +26899,18 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 30,
-    "totalLosses": 27,
+    "totalTournaments": 27,
+    "totalWins": 31,
+    "totalLosses": 28,
     "titles": 0,
-    "thisYearTournaments": 17,
-    "thisYearWins": 20,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 18,
+    "thisYearWins": 21,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -26209,6 +27065,15 @@
         "tournamentId": null,
         "points": 49,
         "level": "C"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
       },
       {
         "name": "MONTERREY",
@@ -26989,15 +27854,16 @@
       "indian-wells",
       "toray-pan-pacific",
       "wimbledon",
+      "national-bank-open",
       "dubai-championships"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 42,
-    "totalLosses": 17,
+    "totalLosses": 18,
     "titles": 3,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 41,
-    "thisYearLosses": 15,
+    "thisYearLosses": 16,
     "thisYearTitles": 3,
     "results": [
       {
@@ -27161,6 +28027,15 @@
         "tournamentId": null,
         "points": 49,
         "level": "C"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
       },
       {
         "name": "YOKOHAMA",
@@ -27762,18 +28637,19 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 27,
-    "totalLosses": 30,
+    "totalTournaments": 29,
+    "totalWins": 28,
+    "totalLosses": 31,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 12,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 13,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -27937,6 +28813,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -28479,15 +29364,16 @@
       "charleston",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 28,
     "totalWins": 53,
-    "totalLosses": 26,
+    "totalLosses": 27,
     "titles": 2,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 39,
-    "thisYearLosses": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 1,
     "results": [
       {
@@ -28671,6 +29557,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -28765,17 +29660,17 @@
       "charleston",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
-      "guadalajara",
-      "national-bank-open"
+      "guadalajara"
     ],
     "totalTournaments": 24,
-    "totalWins": 49,
-    "totalLosses": 21,
+    "totalWins": 51,
+    "totalLosses": 22,
     "titles": 4,
-    "thisYearTournaments": 16,
-    "thisYearWins": 36,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 17,
+    "thisYearWins": 38,
+    "thisYearLosses": 16,
     "thisYearTitles": 3,
     "results": [
       {
@@ -28923,6 +29818,15 @@
         "level": "C"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 55,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -28983,15 +29887,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 21,
-        "level": "ITF"
-      },
-      {
-        "name": "TORONTO",
-        "startDate": "2025-10-27T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "national-bank-open",
-        "points": 1,
         "level": "ITF"
       }
     ]
@@ -29769,15 +30664,16 @@
       "madrid-open",
       "madrid-open",
       "roland-garros",
-      "wimbledon"
+      "wimbledon",
+      "national-bank-open"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 29,
     "totalWins": 47,
-    "totalLosses": 27,
+    "totalLosses": 28,
     "titles": 1,
-    "thisYearTournaments": 16,
+    "thisYearTournaments": 17,
     "thisYearWins": 27,
-    "thisYearLosses": 16,
+    "thisYearLosses": 17,
     "thisYearTitles": 0,
     "results": [
       {
@@ -29925,6 +30821,15 @@
         "level": "IS"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
+      },
+      {
         "name": "TRIESTE",
         "startDate": "2025-08-25T00:00:00+00:00",
         "bestRound": "S",
@@ -30048,13 +30953,13 @@
       "ningbo-open",
       "dubai-championships"
     ],
-    "totalTournaments": 28,
-    "totalWins": 27,
-    "totalLosses": 26,
+    "totalTournaments": 29,
+    "totalWins": 28,
+    "totalLosses": 27,
     "titles": 2,
-    "thisYearTournaments": 18,
-    "thisYearWins": 22,
-    "thisYearLosses": 16,
+    "thisYearTournaments": 19,
+    "thisYearWins": 23,
+    "thisYearLosses": 17,
     "thisYearTitles": 2,
     "results": [
       {
@@ -30220,6 +31125,15 @@
         "level": "IS"
       },
       {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -30317,15 +31231,16 @@
       "indian-wells",
       "toray-pan-pacific",
       "roland-garros",
-      "wimbledon"
+      "wimbledon",
+      "national-bank-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 26,
     "totalWins": 37,
-    "totalLosses": 26,
+    "totalLosses": 27,
     "titles": 1,
-    "thisYearTournaments": 19,
+    "thisYearTournaments": 20,
     "thisYearWins": 24,
-    "thisYearLosses": 21,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -30498,6 +31413,15 @@
         "tournamentId": null,
         "points": 27,
         "level": "C"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
       },
       {
         "name": "TEMPLETON",
@@ -31005,19 +31929,20 @@
       "roland-garros",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
-    "totalWins": 22,
-    "totalLosses": 24,
+    "totalTournaments": 25,
+    "totalWins": 24,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 16,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 18,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -31183,6 +32108,15 @@
         "level": "P"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 55,
+        "level": "PM"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "Q",
@@ -31314,13 +32248,13 @@
       "wimbledon",
       "monterrey"
     ],
-    "totalTournaments": 29,
+    "totalTournaments": 30,
     "totalWins": 46,
-    "totalLosses": 29,
+    "totalLosses": 30,
     "titles": 1,
-    "thisYearTournaments": 19,
+    "thisYearTournaments": 20,
     "thisYearWins": 32,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 1,
     "results": [
       {
@@ -31495,6 +32429,15 @@
         "level": "IS"
       },
       {
+        "name": "LANDISVILLE",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "ITF"
+      },
+      {
         "name": "MONTERREY",
         "startDate": "2025-08-18T00:00:00+00:00",
         "bestRound": "Q",
@@ -31597,16 +32540,17 @@
       "toray-pan-pacific",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "brisbane"
     ],
-    "totalTournaments": 21,
-    "totalWins": 41,
-    "totalLosses": 20,
+    "totalTournaments": 22,
+    "totalWins": 42,
+    "totalLosses": 21,
     "titles": 2,
-    "thisYearTournaments": 15,
-    "thisYearWins": 20,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 16,
+    "thisYearWins": 21,
+    "thisYearLosses": 16,
     "thisYearTitles": 1,
     "results": [
       {
@@ -31745,6 +32689,15 @@
         "level": "C"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -31805,13 +32758,13 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 26,
-    "totalWins": 54,
-    "totalLosses": 24,
+    "totalTournaments": 27,
+    "totalWins": 55,
+    "totalLosses": 25,
     "titles": 2,
-    "thisYearTournaments": 16,
-    "thisYearWins": 32,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 17,
+    "thisYearWins": 33,
+    "thisYearLosses": 16,
     "thisYearTitles": 1,
     "results": [
       {
@@ -31957,6 +32910,15 @@
         "tournamentId": null,
         "points": 18,
         "level": "IS"
+      },
+      {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
       },
       {
         "name": "WANFERCEE-BAULET",
@@ -32188,18 +33150,19 @@
       "rome",
       "roland-garros",
       "wimbledon",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 32,
-    "totalLosses": 27,
+    "totalTournaments": 29,
+    "totalWins": 33,
+    "totalLosses": 28,
     "titles": 1,
-    "thisYearTournaments": 20,
-    "thisYearWins": 21,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 21,
+    "thisYearWins": 22,
+    "thisYearLosses": 20,
     "thisYearTitles": 1,
     "results": [
       {
@@ -32383,6 +33346,15 @@
         "level": "ITF"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 20,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -32463,18 +33435,18 @@
       "roland-garros",
       "queens",
       "wimbledon",
-      "us-open",
       "national-bank-open",
+      "us-open",
       "dubai-championships"
     ],
     "totalTournaments": 25,
     "totalWins": 39,
-    "totalLosses": 23,
+    "totalLosses": 24,
     "titles": 2,
-    "thisYearTournaments": 18,
-    "thisYearWins": 23,
-    "thisYearLosses": 18,
-    "thisYearTitles": 0,
+    "thisYearTournaments": 19,
+    "thisYearWins": 28,
+    "thisYearLosses": 19,
+    "thisYearTitles": 1,
     "results": [
       {
         "name": "AUSTRALIAN OPEN",
@@ -32639,6 +33611,15 @@
         "level": "C"
       },
       {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
+        "tournamentId": "national-bank-open",
+        "points": 75,
+        "level": "PM"
+      },
+      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -32684,15 +33665,6 @@
         "level": "C"
       },
       {
-        "name": "TORONTO",
-        "startDate": "2025-10-27T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": "national-bank-open",
-        "points": 75,
-        "level": "ITF"
-      },
-      {
         "name": "DUBAI",
         "startDate": "2025-12-01T00:00:00+00:00",
         "bestRound": "R16",
@@ -32711,13 +33683,13 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 26,
-    "totalWins": 42,
-    "totalLosses": 24,
+    "totalTournaments": 27,
+    "totalWins": 43,
+    "totalLosses": 25,
     "titles": 4,
-    "thisYearTournaments": 19,
-    "thisYearWins": 32,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 20,
+    "thisYearWins": 33,
+    "thisYearLosses": 18,
     "thisYearTitles": 3,
     "results": [
       {
@@ -32890,6 +33862,15 @@
         "tournamentId": null,
         "points": 30,
         "level": "IS"
+      },
+      {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
       },
       {
         "name": "BISTRITA",
@@ -33235,13 +34216,13 @@
       "washington-dc",
       "dubai-championships"
     ],
-    "totalTournaments": 22,
-    "totalWins": 32,
-    "totalLosses": 21,
+    "totalTournaments": 23,
+    "totalWins": 33,
+    "totalLosses": 22,
     "titles": 2,
-    "thisYearTournaments": 17,
-    "thisYearWins": 19,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 18,
+    "thisYearWins": 20,
+    "thisYearLosses": 18,
     "thisYearTitles": 1,
     "results": [
       {
@@ -33396,6 +34377,15 @@
         "tournamentId": "washington-dc",
         "points": 1,
         "level": "P"
+      },
+      {
+        "name": "LANDISVILLE",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 12,
+        "level": "ITF"
       },
       {
         "name": "LE NEUBOURG",
@@ -34081,13 +35071,13 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 22,
+    "totalTournaments": 23,
     "totalWins": 39,
-    "totalLosses": 17,
+    "totalLosses": 18,
     "titles": 5,
-    "thisYearTournaments": 16,
+    "thisYearTournaments": 17,
     "thisYearWins": 23,
-    "thisYearLosses": 13,
+    "thisYearLosses": 14,
     "thisYearTitles": 3,
     "results": [
       {
@@ -34232,6 +35222,15 @@
         "isChampion": true,
         "tournamentId": null,
         "points": 125,
+        "level": "C"
+      },
+      {
+        "name": "WARSAW 125",
+        "startDate": "2026-08-03T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
         "level": "C"
       },
       {
