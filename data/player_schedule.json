@@ -4139,15 +4139,16 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "china-open"
     ],
-    "totalTournaments": 13,
+    "totalTournaments": 14,
     "totalWins": 12,
-    "totalLosses": 13,
+    "totalLosses": 14,
     "titles": 0,
-    "thisYearTournaments": 12,
+    "thisYearTournaments": 13,
     "thisYearWins": 11,
-    "thisYearLosses": 12,
+    "thisYearLosses": 13,
     "thisYearTitles": 0,
     "results": [
       {
@@ -4257,6 +4258,15 @@
         "tournamentId": "washington-dc",
         "points": 1,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 2,
+        "level": "PM"
       },
       {
         "name": "BEIJING",
@@ -11516,19 +11526,20 @@
       "roland-garros",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 20,
-    "totalWins": 18,
-    "totalLosses": 20,
+    "totalTournaments": 21,
+    "totalWins": 19,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 15,
-    "thisYearWins": 18,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 16,
+    "thisYearWins": 19,
+    "thisYearLosses": 16,
     "thisYearTitles": 0,
     "results": [
       {
@@ -11665,6 +11676,15 @@
         "tournamentId": "washington-dc",
         "points": 1,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 35,
+        "level": "PM"
       },
       {
         "name": "US OPEN",
@@ -15464,18 +15484,19 @@
       "bad-homburg",
       "wimbledon",
       "washington-dc",
+      "national-bank-open",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 24,
-    "totalLosses": 23,
+    "totalLosses": 24,
     "titles": 1,
-    "thisYearTournaments": 16,
+    "thisYearTournaments": 17,
     "thisYearWins": 19,
-    "thisYearLosses": 15,
+    "thisYearLosses": 16,
     "thisYearTitles": 1,
     "results": [
       {
@@ -15621,6 +15642,15 @@
         "tournamentId": "washington-dc",
         "points": 1,
         "level": "P"
+      },
+      {
+        "name": "TORONTO",
+        "startDate": "2026-08-02T00:00:00+00:00",
+        "bestRound": "R128",
+        "isChampion": false,
+        "tournamentId": "national-bank-open",
+        "points": 10,
+        "level": "PM"
       },
       {
         "name": "CLEVELAND",
