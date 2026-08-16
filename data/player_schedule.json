@@ -562,9 +562,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 20,
     "totalWins": 27,
-    "totalLosses": 22,
+    "totalLosses": 21,
     "titles": 0,
     "thisYearTournaments": 14,
     "thisYearWins": 20,
@@ -696,15 +696,6 @@
         "tournamentId": "national-bank-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -2409,9 +2400,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 23,
-    "totalLosses": 30,
+    "totalLosses": 29,
     "titles": 0,
     "thisYearTournaments": 21,
     "thisYearWins": 20,
@@ -2606,15 +2597,6 @@
         "tournamentId": null,
         "points": 15,
         "level": "C"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -3126,9 +3108,9 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 26,
-    "totalWins": 25,
-    "totalLosses": 26,
+    "totalTournaments": 25,
+    "totalWins": 22,
+    "totalLosses": 25,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 21,
@@ -3305,15 +3287,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 98,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -5395,9 +5368,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 42,
-    "totalLosses": 22,
+    "totalTournaments": 21,
+    "totalWins": 41,
+    "totalLosses": 21,
     "titles": 1,
     "thisYearTournaments": 15,
     "thisYearWins": 30,
@@ -5540,15 +5513,6 @@
         "level": "PM"
       },
       {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 30,
-        "level": "IS"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -5622,10 +5586,10 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 50,
+    "totalTournaments": 21,
+    "totalWins": 43,
     "totalLosses": 19,
-    "titles": 2,
+    "titles": 1,
     "thisYearTournaments": 15,
     "thisYearWins": 34,
     "thisYearLosses": 13,
@@ -5765,15 +5729,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 268,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -6946,9 +6901,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 19,
+    "totalTournaments": 18,
     "totalWins": 31,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 27,
@@ -7098,15 +7053,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -7696,9 +7642,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 32,
-    "totalLosses": 26,
+    "totalTournaments": 26,
+    "totalWins": 28,
+    "totalLosses": 25,
     "titles": 1,
     "thisYearTournaments": 20,
     "thisYearWins": 18,
@@ -7884,15 +7830,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 163,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -8197,9 +8134,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 18,
-    "totalWins": 21,
-    "totalLosses": 19,
+    "totalTournaments": 17,
+    "totalWins": 20,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 12,
     "thisYearWins": 18,
@@ -8313,15 +8250,6 @@
         "tournamentId": "roland-garros",
         "points": 70,
         "level": "GS"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 30,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -10434,9 +10362,9 @@
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 25,
-    "totalWins": 39,
-    "totalLosses": 25,
+    "totalTournaments": 24,
+    "totalWins": 37,
+    "totalLosses": 24,
     "titles": 1,
     "thisYearTournaments": 18,
     "thisYearWins": 25,
@@ -10604,15 +10532,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -12974,9 +12893,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 20,
     "totalWins": 21,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 1,
     "thisYearTournaments": 18,
     "thisYearWins": 20,
@@ -13146,15 +13065,6 @@
         "level": "PM"
       },
       {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -13196,9 +13106,9 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 30,
+    "totalTournaments": 29,
     "totalWins": 30,
-    "totalLosses": 31,
+    "totalLosses": 30,
     "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 25,
@@ -13384,15 +13294,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -14611,9 +14512,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 33,
-    "totalLosses": 29,
+    "totalLosses": 28,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 23,
@@ -14790,15 +14691,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -15490,9 +15382,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 25,
-    "totalWins": 24,
-    "totalLosses": 24,
+    "totalTournaments": 24,
+    "totalWins": 23,
+    "totalLosses": 23,
     "titles": 1,
     "thisYearTournaments": 17,
     "thisYearWins": 19,
@@ -15651,15 +15543,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 30,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -16008,9 +15891,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 21,
-    "totalLosses": 25,
+    "totalTournaments": 24,
+    "totalWins": 19,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 15,
@@ -16198,15 +16081,6 @@
         "level": "PM"
       },
       {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -16261,9 +16135,9 @@
       "us-open",
       "ningbo-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 45,
-    "totalLosses": 29,
+    "totalTournaments": 29,
+    "totalWins": 42,
+    "totalLosses": 28,
     "titles": 2,
     "thisYearTournaments": 20,
     "thisYearWins": 29,
@@ -16449,15 +16323,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 48,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -16864,9 +16729,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 23,
+    "totalTournaments": 22,
     "totalWins": 30,
-    "totalLosses": 23,
+    "totalLosses": 22,
     "titles": 1,
     "thisYearTournaments": 17,
     "thisYearWins": 22,
@@ -17025,15 +16890,6 @@
         "tournamentId": "national-bank-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -18188,9 +18044,9 @@
       "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 20,
     "totalWins": 13,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 9,
@@ -18358,15 +18214,6 @@
         "tournamentId": "national-bank-open",
         "points": 85,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -20525,9 +20372,9 @@
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 19,
-    "totalWins": 17,
-    "totalLosses": 19,
+    "totalTournaments": 18,
+    "totalWins": 15,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 13,
     "thisYearWins": 5,
@@ -20652,15 +20499,6 @@
         "level": "PM"
       },
       {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -20724,9 +20562,9 @@
       "national-bank-open",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 31,
-    "totalLosses": 26,
+    "totalTournaments": 24,
+    "totalWins": 30,
+    "totalLosses": 25,
     "titles": 1,
     "thisYearTournaments": 19,
     "thisYearWins": 20,
@@ -20903,15 +20741,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 30,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -24167,9 +23996,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 32,
-    "totalWins": 46,
-    "totalLosses": 35,
+    "totalTournaments": 31,
+    "totalWins": 43,
+    "totalLosses": 34,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 32,
@@ -24373,15 +24202,6 @@
         "tournamentId": null,
         "points": 65,
         "level": "ITF"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 98,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -24765,9 +24585,9 @@
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 15,
-    "totalLosses": 25,
+    "totalTournaments": 25,
+    "totalWins": 11,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 6,
@@ -24971,15 +24791,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "C"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 72,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -26377,9 +26188,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 30,
+    "totalTournaments": 29,
     "totalWins": 31,
-    "totalLosses": 28,
+    "totalLosses": 27,
     "titles": 2,
     "thisYearTournaments": 22,
     "thisYearWins": 25,
@@ -26585,15 +26396,6 @@
         "level": "PM"
       },
       {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -26673,9 +26475,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 40,
-    "totalLosses": 26,
+    "totalTournaments": 25,
+    "totalWins": 39,
+    "totalLosses": 25,
     "titles": 0,
     "thisYearTournaments": 17,
     "thisYearWins": 34,
@@ -26834,15 +26636,6 @@
         "tournamentId": "national-bank-open",
         "points": 20,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 30,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -28957,9 +28750,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 33,
+    "totalTournaments": 32,
     "totalWins": 35,
-    "totalLosses": 33,
+    "totalLosses": 32,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 32,
@@ -29165,15 +28958,6 @@
         "level": "C"
       },
       {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -29276,9 +29060,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 11,
+    "totalTournaments": 10,
     "totalWins": 17,
-    "totalLosses": 11,
+    "totalLosses": 10,
     "titles": 0,
     "thisYearTournaments": 6,
     "thisYearWins": 12,
@@ -29338,15 +29122,6 @@
         "tournamentId": "indian-wells",
         "points": 120,
         "level": "PM"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -31530,9 +31305,9 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 23,
     "totalWins": 30,
-    "totalLosses": 25,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 24,
@@ -31696,15 +31471,6 @@
         "name": "PRAGUE",
         "startDate": "2026-07-20T00:00:00+00:00",
         "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R16",
         "isChampion": false,
         "tournamentId": null,
         "points": 1,
