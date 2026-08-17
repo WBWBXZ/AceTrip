@@ -945,14 +945,13 @@
       "berlin",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 30,
-    "totalLosses": 22,
+    "totalTournaments": 21,
+    "totalWins": 29,
+    "totalLosses": 21,
     "titles": 1,
     "thisYearTournaments": 17,
     "thisYearWins": 26,
@@ -1111,15 +1110,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 60,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -2671,14 +2661,13 @@
       "wimbledon",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 24,
     "totalWins": 26,
-    "totalLosses": 23,
+    "totalLosses": 22,
     "titles": 1,
     "thisYearTournaments": 19,
     "thisYearWins": 20,
@@ -2855,15 +2844,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -3832,15 +3812,14 @@
       "wimbledon",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 28,
-    "totalWins": 28,
-    "totalLosses": 27,
+    "totalTournaments": 27,
+    "totalWins": 27,
+    "totalLosses": 26,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 15,
@@ -4035,15 +4014,6 @@
         "tournamentId": "national-bank-open",
         "points": 120,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 60,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -4612,14 +4582,13 @@
       "bad-homburg",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 18,
-    "totalWins": 39,
-    "totalLosses": 16,
+    "totalTournaments": 17,
+    "totalWins": 37,
+    "totalLosses": 15,
     "titles": 2,
     "thisYearTournaments": 14,
     "thisYearWins": 28,
@@ -4753,15 +4722,6 @@
         "level": "PM"
       },
       {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 108,
-        "level": "P"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -4809,13 +4769,12 @@
       "wimbledon",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open"
     ],
-    "totalTournaments": 20,
-    "totalWins": 29,
+    "totalTournaments": 19,
+    "totalWins": 25,
     "totalLosses": 19,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 17,
     "thisYearWins": 24,
     "thisYearLosses": 17,
@@ -4973,15 +4932,6 @@
         "tournamentId": "national-bank-open",
         "points": 215,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": "monterrey",
-        "points": 500,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -5805,13 +5755,12 @@
       "bad-homburg",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 23,
-    "totalWins": 23,
-    "totalLosses": 23,
+    "totalTournaments": 22,
+    "totalWins": 20,
+    "totalLosses": 22,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 14,
@@ -5988,15 +5937,6 @@
         "tournamentId": "national-bank-open",
         "points": 215,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 325,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -6266,15 +6206,14 @@
       "roland-garros",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
-    "totalWins": 34,
-    "totalLosses": 23,
+    "totalTournaments": 23,
+    "totalWins": 31,
+    "totalLosses": 22,
     "titles": 2,
     "thisYearTournaments": 18,
     "thisYearWins": 26,
@@ -6442,15 +6381,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 195,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -6715,12 +6645,11 @@
       "bad-homburg",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open"
     ],
-    "totalTournaments": 17,
-    "totalWins": 28,
-    "totalLosses": 17,
+    "totalTournaments": 16,
+    "totalWins": 26,
+    "totalLosses": 16,
     "titles": 0,
     "thisYearTournaments": 15,
     "thisYearWins": 24,
@@ -6861,15 +6790,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 108,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -7902,15 +7822,14 @@
       "roland-garros",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 22,
+    "totalTournaments": 21,
     "totalWins": 23,
-    "totalLosses": 22,
+    "totalLosses": 21,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 18,
@@ -8060,15 +7979,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -8977,15 +8887,14 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 23,
+    "totalTournaments": 22,
     "totalWins": 24,
-    "totalLosses": 23,
+    "totalLosses": 22,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 17,
@@ -9137,15 +9046,6 @@
         "level": "GS"
       },
       {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -9217,13 +9117,12 @@
       "roland-garros",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 17,
-    "totalWins": 13,
-    "totalLosses": 15,
+    "totalTournaments": 16,
+    "totalWins": 11,
+    "totalLosses": 14,
     "titles": 1,
     "thisYearTournaments": 14,
     "thisYearWins": 7,
@@ -9355,15 +9254,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 25,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -10606,7 +10496,6 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
@@ -10614,9 +10503,9 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 26,
     "totalWins": 37,
-    "totalLosses": 27,
+    "totalLosses": 26,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 28,
@@ -10784,15 +10673,6 @@
         "tournamentId": "national-bank-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -11171,15 +11051,14 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 31,
-    "totalLosses": 29,
+    "totalTournaments": 26,
+    "totalWins": 27,
+    "totalLosses": 28,
     "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 17,
@@ -11365,15 +11244,6 @@
         "tournamentId": "national-bank-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 133,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -13393,14 +13263,13 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 20,
-    "totalLosses": 28,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 16,
@@ -13606,15 +13475,6 @@
         "level": "PM"
       },
       {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -13675,14 +13535,13 @@
       "bad-homburg",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 28,
-    "totalLosses": 25,
+    "totalTournaments": 25,
+    "totalWins": 27,
+    "totalLosses": 24,
     "titles": 1,
     "thisYearTournaments": 19,
     "thisYearWins": 23,
@@ -13859,15 +13718,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 13,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -15021,15 +14871,14 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 36,
-    "totalWins": 32,
-    "totalLosses": 36,
+    "totalTournaments": 35,
+    "totalWins": 29,
+    "totalLosses": 35,
     "titles": 0,
     "thisYearTournaments": 24,
     "thisYearWins": 23,
@@ -15251,15 +15100,6 @@
         "tournamentId": "national-bank-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 195,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -15624,14 +15464,13 @@
       "wimbledon",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 30,
-    "totalLosses": 22,
+    "totalTournaments": 24,
+    "totalWins": 29,
+    "totalLosses": 21,
     "titles": 1,
     "thisYearTournaments": 15,
     "thisYearWins": 21,
@@ -15772,15 +15611,6 @@
         "tournamentId": "national-bank-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 60,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -17704,15 +17534,14 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "guadalajara",
       "china-open",
       "ningbo-open"
     ],
-    "totalTournaments": 34,
-    "totalWins": 33,
-    "totalLosses": 33,
+    "totalTournaments": 33,
+    "totalWins": 32,
+    "totalLosses": 32,
     "titles": 1,
     "thisYearTournaments": 25,
     "thisYearWins": 26,
@@ -17943,15 +17772,6 @@
         "tournamentId": "national-bank-open",
         "points": 20,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 60,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -18250,7 +18070,6 @@
       "wimbledon",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "guadalajara",
       "guadalajara",
@@ -18258,9 +18077,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 26,
-    "totalLosses": 31,
+    "totalTournaments": 28,
+    "totalWins": 25,
+    "totalLosses": 30,
     "titles": 1,
     "thisYearTournaments": 19,
     "thisYearWins": 17,
@@ -18437,15 +18256,6 @@
         "tournamentId": "national-bank-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 60,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -20060,12 +19870,11 @@
       "bad-homburg",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open"
     ],
-    "totalTournaments": 31,
+    "totalTournaments": 30,
     "totalWins": 47,
-    "totalLosses": 30,
+    "totalLosses": 29,
     "titles": 3,
     "thisYearTournaments": 24,
     "thisYearWins": 28,
@@ -20287,15 +20096,6 @@
         "tournamentId": "national-bank-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -21993,15 +21793,14 @@
       "roland-garros",
       "queens",
       "wimbledon",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 23,
-    "totalLosses": 25,
+    "totalTournaments": 23,
+    "totalWins": 22,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 15,
@@ -22151,15 +21950,6 @@
         "tournamentId": "wimbledon",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 60,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -22785,14 +22575,13 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 26,
     "totalWins": 33,
-    "totalLosses": 28,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 23,
@@ -22978,15 +22767,6 @@
         "tournamentId": "national-bank-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -24834,15 +24614,14 @@
       "bad-homburg",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 30,
+    "totalTournaments": 29,
     "totalWins": 24,
-    "totalLosses": 30,
+    "totalLosses": 29,
     "titles": 1,
     "thisYearTournaments": 23,
     "thisYearWins": 17,
@@ -25055,15 +24834,6 @@
         "tournamentId": "national-bank-open",
         "points": 20,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -25919,13 +25689,13 @@
       "rome",
       "us-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 28,
     "totalWins": 37,
-    "totalLosses": 29,
+    "totalLosses": 30,
     "titles": 0,
-    "thisYearTournaments": 22,
+    "thisYearTournaments": 23,
     "thisYearWins": 22,
-    "thisYearLosses": 24,
+    "thisYearLosses": 25,
     "thisYearTitles": 0,
     "results": [
       {
@@ -26125,6 +25895,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "C"
+      },
+      {
+        "name": "KURSUMLIJSKA BANJA 14",
+        "startDate": "2026-08-10T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "ITF"
       },
       {
         "name": "US OPEN",
@@ -26723,13 +26502,12 @@
       "roland-garros",
       "wimbledon",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 31,
-    "totalLosses": 28,
+    "totalTournaments": 26,
+    "totalWins": 29,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 21,
@@ -26897,15 +26675,6 @@
         "tournamentId": "national-bank-open",
         "points": 20,
         "level": "PM"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 25,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -27459,12 +27228,11 @@
       "roland-garros",
       "berlin",
       "wimbledon",
-      "monterrey",
       "us-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 26,
-    "totalLosses": 21,
+    "totalTournaments": 21,
+    "totalWins": 24,
+    "totalLosses": 20,
     "titles": 1,
     "thisYearTournaments": 16,
     "thisYearWins": 8,
@@ -27614,15 +27382,6 @@
         "tournamentId": "wimbledon",
         "points": 20,
         "level": "GS"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 25,
-        "level": "P"
       },
       {
         "name": "US OPEN",
@@ -31726,15 +31485,14 @@
       "wimbledon",
       "washington-dc",
       "national-bank-open",
-      "monterrey",
       "us-open",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 25,
-    "totalWins": 24,
-    "totalLosses": 25,
+    "totalTournaments": 24,
+    "totalWins": 22,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 18,
@@ -31913,15 +31671,6 @@
         "level": "PM"
       },
       {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 108,
-        "level": "P"
-      },
-      {
         "name": "US OPEN",
         "startDate": "2025-08-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -32041,12 +31790,11 @@
       "madrid-open",
       "madrid-open",
       "roland-garros",
-      "wimbledon",
-      "monterrey"
+      "wimbledon"
     ],
-    "totalTournaments": 30,
-    "totalWins": 46,
-    "totalLosses": 30,
+    "totalTournaments": 29,
+    "totalWins": 45,
+    "totalLosses": 29,
     "titles": 1,
     "thisYearTournaments": 20,
     "thisYearWins": 32,
@@ -32232,15 +31980,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "ITF"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 13,
-        "level": "P"
       },
       {
         "name": "SAINT PALAIS SUR MER",
@@ -32554,9 +32293,9 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 27,
-    "totalWins": 55,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 52,
+    "totalLosses": 24,
     "titles": 2,
     "thisYearTournaments": 17,
     "thisYearWins": 33,
@@ -32715,15 +32454,6 @@
         "tournamentId": null,
         "points": 15,
         "level": "C"
-      },
-      {
-        "name": "WANFERCEE-BAULET",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 6,
-        "level": "ITF"
       },
       {
         "name": "SAINT PALAIS SUR MER",
@@ -33479,9 +33209,9 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 26,
     "totalWins": 43,
-    "totalLosses": 25,
+    "totalLosses": 24,
     "titles": 4,
     "thisYearTournaments": 20,
     "thisYearWins": 33,
@@ -33669,15 +33399,6 @@
         "level": "C"
       },
       {
-        "name": "BISTRITA",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "ITF"
-      },
-      {
         "name": "OLDENZAAL",
         "startDate": "2025-08-25T00:00:00+00:00",
         "bestRound": "F",
@@ -33749,9 +33470,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 26,
     "totalWins": 20,
-    "totalLosses": 29,
+    "totalLosses": 28,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 14,
@@ -33919,15 +33640,6 @@
         "tournamentId": "wimbledon",
         "points": 20,
         "level": "GS"
-      },
-      {
-        "name": "CLEVELAND",
-        "startDate": "2025-08-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "US OPEN",
@@ -34460,9 +34172,9 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 18,
-    "totalWins": 36,
-    "totalLosses": 16,
+    "totalTournaments": 17,
+    "totalWins": 34,
+    "totalLosses": 15,
     "titles": 2,
     "thisYearTournaments": 11,
     "thisYearWins": 27,
@@ -34569,15 +34281,6 @@
         "level": "C"
       },
       {
-        "name": "BISTRITA",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 11,
-        "level": "ITF"
-      },
-      {
         "name": "BYTOM",
         "startDate": "2025-08-25T00:00:00+00:00",
         "bestRound": "F",
@@ -34647,12 +34350,11 @@
       "strasbourg",
       "roland-garros",
       "wimbledon",
-      "monterrey",
       "us-open"
     ],
-    "totalTournaments": 22,
+    "totalTournaments": 21,
     "totalWins": 10,
-    "totalLosses": 23,
+    "totalLosses": 22,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 4,
@@ -34820,15 +34522,6 @@
         "tournamentId": "wimbledon",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "MONTERREY",
-        "startDate": "2025-08-18T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "monterrey",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "US OPEN",
