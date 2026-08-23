@@ -208,7 +208,7 @@
     ]
   },
   "pegula": {
-    "total": 7005,
+    "total": 7265,
     "entries": [
       {
         "level": "Grand Slam",
@@ -248,15 +248,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "25 Wuhan",
+        "name": "26 Cincinnati",
         "points": 650,
         "round": "F"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
-        "points": 390,
-        "round": "SF"
+        "name": "25 Wuhan",
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -266,13 +266,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Indian Wells",
+        "name": "26 Miami",
         "points": 215,
         "round": "QF"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Indian Wells",
         "points": 215,
         "round": "QF"
       },
@@ -321,7 +321,7 @@
     ]
   },
   "gauff": {
-    "total": 5919,
+    "total": 6094,
     "entries": [
       {
         "level": "Grand Slam",
@@ -373,7 +373,7 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Dubai",
+        "name": "26 Toronto",
         "points": 390,
         "round": "SF"
       },
@@ -385,15 +385,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
+        "name": "26 Cincinnati",
         "points": 390,
         "round": "SF"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
-        "points": 215,
-        "round": "QF"
+        "name": "26 Dubai",
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
