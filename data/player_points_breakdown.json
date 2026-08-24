@@ -321,7 +321,7 @@
     ]
   },
   "gauff": {
-    "total": 6094,
+    "total": 6704,
     "entries": [
       {
         "level": "Grand Slam",
@@ -361,9 +361,9 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Rome",
-        "points": 650,
-        "round": "F"
+        "name": "26 Cincinnati",
+        "points": 1000,
+        "round": "W"
       },
       {
         "level": "WTA 1000",
@@ -373,9 +373,9 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
-        "points": 390,
-        "round": "SF"
+        "name": "26 Rome",
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -385,7 +385,7 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
+        "name": "26 Toronto",
         "points": 390,
         "round": "SF"
       },

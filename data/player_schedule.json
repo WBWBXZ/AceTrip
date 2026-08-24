@@ -28796,9 +28796,9 @@
       "stuttgart",
       "wimbledon"
     ],
-    "totalTournaments": 27,
-    "totalWins": 59,
-    "totalLosses": 23,
+    "totalTournaments": 26,
+    "totalWins": 56,
+    "totalLosses": 22,
     "titles": 4,
     "thisYearTournaments": 18,
     "thisYearWins": 33,
@@ -28968,15 +28968,6 @@
         "level": "C"
       },
       {
-        "name": "TRIESTE",
-        "startDate": "2025-08-25T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 14,
-        "level": "ITF"
-      },
-      {
         "name": "BUCHAREST 6",
         "startDate": "2025-09-08T00:00:00+00:00",
         "bestRound": "Q",
@@ -29059,9 +29050,9 @@
       "wimbledon",
       "national-bank-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 47,
-    "totalLosses": 28,
+    "totalTournaments": 28,
+    "totalWins": 44,
+    "totalLosses": 27,
     "titles": 1,
     "thisYearTournaments": 17,
     "thisYearWins": 27,
@@ -29220,15 +29211,6 @@
         "tournamentId": "national-bank-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "TRIESTE",
-        "startDate": "2025-08-25T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 14,
-        "level": "ITF"
       },
       {
         "name": "VIENNA",
@@ -31947,10 +31929,10 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 26,
-    "totalWins": 43,
+    "totalTournaments": 25,
+    "totalWins": 38,
     "totalLosses": 24,
-    "titles": 4,
+    "titles": 3,
     "thisYearTournaments": 20,
     "thisYearWins": 33,
     "thisYearLosses": 18,
@@ -32135,15 +32117,6 @@
         "tournamentId": null,
         "points": 15,
         "level": "C"
-      },
-      {
-        "name": "OLDENZAAL",
-        "startDate": "2025-08-25T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 50,
-        "level": "ITF"
       },
       {
         "name": "SAN SEBASTIAN 125",
@@ -32890,9 +32863,9 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 17,
-    "totalWins": 34,
-    "totalLosses": 15,
+    "totalTournaments": 16,
+    "totalWins": 30,
+    "totalLosses": 14,
     "titles": 2,
     "thisYearTournaments": 11,
     "thisYearWins": 27,
@@ -32997,15 +32970,6 @@
         "tournamentId": "rome",
         "points": 1,
         "level": "C"
-      },
-      {
-        "name": "BYTOM",
-        "startDate": "2025-08-25T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 33,
-        "level": "ITF"
       },
       {
         "name": "JINGSHAN 125",
