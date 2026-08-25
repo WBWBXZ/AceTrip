@@ -704,7 +704,12 @@
       "venue": "Lindner Family Tennis Center",
       "timezone": "America/New_York",
       "timezoneCn": "美东时间 UTC-5",
-      "liveTennisId": 31017
+      "liveTennisId": 31017,
+      "winner": {
+        "name": "Coco Gauff",
+        "nameCn": "高芙",
+        "countryCode": "USA"
+      }
     },
     {
       "id": "monterrey",
