@@ -3578,7 +3578,7 @@
     ]
   },
   "mertens": {
-    "total": 1870,
+    "total": 1948,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3666,6 +3666,12 @@
       },
       {
         "level": "WTA 500",
+        "name": "26 Monterrey",
+        "points": 108,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 500",
         "name": "26 Bad Homburg",
         "points": 60,
         "round": "R16"
@@ -3680,12 +3686,6 @@
         "level": "WTA 500",
         "name": "26 Stuttgart",
         "points": 60,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 s-Hertogenbosch",
-        "points": 30,
         "round": "R16"
       }
     ]
@@ -3911,7 +3911,7 @@
     ]
   },
   "tauson": {
-    "total": 1234,
+    "total": 1282,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3993,6 +3993,12 @@
       },
       {
         "level": "WTA 500",
+        "name": "26 Monterrey",
+        "points": 108,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 500",
         "name": "26 Bad Homburg",
         "points": 108,
         "round": "QF"
@@ -4004,12 +4010,6 @@
         "round": "QF"
       },
       {
-        "level": "WTA 500",
-        "name": "26 Monterrey",
-        "points": 60,
-        "round": "R16"
-      },
-      {
         "level": "WTA 250",
         "name": "26 Athens",
         "points": 98,
@@ -4018,7 +4018,7 @@
     ]
   },
   "ann-li": {
-    "total": 1548,
+    "total": 1596,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4101,8 +4101,8 @@
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 60,
-        "round": "R16"
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
@@ -4999,7 +4999,7 @@
     ]
   },
   "nikola-bartunkova": {
-    "total": 1282,
+    "total": 1330,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5039,7 +5039,7 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Madrid",
         "points": 20,
         "round": "Q2"
       },
@@ -5051,7 +5051,7 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Madrid",
+        "name": "26 Miami",
         "points": 20,
         "round": "Q2"
       },
@@ -5070,8 +5070,8 @@
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 60,
-        "round": "R16"
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
@@ -6777,7 +6777,7 @@
     ]
   },
   "diane-parry": {
-    "total": 1171,
+    "total": 1219,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6811,13 +6811,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "25 Beijing",
         "points": 20,
         "round": "Q2"
       },
       {
         "level": "WTA 1000",
-        "name": "25 Beijing",
+        "name": "26 Miami",
         "points": 20,
         "round": "Q2"
       },
@@ -6841,6 +6841,12 @@
       },
       {
         "level": "WTA 500",
+        "name": "26 Monterrey",
+        "points": 108,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 500",
         "name": "26 Berlin",
         "points": 85,
         "round": "R16"
@@ -6848,12 +6854,6 @@
       {
         "level": "WTA 500",
         "name": "26 Strasbourg",
-        "points": 60,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 500",
-        "name": "26 Monterrey",
         "points": 60,
         "round": "R16"
       },
@@ -7074,7 +7074,7 @@
     ]
   },
   "tereza-valentova": {
-    "total": 1058,
+    "total": 1070,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7181,8 +7181,8 @@
       {
         "level": "Challengers",
         "name": "26 Philadelphia/125",
-        "points": 15,
-        "round": "R16"
+        "points": 27,
+        "round": "QF"
       }
     ]
   },
@@ -7413,7 +7413,7 @@
     ]
   },
   "alycia-parks": {
-    "total": 879,
+    "total": 927,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7483,14 +7483,14 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 Stuttgart",
-        "points": 85,
-        "round": "R16"
+        "name": "26 Monterrey",
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
-        "name": "26 Monterrey",
-        "points": 60,
+        "name": "26 Stuttgart",
+        "points": 85,
         "round": "R16"
       },
       {
@@ -7972,7 +7972,7 @@
     ]
   },
   "panna-udvardy": {
-    "total": 941,
+    "total": 984,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8017,6 +8017,12 @@
         "round": "R128"
       },
       {
+        "level": "WTA 500",
+        "name": "26 Monterrey",
+        "points": 73,
+        "round": "R16"
+      },
+      {
         "level": "WTA 250",
         "name": "26 Bogota",
         "points": 163,
@@ -8055,12 +8061,6 @@
       {
         "level": "WTA 250",
         "name": "26 s-Hertogenbosch",
-        "points": 30,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Ostrava",
         "points": 30,
         "round": "R16"
       },
@@ -10832,7 +10832,7 @@
     ]
   },
   "oksana-selekhmeteva": {
-    "total": 791,
+    "total": 824,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10920,15 +10920,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Lisboa/100",
-        "points": 39,
+        "name": "26 Philadelphia/125",
+        "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "25 RENDE/125",
-        "points": 27,
-        "round": "QF"
+        "name": "25 Lisboa/100",
+        "points": 39,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -10938,8 +10938,8 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 16,
+        "name": "25 RENDE/125",
+        "points": 27,
         "round": "QF"
       }
     ]
@@ -11706,7 +11706,7 @@
     ]
   },
   "darja-vidmanova": {
-    "total": 909,
+    "total": 957,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11753,8 +11753,8 @@
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 85,
-        "round": "R16"
+        "points": 133,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
@@ -12830,7 +12830,7 @@
     ]
   },
   "mananchaya-sawangkaew": {
-    "total": 792,
+    "total": 804,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12900,6 +12900,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Philadelphia/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Evansville/100",
         "points": 21,
         "round": "QF"
@@ -12909,12 +12915,6 @@
         "name": "26 Tokyo/100",
         "points": 21,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Philadelphia/125",
-        "points": 15,
-        "round": "R16"
       },
       {
         "level": "Challengers",
