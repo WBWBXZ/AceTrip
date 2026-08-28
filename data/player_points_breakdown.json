@@ -3578,7 +3578,7 @@
     ]
   },
   "mertens": {
-    "total": 1948,
+    "total": 2035,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3660,15 +3660,15 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 United Cup",
-        "points": 150,
-        "round": "-"
+        "name": "26 Monterrey",
+        "points": 195,
+        "round": "SF"
       },
       {
         "level": "WTA 500",
-        "name": "26 Monterrey",
-        "points": 108,
-        "round": "QF"
+        "name": "26 United Cup",
+        "points": 150,
+        "round": "-"
       },
       {
         "level": "WTA 500",
@@ -4018,7 +4018,7 @@
     ]
   },
   "ann-li": {
-    "total": 1596,
+    "total": 1683,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4094,15 +4094,15 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 Strasbourg",
+        "name": "26 Monterrey",
         "points": 195,
         "round": "SF"
       },
       {
         "level": "WTA 500",
-        "name": "26 Monterrey",
-        "points": 108,
-        "round": "QF"
+        "name": "26 Strasbourg",
+        "points": 195,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -4999,7 +4999,7 @@
     ]
   },
   "nikola-bartunkova": {
-    "total": 1330,
+    "total": 1417,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5057,6 +5057,12 @@
       },
       {
         "level": "WTA 500",
+        "name": "26 Monterrey",
+        "points": 195,
+        "round": "SF"
+      },
+      {
+        "level": "WTA 500",
         "name": "25 Guadalajara",
         "points": 195,
         "round": "SF"
@@ -5064,12 +5070,6 @@
       {
         "level": "WTA 500",
         "name": "26 Berlin",
-        "points": 108,
-        "round": "QF"
-      },
-      {
-        "level": "WTA 500",
-        "name": "26 Monterrey",
         "points": 108,
         "round": "QF"
       },
@@ -6777,7 +6777,7 @@
     ]
   },
   "diane-parry": {
-    "total": 1219,
+    "total": 1306,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6829,21 +6829,21 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Madrid",
+        "name": "26 Rome",
         "points": 2,
         "round": "Q1"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Rome",
+        "name": "26 Madrid",
         "points": 2,
         "round": "Q1"
       },
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 108,
-        "round": "QF"
+        "points": 195,
+        "round": "SF"
       },
       {
         "level": "WTA 500",
@@ -7074,7 +7074,7 @@
     ]
   },
   "tereza-valentova": {
-    "total": 1070,
+    "total": 1092,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7181,8 +7181,8 @@
       {
         "level": "Challengers",
         "name": "26 Philadelphia/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       }
     ]
   },
@@ -10493,7 +10493,7 @@
     ]
   },
   "katie-volynets": {
-    "total": 840,
+    "total": 862,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10594,8 +10594,8 @@
       {
         "level": "Challengers",
         "name": "26 Philadelphia/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -11819,7 +11819,7 @@
     ]
   },
   "julia-grabher": {
-    "total": 672,
+    "total": 694,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11859,6 +11859,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Philadelphia/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Rio de Janeiro/125",
         "points": 49,
         "round": "SF"
@@ -11868,12 +11874,6 @@
         "name": "25 Lisboa/100",
         "points": 39,
         "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Philadelphia/125",
-        "points": 27,
-        "round": "QF"
       },
       {
         "level": "Challengers",
