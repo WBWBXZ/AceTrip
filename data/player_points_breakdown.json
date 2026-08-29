@@ -3578,7 +3578,7 @@
     ]
   },
   "mertens": {
-    "total": 2035,
+    "total": 2165,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3661,8 +3661,8 @@
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -6777,7 +6777,7 @@
     ]
   },
   "diane-parry": {
-    "total": 1306,
+    "total": 1436,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6842,8 +6842,8 @@
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -7074,7 +7074,7 @@
     ]
   },
   "tereza-valentova": {
-    "total": 1092,
+    "total": 1124,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7174,15 +7174,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Saint Malo/125",
+        "name": "26 Philadelphia/125",
         "points": 81,
         "round": "F"
       },
       {
         "level": "Challengers",
-        "name": "26 Philadelphia/125",
-        "points": 49,
-        "round": "SF"
+        "name": "26 Saint Malo/125",
+        "points": 81,
+        "round": "F"
       }
     ]
   },
@@ -10493,7 +10493,7 @@
     ]
   },
   "katie-volynets": {
-    "total": 862,
+    "total": 894,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10594,8 +10594,8 @@
       {
         "level": "Challengers",
         "name": "26 Philadelphia/125",
-        "points": 49,
-        "round": "SF"
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
@@ -13715,7 +13715,7 @@
     ]
   },
   "dominika-salkova": {
-    "total": 585,
+    "total": 622,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13725,21 +13725,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
-        "points": 20,
-        "round": "Q2"
-      },
-      {
-        "level": "Grand Slam",
         "name": "26 Australian Open",
         "points": 20,
         "round": "Q2"
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
-        "points": 2,
-        "round": "Q1"
+        "name": "26 Roland Garros",
+        "points": 20,
+        "round": "Q2"
       },
       {
         "level": "WTA 1000",
@@ -13785,9 +13779,9 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Parma/125",
-        "points": 27,
-        "round": "QF"
+        "name": "26 Gran Canaria/100",
+        "points": 39,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -13797,9 +13791,21 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Parma/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Modena/125",
         "points": 27,
         "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Makarska/125",
+        "points": 15,
+        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -13816,12 +13822,6 @@
       {
         "level": "Challengers",
         "name": "25 Montreux/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Makarska/125",
         "points": 15,
         "round": "R16"
       }
