@@ -6777,7 +6777,7 @@
     ]
   },
   "diane-parry": {
-    "total": 1436,
+    "total": 1611,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6842,8 +6842,8 @@
       {
         "level": "WTA 500",
         "name": "26 Monterrey",
-        "points": 325,
-        "round": "F"
+        "points": 500,
+        "round": "W"
       },
       {
         "level": "WTA 500",
@@ -10493,7 +10493,7 @@
     ]
   },
   "katie-volynets": {
-    "total": 894,
+    "total": 938,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10581,6 +10581,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Philadelphia/125",
+        "points": 125,
+        "round": "W"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Suzhou(Anhui)/125",
         "points": 81,
         "round": "F"
@@ -10588,12 +10594,6 @@
       {
         "level": "Challengers",
         "name": "26 Newport/125",
-        "points": 81,
-        "round": "F"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Philadelphia/125",
         "points": 81,
         "round": "F"
       },
