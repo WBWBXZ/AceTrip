@@ -734,7 +734,12 @@
       "venue": "Estadio GNP Seguros",
       "timezone": "America/Monterrey",
       "timezoneCn": "墨西哥时间 UTC-6",
-      "liveTennisId": 31039
+      "liveTennisId": 31039,
+      "winner": {
+        "name": "Diane Parry",
+        "nameCn": "帕里",
+        "countryCode": "FRA"
+      }
     },
     {
       "id": "us-open",
