@@ -1,6 +1,6 @@
 {
   "sabalenka": {
-    "total": 6705,
+    "total": 6815,
     "entries": [
       {
         "level": "Grand Slam",
@@ -16,15 +16,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "26 US Open",
         "points": 240,
         "round": "R16"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "name": "26 Wimbledon",
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "WTA Finals",
@@ -34,13 +34,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Indian Wells",
         "points": 1000,
         "round": "W"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Indian Wells",
+        "name": "26 Miami",
         "points": 1000,
         "round": "W"
       },
@@ -58,13 +58,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Toronto",
+        "name": "26 Cincinnati",
         "points": 120,
         "round": "R16"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
+        "name": "26 Toronto",
         "points": 120,
         "round": "R16"
       },
@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 7971,
+    "total": 8031,
     "entries": [
       {
         "level": "Grand Slam",
@@ -106,8 +106,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 70,
-        "round": "R64"
+        "points": 130,
+        "round": "R32"
       },
       {
         "level": "Grand Slam",
@@ -141,13 +141,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "25 Wuhan",
+        "name": "26 Cincinnati",
         "points": 215,
         "round": "QF"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
+        "name": "26 Doha",
         "points": 215,
         "round": "QF"
       },
@@ -159,7 +159,7 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Doha",
+        "name": "25 Wuhan",
         "points": 215,
         "round": "QF"
       },
@@ -177,13 +177,13 @@
       },
       {
         "level": "WTA 500",
-        "name": "25 Ningbo",
+        "name": "26 Stuttgart",
         "points": 500,
         "round": "W"
       },
       {
         "level": "WTA 500",
-        "name": "26 Stuttgart",
+        "name": "25 Ningbo",
         "points": 500,
         "round": "W"
       },
@@ -208,7 +208,7 @@
     ]
   },
   "pegula": {
-    "total": 6615,
+    "total": 6725,
     "entries": [
       {
         "level": "Grand Slam",
@@ -225,8 +225,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -636,7 +636,7 @@
     ]
   },
   "noskova": {
-    "total": 5028,
+    "total": 5138,
     "entries": [
       {
         "level": "Grand Slam",
@@ -647,8 +647,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -1058,7 +1058,7 @@
     ]
   },
   "kostyuk": {
-    "total": 3870,
+    "total": 3980,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1075,8 +1075,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -2062,13 +2062,13 @@
     ]
   },
   "navarro": {
-    "total": 1724,
+    "total": 1834,
     "entries": [
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -3025,7 +3025,7 @@
     ]
   },
   "cirstea": {
-    "total": 2354,
+    "total": 2464,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3036,8 +3036,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -9328,13 +9328,13 @@
     ]
   },
   "taylor-townsend": {
-    "total": 673,
+    "total": 783,
     "entries": [
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
