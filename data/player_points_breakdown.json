@@ -321,7 +321,7 @@
     ]
   },
   "gauff": {
-    "total": 6594,
+    "total": 6704,
     "entries": [
       {
         "level": "Grand Slam",
@@ -338,8 +338,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -434,7 +434,7 @@
     ]
   },
   "andreeva": {
-    "total": 5443,
+    "total": 5553,
     "entries": [
       {
         "level": "Grand Slam",
@@ -444,15 +444,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Australian Open",
+        "name": "26 US Open",
         "points": 240,
         "round": "R16"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "name": "26 Australian Open",
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -749,7 +749,7 @@
     ]
   },
   "swiatek": {
-    "total": 4509,
+    "total": 4619,
     "entries": [
       {
         "level": "Grand Slam",
@@ -759,15 +759,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
+        "name": "26 US Open",
         "points": 240,
         "round": "R16"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "name": "26 Roland Garros",
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -1236,7 +1236,7 @@
     ]
   },
   "osaka": {
-    "total": 2196,
+    "total": 2306,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1246,15 +1246,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
+        "name": "26 US Open",
         "points": 240,
         "round": "R16"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "name": "26 Roland Garros",
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -1545,7 +1545,7 @@
     ]
   },
   "jovic": {
-    "total": 2280,
+    "total": 2390,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1555,15 +1555,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "26 US Open",
         "points": 240,
         "round": "R16"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "name": "26 Wimbledon",
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -2817,13 +2817,13 @@
     ]
   },
   "zheng-qinwen": {
-    "total": 783,
+    "total": 893,
     "entries": [
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 170,
-        "round": "R32"
+        "points": 280,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -3239,7 +3239,7 @@
     ]
   },
   "kalinskaya": {
-    "total": 1933,
+    "total": 2043,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3250,8 +3250,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -3691,19 +3691,19 @@
     ]
   },
   "potapova": {
-    "total": 1816,
+    "total": 1926,
     "entries": [
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
+        "name": "26 US Open",
         "points": 240,
         "round": "R16"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 130,
-        "round": "R32"
+        "name": "26 Roland Garros",
+        "points": 240,
+        "round": "R16"
       },
       {
         "level": "Grand Slam",
@@ -14576,6 +14576,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Montreux/125",
+        "points": 1,
+        "round": "R32"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Palermo/125",
         "points": 1,
         "round": "R32"
@@ -14583,12 +14589,6 @@
       {
         "level": "Challengers",
         "name": "26 Makarska/125",
-        "points": 1,
-        "round": "R32"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Mallorca/125",
         "points": 1,
         "round": "R32"
       }
