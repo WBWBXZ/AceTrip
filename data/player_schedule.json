@@ -562,9 +562,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 20,
-    "totalWins": 27,
-    "totalLosses": 21,
+    "totalTournaments": 19,
+    "totalWins": 23,
+    "totalLosses": 20,
     "titles": 0,
     "thisYearTournaments": 15,
     "thisYearWins": 20,
@@ -705,15 +705,6 @@
         "tournamentId": "cincinnati-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "GUIYANG",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 33,
-        "level": "ITF"
       },
       {
         "name": "BEIJING",
@@ -1504,12 +1495,11 @@
       "queens",
       "wimbledon",
       "national-bank-open",
-      "cincinnati-open",
-      "guadalajara"
+      "cincinnati-open"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 17,
     "totalWins": 21,
-    "totalLosses": 18,
+    "totalLosses": 17,
     "titles": 0,
     "thisYearTournaments": 17,
     "thisYearWins": 21,
@@ -1668,15 +1658,6 @@
         "tournamentId": "cincinnati-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
       }
     ]
   },
@@ -5283,14 +5264,13 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
-    "totalWins": 41,
+    "totalTournaments": 20,
+    "totalWins": 36,
     "totalLosses": 21,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 31,
     "thisYearLosses": 16,
@@ -5439,15 +5419,6 @@
         "tournamentId": "cincinnati-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": "guadalajara",
-        "points": 500,
-        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -6418,9 +6389,9 @@
       "cincinnati-open",
       "monterrey"
     ],
-    "totalTournaments": 20,
-    "totalWins": 39,
-    "totalLosses": 19,
+    "totalTournaments": 19,
+    "totalWins": 37,
+    "totalLosses": 18,
     "titles": 1,
     "thisYearTournaments": 15,
     "thisYearWins": 30,
@@ -6561,15 +6532,6 @@
         "tournamentId": "monterrey",
         "points": 1,
         "level": "P"
-      },
-      {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
       },
       {
         "name": "RENDE 125",
@@ -7007,9 +6969,9 @@
       "cincinnati-open",
       "wuhan-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 46,
-    "totalLosses": 27,
+    "totalTournaments": 28,
+    "totalWins": 44,
+    "totalLosses": 26,
     "titles": 2,
     "thisYearTournaments": 22,
     "thisYearWins": 38,
@@ -7213,15 +7175,6 @@
         "tournamentId": "cincinnati-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
       },
       {
         "name": "JINGSHAN 125",
@@ -7823,13 +7776,12 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 20,
     "totalWins": 22,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 0,
     "thisYearTournaments": 17,
     "thisYearWins": 19,
@@ -7988,15 +7940,6 @@
         "tournamentId": "cincinnati-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -8215,12 +8158,11 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 17,
     "totalWins": 21,
-    "totalLosses": 19,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 15,
     "thisYearWins": 16,
@@ -8361,15 +8303,6 @@
         "tournamentId": "cincinnati-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "SEOUL",
@@ -8646,9 +8579,9 @@
       "national-bank-open",
       "cincinnati-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 38,
-    "totalLosses": 21,
+    "totalTournaments": 23,
+    "totalWins": 37,
+    "totalLosses": 20,
     "titles": 3,
     "thisYearTournaments": 18,
     "thisYearWins": 22,
@@ -8816,15 +8749,6 @@
         "tournamentId": "cincinnati-open",
         "points": 390,
         "level": "PM"
-      },
-      {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
       },
       {
         "name": "TOLENTINO 125",
@@ -9296,13 +9220,12 @@
       "washington-dc",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 20,
-    "totalLosses": 25,
+    "totalTournaments": 21,
+    "totalWins": 19,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 17,
@@ -9481,15 +9404,6 @@
         "level": "PM"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 108,
-        "level": "P"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R128",
@@ -9523,12 +9437,11 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "guadalajara",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 22,
-    "totalWins": 39,
-    "totalLosses": 23,
+    "totalTournaments": 21,
+    "totalWins": 36,
+    "totalLosses": 22,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 32,
@@ -9698,15 +9611,6 @@
         "level": "P"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 195,
-        "level": "P"
-      },
-      {
         "name": "SAMSUN 125",
         "startDate": "2025-09-29T00:00:00+00:00",
         "bestRound": "F",
@@ -9749,9 +9653,9 @@
       "cincinnati-open",
       "monterrey"
     ],
-    "totalTournaments": 28,
-    "totalWins": 47,
-    "totalLosses": 25,
+    "totalTournaments": 27,
+    "totalWins": 45,
+    "totalLosses": 24,
     "titles": 3,
     "thisYearTournaments": 18,
     "thisYearWins": 23,
@@ -9919,15 +9823,6 @@
         "tournamentId": "monterrey",
         "points": 60,
         "level": "P"
-      },
-      {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
       },
       {
         "name": "TOLENTINO 125",
@@ -10509,15 +10404,14 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 26,
+    "totalTournaments": 25,
     "totalWins": 37,
-    "totalLosses": 26,
+    "totalLosses": 25,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 29,
@@ -10696,15 +10590,6 @@
         "level": "PM"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -10776,9 +10661,9 @@
       "cincinnati-open",
       "monterrey"
     ],
-    "totalTournaments": 30,
-    "totalWins": 44,
-    "totalLosses": 29,
+    "totalTournaments": 29,
+    "totalWins": 40,
+    "totalLosses": 28,
     "titles": 4,
     "thisYearTournaments": 22,
     "thisYearWins": 25,
@@ -10982,15 +10867,6 @@
         "tournamentId": "monterrey",
         "points": 1,
         "level": "P"
-      },
-      {
-        "name": "LE NEUBOURG",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "ITF"
       },
       {
         "name": "CALDAS DA RAINHA 125",
@@ -11349,14 +11225,13 @@
       "washington-dc",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 20,
     "totalWins": 19,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 0,
     "thisYearTournaments": 17,
     "thisYearWins": 19,
@@ -11517,15 +11392,6 @@
         "level": "PM"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -11570,14 +11436,13 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 30,
-    "totalLosses": 25,
+    "totalTournaments": 25,
+    "totalWins": 29,
+    "totalLosses": 24,
     "titles": 1,
     "thisYearTournaments": 20,
     "thisYearWins": 25,
@@ -11762,15 +11627,6 @@
         "isChampion": false,
         "tournamentId": "monterrey",
         "points": 1,
-        "level": "P"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 60,
         "level": "P"
       },
       {
@@ -14982,13 +14838,12 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 36,
+    "totalTournaments": 35,
     "totalWins": 31,
-    "totalLosses": 36,
+    "totalLosses": 35,
     "titles": 0,
     "thisYearTournaments": 26,
     "thisYearWins": 25,
@@ -15227,15 +15082,6 @@
         "isChampion": false,
         "tournamentId": "monterrey",
         "points": 108,
-        "level": "P"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
         "level": "P"
       },
       {
@@ -16379,9 +16225,9 @@
       "cincinnati-open",
       "monterrey"
     ],
-    "totalTournaments": 31,
-    "totalWins": 36,
-    "totalLosses": 32,
+    "totalTournaments": 30,
+    "totalWins": 34,
+    "totalLosses": 31,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 22,
@@ -16585,15 +16431,6 @@
         "tournamentId": "monterrey",
         "points": 73,
         "level": "P"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
       },
       {
         "name": "BUCHAREST 7",
@@ -16906,9 +16743,9 @@
       "wimbledon",
       "monterrey"
     ],
-    "totalTournaments": 28,
-    "totalWins": 47,
-    "totalLosses": 25,
+    "totalTournaments": 27,
+    "totalWins": 46,
+    "totalLosses": 24,
     "titles": 3,
     "thisYearTournaments": 20,
     "thisYearWins": 33,
@@ -17096,15 +16933,6 @@
         "level": "P"
       },
       {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "TOLENTINO 125",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "R16",
@@ -17184,10 +17012,10 @@
       "monterrey",
       "ningbo-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 43,
+    "totalTournaments": 21,
+    "totalWins": 38,
     "totalLosses": 19,
-    "titles": 4,
+    "titles": 3,
     "thisYearTournaments": 18,
     "thisYearWins": 29,
     "thisYearLosses": 17,
@@ -17356,15 +17184,6 @@
         "level": "P"
       },
       {
-        "name": "BUCHAREST 6",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 75,
-        "level": "ITF"
-      },
-      {
         "name": "KURSUMLIJSKA BANJA 20",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "F",
@@ -17403,10 +17222,10 @@
       "national-bank-open",
       "cincinnati-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 50,
+    "totalTournaments": 24,
+    "totalWins": 45,
     "totalLosses": 21,
-    "titles": 4,
+    "titles": 3,
     "thisYearTournaments": 18,
     "thisYearWins": 37,
     "thisYearLosses": 16,
@@ -17575,15 +17394,6 @@
         "level": "PM"
       },
       {
-        "name": "EVORA",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 50,
-        "level": "ITF"
-      },
-      {
         "name": "CALDAS DA RAINHA 125",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "R32",
@@ -17656,13 +17466,12 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "ningbo-open"
     ],
-    "totalTournaments": 33,
-    "totalWins": 33,
-    "totalLosses": 32,
+    "totalTournaments": 32,
+    "totalWins": 31,
+    "totalLosses": 31,
     "titles": 1,
     "thisYearTournaments": 26,
     "thisYearWins": 27,
@@ -17902,15 +17711,6 @@
         "tournamentId": "cincinnati-open",
         "points": 35,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 108,
-        "level": "P"
       },
       {
         "name": "SEOUL",
@@ -18203,14 +18003,13 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 26,
-    "totalLosses": 30,
+    "totalLosses": 29,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 19,
@@ -18404,15 +18203,6 @@
         "isChampion": false,
         "tournamentId": "monterrey",
         "points": 13,
-        "level": "P"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
         "level": "P"
       },
       {
@@ -18753,9 +18543,9 @@
       "cincinnati-open",
       "monterrey"
     ],
-    "totalTournaments": 29,
-    "totalWins": 47,
-    "totalLosses": 27,
+    "totalTournaments": 28,
+    "totalWins": 46,
+    "totalLosses": 26,
     "titles": 1,
     "thisYearTournaments": 23,
     "thisYearWins": 39,
@@ -18970,15 +18760,6 @@
         "level": "P"
       },
       {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "TOLENTINO 125",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "R16",
@@ -19040,9 +18821,9 @@
       "cincinnati-open",
       "ningbo-open"
     ],
-    "totalTournaments": 32,
-    "totalWins": 53,
-    "totalLosses": 30,
+    "totalTournaments": 31,
+    "totalWins": 48,
+    "totalLosses": 29,
     "titles": 2,
     "thisYearTournaments": 22,
     "thisYearWins": 29,
@@ -19248,15 +19029,6 @@
         "level": "PM"
       },
       {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 55,
-        "level": "C"
-      },
-      {
         "name": "CALDAS DA RAINHA 125",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "Q",
@@ -19352,9 +19124,9 @@
       "monterrey",
       "china-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 50,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 49,
+    "totalLosses": 24,
     "titles": 2,
     "thisYearTournaments": 21,
     "thisYearWins": 41,
@@ -19551,15 +19323,6 @@
         "level": "P"
       },
       {
-        "name": "HUZHOU 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -19753,9 +19516,9 @@
       "monterrey",
       "china-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 42,
-    "totalLosses": 23,
+    "totalTournaments": 25,
+    "totalWins": 41,
+    "totalLosses": 22,
     "titles": 4,
     "thisYearTournaments": 19,
     "thisYearWins": 31,
@@ -19934,15 +19697,6 @@
         "level": "P"
       },
       {
-        "name": "HUZHOU 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -20018,9 +19772,9 @@
       "cincinnati-open",
       "monterrey"
     ],
-    "totalTournaments": 31,
-    "totalWins": 46,
-    "totalLosses": 30,
+    "totalTournaments": 30,
+    "totalWins": 43,
+    "totalLosses": 29,
     "titles": 3,
     "thisYearTournaments": 26,
     "thisYearWins": 28,
@@ -20260,15 +20014,6 @@
         "tournamentId": "monterrey",
         "points": 1,
         "level": "P"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 98,
-        "level": "IS"
       },
       {
         "name": "EDMOND",
@@ -20517,9 +20262,9 @@
       "national-bank-open",
       "cincinnati-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 30,
-    "totalLosses": 25,
+    "totalTournaments": 23,
+    "totalWins": 28,
+    "totalLosses": 24,
     "titles": 1,
     "thisYearTournaments": 20,
     "thisYearWins": 20,
@@ -20705,15 +20450,6 @@
         "tournamentId": "cincinnati-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
       },
       {
         "name": "MALLORCA 125",
@@ -21182,9 +20918,9 @@
       "wimbledon",
       "cincinnati-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 32,
-    "totalLosses": 26,
+    "totalTournaments": 26,
+    "totalWins": 28,
+    "totalLosses": 25,
     "titles": 1,
     "thisYearTournaments": 24,
     "thisYearWins": 21,
@@ -21408,15 +21144,6 @@
         "level": "C"
       },
       {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 81,
-        "level": "C"
-      },
-      {
         "name": "LISBOA",
         "startDate": "2025-09-22T00:00:00+00:00",
         "bestRound": "F",
@@ -21446,9 +21173,9 @@
       "wimbledon",
       "cincinnati-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 55,
-    "totalLosses": 25,
+    "totalTournaments": 29,
+    "totalWins": 53,
+    "totalLosses": 24,
     "titles": 5,
     "thisYearTournaments": 23,
     "thisYearWins": 40,
@@ -21661,15 +21388,6 @@
         "tournamentId": "cincinnati-open",
         "points": 30,
         "level": "PM"
-      },
-      {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
       },
       {
         "name": "TOLENTINO 125",
@@ -21943,9 +21661,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 22,
+    "totalTournaments": 21,
     "totalWins": 22,
-    "totalLosses": 23,
+    "totalLosses": 22,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 15,
@@ -22095,15 +21813,6 @@
         "tournamentId": "wimbledon",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
       },
       {
         "name": "BEIJING",
@@ -22438,14 +22147,13 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "guadalajara",
       "china-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 28,
-    "totalWins": 21,
-    "totalLosses": 30,
+    "totalTournaments": 27,
+    "totalWins": 17,
+    "totalLosses": 29,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 13,
@@ -22648,15 +22356,6 @@
         "isChampion": false,
         "tournamentId": "monterrey",
         "points": 1,
-        "level": "P"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 325,
         "level": "P"
       },
       {
@@ -22997,10 +22696,10 @@
       "national-bank-open",
       "cincinnati-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 38,
+    "totalTournaments": 29,
+    "totalWins": 33,
     "totalLosses": 28,
-    "titles": 2,
+    "titles": 1,
     "thisYearTournaments": 23,
     "thisYearWins": 20,
     "thisYearLosses": 23,
@@ -23214,15 +22913,6 @@
         "level": "C"
       },
       {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 125,
-        "level": "C"
-      },
-      {
         "name": "LISBOA",
         "startDate": "2025-09-22T00:00:00+00:00",
         "bestRound": "S",
@@ -23423,13 +23113,13 @@
       "china-open"
     ],
     "totalTournaments": 27,
-    "totalWins": 32,
+    "totalWins": 27,
     "totalLosses": 27,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 20,
-    "thisYearWins": 25,
+    "thisYearWins": 20,
     "thisYearLosses": 20,
-    "thisYearTitles": 1,
+    "thisYearTitles": 0,
     "results": [
       {
         "name": "AUCKLAND",
@@ -23525,9 +23215,9 @@
         "name": "HUZHOU 125",
         "startDate": "2026-04-27T00:00:00+00:00",
         "bestRound": "F",
-        "isChampion": true,
+        "isChampion": false,
         "tournamentId": null,
-        "points": 125,
+        "points": 81,
         "level": "C"
       },
       {
@@ -23684,9 +23374,9 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 23,
-    "totalWins": 47,
-    "totalLosses": 23,
+    "totalTournaments": 22,
+    "totalWins": 43,
+    "totalLosses": 22,
     "titles": 1,
     "thisYearTournaments": 18,
     "thisYearWins": 34,
@@ -23854,15 +23544,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "C"
-      },
-      {
-        "name": "EVORA",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 33,
-        "level": "ITF"
       },
       {
         "name": "CALDAS DA RAINHA 125",
@@ -24526,12 +24207,11 @@
       "wimbledon",
       "cincinnati-open",
       "monterrey",
-      "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 10,
-    "totalLosses": 25,
+    "totalTournaments": 25,
+    "totalWins": 7,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 24,
     "thisYearWins": 6,
@@ -24752,15 +24432,6 @@
         "isChampion": false,
         "tournamentId": "monterrey",
         "points": 1,
-        "level": "P"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 195,
         "level": "P"
       },
       {
@@ -25083,12 +24754,11 @@
       "roland-garros",
       "wimbledon",
       "cincinnati-open",
-      "monterrey",
-      "guadalajara"
+      "monterrey"
     ],
-    "totalTournaments": 25,
-    "totalWins": 45,
-    "totalLosses": 25,
+    "totalTournaments": 24,
+    "totalWins": 42,
+    "totalLosses": 24,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 36,
@@ -25285,15 +24955,6 @@
         "level": "P"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 85,
-        "level": "P"
-      },
-      {
         "name": "SAMSUN 125",
         "startDate": "2025-09-29T00:00:00+00:00",
         "bestRound": "S",
@@ -25335,9 +24996,9 @@
       "wimbledon",
       "cincinnati-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 36,
-    "totalLosses": 29,
+    "totalTournaments": 29,
+    "totalWins": 35,
+    "totalLosses": 28,
     "titles": 1,
     "thisYearTournaments": 24,
     "thisYearWins": 21,
@@ -25558,15 +25219,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 49,
-        "level": "C"
-      },
-      {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
         "level": "C"
       },
       {
@@ -25880,9 +25532,9 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 26,
-    "totalWins": 30,
-    "totalLosses": 28,
+    "totalTournaments": 25,
+    "totalWins": 27,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 23,
     "thisYearWins": 22,
@@ -26095,15 +25747,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "ITF"
-      },
-      {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "C"
       },
       {
         "name": "TOLENTINO 125",
@@ -26422,14 +26065,13 @@
       "washington-dc",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 24,
     "totalWins": 39,
-    "totalLosses": 25,
+    "totalLosses": 24,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 35,
@@ -26599,15 +26241,6 @@
         "level": "PM"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -26679,9 +26312,9 @@
       "monterrey",
       "china-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 26,
     "totalWins": 30,
-    "totalLosses": 28,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 22,
@@ -26869,15 +26502,6 @@
         "level": "P"
       },
       {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "IS"
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -26945,9 +26569,9 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 23,
-    "totalWins": 27,
-    "totalLosses": 21,
+    "totalTournaments": 22,
+    "totalWins": 24,
+    "totalLosses": 20,
     "titles": 2,
     "thisYearTournaments": 20,
     "thisYearWins": 24,
@@ -27133,15 +26757,6 @@
         "tournamentId": null,
         "points": 49,
         "level": "C"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 98,
-        "level": "IS"
       },
       {
         "name": "GUANGZHOU",
@@ -27822,9 +27437,9 @@
       "cincinnati-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 28,
-    "totalWins": 38,
-    "totalLosses": 27,
+    "totalTournaments": 27,
+    "totalWins": 34,
+    "totalLosses": 26,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 31,
@@ -28021,15 +27636,6 @@
         "level": "PM"
       },
       {
-        "name": "HUZHOU 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 81,
-        "level": "C"
-      },
-      {
         "name": "BRATISLAVA",
         "startDate": "2025-09-29T00:00:00+00:00",
         "bestRound": "R16",
@@ -28098,9 +27704,9 @@
       "brisbane",
       "brisbane"
     ],
-    "totalTournaments": 31,
-    "totalWins": 66,
-    "totalLosses": 28,
+    "totalTournaments": 30,
+    "totalWins": 62,
+    "totalLosses": 27,
     "titles": 5,
     "thisYearTournaments": 22,
     "thisYearWins": 34,
@@ -28306,15 +27912,6 @@
         "level": "C"
       },
       {
-        "name": "WAGGA WAGGA",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 23,
-        "level": "ITF"
-      },
-      {
         "name": "WAGGA WAGGA 2",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "F",
@@ -28403,12 +28000,11 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 24,
-    "totalLosses": 30,
+    "totalTournaments": 27,
+    "totalWins": 20,
+    "totalLosses": 29,
     "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 13,
@@ -28594,15 +28190,6 @@
         "tournamentId": "cincinnati-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 133,
-        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -29595,9 +29182,9 @@
       "wimbledon",
       "cincinnati-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 30,
-    "totalLosses": 28,
+    "totalTournaments": 27,
+    "totalWins": 29,
+    "totalLosses": 27,
     "titles": 1,
     "thisYearTournaments": 22,
     "thisYearWins": 24,
@@ -29801,15 +29388,6 @@
         "tournamentId": "cincinnati-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
       },
       {
         "name": "TOLENTINO 125",
@@ -30089,9 +29667,9 @@
       "stuttgart",
       "wimbledon"
     ],
-    "totalTournaments": 26,
-    "totalWins": 56,
-    "totalLosses": 22,
+    "totalTournaments": 25,
+    "totalWins": 52,
+    "totalLosses": 21,
     "titles": 4,
     "thisYearTournaments": 18,
     "thisYearWins": 33,
@@ -30261,15 +29839,6 @@
         "level": "C"
       },
       {
-        "name": "BUCHAREST 6",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 19,
-        "level": "ITF"
-      },
-      {
         "name": "SANTA MARGHERITA DI PULA 7",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "F",
@@ -30344,9 +29913,9 @@
       "national-bank-open",
       "cincinnati-open"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 43,
-    "totalLosses": 27,
+    "totalLosses": 26,
     "titles": 1,
     "thisYearTournaments": 18,
     "thisYearWins": 27,
@@ -30516,15 +30085,6 @@
         "level": "PM"
       },
       {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
-      },
-      {
         "name": "REUS",
         "startDate": "2025-09-22T00:00:00+00:00",
         "bestRound": "S",
@@ -30615,14 +30175,13 @@
       "roland-garros",
       "wimbledon",
       "cincinnati-open",
-      "guadalajara",
       "china-open",
       "ningbo-open",
       "dubai-championships"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 27,
-    "totalLosses": 26,
+    "totalLosses": 25,
     "titles": 2,
     "thisYearTournaments": 20,
     "thisYearWins": 23,
@@ -30808,15 +30367,6 @@
         "tournamentId": "cincinnati-open",
         "points": 2,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 1,
-        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -31392,9 +30942,9 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 17,
     "totalWins": 31,
-    "totalLosses": 19,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 13,
     "thisYearWins": 24,
@@ -31512,15 +31062,6 @@
       {
         "name": "PALERMO 125",
         "startDate": "2026-07-20T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
-      },
-      {
-        "name": "LJUBLJANA 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
         "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
@@ -31877,9 +31418,9 @@
       "wimbledon",
       "cincinnati-open"
     ],
-    "totalTournaments": 29,
+    "totalTournaments": 28,
     "totalWins": 44,
-    "totalLosses": 29,
+    "totalLosses": 28,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 32,
@@ -32074,15 +31615,6 @@
         "tournamentId": "cincinnati-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       },
       {
         "name": "CALDAS DA RAINHA 125",
@@ -32619,12 +32151,11 @@
       "australian-open",
       "merida",
       "indian-wells",
-      "miami-open",
-      "guadalajara"
+      "miami-open"
     ],
-    "totalTournaments": 10,
-    "totalWins": 25,
-    "totalLosses": 9,
+    "totalTournaments": 9,
+    "totalWins": 21,
+    "totalLosses": 8,
     "titles": 1,
     "thisYearTournaments": 5,
     "thisYearWins": 6,
@@ -32677,15 +32208,6 @@
         "level": "PM"
       },
       {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 133,
-        "level": "P"
-      },
-      {
         "name": "EDMOND",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "F",
@@ -32734,12 +32256,11 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 34,
-    "totalLosses": 27,
+    "totalTournaments": 27,
+    "totalWins": 31,
+    "totalLosses": 26,
     "titles": 1,
     "thisYearTournaments": 22,
     "thisYearWins": 25,
@@ -32943,15 +32464,6 @@
         "tournamentId": "cincinnati-open",
         "points": 65,
         "level": "PM"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 85,
-        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -33255,9 +32767,9 @@
       "wimbledon",
       "rome"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 24,
     "totalWins": 38,
-    "totalLosses": 24,
+    "totalLosses": 23,
     "titles": 3,
     "thisYearTournaments": 20,
     "thisYearWins": 33,
@@ -33442,15 +32954,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
-        "level": "C"
-      },
-      {
-        "name": "SAN SEBASTIAN 125",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
         "level": "C"
       },
       {
@@ -33752,9 +33255,9 @@
       "cincinnati-open",
       "dubai-championships"
     ],
-    "totalTournaments": 24,
-    "totalWins": 33,
-    "totalLosses": 23,
+    "totalTournaments": 23,
+    "totalWins": 30,
+    "totalLosses": 22,
     "titles": 2,
     "thisYearTournaments": 19,
     "thisYearWins": 20,
@@ -33933,15 +33436,6 @@
         "level": "PM"
       },
       {
-        "name": "LE NEUBOURG",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 29,
-        "level": "ITF"
-      },
-      {
         "name": "CALDAS DA RAINHA 125",
         "startDate": "2025-09-15T00:00:00+00:00",
         "bestRound": "F",
@@ -33987,13 +33481,12 @@
       "toray-pan-pacific",
       "roland-garros",
       "wimbledon",
-      "guadalajara",
       "china-open",
       "brisbane"
     ],
-    "totalTournaments": 20,
-    "totalWins": 25,
-    "totalLosses": 22,
+    "totalTournaments": 19,
+    "totalWins": 24,
+    "totalLosses": 21,
     "titles": 0,
     "thisYearTournaments": 12,
     "thisYearWins": 14,
@@ -34107,15 +33600,6 @@
         "tournamentId": null,
         "points": 81,
         "level": "C"
-      },
-      {
-        "name": "GUADALAJARA 500",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "guadalajara",
-        "points": 13,
-        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -34359,9 +33843,9 @@
       "roland-garros",
       "wimbledon"
     ],
-    "totalTournaments": 20,
-    "totalWins": 7,
-    "totalLosses": 21,
+    "totalTournaments": 19,
+    "totalWins": 5,
+    "totalLosses": 20,
     "titles": 0,
     "thisYearTournaments": 18,
     "thisYearWins": 4,
@@ -34529,15 +34013,6 @@
         "tournamentId": "wimbledon",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "SAO PAULO",
-        "startDate": "2025-09-08T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 54,
-        "level": "IS"
       },
       {
         "name": "SEOUL",
