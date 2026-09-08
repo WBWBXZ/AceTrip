@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 8141,
+    "total": 8331,
     "entries": [
       {
         "level": "Grand Slam",
@@ -100,8 +100,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 240,
-        "round": "R16"
+        "points": 430,
+        "round": "QF"
       },
       {
         "level": "Grand Slam",
@@ -321,7 +321,7 @@
     ]
   },
   "gauff": {
-    "total": 6704,
+    "total": 6894,
     "entries": [
       {
         "level": "Grand Slam",
@@ -331,15 +331,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Australian Open",
+        "name": "26 US Open",
         "points": 430,
         "round": "QF"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 240,
-        "round": "R16"
+        "name": "26 Australian Open",
+        "points": 430,
+        "round": "QF"
       },
       {
         "level": "Grand Slam",
@@ -367,13 +367,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Rome",
         "points": 650,
         "round": "F"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Rome",
+        "name": "26 Miami",
         "points": 650,
         "round": "F"
       },
@@ -434,7 +434,7 @@
     ]
   },
   "andreeva": {
-    "total": 5553,
+    "total": 5743,
     "entries": [
       {
         "level": "Grand Slam",
@@ -445,8 +445,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 240,
-        "round": "R16"
+        "points": 430,
+        "round": "QF"
       },
       {
         "level": "Grand Slam",
@@ -2817,13 +2817,13 @@
     ]
   },
   "zheng-qinwen": {
-    "total": 893,
+    "total": 1083,
     "entries": [
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 280,
-        "round": "R16"
+        "points": 470,
+        "round": "QF"
       },
       {
         "level": "Grand Slam",
@@ -11474,7 +11474,7 @@
     ]
   },
   "elsa-jacquemot": {
-    "total": 414,
+    "total": 419,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11581,8 +11581,8 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 1,
-        "round": "Q1"
+        "points": 6,
+        "round": "R32"
       }
     ]
   },
@@ -13578,7 +13578,7 @@
     ]
   },
   "kayla-day": {
-    "total": 588,
+    "total": 591,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13648,6 +13648,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Barranquilla/125",
+        "points": 15,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Birmingham/125",
         "points": 15,
         "round": "R16"
@@ -13667,12 +13673,6 @@
       {
         "level": "Challengers",
         "name": "25 MACON, GEORGIA/100",
-        "points": 12,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Edmond/100",
         "points": 12,
         "round": "R16"
       },
@@ -15361,7 +15361,7 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 515,
+    "total": 525,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15431,6 +15431,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Montreux/125",
+        "points": 16,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Warsaw/125",
         "points": 15,
         "round": "R16"
@@ -15452,12 +15458,6 @@
         "name": "25 Petange/75",
         "points": 9,
         "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Oeiras/125",
-        "points": 6,
-        "round": "R32"
       },
       {
         "level": "ITF Futures",
