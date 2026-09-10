@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 8331,
+    "total": 8681,
     "entries": [
       {
         "level": "Grand Slam",
@@ -100,8 +100,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 430,
-        "round": "QF"
+        "points": 780,
+        "round": "SF"
       },
       {
         "level": "Grand Slam",
@@ -321,19 +321,19 @@
     ]
   },
   "gauff": {
-    "total": 6894,
+    "total": 7244,
     "entries": [
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "26 US Open",
         "points": 780,
         "round": "SF"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 430,
-        "round": "QF"
+        "name": "26 Wimbledon",
+        "points": 780,
+        "round": "SF"
       },
       {
         "level": "Grand Slam",
@@ -11135,7 +11135,7 @@
     ]
   },
   "kaitlin-quevedo": {
-    "total": 707,
+    "total": 719,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11211,6 +11211,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Barranquilla/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Modena/125",
         "points": 27,
         "round": "QF"
@@ -11238,12 +11244,6 @@
         "name": "25 Glasgow/75",
         "points": 16,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Barranquilla/125",
-        "points": 15,
-        "round": "R16"
       }
     ]
   },
@@ -11474,7 +11474,7 @@
     ]
   },
   "elsa-jacquemot": {
-    "total": 434,
+    "total": 446,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11581,8 +11581,8 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 21,
-        "round": "R16"
+        "points": 33,
+        "round": "QF"
       }
     ]
   },
@@ -12372,7 +12372,7 @@
     ]
   },
   "leolia-jeanjean": {
-    "total": 672,
+    "total": 684,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12388,13 +12388,13 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Australian Open",
+        "name": "26 Roland Garros",
         "points": 10,
         "round": "R128"
       },
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
+        "name": "26 Australian Open",
         "points": 10,
         "round": "R128"
       },
@@ -12467,8 +12467,8 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 15,
-        "round": "R16"
+        "points": 27,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -12598,7 +12598,7 @@
     ]
   },
   "claire-liu": {
-    "total": 680,
+    "total": 692,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12638,13 +12638,13 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Iasi",
+        "name": "26 Austin",
         "points": 18,
         "round": "R32"
       },
       {
         "level": "WTA 250",
-        "name": "26 Austin",
+        "name": "26 Iasi",
         "points": 18,
         "round": "R32"
       },
@@ -12656,9 +12656,21 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Barranquilla/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Austin/125",
         "points": 21,
         "round": "R16"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Portoroz/75",
+        "points": 16,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -12671,18 +12683,6 @@
         "name": "25 Templeton/75",
         "points": 16,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Portoroz/75",
-        "points": 16,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Barranquilla/125",
-        "points": 15,
-        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -15361,17 +15361,17 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 525,
+    "total": 536,
     "entries": [
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
+        "name": "26 Wimbledon",
         "points": 20,
         "round": "Q2"
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "26 Roland Garros",
         "points": 20,
         "round": "Q2"
       },
@@ -15413,13 +15413,19 @@
       },
       {
         "level": "Challengers",
+        "name": "25 Mallorca/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Makarska/125",
         "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "25 Mallorca/125",
+        "name": "26 Montreux/125",
         "points": 27,
         "round": "QF"
       },
@@ -15427,12 +15433,6 @@
         "level": "Challengers",
         "name": "25 Rovereto/125",
         "points": 21,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Montreux/125",
-        "points": 16,
         "round": "R16"
       },
       {
