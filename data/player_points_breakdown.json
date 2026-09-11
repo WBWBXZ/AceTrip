@@ -1,18 +1,18 @@
 {
   "sabalenka": {
-    "total": 7355,
+    "total": 7875,
     "entries": [
       {
         "level": "Grand Slam",
-        "name": "26 Australian Open",
+        "name": "26 US Open",
         "points": 1300,
         "round": "F"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 780,
-        "round": "SF"
+        "name": "26 Australian Open",
+        "points": 1300,
+        "round": "F"
       },
       {
         "level": "Grand Slam",
@@ -34,13 +34,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Indian Wells",
+        "name": "26 Miami",
         "points": 1000,
         "round": "W"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Indian Wells",
         "points": 1000,
         "round": "W"
       },
@@ -10053,7 +10053,7 @@
     ]
   },
   "simona-waltert": {
-    "total": 779,
+    "total": 790,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10135,6 +10135,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Montreux/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Oeiras/125",
         "points": 27,
         "round": "QF"
@@ -10156,12 +10162,6 @@
         "name": "25 RENDE/125",
         "points": 27,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Montreux/125",
-        "points": 16,
-        "round": "R16"
       }
     ]
   },
@@ -11474,7 +11474,7 @@
     ]
   },
   "elsa-jacquemot": {
-    "total": 446,
+    "total": 468,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11581,13 +11581,13 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 33,
-        "round": "QF"
+        "points": 55,
+        "round": "SF"
       }
     ]
   },
   "anna-blinkova": {
-    "total": 729,
+    "total": 763,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11681,6 +11681,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Barranquilla/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Saint Malo/125",
         "points": 49,
         "round": "SF"
@@ -11690,12 +11696,6 @@
         "name": "26 Contrexeville/125",
         "points": 27,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Barranquilla/125",
-        "points": 15,
-        "round": "R16"
       }
     ]
   },
@@ -12372,7 +12372,7 @@
     ]
   },
   "leolia-jeanjean": {
-    "total": 684,
+    "total": 706,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12442,13 +12442,19 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Contrexeville/125",
+        "name": "26 Barranquilla/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
         "name": "25 Quito/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Contrexeville/125",
         "points": 49,
         "round": "SF"
       },
@@ -12461,12 +12467,6 @@
       {
         "level": "Challengers",
         "name": "26 Mumbai/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Barranquilla/125",
         "points": 27,
         "round": "QF"
       },
@@ -12598,7 +12598,7 @@
     ]
   },
   "claire-liu": {
-    "total": 692,
+    "total": 714,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12657,8 +12657,8 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
