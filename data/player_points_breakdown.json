@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 8681,
+    "total": 9201,
     "entries": [
       {
         "level": "Grand Slam",
@@ -100,8 +100,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 780,
-        "round": "SF"
+        "points": 1300,
+        "round": "F"
       },
       {
         "level": "Grand Slam",
@@ -11587,7 +11587,7 @@
     ]
   },
   "anna-blinkova": {
-    "total": 763,
+    "total": 795,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11682,8 +11682,8 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 49,
-        "round": "SF"
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
@@ -12598,7 +12598,7 @@
     ]
   },
   "claire-liu": {
-    "total": 714,
+    "total": 746,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12650,15 +12650,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Trnava/75",
-        "points": 75,
-        "round": "W"
+        "name": "26 Barranquilla/125",
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
-        "name": "26 Barranquilla/125",
-        "points": 49,
-        "round": "SF"
+        "name": "26 Trnava/75",
+        "points": 75,
+        "round": "W"
       },
       {
         "level": "Challengers",
@@ -15361,7 +15361,7 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 536,
+    "total": 558,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15401,15 +15401,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Selva Gardena/50",
-        "points": 33,
-        "round": "F"
+        "name": "26 Montreux/125",
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Rome/125",
-        "points": 27,
-        "round": "QF"
+        "name": "25 Selva Gardena/50",
+        "points": 33,
+        "round": "F"
       },
       {
         "level": "Challengers",
@@ -15425,7 +15425,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Montreux/125",
+        "name": "26 Rome/125",
         "points": 27,
         "round": "QF"
       },
