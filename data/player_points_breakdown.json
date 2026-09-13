@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 9201,
+    "total": 9901,
     "entries": [
       {
         "level": "Grand Slam",
@@ -100,8 +100,8 @@
       {
         "level": "Grand Slam",
         "name": "26 US Open",
-        "points": 1300,
-        "round": "F"
+        "points": 2000,
+        "round": "W"
       },
       {
         "level": "Grand Slam",
@@ -12598,7 +12598,7 @@
     ]
   },
   "claire-liu": {
-    "total": 746,
+    "total": 790,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12651,8 +12651,8 @@
       {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
-        "points": 81,
-        "round": "F"
+        "points": 125,
+        "round": "W"
       },
       {
         "level": "Challengers",
@@ -15361,7 +15361,7 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 558,
+    "total": 590,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15389,6 +15389,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Montreux/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Altenkirchen/75",
         "points": 75,
         "round": "W"
@@ -15398,12 +15404,6 @@
         "name": "26 Helsinki/50",
         "points": 50,
         "round": "W"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Montreux/125",
-        "points": 49,
-        "round": "SF"
       },
       {
         "level": "Challengers",
