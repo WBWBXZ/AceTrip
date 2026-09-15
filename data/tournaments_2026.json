@@ -764,7 +764,12 @@
       "venue": "USTA Billie Jean King National Tennis Center",
       "timezone": "America/New_York",
       "timezoneCn": "美东时间 UTC-5",
-      "liveTennisId": "UO"
+      "liveTennisId": "UO",
+      "winner": {
+        "name": "Elena Rybakina",
+        "nameCn": "莱巴金娜",
+        "countryCode": "KAZ"
+      }
     },
     {
       "id": "guadalajara",
