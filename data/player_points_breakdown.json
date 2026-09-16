@@ -4553,7 +4553,7 @@
     ]
   },
   "sara-bejlek": {
-    "total": 1632,
+    "total": 1710,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4617,6 +4617,12 @@
       },
       {
         "level": "WTA 500",
+        "name": "26 Guadalajara",
+        "points": 108,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 500",
         "name": "26 Charleston",
         "points": 60,
         "round": "R16"
@@ -4632,12 +4638,6 @@
         "name": "26 Athens",
         "points": 54,
         "round": "QF"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Eastbourne",
-        "points": 30,
-        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -4755,7 +4755,7 @@
     ]
   },
   "cristina-bucsa": {
-    "total": 1214,
+    "total": 1262,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4826,8 +4826,8 @@
       {
         "level": "WTA 500",
         "name": "26 Guadalajara",
-        "points": 60,
-        "round": "R16"
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
@@ -6414,7 +6414,7 @@
     ]
   },
   "peyton-stearns": {
-    "total": 1051,
+    "total": 1099,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6485,8 +6485,8 @@
       {
         "level": "WTA 500",
         "name": "26 Guadalajara",
-        "points": 60,
-        "round": "R16"
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
@@ -11991,7 +11991,7 @@
     ]
   },
   "darja-semenistaja": {
-    "total": 604,
+    "total": 619,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12036,6 +12036,12 @@
         "round": "QF"
       },
       {
+        "level": "WTA 250",
+        "name": "26 Sao Paulo",
+        "points": 30,
+        "round": "R16"
+      },
+      {
         "level": "Challengers",
         "name": "25 Les Franqueses del Vallès/100",
         "points": 100,
@@ -12061,7 +12067,7 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Rovereto/125",
+        "name": "26 Oeiras/125",
         "points": 27,
         "round": "QF"
       },
@@ -12073,7 +12079,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Oeiras/125",
+        "name": "25 Rovereto/125",
         "points": 27,
         "round": "QF"
       },
@@ -12092,12 +12098,6 @@
       {
         "level": "Challengers",
         "name": "25 Mallorca/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 RENDE/125",
         "points": 15,
         "round": "R16"
       }
@@ -12443,7 +12443,7 @@
     ]
   },
   "francesca-jones": {
-    "total": 712,
+    "total": 726,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12480,12 +12480,6 @@
         "name": "26 Indian Wells",
         "points": 10,
         "round": "R128"
-      },
-      {
-        "level": "WTA 500",
-        "name": "26 London",
-        "points": 1,
-        "round": "R32"
       },
       {
         "level": "WTA 250",
@@ -12534,6 +12528,12 @@
         "name": "26 Istanbul/125",
         "points": 27,
         "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Ljubljana/125",
+        "points": 15,
+        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -13121,7 +13121,7 @@
     ]
   },
   "victoria-jimenez-kasintseva": {
-    "total": 433,
+    "total": 447,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13228,8 +13228,8 @@
       {
         "level": "Challengers",
         "name": "26 Caldas da Rainha/125",
-        "points": 1,
-        "round": "R32"
+        "points": 15,
+        "round": "R16"
       }
     ]
   },
@@ -15003,7 +15003,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Trnava/75",
+        "name": "26 Le Neubourg/75",
         "points": 9,
         "round": "R16"
       },
@@ -15319,7 +15319,7 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 590,
+    "total": 597,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15395,6 +15395,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Caldas da Rainha/125",
+        "points": 15,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Warsaw/125",
         "points": 15,
         "round": "R16"
@@ -15422,12 +15428,6 @@
         "name": "26 Birmingham/35",
         "points": 23,
         "round": "F"
-      },
-      {
-        "level": "ITF Futures",
-        "name": "25 Istanbul/35",
-        "points": 8,
-        "round": "QF"
       }
     ]
   },
@@ -15973,7 +15973,7 @@
     ]
   },
   "laura-samson": {
-    "total": 628,
+    "total": 642,
     "entries": [
       {
         "level": "Grand Slam",
@@ -16073,15 +16073,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Maribor/75",
-        "points": 9,
+        "name": "26 Ljubljana/125",
+        "points": 15,
         "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "26 Warsaw/125",
-        "points": 1,
-        "round": "R32"
+        "name": "26 Maribor/75",
+        "points": 9,
+        "round": "R16"
       }
     ]
   }
