@@ -19,9 +19,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 17,
     "totalWins": 43,
-    "totalLosses": 16,
+    "totalLosses": 15,
     "titles": 2,
     "thisYearTournaments": 17,
     "thisYearWins": 43,
@@ -180,15 +180,6 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
-      },
-      {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
       }
     ]
   },
@@ -212,9 +203,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 19,
-    "totalWins": 58,
-    "totalLosses": 15,
+    "totalTournaments": 17,
+    "totalWins": 57,
+    "totalLosses": 14,
     "titles": 2,
     "thisYearTournaments": 15,
     "thisYearWins": 50,
@@ -355,24 +346,6 @@
         "tournamentId": "us-open",
         "points": 780,
         "level": "GS"
-      },
-      {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
-      },
-      {
-        "name": "BJK CUP FINAL",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
       },
       {
         "name": "BEIJING",
@@ -2749,9 +2722,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 29,
-    "totalLosses": 23,
+    "totalTournaments": 23,
+    "totalWins": 28,
+    "totalLosses": 22,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 25,
@@ -2946,24 +2919,6 @@
         "tournamentId": "us-open",
         "points": 430,
         "level": "GS"
-      },
-      {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
-      },
-      {
-        "name": "BJK CUP FINAL",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
       },
       {
         "name": "BEIJING",
@@ -3789,8 +3744,8 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 14,
-    "totalWins": 38,
+    "totalTournaments": 13,
+    "totalWins": 37,
     "totalLosses": 11,
     "titles": 2,
     "thisYearTournaments": 11,
@@ -3896,15 +3851,6 @@
         "tournamentId": "us-open",
         "points": 240,
         "level": "GS"
-      },
-      {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
       },
       {
         "name": "BEIJING",
@@ -15648,9 +15594,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 24,
     "totalWins": 25,
-    "totalLosses": 24,
+    "totalLosses": 23,
     "titles": 1,
     "thisYearTournaments": 19,
     "thisYearWins": 21,
@@ -15829,15 +15775,6 @@
         "level": "GS"
       },
       {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
-      },
-      {
         "name": "BEIJING",
         "startDate": "2025-09-24T00:00:00+00:00",
         "bestRound": "R64",
@@ -15904,9 +15841,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 28,
-    "totalLosses": 22,
+    "totalTournaments": 22,
+    "totalWins": 27,
+    "totalLosses": 21,
     "titles": 1,
     "thisYearTournaments": 17,
     "thisYearWins": 21,
@@ -16065,24 +16002,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
-      },
-      {
-        "name": "BJK CUP FINAL",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
       },
       {
         "name": "BEIJING",
@@ -29418,9 +29337,9 @@
       "indian-wells",
       "china-open"
     ],
-    "totalTournaments": 9,
+    "totalTournaments": 8,
     "totalWins": 17,
-    "totalLosses": 9,
+    "totalLosses": 8,
     "titles": 0,
     "thisYearTournaments": 6,
     "thisYearWins": 12,
@@ -29480,15 +29399,6 @@
         "tournamentId": "indian-wells",
         "points": 120,
         "level": "PM"
-      },
-      {
-        "name": "BJK CUP SEMIFINALS",
-        "startDate": "2025-09-19T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 0,
-        "level": ""
       },
       {
         "name": "BEIJING",
