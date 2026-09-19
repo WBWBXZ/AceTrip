@@ -1539,7 +1539,7 @@
     ]
   },
   "jovic": {
-    "total": 2536,
+    "total": 2666,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1616,8 +1616,8 @@
       {
         "level": "WTA 500",
         "name": "26 Guadalajara",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -6414,7 +6414,7 @@
     ]
   },
   "peyton-stearns": {
-    "total": 1099,
+    "total": 1316,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6485,8 +6485,8 @@
       {
         "level": "WTA 500",
         "name": "26 Guadalajara",
-        "points": 108,
-        "round": "QF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -10249,7 +10249,7 @@
     ]
   },
   "paula-badosa": {
-    "total": 1008,
+    "total": 1052,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10271,13 +10271,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Dubai",
+        "name": "25 Beijing",
         "points": 65,
         "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "25 Beijing",
+        "name": "26 Dubai",
         "points": 65,
         "round": "R32"
       },
@@ -10289,13 +10289,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Madrid",
+        "name": "26 Indian Wells",
         "points": 10,
         "round": "R128"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Indian Wells",
+        "name": "26 Madrid",
         "points": 10,
         "round": "R128"
       },
@@ -10326,8 +10326,8 @@
       {
         "level": "WTA 250",
         "name": "26 Sao Paulo",
-        "points": 54,
-        "round": "QF"
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -11093,7 +11093,7 @@
     ]
   },
   "kaitlin-quevedo": {
-    "total": 724,
+    "total": 768,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11122,8 +11122,8 @@
       {
         "level": "WTA 250",
         "name": "26 Sao Paulo",
-        "points": 54,
-        "round": "QF"
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -11545,7 +11545,7 @@
     ]
   },
   "anna-blinkova": {
-    "total": 831,
+    "total": 875,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11628,8 +11628,8 @@
       {
         "level": "WTA 250",
         "name": "26 Sao Paulo",
-        "points": 54,
-        "round": "QF"
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -13762,7 +13762,7 @@
     ]
   },
   "jeline-vandromme": {
-    "total": 579,
+    "total": 601,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13796,6 +13796,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Caldas da Rainha/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Petange/75",
         "points": 49,
         "round": "F"
@@ -13817,12 +13823,6 @@
         "name": "25 Trnava/75",
         "points": 29,
         "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Caldas da Rainha/125",
-        "points": 27,
-        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -13875,7 +13875,7 @@
     ]
   },
   "lisa-pigato": {
-    "total": 577,
+    "total": 599,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13903,6 +13903,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Caldas da Rainha/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Chiasso/75",
         "points": 49,
         "round": "F"
@@ -13918,12 +13924,6 @@
         "name": "25 Heraklion/50",
         "points": 33,
         "round": "F"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Caldas da Rainha/125",
-        "points": 27,
-        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -14921,7 +14921,7 @@
     ]
   },
   "veronika-podrez": {
-    "total": 593,
+    "total": 606,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14961,15 +14961,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Trnava/75",
+        "name": "26 Le Neubourg/75",
         "points": 29,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "25 Angers/125",
-        "points": 21,
-        "round": "R16"
+        "name": "26 Trnava/75",
+        "points": 29,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -14979,15 +14979,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Grenoble/50",
-        "points": 20,
-        "round": "SF"
+        "name": "25 Angers/125",
+        "points": 21,
+        "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "26 Le Neubourg/75",
-        "points": 16,
-        "round": "QF"
+        "name": "26 Grenoble/50",
+        "points": 20,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -15973,7 +15973,7 @@
     ]
   },
   "laura-samson": {
-    "total": 654,
+    "total": 676,
     "entries": [
       {
         "level": "Grand Slam",
@@ -16037,21 +16037,21 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Modena/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
         "name": "25 Colina/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
+        "name": "26 Modena/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Ljubljana/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -16061,13 +16061,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Quito/125",
+        "name": "26 Madrid/125",
         "points": 15,
         "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "26 Madrid/125",
+        "name": "25 Quito/125",
         "points": 15,
         "round": "R16"
       },
