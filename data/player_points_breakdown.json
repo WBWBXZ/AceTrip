@@ -1539,7 +1539,7 @@
     ]
   },
   "jovic": {
-    "total": 2666,
+    "total": 2841,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1616,8 +1616,8 @@
       {
         "level": "WTA 500",
         "name": "26 Guadalajara",
-        "points": 325,
-        "round": "F"
+        "points": 500,
+        "round": "W"
       },
       {
         "level": "WTA 500",
@@ -11093,7 +11093,7 @@
     ]
   },
   "kaitlin-quevedo": {
-    "total": 768,
+    "total": 833,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11122,8 +11122,8 @@
       {
         "level": "WTA 250",
         "name": "26 Sao Paulo",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -13875,7 +13875,7 @@
     ]
   },
   "lisa-pigato": {
-    "total": 599,
+    "total": 631,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13897,15 +13897,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Nonthaburi/75",
-        "points": 75,
-        "round": "W"
+        "name": "26 Caldas da Rainha/125",
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
-        "name": "26 Caldas da Rainha/125",
-        "points": 49,
-        "round": "SF"
+        "name": "26 Nonthaburi/75",
+        "points": 75,
+        "round": "W"
       },
       {
         "level": "Challengers",
