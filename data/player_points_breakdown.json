@@ -13875,7 +13875,7 @@
     ]
   },
   "lisa-pigato": {
-    "total": 631,
+    "total": 675,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13891,15 +13891,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Madrid/125",
+        "name": "26 Caldas da Rainha/125",
         "points": 125,
         "round": "W"
       },
       {
         "level": "Challengers",
-        "name": "26 Caldas da Rainha/125",
-        "points": 81,
-        "round": "F"
+        "name": "26 Madrid/125",
+        "points": 125,
+        "round": "W"
       },
       {
         "level": "Challengers",
