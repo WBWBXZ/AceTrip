@@ -5427,17 +5427,18 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "guadalajara",
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
-    "totalWins": 39,
+    "totalTournaments": 22,
+    "totalWins": 43,
     "totalLosses": 22,
-    "titles": 0,
-    "thisYearTournaments": 17,
-    "thisYearWins": 34,
+    "titles": 1,
+    "thisYearTournaments": 18,
+    "thisYearWins": 38,
     "thisYearLosses": 17,
-    "thisYearTitles": 0,
+    "thisYearTitles": 1,
     "results": [
       {
         "name": "AUCKLAND",
@@ -5591,6 +5592,15 @@
         "tournamentId": "us-open",
         "points": 240,
         "level": "GS"
+      },
+      {
+        "name": "GUADALAJARA",
+        "startDate": "2026-09-13T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
+        "tournamentId": "guadalajara",
+        "points": 500,
+        "level": "P"
       },
       {
         "name": "BEIJING",
@@ -24115,13 +24125,13 @@
       "us-open"
     ],
     "totalTournaments": 24,
-    "totalWins": 46,
+    "totalWins": 47,
     "totalLosses": 23,
-    "titles": 1,
+    "titles": 2,
     "thisYearTournaments": 21,
-    "thisYearWins": 40,
+    "thisYearWins": 41,
     "thisYearLosses": 20,
-    "thisYearTitles": 1,
+    "thisYearTitles": 2,
     "results": [
       {
         "name": "AUCKLAND",
@@ -24306,10 +24316,10 @@
       {
         "name": "SAO PAULO",
         "startDate": "2026-09-14T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
+        "bestRound": "F",
+        "isChampion": true,
         "tournamentId": null,
-        "points": 163,
+        "points": 250,
         "level": "IS"
       },
       {
