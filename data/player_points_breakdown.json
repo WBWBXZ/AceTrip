@@ -2466,7 +2466,7 @@
     ]
   },
   "wang-xinyu": {
-    "total": 1240,
+    "total": 1288,
     "entries": [
       {
         "level": "Grand Slam",
@@ -2543,8 +2543,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 60,
-        "round": "R16"
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
@@ -4119,7 +4119,7 @@
     ]
   },
   "maria-sakkari": {
-    "total": 1414,
+    "total": 1462,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4195,15 +4195,15 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 United Cup",
-        "points": 90,
-        "round": "-"
+        "name": "26 Singapore",
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
-        "name": "26 Singapore",
-        "points": 60,
-        "round": "R16"
+        "name": "26 United Cup",
+        "points": 90,
+        "round": "-"
       },
       {
         "level": "WTA 500",
@@ -7157,7 +7157,7 @@
     ]
   },
   "kimberly-birrell": {
-    "total": 1035,
+    "total": 1059,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7251,14 +7251,14 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Eastbourne",
-        "points": 48,
-        "round": "R16"
+        "name": "26 Seoul",
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 30,
+        "name": "26 Eastbourne",
+        "points": 48,
         "round": "R16"
       },
       {
@@ -7829,7 +7829,7 @@
     ]
   },
   "talia-gibson": {
-    "total": 1008,
+    "total": 1056,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7894,8 +7894,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 60,
-        "round": "R16"
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
@@ -8055,7 +8055,7 @@
     ]
   },
   "elena-gabriela-ruse": {
-    "total": 1009,
+    "total": 1033,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8149,15 +8149,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 s-Hertogenbosch",
+        "name": "26 Seoul",
         "points": 54,
         "round": "QF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 30,
-        "round": "R16"
+        "name": "26 s-Hertogenbosch",
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -10683,7 +10683,7 @@
     ]
   },
   "anna-bondar": {
-    "total": 961,
+    "total": 985,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10759,6 +10759,12 @@
       },
       {
         "level": "WTA 250",
+        "name": "26 Seoul",
+        "points": 54,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 250",
         "name": "26 Rabat",
         "points": 54,
         "round": "QF"
@@ -10777,12 +10783,6 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 30,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 250",
         "name": "26 Iasi",
         "points": 30,
         "round": "R16"
@@ -10796,7 +10796,7 @@
     ]
   },
   "oksana-selekhmeteva": {
-    "total": 721,
+    "total": 733,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10896,15 +10896,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 16,
+        "name": "26 Tolentino/125",
+        "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Tolentino/125",
-        "points": 15,
-        "round": "R16"
+        "name": "25 Petange/75",
+        "points": 16,
+        "round": "QF"
       }
     ]
   },
@@ -11771,7 +11771,7 @@
     ]
   },
   "julia-grabher": {
-    "total": 653,
+    "total": 665,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11817,15 +11817,21 @@
       },
       {
         "level": "Challengers",
+        "name": "25 Rio de Janeiro/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Philadelphia/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "25 Rio de Janeiro/125",
-        "points": 49,
-        "round": "SF"
+        "name": "26 Tolentino/125",
+        "points": 27,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -11844,12 +11850,6 @@
         "name": "26 Wiesbaden/100",
         "points": 21,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Tolentino/125",
-        "points": 15,
-        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -13008,7 +13008,7 @@
     ]
   },
   "taylah-preston": {
-    "total": 804,
+    "total": 828,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13030,14 +13030,14 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Nottingham",
-        "points": 42,
-        "round": "R16"
+        "name": "26 Seoul",
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 30,
+        "name": "26 Nottingham",
+        "points": 42,
         "round": "R16"
       },
       {
@@ -13054,13 +13054,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Brisbane/75",
+        "name": "25 Playford/75",
         "points": 29,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "25 Playford/75",
+        "name": "26 Brisbane/75",
         "points": 29,
         "round": "SF"
       },
