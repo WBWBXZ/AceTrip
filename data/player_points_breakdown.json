@@ -1842,7 +1842,7 @@
     ]
   },
   "fernandez": {
-    "total": 1502,
+    "total": 1589,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1913,8 +1913,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 108,
-        "round": "QF"
+        "points": 195,
+        "round": "SF"
       },
       {
         "level": "WTA 500",
@@ -3453,7 +3453,7 @@
     ]
   },
   "chwalinska": {
-    "total": 1995,
+    "total": 2082,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3494,8 +3494,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 108,
-        "round": "QF"
+        "points": 195,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -7157,7 +7157,7 @@
     ]
   },
   "kimberly-birrell": {
-    "total": 1059,
+    "total": 1103,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7245,15 +7245,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Austin",
+        "name": "26 Seoul",
         "points": 98,
         "round": "SF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 54,
-        "round": "QF"
+        "name": "26 Austin",
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -7829,7 +7829,7 @@
     ]
   },
   "talia-gibson": {
-    "total": 1056,
+    "total": 1273,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7894,8 +7894,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 108,
-        "round": "QF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -8959,7 +8959,7 @@
     ]
   },
   "sinja-kraus": {
-    "total": 795,
+    "total": 817,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9035,6 +9035,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Porto/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Prague/75",
         "points": 49,
         "round": "F"
@@ -9044,12 +9050,6 @@
         "name": "25 Florianópolis/125",
         "points": 49,
         "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Porto/125",
-        "points": 27,
-        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -9387,7 +9387,7 @@
     ]
   },
   "maria-timofeeva": {
-    "total": 891,
+    "total": 913,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9481,15 +9481,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 29,
+        "name": "26 Porto/125",
+        "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Porto/125",
-        "points": 27,
-        "round": "QF"
+        "name": "25 Petange/75",
+        "points": 29,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -10796,7 +10796,7 @@
     ]
   },
   "oksana-selekhmeteva": {
-    "total": 733,
+    "total": 755,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10884,6 +10884,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Tolentino/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 RENDE/125",
         "points": 27,
         "round": "QF"
@@ -10891,12 +10897,6 @@
       {
         "level": "Challengers",
         "name": "26 Madrid/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Tolentino/125",
         "points": 27,
         "round": "QF"
       },
@@ -11771,7 +11771,7 @@
     ]
   },
   "julia-grabher": {
-    "total": 665,
+    "total": 687,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11817,21 +11817,21 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Rio de Janeiro/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Philadelphia/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
+        "name": "25 Rio de Janeiro/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Tolentino/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -13536,7 +13536,7 @@
     ]
   },
   "kayla-day": {
-    "total": 576,
+    "total": 584,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13606,6 +13606,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Berkeley/50",
+        "points": 20,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Barranquilla/125",
         "points": 15,
         "round": "R16"
@@ -13625,12 +13631,6 @@
       {
         "level": "Challengers",
         "name": "26 San Diego/100",
-        "points": 12,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 MACON, GEORGIA/100",
         "points": 12,
         "round": "R16"
       },
@@ -15545,7 +15545,7 @@
     ]
   },
   "polina-iatcenko": {
-    "total": 456,
+    "total": 478,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15597,6 +15597,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Ankara/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Tokyo/100",
         "points": 39,
         "round": "SF"
@@ -15606,12 +15612,6 @@
         "name": "26 Bengaluru/100",
         "points": 39,
         "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Ankara/125",
-        "points": 27,
-        "round": "QF"
       },
       {
         "level": "Challengers",
