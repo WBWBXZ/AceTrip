@@ -1842,7 +1842,7 @@
     ]
   },
   "fernandez": {
-    "total": 1589,
+    "total": 1719,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1913,8 +1913,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -7157,7 +7157,7 @@
     ]
   },
   "kimberly-birrell": {
-    "total": 1103,
+    "total": 1168,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7239,15 +7239,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "25 Chennai",
+        "name": "26 Seoul",
         "points": 163,
         "round": "F"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 98,
-        "round": "SF"
+        "name": "25 Chennai",
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -8394,7 +8394,7 @@
     ]
   },
   "alina-korneeva": {
-    "total": 944,
+    "total": 988,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8434,15 +8434,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Athens",
+        "name": "26 Seoul",
         "points": 98,
         "round": "SF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 54,
-        "round": "QF"
+        "name": "26 Athens",
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -8620,7 +8620,7 @@
     ]
   },
   "maya-joint": {
-    "total": 825,
+    "total": 934,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8702,15 +8702,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "25 Hong Kong",
-        "points": 98,
-        "round": "SF"
+        "name": "26 Seoul",
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
-        "name": "26 Seoul",
-        "points": 54,
-        "round": "QF"
+        "name": "25 Hong Kong",
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -9387,7 +9387,7 @@
     ]
   },
   "maria-timofeeva": {
-    "total": 913,
+    "total": 945,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9469,6 +9469,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Porto/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Quinta do Lago/75",
         "points": 75,
         "round": "W"
@@ -9478,12 +9484,6 @@
         "name": "26 Chiasso/75",
         "points": 75,
         "round": "W"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Porto/125",
-        "points": 49,
-        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -10683,7 +10683,7 @@
     ]
   },
   "anna-bondar": {
-    "total": 985,
+    "total": 1029,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10760,8 +10760,8 @@
       {
         "level": "WTA 250",
         "name": "26 Seoul",
-        "points": 54,
-        "round": "QF"
+        "points": 98,
+        "round": "SF"
       },
       {
         "level": "WTA 250",
@@ -11771,7 +11771,7 @@
     ]
   },
   "julia-grabher": {
-    "total": 687,
+    "total": 719,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11811,6 +11811,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Tolentino/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Kitzbuhel/125",
         "points": 81,
         "round": "F"
@@ -11824,12 +11830,6 @@
       {
         "level": "Challengers",
         "name": "25 Rio de Janeiro/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Tolentino/125",
         "points": 49,
         "round": "SF"
       },
@@ -13536,7 +13536,7 @@
     ]
   },
   "kayla-day": {
-    "total": 584,
+    "total": 597,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13588,7 +13588,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 TYLER, TEXAS/100",
+        "name": "26 Berkeley/50",
+        "points": 33,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Charlottesville/100",
         "points": 21,
         "round": "QF"
       },
@@ -13600,15 +13606,9 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Charlottesville/100",
+        "name": "25 TYLER, TEXAS/100",
         "points": 21,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Berkeley/50",
-        "points": 20,
-        "round": "SF"
       },
       {
         "level": "Challengers",
