@@ -748,15 +748,16 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "us-open"
+      "us-open",
+      "singapore-open"
     ],
-    "totalTournaments": 16,
-    "totalWins": 23,
-    "totalLosses": 15,
+    "totalTournaments": 17,
+    "totalWins": 24,
+    "totalLosses": 16,
     "titles": 1,
-    "thisYearTournaments": 15,
-    "thisYearWins": 23,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 16,
+    "thisYearWins": 24,
+    "thisYearLosses": 15,
     "thisYearTitles": 1,
     "results": [
       {
@@ -895,6 +896,15 @@
         "level": "GS"
       },
       {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 60,
+        "level": "P"
+      },
+      {
         "name": "LIMOGES 125",
         "startDate": "2025-12-08T00:00:00+00:00",
         "bestRound": "R32",
@@ -923,15 +933,16 @@
       "cincinnati-open",
       "monterrey",
       "us-open",
+      "singapore-open",
       "wuhan-open"
     ],
-    "totalTournaments": 22,
+    "totalTournaments": 23,
     "totalWins": 29,
-    "totalLosses": 22,
+    "totalLosses": 23,
     "titles": 1,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 27,
-    "thisYearLosses": 20,
+    "thisYearLosses": 21,
     "thisYearTitles": 1,
     "results": [
       {
@@ -1113,6 +1124,15 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 1,
+        "level": "P"
       },
       {
         "name": "WUHAN",
@@ -1492,13 +1512,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 18,
-    "totalWins": 21,
-    "totalLosses": 18,
+    "totalTournaments": 19,
+    "totalWins": 22,
+    "totalLosses": 19,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 21,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 22,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -1662,6 +1682,15 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
+      },
+      {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 30,
+        "level": "IS"
       }
     ]
   },
@@ -2365,13 +2394,13 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 26,
+    "totalTournaments": 27,
     "totalWins": 25,
-    "totalLosses": 28,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 23,
+    "thisYearTournaments": 24,
     "thisYearWins": 23,
-    "thisYearLosses": 25,
+    "thisYearLosses": 26,
     "thisYearTitles": 0,
     "results": [
       {
@@ -2580,6 +2609,15 @@
         "tournamentId": "us-open",
         "points": 30,
         "level": "GS"
+      },
+      {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "WUHAN",
@@ -3041,17 +3079,18 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "wuhan-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
-    "totalWins": 24,
-    "totalLosses": 24,
+    "totalTournaments": 25,
+    "totalWins": 26,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 21,
-    "thisYearWins": 24,
-    "thisYearLosses": 21,
+    "thisYearTournaments": 22,
+    "thisYearWins": 26,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -3242,6 +3281,15 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 108,
+        "level": "P"
       },
       {
         "name": "WUHAN",
@@ -3754,17 +3802,18 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
-    "totalWins": 26,
+    "totalTournaments": 28,
+    "totalWins": 31,
     "totalLosses": 26,
-    "titles": 1,
-    "thisYearTournaments": 23,
-    "thisYearWins": 17,
+    "titles": 2,
+    "thisYearTournaments": 24,
+    "thisYearWins": 22,
     "thisYearLosses": 23,
-    "thisYearTitles": 0,
+    "thisYearTitles": 1,
     "results": [
       {
         "name": "BRISBANE",
@@ -3972,6 +4021,15 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
+        "tournamentId": "singapore-open",
+        "points": 500,
+        "level": "P"
       },
       {
         "name": "WUHAN",
@@ -5035,15 +5093,16 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "us-open"
+      "us-open",
+      "singapore-open"
     ],
-    "totalTournaments": 17,
-    "totalWins": 45,
-    "totalLosses": 14,
+    "totalTournaments": 18,
+    "totalWins": 46,
+    "totalLosses": 15,
     "titles": 3,
-    "thisYearTournaments": 17,
-    "thisYearWins": 45,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 18,
+    "thisYearWins": 46,
+    "thisYearLosses": 15,
     "thisYearTitles": 3,
     "results": [
       {
@@ -5198,6 +5257,15 @@
         "tournamentId": "us-open",
         "points": 430,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 108,
+        "level": "P"
       }
     ]
   },
@@ -5220,9 +5288,9 @@
       "guadalajara",
       "wuhan-open"
     ],
-    "totalTournaments": 21,
+    "totalTournaments": 20,
     "totalWins": 43,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 1,
     "thisYearTournaments": 18,
     "thisYearWins": 38,
@@ -5390,15 +5458,6 @@
         "tournamentId": "guadalajara",
         "points": 500,
         "level": "P"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       },
       {
         "name": "WUHAN",
@@ -6332,15 +6391,16 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "us-open"
+      "us-open",
+      "singapore-open"
     ],
     "totalTournaments": 20,
     "totalWins": 37,
     "totalLosses": 19,
     "titles": 1,
-    "thisYearTournaments": 16,
-    "thisYearWins": 30,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 17,
+    "thisYearWins": 33,
+    "thisYearLosses": 16,
     "thisYearTitles": 1,
     "results": [
       {
@@ -6488,13 +6548,13 @@
         "level": "GS"
       },
       {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
         "bestRound": "S",
         "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "C"
+        "tournamentId": "singapore-open",
+        "points": 195,
+        "level": "P"
       },
       {
         "name": "COLINA 125",
@@ -6543,15 +6603,16 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "us-open"
+      "us-open",
+      "singapore-open"
     ],
-    "totalTournaments": 18,
-    "totalWins": 29,
-    "totalLosses": 18,
+    "totalTournaments": 19,
+    "totalWins": 30,
+    "totalLosses": 19,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 29,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 30,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -6715,6 +6776,15 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 60,
+        "level": "P"
       }
     ]
   },
@@ -6934,9 +7004,9 @@
       "us-open",
       "wuhan-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 43,
-    "totalLosses": 26,
+    "totalTournaments": 27,
+    "totalWins": 41,
+    "totalLosses": 25,
     "titles": 2,
     "thisYearTournaments": 23,
     "thisYearWins": 40,
@@ -7149,15 +7219,6 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
       },
       {
         "name": "WUHAN",
@@ -7733,15 +7794,16 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 20,
-    "totalWins": 22,
-    "totalLosses": 20,
+    "totalTournaments": 21,
+    "totalWins": 24,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 18,
-    "thisYearWins": 20,
-    "thisYearLosses": 18,
+    "thisYearTournaments": 19,
+    "thisYearWins": 22,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -7905,6 +7967,15 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 108,
+        "level": "P"
       },
       {
         "name": "OSAKA",
@@ -8538,10 +8609,10 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 24,
-    "totalWins": 38,
+    "totalTournaments": 23,
+    "totalWins": 33,
     "totalLosses": 21,
-    "titles": 3,
+    "titles": 2,
     "thisYearTournaments": 20,
     "thisYearWins": 23,
     "thisYearLosses": 19,
@@ -8726,15 +8797,6 @@
         "tournamentId": "guadalajara",
         "points": 108,
         "level": "P"
-      },
-      {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 125,
-        "level": "C"
       },
       {
         "name": "MALLORCA 125",
@@ -9409,9 +9471,9 @@
       "us-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 22,
-    "totalWins": 38,
-    "totalLosses": 23,
+    "totalTournaments": 21,
+    "totalWins": 34,
+    "totalLosses": 22,
     "titles": 0,
     "thisYearTournaments": 19,
     "thisYearWins": 34,
@@ -9590,15 +9652,6 @@
         "level": "GS"
       },
       {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 81,
-        "level": "C"
-      },
-      {
         "name": "TOKYO",
         "startDate": "2025-10-20T00:00:00+00:00",
         "bestRound": "R32",
@@ -9631,15 +9684,16 @@
       "national-bank-open",
       "cincinnati-open",
       "monterrey",
-      "us-open"
+      "us-open",
+      "singapore-open"
     ],
     "totalTournaments": 27,
-    "totalWins": 41,
+    "totalWins": 42,
     "totalLosses": 25,
     "titles": 2,
-    "thisYearTournaments": 19,
-    "thisYearWins": 24,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 20,
+    "thisYearWins": 25,
+    "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
       {
@@ -9814,13 +9868,13 @@
         "level": "GS"
       },
       {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
         "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
+        "tournamentId": "singapore-open",
+        "points": 60,
+        "level": "P"
       },
       {
         "name": "MALLORCA 125",
@@ -10139,10 +10193,10 @@
       "us-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
-    "totalWins": 37,
+    "totalTournaments": 23,
+    "totalWins": 32,
     "totalLosses": 24,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 20,
     "thisYearWins": 26,
     "thisYearLosses": 20,
@@ -10327,15 +10381,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 125,
-        "level": "C"
       },
       {
         "name": "OSAKA",
@@ -11220,13 +11265,13 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 19,
-    "totalLosses": 20,
+    "totalLosses": 21,
     "titles": 0,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 19,
-    "thisYearLosses": 18,
+    "thisYearLosses": 19,
     "thisYearTitles": 0,
     "results": [
       {
@@ -11390,6 +11435,15 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
+      },
+      {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "WUHAN",
@@ -11923,9 +11977,9 @@
       "us-open",
       "dubai-championships"
     ],
-    "totalTournaments": 24,
-    "totalWins": 55,
-    "totalLosses": 21,
+    "totalTournaments": 23,
+    "totalWins": 52,
+    "totalLosses": 20,
     "titles": 3,
     "thisYearTournaments": 17,
     "thisYearWins": 41,
@@ -12084,15 +12138,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "BRATISLAVA",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 29,
-        "level": "ITF"
       },
       {
         "name": "LES FRANQUESES DEL VALLES",
@@ -12868,9 +12913,9 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 30,
+    "totalTournaments": 29,
     "totalWins": 34,
-    "totalLosses": 31,
+    "totalLosses": 30,
     "titles": 0,
     "thisYearTournaments": 23,
     "thisYearWins": 29,
@@ -13083,15 +13128,6 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       },
       {
         "name": "WUHAN",
@@ -13460,9 +13496,9 @@
       "guadalajara",
       "wuhan-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 26,
     "totalWins": 33,
-    "totalLosses": 25,
+    "totalLosses": 24,
     "titles": 2,
     "thisYearTournaments": 23,
     "thisYearWins": 32,
@@ -13677,15 +13713,6 @@
         "level": "P"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
-      },
-      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R32",
@@ -13731,15 +13758,16 @@
       "washington-dc",
       "national-bank-open",
       "cincinnati-open",
-      "us-open"
+      "us-open",
+      "singapore-open"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 20,
-    "totalLosses": 19,
+    "totalLosses": 20,
     "titles": 1,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 20,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 1,
     "results": [
       {
@@ -13921,6 +13949,15 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 1,
+        "level": "P"
       }
     ]
   },
@@ -13937,9 +13974,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 14,
+    "totalTournaments": 13,
     "totalWins": 22,
-    "totalLosses": 14,
+    "totalLosses": 13,
     "titles": 0,
     "thisYearTournaments": 13,
     "thisYearWins": 22,
@@ -14062,15 +14099,6 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
-      },
-      {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       }
     ]
   },
@@ -14314,13 +14342,13 @@
       "toray-pan-pacific"
     ],
     "totalTournaments": 28,
-    "totalWins": 34,
-    "totalLosses": 29,
-    "titles": 0,
-    "thisYearTournaments": 22,
-    "thisYearWins": 24,
+    "totalWins": 39,
+    "totalLosses": 28,
+    "titles": 1,
+    "thisYearTournaments": 23,
+    "thisYearWins": 29,
     "thisYearLosses": 23,
-    "thisYearTitles": 0,
+    "thisYearTitles": 1,
     "results": [
       {
         "name": "BRISBANE",
@@ -14521,13 +14549,13 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
         "tournamentId": null,
-        "points": 1,
-        "level": "C"
+        "points": 250,
+        "level": "IS"
       },
       {
         "name": "WUHAN",
@@ -14835,15 +14863,16 @@
       "monterrey",
       "us-open",
       "guadalajara",
+      "singapore-open",
       "wuhan-open"
     ],
-    "totalTournaments": 35,
-    "totalWins": 32,
-    "totalLosses": 35,
+    "totalTournaments": 36,
+    "totalWins": 33,
+    "totalLosses": 36,
     "titles": 0,
-    "thisYearTournaments": 28,
-    "thisYearWins": 26,
-    "thisYearLosses": 28,
+    "thisYearTournaments": 29,
+    "thisYearWins": 27,
+    "thisYearLosses": 29,
     "thisYearTitles": 0,
     "results": [
       {
@@ -15095,6 +15124,15 @@
         "bestRound": "R16",
         "isChampion": false,
         "tournamentId": "guadalajara",
+        "points": 60,
+        "level": "P"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
         "points": 60,
         "level": "P"
       },
@@ -15899,15 +15937,16 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "ningbo-open"
     ],
     "totalTournaments": 29,
-    "totalWins": 39,
+    "totalWins": 43,
     "totalLosses": 28,
     "titles": 2,
-    "thisYearTournaments": 23,
-    "thisYearWins": 30,
-    "thisYearLosses": 23,
+    "thisYearTournaments": 24,
+    "thisYearWins": 34,
+    "thisYearLosses": 24,
     "thisYearTitles": 1,
     "results": [
       {
@@ -16118,13 +16157,13 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
         "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
+        "tournamentId": "singapore-open",
+        "points": 325,
+        "level": "P"
       },
       {
         "name": "NINGBO",
@@ -16189,9 +16228,9 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 32,
-    "totalWins": 35,
-    "totalLosses": 33,
+    "totalTournaments": 31,
+    "totalWins": 34,
+    "totalLosses": 32,
     "titles": 0,
     "thisYearTournaments": 24,
     "thisYearWins": 23,
@@ -16415,15 +16454,6 @@
         "level": "P"
       },
       {
-        "name": "BUCHAREST 7",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
-      },
-      {
         "name": "MALLORCA 125",
         "startDate": "2025-10-05T00:00:00+00:00",
         "bestRound": "R32",
@@ -16506,13 +16536,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 30,
-    "totalLosses": 22,
+    "totalTournaments": 23,
+    "totalWins": 32,
+    "totalLosses": 23,
     "titles": 1,
-    "thisYearTournaments": 19,
-    "thisYearWins": 23,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 20,
+    "thisYearWins": 25,
+    "thisYearLosses": 21,
     "thisYearTitles": 0,
     "results": [
       {
@@ -16687,6 +16717,15 @@
         "level": "GS"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 54,
+        "level": "IS"
+      },
+      {
         "name": "OSAKA",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R16",
@@ -16726,9 +16765,9 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 45,
-    "totalLosses": 24,
+    "totalTournaments": 26,
+    "totalWins": 44,
+    "totalLosses": 23,
     "titles": 3,
     "thisYearTournaments": 21,
     "thisYearWins": 33,
@@ -16923,15 +16962,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
       },
       {
         "name": "MALLORCA 125",
@@ -17208,12 +17238,12 @@
       "us-open"
     ],
     "totalTournaments": 24,
-    "totalWins": 45,
-    "totalLosses": 21,
-    "titles": 3,
-    "thisYearTournaments": 19,
-    "thisYearWins": 37,
-    "thisYearLosses": 17,
+    "totalWins": 43,
+    "totalLosses": 22,
+    "titles": 2,
+    "thisYearTournaments": 20,
+    "thisYearWins": 40,
+    "thisYearLosses": 18,
     "thisYearTitles": 2,
     "results": [
       {
@@ -17388,13 +17418,13 @@
         "level": "GS"
       },
       {
-        "name": "BRATISLAVA",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "S",
+        "isChampion": false,
         "tournamentId": null,
-        "points": 75,
-        "level": "ITF"
+        "points": 98,
+        "level": "IS"
       },
       {
         "name": "JINAN 125",
@@ -17455,9 +17485,9 @@
       "guadalajara",
       "ningbo-open"
     ],
-    "totalTournaments": 32,
-    "totalWins": 32,
-    "totalLosses": 31,
+    "totalTournaments": 31,
+    "totalWins": 29,
+    "totalLosses": 30,
     "titles": 1,
     "thisYearTournaments": 28,
     "thisYearWins": 28,
@@ -17717,15 +17747,6 @@
         "level": "P"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "C"
-      },
-      {
         "name": "NINGBO",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R32",
@@ -17773,13 +17794,13 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 21,
-    "totalWins": 12,
-    "totalLosses": 22,
+    "totalTournaments": 22,
+    "totalWins": 16,
+    "totalLosses": 23,
     "titles": 0,
-    "thisYearTournaments": 21,
-    "thisYearWins": 12,
-    "thisYearLosses": 22,
+    "thisYearTournaments": 22,
+    "thisYearWins": 16,
+    "thisYearLosses": 23,
     "thisYearTitles": 0,
     "results": [
       {
@@ -17970,6 +17991,15 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
+      },
+      {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 163,
+        "level": "IS"
       }
     ]
   },
@@ -17994,13 +18024,13 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 27,
-    "totalLosses": 29,
+    "totalTournaments": 28,
+    "totalWins": 28,
+    "totalLosses": 30,
     "titles": 1,
-    "thisYearTournaments": 22,
-    "thisYearWins": 21,
-    "thisYearLosses": 25,
+    "thisYearTournaments": 23,
+    "thisYearWins": 22,
+    "thisYearLosses": 26,
     "thisYearTitles": 0,
     "results": [
       {
@@ -18202,6 +18232,15 @@
         "level": "GS"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 30,
+        "level": "IS"
+      },
+      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R32",
@@ -18269,9 +18308,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 33,
-    "totalLosses": 27,
+    "totalTournaments": 25,
+    "totalWins": 31,
+    "totalLosses": 26,
     "titles": 0,
     "thisYearTournaments": 21,
     "thisYearWins": 24,
@@ -18468,15 +18507,6 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
-      },
-      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R16",
@@ -18532,12 +18562,12 @@
       "us-open"
     ],
     "totalTournaments": 29,
-    "totalWins": 45,
+    "totalWins": 48,
     "totalLosses": 27,
     "titles": 1,
-    "thisYearTournaments": 25,
-    "thisYearWins": 39,
-    "thisYearLosses": 24,
+    "thisYearTournaments": 26,
+    "thisYearWins": 42,
+    "thisYearLosses": 25,
     "thisYearTitles": 1,
     "results": [
       {
@@ -18766,12 +18796,12 @@
         "level": "C"
       },
       {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
+        "name": "PORTO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "S",
         "isChampion": false,
         "tournamentId": null,
-        "points": 1,
+        "points": 49,
         "level": "C"
       },
       {
@@ -19122,13 +19152,13 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 49,
-    "totalLosses": 24,
+    "totalTournaments": 27,
+    "totalWins": 51,
+    "totalLosses": 25,
     "titles": 2,
-    "thisYearTournaments": 22,
-    "thisYearWins": 42,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 23,
+    "thisYearWins": 44,
+    "thisYearLosses": 21,
     "thisYearTitles": 2,
     "results": [
       {
@@ -19328,6 +19358,15 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
+      },
+      {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 54,
+        "level": "IS"
       },
       {
         "name": "JINAN 125",
@@ -19535,13 +19574,13 @@
       "us-open"
     ],
     "totalTournaments": 25,
-    "totalWins": 42,
-    "totalLosses": 22,
-    "titles": 4,
-    "thisYearTournaments": 20,
-    "thisYearWins": 32,
+    "totalWins": 45,
+    "totalLosses": 21,
+    "titles": 5,
+    "thisYearTournaments": 21,
+    "thisYearWins": 37,
     "thisYearLosses": 18,
-    "thisYearTitles": 3,
+    "thisYearTitles": 4,
     "results": [
       {
         "name": "BRISBANE",
@@ -19724,12 +19763,12 @@
         "level": "GS"
       },
       {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
+        "name": "PORTO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
         "tournamentId": null,
-        "points": 27,
+        "points": 125,
         "level": "C"
       },
       {
@@ -19792,13 +19831,13 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 32,
+    "totalTournaments": 33,
     "totalWins": 43,
-    "totalLosses": 31,
+    "totalLosses": 32,
     "titles": 3,
-    "thisYearTournaments": 28,
+    "thisYearTournaments": 29,
     "thisYearWins": 28,
-    "thisYearLosses": 29,
+    "thisYearLosses": 30,
     "thisYearTitles": 1,
     "results": [
       {
@@ -20054,6 +20093,15 @@
         "level": "P"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
+      },
+      {
         "name": "EDMOND",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "Q",
@@ -20110,13 +20158,13 @@
       "us-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 19,
     "totalWins": 12,
-    "totalLosses": 19,
+    "totalLosses": 20,
     "titles": 0,
-    "thisYearTournaments": 16,
+    "thisYearTournaments": 17,
     "thisYearWins": 8,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -20264,6 +20312,15 @@
         "level": "IS"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
+      },
+      {
         "name": "TOKYO",
         "startDate": "2025-10-20T00:00:00+00:00",
         "bestRound": "R16",
@@ -20301,13 +20358,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 26,
     "totalWins": 29,
-    "totalLosses": 26,
+    "totalLosses": 27,
     "titles": 1,
-    "thisYearTournaments": 22,
+    "thisYearTournaments": 23,
     "thisYearWins": 21,
-    "thisYearLosses": 24,
+    "thisYearLosses": 25,
     "thisYearTitles": 0,
     "results": [
       {
@@ -20507,6 +20564,15 @@
         "tournamentId": null,
         "points": 30,
         "level": "IS"
+      },
+      {
+        "name": "ANKARA 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "C"
       },
       {
         "name": "MALLORCA 125",
@@ -20957,9 +21023,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 25,
-    "totalLosses": 27,
+    "totalTournaments": 26,
+    "totalWins": 23,
+    "totalLosses": 26,
     "titles": 0,
     "thisYearTournaments": 26,
     "thisYearWins": 23,
@@ -21194,15 +21260,6 @@
       {
         "name": "MONTREUX 125",
         "startDate": "2026-09-07T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
-      },
-      {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
         "bestRound": "Q",
         "isChampion": false,
         "tournamentId": null,
@@ -21917,12 +21974,12 @@
       "us-open"
     ],
     "totalTournaments": 26,
-    "totalWins": 47,
+    "totalWins": 45,
     "totalLosses": 25,
     "titles": 1,
-    "thisYearTournaments": 23,
-    "thisYearWins": 37,
-    "thisYearLosses": 22,
+    "thisYearTournaments": 24,
+    "thisYearWins": 39,
+    "thisYearLosses": 23,
     "thisYearTitles": 1,
     "results": [
       {
@@ -22133,13 +22190,13 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
         "isChampion": false,
         "tournamentId": null,
-        "points": 81,
-        "level": "C"
+        "points": 54,
+        "level": "IS"
       },
       {
         "name": "OSAKA",
@@ -22473,13 +22530,13 @@
       "us-open",
       "wuhan-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 32,
-    "totalLosses": 28,
+    "totalTournaments": 28,
+    "totalWins": 35,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 23,
-    "thisYearWins": 26,
-    "thisYearLosses": 24,
+    "thisYearTournaments": 24,
+    "thisYearWins": 29,
+    "thisYearLosses": 25,
     "thisYearTitles": 0,
     "results": [
       {
@@ -22690,6 +22747,15 @@
         "level": "GS"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "S",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 98,
+        "level": "IS"
+      },
+      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R32",
@@ -22747,12 +22813,12 @@
       "us-open"
     ],
     "totalTournaments": 30,
-    "totalWins": 31,
+    "totalWins": 32,
     "totalLosses": 29,
     "titles": 1,
-    "thisYearTournaments": 25,
-    "thisYearWins": 21,
-    "thisYearLosses": 25,
+    "thisYearTournaments": 26,
+    "thisYearWins": 24,
+    "thisYearLosses": 26,
     "thisYearTitles": 0,
     "results": [
       {
@@ -22981,12 +23047,12 @@
         "level": "C"
       },
       {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
+        "name": "TOLENTINO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "S",
         "isChampion": false,
         "tournamentId": null,
-        "points": 27,
+        "points": 49,
         "level": "C"
       },
       {
@@ -23152,13 +23218,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 27,
-    "totalLosses": 28,
+    "totalTournaments": 29,
+    "totalWins": 28,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 22,
-    "thisYearWins": 20,
-    "thisYearLosses": 22,
+    "thisYearTournaments": 23,
+    "thisYearWins": 21,
+    "thisYearLosses": 23,
     "thisYearTitles": 0,
     "results": [
       {
@@ -23360,6 +23426,15 @@
         "level": "C"
       },
       {
+        "name": "TOLENTINO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
+      },
+      {
         "name": "JINAN 125",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R16",
@@ -23424,9 +23499,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 47,
-    "totalLosses": 23,
+    "totalTournaments": 23,
+    "totalWins": 45,
+    "totalLosses": 22,
     "titles": 2,
     "thisYearTournaments": 21,
     "thisYearWins": 41,
@@ -23623,15 +23698,6 @@
         "level": "IS"
       },
       {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
-      },
-      {
         "name": "LES FRANQUESES DEL VALLES",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "Q",
@@ -23674,9 +23740,9 @@
     "totalWins": 40,
     "totalLosses": 33,
     "titles": 0,
-    "thisYearTournaments": 25,
+    "thisYearTournaments": 26,
     "thisYearWins": 33,
-    "thisYearLosses": 27,
+    "thisYearLosses": 28,
     "thisYearTitles": 0,
     "results": [
       {
@@ -23905,13 +23971,13 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
         "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
         "points": 1,
-        "level": "C"
+        "level": "IS"
       },
       {
         "name": "WUHAN",
@@ -24836,9 +24902,9 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 26,
-    "totalWins": 42,
-    "totalLosses": 26,
+    "totalTournaments": 25,
+    "totalWins": 39,
+    "totalLosses": 25,
     "titles": 1,
     "thisYearTournaments": 23,
     "thisYearWins": 36,
@@ -25053,15 +25119,6 @@
         "level": "P"
       },
       {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "C"
-      },
-      {
         "name": "MACON",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "S",
@@ -25096,13 +25153,13 @@
       "us-open"
     ],
     "totalTournaments": 29,
-    "totalWins": 32,
-    "totalLosses": 28,
-    "titles": 1,
-    "thisYearTournaments": 25,
-    "thisYearWins": 21,
+    "totalWins": 36,
+    "totalLosses": 27,
+    "titles": 2,
+    "thisYearTournaments": 26,
+    "thisYearWins": 26,
     "thisYearLosses": 25,
-    "thisYearTitles": 0,
+    "thisYearTitles": 1,
     "results": [
       {
         "name": "AUCKLAND",
@@ -25330,12 +25387,12 @@
         "level": "GS"
       },
       {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
+        "name": "TOLENTINO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
         "tournamentId": null,
-        "points": 15,
+        "points": 125,
         "level": "C"
       },
       {
@@ -25392,13 +25449,13 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 23,
+    "totalTournaments": 24,
     "totalWins": 10,
-    "totalLosses": 23,
+    "totalLosses": 24,
     "titles": 0,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 7,
-    "thisYearLosses": 21,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -25580,6 +25637,15 @@
         "tournamentId": "us-open",
         "points": 70,
         "level": "GS"
+      },
+      {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "WUHAN",
@@ -25887,9 +25953,9 @@
     "totalWins": 29,
     "totalLosses": 27,
     "titles": 2,
-    "thisYearTournaments": 24,
+    "thisYearTournaments": 25,
     "thisYearWins": 26,
-    "thisYearLosses": 22,
+    "thisYearLosses": 23,
     "thisYearTitles": 2,
     "results": [
       {
@@ -26109,13 +26175,13 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
         "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
         "points": 1,
-        "level": "C"
+        "level": "IS"
       },
       {
         "name": "WUHAN",
@@ -26169,13 +26235,13 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 38,
-    "totalLosses": 24,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 19,
+    "thisYearTournaments": 20,
     "thisYearWins": 35,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
       {
@@ -26350,6 +26416,15 @@
         "level": "GS"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
+      },
+      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R16",
@@ -26412,9 +26487,9 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 34,
-    "totalLosses": 28,
+    "totalTournaments": 26,
+    "totalWins": 33,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 22,
     "thisYearWins": 26,
@@ -26617,15 +26692,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 49,
-        "level": "C"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
         "level": "C"
       },
       {
@@ -27163,9 +27229,9 @@
       "berlin",
       "wimbledon"
     ],
-    "totalTournaments": 19,
-    "totalWins": 18,
-    "totalLosses": 19,
+    "totalTournaments": 18,
+    "totalWins": 17,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 8,
@@ -27317,15 +27383,6 @@
         "level": "GS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "JINAN 125",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "S",
@@ -27356,13 +27413,13 @@
       "us-open",
       "dubai-championships"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 47,
-    "totalLosses": 21,
+    "totalLosses": 22,
     "titles": 3,
-    "thisYearTournaments": 22,
+    "thisYearTournaments": 23,
     "thisYearWins": 46,
-    "thisYearLosses": 19,
+    "thisYearLosses": 20,
     "thisYearTitles": 3,
     "results": [
       {
@@ -27564,6 +27621,15 @@
         "level": "GS"
       },
       {
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "IS"
+      },
+      {
         "name": "YOKOHAMA",
         "startDate": "2025-11-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -27599,9 +27665,9 @@
     "totalWins": 36,
     "totalLosses": 28,
     "titles": 1,
-    "thisYearTournaments": 23,
-    "thisYearWins": 33,
-    "thisYearLosses": 22,
+    "thisYearTournaments": 24,
+    "thisYearWins": 34,
+    "thisYearLosses": 23,
     "thisYearTitles": 1,
     "results": [
       {
@@ -27812,13 +27878,13 @@
         "level": "IS"
       },
       {
-        "name": "BRATISLAVA",
-        "startDate": "2025-09-29T00:00:00+00:00",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
         "bestRound": "R16",
         "isChampion": false,
         "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
+        "points": 30,
+        "level": "IS"
       },
       {
         "name": "OSAKA",
@@ -27882,12 +27948,12 @@
       "brisbane"
     ],
     "totalTournaments": 30,
-    "totalWins": 58,
-    "totalLosses": 28,
-    "titles": 4,
-    "thisYearTournaments": 23,
-    "thisYearWins": 35,
-    "thisYearLosses": 23,
+    "totalWins": 55,
+    "totalLosses": 29,
+    "titles": 3,
+    "thisYearTournaments": 24,
+    "thisYearWins": 37,
+    "thisYearLosses": 24,
     "thisYearTitles": 2,
     "results": [
       {
@@ -28098,13 +28164,13 @@
         "level": "GS"
       },
       {
-        "name": "DARWIN",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
         "tournamentId": null,
-        "points": 35,
-        "level": "ITF"
+        "points": 54,
+        "level": "IS"
       },
       {
         "name": "DARWIN 2",
@@ -28180,12 +28246,12 @@
       "us-open"
     ],
     "totalTournaments": 28,
-    "totalWins": 19,
-    "totalLosses": 30,
+    "totalWins": 15,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 22,
+    "thisYearTournaments": 23,
     "thisYearWins": 14,
-    "thisYearLosses": 22,
+    "thisYearLosses": 23,
     "thisYearTitles": 0,
     "results": [
       {
@@ -28387,12 +28453,12 @@
         "level": "C"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "S",
+        "name": "PORTO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
-        "points": 53,
+        "points": 1,
         "level": "C"
       },
       {
@@ -28453,9 +28519,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 32,
+    "totalTournaments": 31,
     "totalWins": 36,
-    "totalLosses": 32,
+    "totalLosses": 31,
     "titles": 0,
     "thisYearTournaments": 24,
     "thisYearWins": 33,
@@ -28672,15 +28738,6 @@
       {
         "name": "ANTALYA 125 (ATIK)",
         "startDate": "2026-09-07T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
         "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
@@ -29152,13 +29209,13 @@
       "guadalajara"
     ],
     "totalTournaments": 25,
-    "totalWins": 47,
-    "totalLosses": 24,
-    "titles": 3,
-    "thisYearTournaments": 21,
-    "thisYearWins": 42,
+    "totalWins": 51,
+    "totalLosses": 23,
+    "titles": 4,
+    "thisYearTournaments": 22,
+    "thisYearWins": 47,
     "thisYearLosses": 20,
-    "thisYearTitles": 3,
+    "thisYearTitles": 4,
     "results": [
       {
         "name": "LE LAMENTIN (MARTINIQUE)",
@@ -29350,12 +29407,12 @@
         "level": "P"
       },
       {
-        "name": "SAN RAFAEL",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
+        "name": "BERKELEY",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": true,
         "tournamentId": null,
-        "points": 4,
+        "points": 50,
         "level": "ITF"
       },
       {
@@ -29676,9 +29733,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 54,
-    "totalLosses": 22,
+    "totalTournaments": 23,
+    "totalWins": 52,
+    "totalLosses": 21,
     "titles": 2,
     "thisYearTournaments": 19,
     "thisYearWins": 44,
@@ -29857,15 +29914,6 @@
         "level": "C"
       },
       {
-        "name": "REIMS",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 8,
-        "level": "ITF"
-      },
-      {
         "name": "VILLENEUVE D'ASCQ",
         "startDate": "2025-10-27T00:00:00+00:00",
         "bestRound": "R16",
@@ -29912,9 +29960,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 53,
-    "totalLosses": 21,
+    "totalTournaments": 25,
+    "totalWins": 52,
+    "totalLosses": 20,
     "titles": 5,
     "thisYearTournaments": 20,
     "thisYearWins": 38,
@@ -30102,15 +30150,6 @@
         "level": "C"
       },
       {
-        "name": "BUCHAREST 7",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
-      },
-      {
         "name": "HERAKLION 8",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "S",
@@ -30168,9 +30207,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 42,
-    "totalLosses": 28,
+    "totalTournaments": 28,
+    "totalWins": 38,
+    "totalLosses": 27,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 29,
@@ -30367,15 +30406,6 @@
         "level": "C"
       },
       {
-        "name": "BAZA",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 33,
-        "level": "ITF"
-      },
-      {
         "name": "LES FRANQUESES DEL VALLES",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R32",
@@ -30452,9 +30482,9 @@
       "ningbo-open",
       "dubai-championships"
     ],
-    "totalTournaments": 29,
+    "totalTournaments": 28,
     "totalWins": 26,
-    "totalLosses": 27,
+    "totalLosses": 26,
     "titles": 2,
     "thisYearTournaments": 23,
     "thisYearWins": 23,
@@ -30669,15 +30699,6 @@
         "level": "C"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
-      },
-      {
         "name": "NINGBO",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R32",
@@ -30736,12 +30757,12 @@
       "us-open"
     ],
     "totalTournaments": 27,
-    "totalWins": 40,
+    "totalWins": 38,
     "totalLosses": 28,
     "titles": 1,
-    "thisYearTournaments": 22,
+    "thisYearTournaments": 23,
     "thisYearWins": 28,
-    "thisYearLosses": 24,
+    "thisYearLosses": 25,
     "thisYearTitles": 0,
     "results": [
       {
@@ -30943,13 +30964,13 @@
         "level": "GS"
       },
       {
-        "name": "RANCHO SANTA FE 2",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "Q",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
-        "points": 11,
-        "level": "ITF"
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "OSAKA",
@@ -31007,16 +31028,17 @@
       "wimbledon",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 23,
-    "totalWins": 27,
-    "totalLosses": 24,
+    "totalTournaments": 24,
+    "totalWins": 28,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 20,
-    "thisYearWins": 25,
-    "thisYearLosses": 21,
+    "thisYearTournaments": 21,
+    "thisYearWins": 26,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -31200,6 +31222,15 @@
         "level": "GS"
       },
       {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 60,
+        "level": "P"
+      },
+      {
         "name": "NINGBO",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R16",
@@ -31236,12 +31267,12 @@
       "us-open"
     ],
     "totalTournaments": 17,
-    "totalWins": 30,
+    "totalWins": 27,
     "totalLosses": 18,
     "titles": 0,
-    "thisYearTournaments": 15,
+    "thisYearTournaments": 16,
     "thisYearWins": 27,
-    "thisYearLosses": 16,
+    "thisYearLosses": 17,
     "thisYearTitles": 0,
     "results": [
       {
@@ -31380,13 +31411,13 @@
         "level": "C"
       },
       {
-        "name": "RENDE 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "S",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
-        "points": 49,
-        "level": "C"
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "MALLORCA 125",
@@ -31415,16 +31446,17 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 25,
     "totalWins": 23,
-    "totalLosses": 24,
+    "totalLosses": 25,
     "titles": 0,
-    "thisYearTournaments": 21,
+    "thisYearTournaments": 22,
     "thisYearWins": 19,
-    "thisYearLosses": 21,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -31617,6 +31649,15 @@
         "level": "GS"
       },
       {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 1,
+        "level": "P"
+      },
+      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R32",
@@ -31714,12 +31755,12 @@
       "guadalajara"
     ],
     "totalTournaments": 29,
-    "totalWins": 46,
+    "totalWins": 45,
     "totalLosses": 29,
     "titles": 1,
-    "thisYearTournaments": 23,
+    "thisYearTournaments": 24,
     "thisYearWins": 35,
-    "thisYearLosses": 23,
+    "thisYearLosses": 24,
     "thisYearTitles": 1,
     "results": [
       {
@@ -31930,13 +31971,13 @@
         "level": "P"
       },
       {
-        "name": "RANCHO SANTA FE 2",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
-        "points": 6,
-        "level": "ITF"
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "EDMOND",
@@ -32002,12 +32043,12 @@
       "brisbane"
     ],
     "totalTournaments": 23,
-    "totalWins": 40,
+    "totalWins": 36,
     "totalLosses": 22,
     "titles": 2,
-    "thisYearTournaments": 18,
+    "thisYearTournaments": 19,
     "thisYearWins": 21,
-    "thisYearLosses": 18,
+    "thisYearLosses": 19,
     "thisYearTitles": 1,
     "results": [
       {
@@ -32173,13 +32214,13 @@
         "level": "GS"
       },
       {
-        "name": "RANCHO SANTA FE 2",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
+        "name": "SEOUL",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
-        "points": 33,
-        "level": "ITF"
+        "points": 1,
+        "level": "IS"
       },
       {
         "name": "MACON",
@@ -32226,12 +32267,12 @@
       "us-open"
     ],
     "totalTournaments": 28,
-    "totalWins": 56,
+    "totalWins": 53,
     "totalLosses": 26,
     "titles": 2,
-    "thisYearTournaments": 20,
-    "thisYearWins": 37,
-    "thisYearLosses": 19,
+    "thisYearTournaments": 21,
+    "thisYearWins": 38,
+    "thisYearLosses": 20,
     "thisYearTitles": 1,
     "results": [
       {
@@ -32407,7 +32448,7 @@
       },
       {
         "name": "LE NEUBOURG",
-        "startDate": "2026-09-07T00:00:00+00:00",
+        "startDate": "2026-09-14T00:00:00+00:00",
         "bestRound": "S",
         "isChampion": false,
         "tournamentId": null,
@@ -32415,13 +32456,13 @@
         "level": "ITF"
       },
       {
-        "name": "REIMS",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "F",
+        "name": "PORTO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
         "isChampion": false,
         "tournamentId": null,
-        "points": 23,
-        "level": "ITF"
+        "points": 15,
+        "level": "C"
       },
       {
         "name": "CHERBOURG-EN-COTENTIN",
@@ -32600,9 +32641,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 28,
+    "totalTournaments": 27,
     "totalWins": 35,
-    "totalLosses": 27,
+    "totalLosses": 26,
     "titles": 1,
     "thisYearTournaments": 24,
     "thisYearWins": 29,
@@ -32826,15 +32867,6 @@
         "level": "IS"
       },
       {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
-      },
-      {
         "name": "LES FRANQUESES DEL VALLES",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "Q",
@@ -32875,9 +32907,9 @@
       "us-open",
       "dubai-championships"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 23,
     "totalWins": 38,
-    "totalLosses": 24,
+    "totalLosses": 23,
     "titles": 1,
     "thisYearTournaments": 21,
     "thisYearWins": 34,
@@ -33072,15 +33104,6 @@
         "tournamentId": "us-open",
         "points": 110,
         "level": "GS"
-      },
-      {
-        "name": "SAMSUN 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       },
       {
         "name": "TAMPICO 125",
@@ -33362,9 +33385,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 26,
-    "totalWins": 20,
-    "totalLosses": 28,
+    "totalTournaments": 25,
+    "totalWins": 19,
+    "totalLosses": 27,
     "titles": 0,
     "thisYearTournaments": 21,
     "thisYearWins": 17,
@@ -33561,15 +33584,6 @@
         "level": "IS"
       },
       {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "WUHAN",
         "startDate": "2025-10-06T00:00:00+00:00",
         "bestRound": "R32",
@@ -33618,13 +33632,13 @@
       "us-open",
       "dubai-championships"
     ],
-    "totalTournaments": 23,
-    "totalWins": 29,
-    "totalLosses": 23,
+    "totalTournaments": 24,
+    "totalWins": 32,
+    "totalLosses": 24,
     "titles": 1,
-    "thisYearTournaments": 20,
-    "thisYearWins": 24,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 21,
+    "thisYearWins": 27,
+    "thisYearLosses": 21,
     "thisYearTitles": 1,
     "results": [
       {
@@ -33808,6 +33822,15 @@
         "level": "GS"
       },
       {
+        "name": "ANKARA 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "S",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 49,
+        "level": "C"
+      },
+      {
         "name": "JINAN 125",
         "startDate": "2025-10-13T00:00:00+00:00",
         "bestRound": "R16",
@@ -33847,9 +33870,9 @@
       "us-open",
       "brisbane"
     ],
-    "totalTournaments": 19,
+    "totalTournaments": 18,
     "totalWins": 22,
-    "totalLosses": 21,
+    "totalLosses": 19,
     "titles": 0,
     "thisYearTournaments": 13,
     "thisYearWins": 14,
@@ -33972,15 +33995,6 @@
         "tournamentId": "us-open",
         "points": 2,
         "level": "GS"
-      },
-      {
-        "name": "SUZHOU 125",
-        "startDate": "2025-09-29T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       },
       {
         "name": "OSAKA",
@@ -34393,9 +34407,9 @@
     "totalWins": 37,
     "totalLosses": 20,
     "titles": 4,
-    "thisYearTournaments": 19,
+    "thisYearTournaments": 20,
     "thisYearWins": 26,
-    "thisYearLosses": 16,
+    "thisYearLosses": 17,
     "thisYearTitles": 3,
     "results": [
       {
@@ -34570,13 +34584,13 @@
         "level": "C"
       },
       {
-        "name": "BUCHAREST 7",
-        "startDate": "2025-09-29T00:00:00+00:00",
+        "name": "TOLENTINO 125",
+        "startDate": "2026-09-21T00:00:00+00:00",
         "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
         "points": 1,
-        "level": "ITF"
+        "level": "C"
       },
       {
         "name": "HERAKLION 8",

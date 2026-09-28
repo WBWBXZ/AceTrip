@@ -1842,7 +1842,7 @@
     ]
   },
   "fernandez": {
-    "total": 1719,
+    "total": 1894,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1913,8 +1913,8 @@
       {
         "level": "WTA 500",
         "name": "26 Singapore",
-        "points": 325,
-        "round": "F"
+        "points": 500,
+        "round": "W"
       },
       {
         "level": "WTA 500",
@@ -7157,7 +7157,7 @@
     ]
   },
   "kimberly-birrell": {
-    "total": 1168,
+    "total": 1255,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7240,8 +7240,8 @@
       {
         "level": "WTA 250",
         "name": "26 Seoul",
-        "points": 163,
-        "round": "F"
+        "points": 250,
+        "round": "W"
       },
       {
         "level": "WTA 250",
@@ -9387,7 +9387,7 @@
     ]
   },
   "maria-timofeeva": {
-    "total": 945,
+    "total": 989,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9457,21 +9457,21 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Istanbul/125",
-        "points": 125,
-        "round": "W"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Makarska/125",
         "points": 125,
         "round": "W"
       },
       {
         "level": "Challengers",
+        "name": "26 Istanbul/125",
+        "points": 125,
+        "round": "W"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Porto/125",
-        "points": 81,
-        "round": "F"
+        "points": 125,
+        "round": "W"
       },
       {
         "level": "Challengers",
@@ -11771,7 +11771,7 @@
     ]
   },
   "julia-grabher": {
-    "total": 719,
+    "total": 763,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11805,15 +11805,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Florianópolis/125",
+        "name": "26 Tolentino/125",
         "points": 125,
         "round": "W"
       },
       {
         "level": "Challengers",
-        "name": "26 Tolentino/125",
-        "points": 81,
-        "round": "F"
+        "name": "25 Florianópolis/125",
+        "points": 125,
+        "round": "W"
       },
       {
         "level": "Challengers",
@@ -13536,7 +13536,7 @@
     ]
   },
   "kayla-day": {
-    "total": 597,
+    "total": 614,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13576,6 +13576,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Berkeley/50",
+        "points": 50,
+        "round": "W"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Orlando/50",
         "points": 50,
         "round": "W"
@@ -13584,12 +13590,6 @@
         "level": "Challengers",
         "name": "26 Zaragoza/75",
         "points": 49,
-        "round": "F"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Berkeley/50",
-        "points": 33,
         "round": "F"
       },
       {

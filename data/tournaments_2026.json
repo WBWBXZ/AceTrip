@@ -819,7 +819,12 @@
       "venue": "OCBC Arena",
       "timezone": "Asia/Singapore",
       "timezoneCn": "新加坡时间 UTC+8",
-      "liveTennisId": 31152
+      "liveTennisId": 31152,
+      "winner": {
+        "name": "Leylah Fernandez",
+        "nameCn": "费尔南德斯",
+        "countryCode": "CAN"
+      }
     },
     {
       "id": "china-open",
