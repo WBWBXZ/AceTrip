@@ -7002,15 +7002,16 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
+      "singapore-open",
       "wuhan-open"
     ],
-    "totalTournaments": 27,
+    "totalTournaments": 28,
     "totalWins": 41,
-    "totalLosses": 25,
+    "totalLosses": 26,
     "titles": 2,
-    "thisYearTournaments": 23,
+    "thisYearTournaments": 24,
     "thisYearWins": 40,
-    "thisYearLosses": 21,
+    "thisYearLosses": 22,
     "thisYearTitles": 2,
     "results": [
       {
@@ -7219,6 +7220,15 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
+      },
+      {
+        "name": "SINGAPORE",
+        "startDate": "2026-09-21T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": "singapore-open",
+        "points": 1,
+        "level": "P"
       },
       {
         "name": "WUHAN",
