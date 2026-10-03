@@ -1,6 +1,6 @@
 {
   "sabalenka": {
-    "total": 7495,
+    "total": 7550,
     "entries": [
       {
         "level": "Grand Slam",
@@ -64,15 +64,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Rome",
+        "name": "26 Beijing",
         "points": 65,
         "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
+        "name": "26 Rome",
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 500",
@@ -416,7 +416,7 @@
     ]
   },
   "andreeva": {
-    "total": 5731,
+    "total": 5786,
     "entries": [
       {
         "level": "Grand Slam",
@@ -480,6 +480,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Toronto",
         "points": 65,
         "round": "R32"
@@ -489,12 +495,6 @@
         "name": "26 Indian Wells",
         "points": 65,
         "round": "R32"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
       },
       {
         "level": "WTA 500",
@@ -529,7 +529,7 @@
     ]
   },
   "muchova": {
-    "total": 4568,
+    "total": 4623,
     "entries": [
       {
         "level": "Grand Slam",
@@ -576,8 +576,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 500",
@@ -618,7 +618,7 @@
     ]
   },
   "noskova": {
-    "total": 4569,
+    "total": 4624,
     "entries": [
       {
         "level": "Grand Slam",
@@ -676,15 +676,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Doha",
+        "name": "26 Beijing",
         "points": 65,
         "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
+        "name": "26 Doha",
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 1000",
@@ -1188,7 +1188,7 @@
     ]
   },
   "osaka": {
-    "total": 2241,
+    "total": 2296,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1241,8 +1241,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 1000",
@@ -1586,7 +1586,7 @@
     ]
   },
   "shnaider": {
-    "total": 2588,
+    "total": 2643,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1626,12 +1626,6 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
-        "points": 65,
-        "round": "R32"
-      },
-      {
-        "level": "WTA 1000",
         "name": "26 Madrid",
         "points": 65,
         "round": "R32"
@@ -1644,15 +1638,21 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Dubai",
+        "name": "26 Beijing",
         "points": 65,
         "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
+        "name": "26 Miami",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
+        "name": "26 Dubai",
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 500",
@@ -3036,7 +3036,7 @@
     ]
   },
   "alexandrova": {
-    "total": 1701,
+    "total": 1756,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3070,6 +3070,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Cincinnati",
         "points": 65,
         "round": "R32"
@@ -3091,12 +3097,6 @@
         "name": "26 Dubai",
         "points": 10,
         "round": "R32"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
       },
       {
         "level": "WTA 500",
@@ -4445,7 +4445,7 @@
     ]
   },
   "sara-bejlek": {
-    "total": 1595,
+    "total": 1650,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4479,6 +4479,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Dubai",
         "points": 65,
         "round": "R32"
@@ -4500,12 +4506,6 @@
         "name": "26 Miami",
         "points": 10,
         "round": "R128"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
       },
       {
         "level": "WTA 500",
@@ -4867,7 +4867,7 @@
     ]
   },
   "nikola-bartunkova": {
-    "total": 1281,
+    "total": 1336,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4901,6 +4901,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Toronto",
         "points": 65,
         "round": "R32"
@@ -4928,12 +4934,6 @@
         "name": "26 Miami",
         "points": 20,
         "round": "Q2"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 10,
-        "round": "R64"
       },
       {
         "level": "WTA 500",
@@ -5176,7 +5176,7 @@
     ]
   },
   "viktorija-golubic": {
-    "total": 908,
+    "total": 938,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5204,6 +5204,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Toronto",
         "points": 65,
         "round": "R32"
@@ -5213,12 +5219,6 @@
         "name": "26 Rome",
         "points": 65,
         "round": "R32"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 35,
-        "round": "R64"
       },
       {
         "level": "WTA 1000",
@@ -5503,7 +5503,7 @@
     ]
   },
   "antonia-ruzic": {
-    "total": 801,
+    "total": 823,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5591,15 +5591,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Angers/125",
+        "name": "26 Adana/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Adana/125",
-        "points": 27,
-        "round": "QF"
+        "name": "25 Angers/125",
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -5955,7 +5955,7 @@
     ]
   },
   "daria-snigur": {
-    "total": 1169,
+    "total": 1199,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5983,14 +5983,14 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Madrid",
+        "name": "26 Beijing",
         "points": 65,
-        "round": "R64"
+        "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 35,
+        "name": "26 Madrid",
+        "points": 65,
         "round": "R64"
       },
       {
@@ -6514,7 +6514,7 @@
     ]
   },
   "jessica-bouzas-maneiro": {
-    "total": 699,
+    "total": 718,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6613,10 +6613,10 @@
         "round": "R16"
       },
       {
-        "level": "WTA 250",
-        "name": "26 Bogota",
-        "points": 30,
-        "round": "R16"
+        "level": "Challengers",
+        "name": "26 Jingshan/125",
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -7578,7 +7578,7 @@
     ]
   },
   "liudmila-samsonova": {
-    "total": 1174,
+    "total": 1229,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7612,6 +7612,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Rome",
         "points": 65,
         "round": "R32"
@@ -7637,12 +7643,6 @@
       {
         "level": "WTA 1000",
         "name": "26 Dubai",
-        "points": 10,
-        "round": "R64"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
         "points": 10,
         "round": "R64"
       },
@@ -8357,7 +8357,7 @@
     ]
   },
   "tatjana-maria": {
-    "total": 875,
+    "total": 884,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8456,16 +8456,16 @@
         "round": "R16"
       },
       {
-        "level": "WTA 250",
-        "name": "26 Rabat",
-        "points": 30,
-        "round": "R16"
-      },
-      {
         "level": "Challengers",
         "name": "26 Newport/125",
         "points": 125,
         "round": "W"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Templeton/100",
+        "points": 39,
+        "round": "SF"
       }
     ]
   },
@@ -9671,7 +9671,7 @@
     ]
   },
   "dayana-yastremska": {
-    "total": 717,
+    "total": 747,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9681,7 +9681,7 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
+        "name": "26 Roland Garros",
         "points": 10,
         "round": "R128"
       },
@@ -9693,9 +9693,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
+        "name": "26 US Open",
         "points": 10,
         "round": "R128"
+      },
+      {
+        "level": "WTA 1000",
+        "name": "26 Beijing",
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 1000",
@@ -9712,12 +9718,6 @@
       {
         "level": "WTA 1000",
         "name": "26 Indian Wells",
-        "points": 35,
-        "round": "R64"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Beijing",
         "points": 35,
         "round": "R64"
       },
@@ -12049,7 +12049,7 @@
     ]
   },
   "polina-kudermetova": {
-    "total": 700,
+    "total": 730,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12078,8 +12078,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 35,
-        "round": "R64"
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 1000",
@@ -12162,7 +12162,7 @@
     ]
   },
   "leolia-jeanjean": {
-    "total": 718,
+    "total": 740,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12232,7 +12232,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Barranquilla/125",
+        "name": "26 Adana/125",
         "points": 49,
         "round": "SF"
       },
@@ -12250,15 +12250,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Pune/75",
-        "points": 29,
+        "name": "26 Barranquilla/125",
+        "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Adana/125",
-        "points": 27,
-        "round": "QF"
+        "name": "26 Pune/75",
+        "points": 29,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -12840,7 +12840,7 @@
     ]
   },
   "taylah-preston": {
-    "total": 828,
+    "total": 858,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12857,8 +12857,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 35,
-        "round": "R64"
+        "points": 65,
+        "round": "R32"
       },
       {
         "level": "WTA 250",
@@ -13695,7 +13695,7 @@
     ]
   },
   "lisa-pigato": {
-    "total": 647,
+    "total": 660,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13753,15 +13753,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Stuttgart/50",
-        "points": 20,
+        "name": "26 Quinta do Lago/75",
+        "points": 29,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Quinta do Lago/75",
-        "points": 16,
-        "round": "QF"
+        "name": "26 Stuttgart/50",
+        "points": 20,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -14622,7 +14622,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 567,
+    "total": 589,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14692,6 +14692,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Jingshan/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 MACON, GEORGIA/100",
         "points": 39,
         "round": "SF"
@@ -14705,12 +14711,6 @@
       {
         "level": "Challengers",
         "name": "26 Vancouver/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Jingshan/125",
         "points": 27,
         "round": "QF"
       },
