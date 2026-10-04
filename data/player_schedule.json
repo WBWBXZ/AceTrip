@@ -8619,9 +8619,9 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 23,
-    "totalWins": 33,
-    "totalLosses": 21,
+    "totalTournaments": 22,
+    "totalWins": 31,
+    "totalLosses": 20,
     "titles": 2,
     "thisYearTournaments": 20,
     "thisYearWins": 23,
@@ -8807,15 +8807,6 @@
         "tournamentId": "guadalajara",
         "points": 108,
         "level": "P"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
       },
       {
         "name": "QUERETARO 125",
@@ -9697,9 +9688,9 @@
       "us-open",
       "singapore-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 42,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 41,
+    "totalLosses": 24,
     "titles": 2,
     "thisYearTournaments": 20,
     "thisYearWins": 25,
@@ -9885,15 +9876,6 @@
         "tournamentId": "singapore-open",
         "points": 60,
         "level": "P"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
       },
       {
         "name": "FLORIANOPOLIS 125",
@@ -16238,9 +16220,9 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 31,
+    "totalTournaments": 30,
     "totalWins": 34,
-    "totalLosses": 32,
+    "totalLosses": 31,
     "titles": 0,
     "thisYearTournaments": 24,
     "thisYearWins": 23,
@@ -16462,15 +16444,6 @@
         "tournamentId": "guadalajara",
         "points": 60,
         "level": "P"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       },
       {
         "name": "RIO DE JANEIRO 125",
@@ -16775,9 +16748,9 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 44,
-    "totalLosses": 23,
+    "totalTournaments": 25,
+    "totalWins": 43,
+    "totalLosses": 22,
     "titles": 3,
     "thisYearTournaments": 21,
     "thisYearWins": 33,
@@ -16972,15 +16945,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
       },
       {
         "name": "FLORIANOPOLIS 125",
@@ -20368,10 +20332,10 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 29,
+    "totalTournaments": 25,
+    "totalWins": 24,
     "totalLosses": 27,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 23,
     "thisYearWins": 21,
     "thisYearLosses": 25,
@@ -20582,15 +20546,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 1,
-        "level": "C"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 125,
         "level": "C"
       },
       {
@@ -22822,9 +22777,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 32,
-    "totalLosses": 29,
+    "totalTournaments": 29,
+    "totalWins": 31,
+    "totalLosses": 28,
     "titles": 1,
     "thisYearTournaments": 26,
     "thisYearWins": 24,
@@ -23063,15 +23018,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 49,
-        "level": "C"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
         "level": "C"
       },
       {
@@ -31276,9 +31222,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 17,
+    "totalTournaments": 16,
     "totalWins": 27,
-    "totalLosses": 18,
+    "totalLosses": 17,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 27,
@@ -31428,15 +31374,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "C"
       }
     ]
   },
@@ -33144,9 +33081,9 @@
       "rome",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 42,
-    "totalLosses": 23,
+    "totalTournaments": 24,
+    "totalWins": 40,
+    "totalLosses": 22,
     "titles": 3,
     "thisYearTournaments": 23,
     "thisYearWins": 38,
@@ -33358,15 +33295,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
-        "level": "C"
-      },
-      {
-        "name": "MALLORCA 125",
-        "startDate": "2025-10-05T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
         "level": "C"
       },
       {
