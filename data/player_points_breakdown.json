@@ -416,7 +416,7 @@
     ]
   },
   "andreeva": {
-    "total": 5936,
+    "total": 6111,
     "entries": [
       {
         "level": "Grand Slam",
@@ -451,8 +451,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 215,
-        "round": "QF"
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -4867,7 +4867,7 @@
     ]
   },
   "nikola-bartunkova": {
-    "total": 1486,
+    "total": 1661,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4896,8 +4896,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 215,
-        "round": "QF"
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -9861,7 +9861,7 @@
     ]
   },
   "simona-waltert": {
-    "total": 693,
+    "total": 705,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9937,6 +9937,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 SAMSUN/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Montreux/125",
         "points": 27,
         "round": "QF"
@@ -9958,12 +9964,6 @@
         "name": "25 Florianópolis/125",
         "points": 27,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 SAMSUN/125",
-        "points": 15,
-        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -11377,7 +11377,7 @@
     ]
   },
   "anna-blinkova": {
-    "total": 890,
+    "total": 899,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11458,12 +11458,6 @@
         "round": "R16"
       },
       {
-        "level": "WTA 250",
-        "name": "26 Nottingham",
-        "points": 18,
-        "round": "R32"
-      },
-      {
         "level": "Challengers",
         "name": "26 Barranquilla/125",
         "points": 81,
@@ -11474,6 +11468,12 @@
         "name": "26 Saint Malo/125",
         "points": 49,
         "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 SAMSUN/125",
+        "points": 27,
+        "round": "QF"
       },
       {
         "level": "Challengers",
