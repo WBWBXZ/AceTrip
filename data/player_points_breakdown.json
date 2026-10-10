@@ -2727,7 +2727,7 @@
     ]
   },
   "zheng-qinwen": {
-    "total": 1233,
+    "total": 1408,
     "entries": [
       {
         "level": "Grand Slam",
@@ -2750,8 +2750,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 215,
-        "round": "QF"
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -3482,7 +3482,7 @@
     ]
   },
   "mertens": {
-    "total": 2365,
+    "total": 2540,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3511,8 +3511,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 215,
-        "round": "QF"
+        "points": 390,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -9350,7 +9350,7 @@
     ]
   },
   "renata-zarazua": {
-    "total": 840,
+    "total": 862,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9438,14 +9438,8 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Fujairah/100",
-        "points": 39,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 TYLER, TEXAS/100",
-        "points": 39,
+        "name": "26 Suzhou(Jiangsu)/125",
+        "points": 49,
         "round": "SF"
       },
       {
@@ -9456,9 +9450,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Jiangsu)/125",
-        "points": 27,
-        "round": "QF"
+        "name": "26 Fujairah/100",
+        "points": 39,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "25 TYLER, TEXAS/100",
+        "points": 39,
+        "round": "SF"
       }
     ]
   },
@@ -11377,7 +11377,7 @@
     ]
   },
   "anna-blinkova": {
-    "total": 899,
+    "total": 921,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11465,15 +11465,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Saint Malo/125",
+        "name": "26 SAMSUN/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
-        "points": 27,
-        "round": "QF"
+        "name": "26 Saint Malo/125",
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -14034,7 +14034,7 @@
     ]
   },
   "himeno-sakatsume": {
-    "total": 643,
+    "total": 665,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14098,15 +14098,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Saint-Gaudens/75",
-        "points": 29,
+        "name": "26 SAMSUN/125",
+        "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
-        "points": 27,
-        "round": "QF"
+        "name": "26 Saint-Gaudens/75",
+        "points": 29,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -14367,7 +14367,7 @@
     ]
   },
   "rebecca-sramkova": {
-    "total": 453,
+    "total": 475,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14462,8 +14462,8 @@
       {
         "level": "Challengers",
         "name": "26 Suzhou(Jiangsu)/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -14509,7 +14509,7 @@
     ]
   },
   "elvina-kalieva": {
-    "total": 675,
+    "total": 697,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14580,12 +14580,18 @@
       {
         "level": "Challengers",
         "name": "26 Suzhou(Jiangsu)/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "25 Quito/125",
         "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Madrid/125",
+        "name": "25 Tampico/125",
         "points": 27,
         "round": "QF"
       },
@@ -14597,13 +14603,7 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Quito/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Tampico/125",
+        "name": "26 Madrid/125",
         "points": 27,
         "round": "QF"
       },
@@ -14901,7 +14901,7 @@
     ]
   },
   "lucrezia-stefanini": {
-    "total": 663,
+    "total": 685,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14965,6 +14965,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 SAMSUN/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Evansville/100",
         "points": 39,
         "round": "SF"
@@ -14984,12 +14990,6 @@
       {
         "level": "Challengers",
         "name": "26 Adana/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 SAMSUN/125",
         "points": 27,
         "round": "QF"
       },
