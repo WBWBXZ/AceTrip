@@ -416,7 +416,7 @@
     ]
   },
   "andreeva": {
-    "total": 6111,
+    "total": 6371,
     "entries": [
       {
         "level": "Grand Slam",
@@ -444,15 +444,15 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Madrid",
+        "name": "26 Beijing",
         "points": 650,
         "round": "F"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Beijing",
-        "points": 390,
-        "round": "SF"
+        "name": "26 Madrid",
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -2727,7 +2727,7 @@
     ]
   },
   "zheng-qinwen": {
-    "total": 1408,
+    "total": 1668,
     "entries": [
       {
         "level": "Grand Slam",
@@ -2750,8 +2750,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 390,
-        "round": "SF"
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -14367,7 +14367,7 @@
     ]
   },
   "rebecca-sramkova": {
-    "total": 475,
+    "total": 507,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14462,8 +14462,8 @@
       {
         "level": "Challengers",
         "name": "26 Suzhou(Jiangsu)/125",
-        "points": 49,
-        "round": "SF"
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
@@ -14901,7 +14901,7 @@
     ]
   },
   "lucrezia-stefanini": {
-    "total": 685,
+    "total": 717,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14966,8 +14966,8 @@
       {
         "level": "Challengers",
         "name": "26 SAMSUN/125",
-        "points": 49,
-        "round": "SF"
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
