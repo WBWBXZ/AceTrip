@@ -2727,7 +2727,7 @@
     ]
   },
   "zheng-qinwen": {
-    "total": 1668,
+    "total": 2018,
     "entries": [
       {
         "level": "Grand Slam",
@@ -2750,8 +2750,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Beijing",
-        "points": 650,
-        "round": "F"
+        "points": 1000,
+        "round": "W"
       },
       {
         "level": "WTA 1000",
@@ -9937,7 +9937,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 27,
         "round": "QF"
       },
@@ -10746,7 +10746,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 15,
         "round": "R16"
       }
@@ -11465,7 +11465,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 49,
         "round": "SF"
       },
@@ -13172,7 +13172,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 1,
         "round": "R32"
       }
@@ -14098,7 +14098,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 49,
         "round": "SF"
       },
@@ -14367,7 +14367,7 @@
     ]
   },
   "rebecca-sramkova": {
-    "total": 507,
+    "total": 551,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14462,8 +14462,8 @@
       {
         "level": "Challengers",
         "name": "26 Suzhou(Jiangsu)/125",
-        "points": 81,
-        "round": "F"
+        "points": 125,
+        "round": "W"
       },
       {
         "level": "Challengers",
@@ -14965,7 +14965,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 81,
         "round": "F"
       },
@@ -15191,7 +15191,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 21,
         "round": "R16"
       },
@@ -15346,7 +15346,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 1,
         "round": "R32"
       }
@@ -15417,7 +15417,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 SAMSUN/125",
+        "name": "26 Samsun/125",
         "points": 27,
         "round": "QF"
       },
