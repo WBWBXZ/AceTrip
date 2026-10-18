@@ -3369,7 +3369,7 @@
     ]
   },
   "chwalinska": {
-    "total": 2421,
+    "total": 2681,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3398,8 +3398,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Wuhan",
-        "points": 390,
-        "round": "SF"
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -13161,7 +13161,7 @@
     ]
   },
   "sonay-kartal": {
-    "total": 837,
+    "total": 1097,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13172,8 +13172,8 @@
       {
         "level": "WTA 1000",
         "name": "26 Wuhan",
-        "points": 390,
-        "round": "SF"
+        "points": 650,
+        "round": "F"
       },
       {
         "level": "WTA 1000",
@@ -13450,7 +13450,7 @@
     ]
   },
   "dominika-salkova": {
-    "total": 661,
+    "total": 693,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13521,8 +13521,8 @@
       {
         "level": "Challengers",
         "name": "26 Rovereto/125",
-        "points": 49,
-        "round": "SF"
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
@@ -15774,7 +15774,7 @@
     ]
   },
   "laura-samson": {
-    "total": 626,
+    "total": 658,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15814,6 +15814,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Mallorca/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Kursumlijska Banja/75",
         "points": 75,
         "round": "W"
@@ -15823,12 +15829,6 @@
         "name": "26 Trnava/75",
         "points": 75,
         "round": "W"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Mallorca/125",
-        "points": 49,
-        "round": "SF"
       },
       {
         "level": "Challengers",
