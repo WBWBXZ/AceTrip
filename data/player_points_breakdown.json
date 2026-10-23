@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 9002,
+    "total": 9109,
     "entries": [
       {
         "level": "Grand Slam",
@@ -183,6 +183,12 @@
       },
       {
         "level": "WTA 500",
+        "name": "26 Ningbo",
+        "points": 108,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 500",
         "name": "26 London",
         "points": 108,
         "round": "QF"
@@ -192,12 +198,6 @@
         "name": "26 Brisbane",
         "points": 108,
         "round": "QF"
-      },
-      {
-        "level": "WTA 500",
-        "name": "26 Ningbo",
-        "points": 1,
-        "round": "R16"
       }
     ]
   },
@@ -1431,7 +1431,7 @@
     ]
   },
   "jovic": {
-    "total": 2931,
+    "total": 2941,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1524,21 +1524,21 @@
         "round": "SF"
       },
       {
+        "level": "WTA 500",
+        "name": "26 Ningbo",
+        "points": 108,
+        "round": "QF"
+      },
+      {
         "level": "WTA 250",
         "name": "26 Hobart",
         "points": 163,
         "round": "F"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Auckland",
-        "points": 98,
-        "round": "SF"
       }
     ]
   },
   "shnaider": {
-    "total": 2663,
+    "total": 2711,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1626,15 +1626,15 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 Charleston",
+        "name": "26 Ningbo",
         "points": 108,
         "round": "QF"
       },
       {
         "level": "WTA 500",
-        "name": "26 Ningbo",
-        "points": 60,
-        "round": "R16"
+        "name": "26 Charleston",
+        "points": 108,
+        "round": "QF"
       },
       {
         "level": "WTA 500",
@@ -3820,7 +3820,7 @@
     ]
   },
   "ann-li": {
-    "total": 1613,
+    "total": 1637,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3908,6 +3908,12 @@
       },
       {
         "level": "WTA 250",
+        "name": "26 Osaka",
+        "points": 54,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 250",
         "name": "26 Nottingham",
         "points": 54,
         "round": "QF"
@@ -3917,12 +3923,6 @@
         "name": "26 Rouen",
         "points": 54,
         "round": "QF"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Osaka",
-        "points": 30,
-        "round": "R16"
       },
       {
         "level": "WTA 250",
@@ -4117,7 +4117,7 @@
     ]
   },
   "katerina-siniakova": {
-    "total": 894,
+    "total": 918,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4224,8 +4224,8 @@
       {
         "level": "WTA 250",
         "name": "26 Osaka",
-        "points": 30,
-        "round": "R16"
+        "points": 54,
+        "round": "QF"
       }
     ]
   },
@@ -5401,7 +5401,7 @@
     ]
   },
   "antonia-ruzic": {
-    "total": 838,
+    "total": 862,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5484,8 +5484,8 @@
       {
         "level": "WTA 250",
         "name": "26 Osaka",
-        "points": 30,
-        "round": "R16"
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
@@ -9324,7 +9324,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 49,
         "round": "SF"
       },
@@ -12338,7 +12338,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 15,
         "round": "R16"
       },
@@ -13094,7 +13094,7 @@
     ]
   },
   "mary-stoiana": {
-    "total": 649,
+    "total": 673,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13122,15 +13122,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Sao Paulo",
-        "points": 54,
+        "name": "26 Osaka",
+        "points": 72,
         "round": "QF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Osaka",
-        "points": 48,
-        "round": "R16"
+        "name": "26 Sao Paulo",
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -13776,7 +13776,7 @@
     ]
   },
   "katarzyna-kawa": {
-    "total": 653,
+    "total": 701,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13829,8 +13829,8 @@
       {
         "level": "WTA 500",
         "name": "26 Ningbo",
-        "points": 85,
-        "round": "R16"
+        "points": 133,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
@@ -13852,13 +13852,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Modena/125",
+        "name": "26 Huzhou/125",
         "points": 125,
         "round": "W"
       },
       {
         "level": "Challengers",
-        "name": "26 Huzhou/125",
+        "name": "26 Modena/125",
         "points": 125,
         "round": "W"
       },
@@ -14108,7 +14108,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 27,
         "round": "QF"
       }
@@ -14316,7 +14316,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 125,
         "round": "W"
       },
@@ -14434,7 +14434,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 49,
         "round": "SF"
       },
@@ -14571,7 +14571,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 15,
         "round": "R16"
       },
@@ -14584,7 +14584,7 @@
     ]
   },
   "veronika-podrez": {
-    "total": 527,
+    "total": 532,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14660,6 +14660,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Cherbourg-en-Cotentin/50",
+        "points": 11,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Elvas/50",
         "points": 11,
         "round": "QF"
@@ -14668,12 +14674,6 @@
         "level": "Challengers",
         "name": "26 Trnava/75",
         "points": 9,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Cherbourg-en-Cotentin/50",
-        "points": 6,
         "round": "R16"
       },
       {
@@ -15504,7 +15504,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Suzhou(Anhui)/125",
+        "name": "26 Suzhou(Jiangsu)/125",
         "points": 1,
         "round": "R32"
       },
