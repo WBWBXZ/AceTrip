@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 9196,
+    "total": 9326,
     "entries": [
       {
         "level": "Grand Slam",
@@ -184,8 +184,8 @@
       {
         "level": "WTA 500",
         "name": "26 Ningbo",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -1734,7 +1734,7 @@
     ]
   },
   "fernandez": {
-    "total": 1844,
+    "total": 1974,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1817,8 +1817,8 @@
       {
         "level": "WTA 500",
         "name": "26 Ningbo",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -4117,7 +4117,7 @@
     ]
   },
   "katerina-siniakova": {
-    "total": 962,
+    "total": 1027,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4224,8 +4224,8 @@
       {
         "level": "WTA 250",
         "name": "26 Osaka",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       }
     ]
   },
@@ -7036,7 +7036,7 @@
     ]
   },
   "ashlyn-krueger": {
-    "total": 1168,
+    "total": 1233,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7113,8 +7113,8 @@
       {
         "level": "WTA 250",
         "name": "26 Osaka",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
