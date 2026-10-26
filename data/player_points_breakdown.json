@@ -89,7 +89,7 @@
     ]
   },
   "rybakina": {
-    "total": 9326,
+    "total": 9501,
     "entries": [
       {
         "level": "Grand Slam",
@@ -177,15 +177,15 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 Stuttgart",
+        "name": "26 Ningbo",
         "points": 500,
         "round": "W"
       },
       {
         "level": "WTA 500",
-        "name": "26 Ningbo",
-        "points": 325,
-        "round": "F"
+        "name": "26 Stuttgart",
+        "points": 500,
+        "round": "W"
       },
       {
         "level": "WTA 500",
@@ -4117,7 +4117,7 @@
     ]
   },
   "katerina-siniakova": {
-    "total": 1027,
+    "total": 1114,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4224,8 +4224,8 @@
       {
         "level": "WTA 250",
         "name": "26 Osaka",
-        "points": 163,
-        "round": "F"
+        "points": 250,
+        "round": "W"
       }
     ]
   },
