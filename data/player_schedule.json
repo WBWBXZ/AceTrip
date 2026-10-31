@@ -393,12 +393,11 @@
       "washington-dc",
       "national-bank-open",
       "cincinnati-open",
-      "us-open",
-      "wta-finals"
+      "us-open"
     ],
-    "totalTournaments": 17,
+    "totalTournaments": 16,
     "totalWins": 35,
-    "totalLosses": 17,
+    "totalLosses": 15,
     "titles": 1,
     "thisYearTournaments": 16,
     "thisYearWins": 35,
@@ -548,15 +547,6 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
-      },
-      {
-        "name": "WTA FINALS",
-        "startDate": "2025-11-01T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": "wta-finals",
-        "points": 0,
-        "level": "CH"
       }
     ]
   },
@@ -1886,12 +1876,11 @@
       "cincinnati-open",
       "us-open",
       "china-open",
-      "wuhan-open",
-      "wta-finals"
+      "wuhan-open"
     ],
-    "totalTournaments": 15,
-    "totalWins": 51,
-    "totalLosses": 12,
+    "totalTournaments": 14,
+    "totalWins": 47,
+    "totalLosses": 11,
     "titles": 3,
     "thisYearTournaments": 14,
     "thisYearWins": 47,
@@ -2023,15 +2012,6 @@
         "tournamentId": "wuhan-open",
         "points": 10,
         "level": "PM"
-      },
-      {
-        "name": "WTA FINALS",
-        "startDate": "2025-11-01T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": "wta-finals",
-        "points": 1000,
-        "level": "CH"
       }
     ]
   },
@@ -2207,13 +2187,12 @@
       "cincinnati-open",
       "us-open",
       "china-open",
-      "ningbo-open",
-      "wta-finals"
+      "ningbo-open"
     ],
-    "totalTournaments": 19,
-    "totalWins": 58,
+    "totalTournaments": 18,
+    "totalWins": 53,
     "totalLosses": 14,
-    "titles": 5,
+    "titles": 4,
     "thisYearTournaments": 18,
     "thisYearWins": 53,
     "thisYearLosses": 14,
@@ -2380,15 +2359,6 @@
         "tournamentId": "ningbo-open",
         "points": 500,
         "level": "P"
-      },
-      {
-        "name": "WTA FINALS",
-        "startDate": "2025-11-01T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": "wta-finals",
-        "points": 1500,
-        "level": "CH"
       }
     ]
   },
@@ -3289,12 +3259,11 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "us-open",
-      "wta-finals"
+      "us-open"
     ],
-    "totalTournaments": 13,
-    "totalWins": 26,
-    "totalLosses": 14,
+    "totalTournaments": 12,
+    "totalWins": 24,
+    "totalLosses": 12,
     "titles": 0,
     "thisYearTournaments": 12,
     "thisYearWins": 24,
@@ -3408,15 +3377,6 @@
         "tournamentId": "us-open",
         "points": 130,
         "level": "GS"
-      },
-      {
-        "name": "WTA FINALS",
-        "startDate": "2025-11-01T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": "wta-finals",
-        "points": 400,
-        "level": "CH"
       }
     ]
   },
@@ -3437,12 +3397,11 @@
       "cincinnati-open",
       "us-open",
       "china-open",
-      "wuhan-open",
-      "wta-finals"
+      "wuhan-open"
     ],
-    "totalTournaments": 17,
-    "totalWins": 43,
-    "totalLosses": 18,
+    "totalTournaments": 16,
+    "totalWins": 42,
+    "totalLosses": 16,
     "titles": 1,
     "thisYearTournaments": 16,
     "thisYearWins": 42,
@@ -3592,15 +3551,6 @@
         "tournamentId": "wuhan-open",
         "points": 390,
         "level": "PM"
-      },
-      {
-        "name": "WTA FINALS",
-        "startDate": "2025-11-01T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": "wta-finals",
-        "points": 200,
-        "level": "CH"
       }
     ]
   },
@@ -4327,12 +4277,11 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
-      "china-open",
-      "wta-finals"
+      "china-open"
     ],
-    "totalTournaments": 17,
-    "totalWins": 49,
-    "totalLosses": 17,
+    "totalTournaments": 16,
+    "totalWins": 48,
+    "totalLosses": 15,
     "titles": 1,
     "thisYearTournaments": 16,
     "thisYearWins": 48,
@@ -4482,15 +4431,6 @@
         "tournamentId": "china-open",
         "points": 120,
         "level": "PM"
-      },
-      {
-        "name": "WTA FINALS",
-        "startDate": "2025-11-01T00:00:00+00:00",
-        "bestRound": "",
-        "isChampion": false,
-        "tournamentId": "wta-finals",
-        "points": 200,
-        "level": "CH"
       }
     ]
   },
