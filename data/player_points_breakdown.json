@@ -1436,7 +1436,7 @@
     ]
   },
   "shnaider": {
-    "total": 2933,
+    "total": 3063,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1513,8 +1513,8 @@
       {
         "level": "WTA 500",
         "name": "26 Tokyo",
-        "points": 195,
-        "round": "SF"
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -1626,7 +1626,7 @@
     ]
   },
   "fernandez": {
-    "total": 2071,
+    "total": 2201,
     "entries": [
       {
         "level": "Grand Slam",
@@ -1708,15 +1708,15 @@
       },
       {
         "level": "WTA 500",
-        "name": "26 Ningbo",
+        "name": "26 Tokyo",
         "points": 325,
         "round": "F"
       },
       {
         "level": "WTA 500",
-        "name": "26 Tokyo",
-        "points": 195,
-        "round": "SF"
+        "name": "26 Ningbo",
+        "points": 325,
+        "round": "F"
       },
       {
         "level": "WTA 500",
@@ -7921,7 +7921,7 @@
     ]
   },
   "lilli-tagger": {
-    "total": 1026,
+    "total": 1091,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7998,8 +7998,8 @@
       {
         "level": "WTA 250",
         "name": "26 Guangzhou",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -8141,7 +8141,7 @@
     ]
   },
   "tatjana-maria": {
-    "total": 964,
+    "total": 996,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8248,8 +8248,8 @@
       {
         "level": "Challengers",
         "name": "26 Queretaro/125",
-        "points": 49,
-        "round": "SF"
+        "points": 81,
+        "round": "F"
       }
     ]
   },
@@ -11351,7 +11351,7 @@
     ]
   },
   "julia-grabher": {
-    "total": 647,
+    "total": 679,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11397,15 +11397,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Kitzbuhel/125",
+        "name": "26 Curitiba/125",
         "points": 81,
         "round": "F"
       },
       {
         "level": "Challengers",
-        "name": "26 Curitiba/125",
-        "points": 49,
-        "round": "SF"
+        "name": "26 Kitzbuhel/125",
+        "points": 81,
+        "round": "F"
       },
       {
         "level": "Challengers",
@@ -12463,7 +12463,7 @@
     ]
   },
   "alina-charaeva": {
-    "total": 783,
+    "total": 815,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12497,13 +12497,13 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Sao Paulo",
+        "name": "26 Hamburg",
         "points": 54,
         "round": "QF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Hamburg",
+        "name": "26 Sao Paulo",
         "points": 54,
         "round": "QF"
       },
@@ -12533,6 +12533,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Courmayeur/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Paris/125",
         "points": 55,
         "round": "SF"
@@ -12545,19 +12551,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Courmayeur/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Dubrovnik/125",
+        "name": "26 Antalya/125",
         "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Antalya/125",
+        "name": "26 Dubrovnik/125",
         "points": 27,
         "round": "QF"
       },
@@ -14731,7 +14731,7 @@
     ]
   },
   "harriet-dart": {
-    "total": 702,
+    "total": 767,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14778,8 +14778,8 @@
       {
         "level": "WTA 250",
         "name": "26 Guangzhou",
-        "points": 116,
-        "round": "SF"
+        "points": 181,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -14844,7 +14844,7 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 622,
+    "total": 654,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14872,6 +14872,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Courmayeur/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Montreux/125",
         "points": 81,
         "round": "F"
@@ -14887,12 +14893,6 @@
         "name": "26 Helsinki/50",
         "points": 50,
         "round": "W"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Courmayeur/125",
-        "points": 49,
-        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -14957,7 +14957,7 @@
     ]
   },
   "suzan-lamens": {
-    "total": 363,
+    "total": 383,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14967,13 +14967,13 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "26 US Open",
         "points": 20,
         "round": "Q2"
       },
       {
         "level": "Grand Slam",
-        "name": "26 US Open",
+        "name": "26 Wimbledon",
         "points": 20,
         "round": "Q2"
       },
@@ -14982,6 +14982,12 @@
         "name": "26 Australian Open",
         "points": 10,
         "round": "R128"
+      },
+      {
+        "level": "WTA 1000",
+        "name": "26 Rome",
+        "points": 2,
+        "round": "Q1"
       },
       {
         "level": "WTA 1000",
@@ -15002,12 +15008,6 @@
         "round": "Q1"
       },
       {
-        "level": "WTA 1000",
-        "name": "26 Rome",
-        "points": 2,
-        "round": "Q1"
-      },
-      {
         "level": "WTA 500",
         "name": "26 Berlin",
         "points": 25,
@@ -15021,6 +15021,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Glasgow/75",
+        "points": 49,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Oeiras/125",
         "points": 49,
         "round": "SF"
@@ -15029,12 +15035,6 @@
         "level": "Challengers",
         "name": "26 Wrexham/100",
         "points": 39,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Glasgow/75",
-        "points": 29,
         "round": "SF"
       },
       {
