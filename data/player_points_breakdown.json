@@ -5061,7 +5061,7 @@
     ]
   },
   "zeynep-sonmez": {
-    "total": 987,
+    "total": 1011,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5155,6 +5155,12 @@
       },
       {
         "level": "WTA 250",
+        "name": "26 Hong Kong",
+        "points": 54,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 250",
         "name": "26 s-Hertogenbosch",
         "points": 54,
         "round": "QF"
@@ -5163,12 +5169,6 @@
         "level": "WTA 250",
         "name": "26 Nottingham",
         "points": 48,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Hong Kong",
-        "points": 30,
         "round": "R16"
       }
     ]
@@ -5275,7 +5275,7 @@
     ]
   },
   "antonia-ruzic": {
-    "total": 874,
+    "total": 898,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5357,15 +5357,15 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Osaka",
+        "name": "26 Hong Kong",
         "points": 54,
         "round": "QF"
       },
       {
         "level": "WTA 250",
-        "name": "26 Hong Kong",
-        "points": 30,
-        "round": "R16"
+        "name": "26 Osaka",
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -5388,7 +5388,7 @@
     ]
   },
   "magda-linette": {
-    "total": 956,
+    "total": 980,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5476,6 +5476,12 @@
       },
       {
         "level": "WTA 250",
+        "name": "26 Chennai",
+        "points": 54,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 250",
         "name": "26 Hobart",
         "points": 54,
         "round": "QF"
@@ -5485,12 +5491,6 @@
         "name": "26 Auckland",
         "points": 54,
         "round": "QF"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Chennai",
-        "points": 30,
-        "round": "R16"
       },
       {
         "level": "WTA 250",
@@ -10774,7 +10774,7 @@
     ]
   },
   "anastasia-zakharova": {
-    "total": 704,
+    "total": 728,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10844,6 +10844,12 @@
       },
       {
         "level": "WTA 250",
+        "name": "26 Chennai",
+        "points": 54,
+        "round": "QF"
+      },
+      {
+        "level": "WTA 250",
         "name": "26 Memphis",
         "points": 54,
         "round": "QF"
@@ -10852,12 +10858,6 @@
         "level": "WTA 250",
         "name": "26 Eastbourne",
         "points": 48,
-        "round": "R16"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Chennai",
-        "points": 30,
         "round": "R16"
       },
       {
@@ -11113,7 +11113,7 @@
     ]
   },
   "anna-blinkova": {
-    "total": 720,
+    "total": 722,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11170,12 +11170,6 @@
         "round": "R128"
       },
       {
-        "level": "WTA 500",
-        "name": "26 London",
-        "points": 25,
-        "round": "R32"
-      },
-      {
         "level": "WTA 250",
         "name": "26 Sao Paulo",
         "points": 98,
@@ -11210,6 +11204,12 @@
         "name": "26 Saint Malo/125",
         "points": 49,
         "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Luanda/125",
+        "points": 27,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -14452,7 +14452,7 @@
     ]
   },
   "veronika-podrez": {
-    "total": 593,
+    "total": 600,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14522,6 +14522,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Petange/75",
+        "points": 16,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Porto/125",
         "points": 15,
         "round": "R16"
@@ -14543,12 +14549,6 @@
         "name": "26 Elvas/50",
         "points": 11,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Petange/75",
-        "points": 9,
-        "round": "R16"
       },
       {
         "level": "ITF Futures",
@@ -14600,7 +14600,7 @@
     ]
   },
   "lucrezia-stefanini": {
-    "total": 672,
+    "total": 696,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14647,8 +14647,8 @@
       {
         "level": "WTA 250",
         "name": "26 Chennai",
-        "points": 30,
-        "round": "R16"
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "WTA 250",
@@ -14826,7 +14826,7 @@
     ]
   },
   "noma-noha-akugue": {
-    "total": 660,
+    "total": 672,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14884,13 +14884,19 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Rome/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Makarska/125",
         "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Rome/125",
+        "name": "26 Luanda/125",
         "points": 27,
         "round": "QF"
       },
@@ -14898,12 +14904,6 @@
         "level": "Challengers",
         "name": "26 Samsun/125",
         "points": 21,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Luanda/125",
-        "points": 15,
         "round": "R16"
       },
       {
