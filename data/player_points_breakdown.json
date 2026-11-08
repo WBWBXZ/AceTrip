@@ -3486,7 +3486,7 @@
     ]
   },
   "eala": {
-    "total": 2327,
+    "total": 2392,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3575,8 +3575,8 @@
       {
         "level": "WTA 250",
         "name": "26 Hong Kong",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -4110,7 +4110,7 @@
     ]
   },
   "janice-tjen": {
-    "total": 968,
+    "total": 1033,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4126,21 +4126,15 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Roland Garros",
-        "points": 10,
-        "round": "R128"
-      },
-      {
-        "level": "Grand Slam",
         "name": "26 US Open",
         "points": 10,
         "round": "R128"
       },
       {
-        "level": "WTA 1000",
-        "name": "26 Wuhan",
-        "points": 120,
-        "round": "R16"
+        "level": "Grand Slam",
+        "name": "26 Roland Garros",
+        "points": 10,
+        "round": "R128"
       },
       {
         "level": "WTA 1000",
@@ -4150,13 +4144,19 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
+        "name": "26 Wuhan",
+        "points": 120,
+        "round": "R16"
+      },
+      {
+        "level": "WTA 1000",
+        "name": "26 Doha",
         "points": 65,
         "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Doha",
+        "name": "26 Cincinnati",
         "points": 65,
         "round": "R32"
       },
@@ -4174,6 +4174,12 @@
       },
       {
         "level": "WTA 1000",
+        "name": "26 Toronto",
+        "points": 10,
+        "round": "R128"
+      },
+      {
+        "level": "WTA 1000",
         "name": "26 Rome",
         "points": 10,
         "round": "R128"
@@ -4181,12 +4187,6 @@
       {
         "level": "WTA 1000",
         "name": "26 Miami",
-        "points": 10,
-        "round": "R128"
-      },
-      {
-        "level": "WTA 1000",
-        "name": "26 Toronto",
         "points": 10,
         "round": "R128"
       },
@@ -4217,8 +4217,8 @@
       {
         "level": "WTA 250",
         "name": "26 Chennai",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       }
     ]
   },
@@ -5388,7 +5388,7 @@
     ]
   },
   "magda-linette": {
-    "total": 1024,
+    "total": 1089,
     "entries": [
       {
         "level": "Grand Slam",
@@ -5471,8 +5471,8 @@
       {
         "level": "WTA 250",
         "name": "26 Chennai",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -11113,7 +11113,7 @@
     ]
   },
   "anna-blinkova": {
-    "total": 722,
+    "total": 776,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11183,6 +11183,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Luanda/125",
+        "points": 81,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Barranquilla/125",
         "points": 81,
         "round": "F"
@@ -11204,12 +11210,6 @@
         "name": "26 Saint Malo/125",
         "points": 49,
         "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Luanda/125",
-        "points": 27,
-        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -12124,7 +12124,7 @@
     ]
   },
   "claire-liu": {
-    "total": 820,
+    "total": 885,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12153,8 +12153,8 @@
       {
         "level": "WTA 250",
         "name": "26 Hong Kong",
-        "points": 98,
-        "round": "SF"
+        "points": 163,
+        "round": "F"
       },
       {
         "level": "WTA 250",
@@ -14452,7 +14452,7 @@
     ]
   },
   "veronika-podrez": {
-    "total": 613,
+    "total": 633,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14486,13 +14486,19 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Petange/75",
+        "points": 49,
+        "round": "F"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Andrezieux-Boutheon/75",
         "points": 49,
         "round": "F"
       },
       {
         "level": "Challengers",
-        "name": "26 Petange/75",
+        "name": "26 Le Neubourg/75",
         "points": 29,
         "round": "SF"
       },
@@ -14504,19 +14510,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Le Neubourg/75",
-        "points": 29,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Paris/125",
+        "name": "25 Angers/125",
         "points": 21,
         "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "25 Angers/125",
+        "name": "26 Paris/125",
         "points": 21,
         "round": "R16"
       },
