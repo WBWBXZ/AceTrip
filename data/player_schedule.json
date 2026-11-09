@@ -19052,10 +19052,10 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 43,
+    "totalTournaments": 29,
+    "totalWins": 38,
     "totalLosses": 28,
-    "titles": 2,
+    "titles": 1,
     "thisYearTournaments": 25,
     "thisYearWins": 30,
     "thisYearLosses": 24,
@@ -19285,15 +19285,6 @@
         "tournamentId": null,
         "points": 15,
         "level": "C"
-      },
-      {
-        "name": "FUNCHAL",
-        "startDate": "2025-11-10T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 50,
-        "level": "ITF"
       },
       {
         "name": "TRNAVA 4",
@@ -28192,12 +28183,11 @@
       "cincinnati-open",
       "us-open",
       "china-open",
-      "wuhan-open",
-      "brisbane"
+      "wuhan-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 47,
-    "totalLosses": 30,
+    "totalTournaments": 29,
+    "totalWins": 44,
+    "totalLosses": 29,
     "titles": 2,
     "thisYearTournaments": 27,
     "thisYearWins": 40,
@@ -28446,15 +28436,6 @@
         "tournamentId": null,
         "points": 12,
         "level": "IS"
-      },
-      {
-        "name": "BRISBANE 5",
-        "startDate": "2025-11-10T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": "brisbane",
-        "points": 20,
-        "level": "ITF"
       },
       {
         "name": "SYDNEY",
@@ -29162,13 +29143,13 @@
       "us-open"
     ],
     "totalTournaments": 28,
-    "totalWins": 57,
+    "totalWins": 52,
     "totalLosses": 27,
-    "titles": 2,
+    "titles": 1,
     "thisYearTournaments": 27,
-    "thisYearWins": 52,
+    "thisYearWins": 47,
     "thisYearLosses": 27,
-    "thisYearTitles": 1,
+    "thisYearTitles": 0,
     "results": [
       {
         "name": "CANBERRA 125",
@@ -29218,10 +29199,10 @@
       {
         "name": "AUSTIN",
         "startDate": "2026-02-23T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
+        "bestRound": "R32",
+        "isChampion": false,
         "tournamentId": null,
-        "points": 50,
+        "points": 1,
         "level": "IS"
       },
       {
@@ -29449,12 +29430,12 @@
       "toray-pan-pacific"
     ],
     "totalTournaments": 25,
-    "totalWins": 49,
-    "totalLosses": 23,
+    "totalWins": 47,
+    "totalLosses": 22,
     "titles": 4,
     "thisYearTournaments": 25,
-    "thisYearWins": 49,
-    "thisYearLosses": 23,
+    "thisYearWins": 47,
+    "thisYearLosses": 22,
     "thisYearTitles": 4,
     "results": [
       {
@@ -29496,10 +29477,10 @@
       {
         "name": "AUSTIN",
         "startDate": "2026-02-23T00:00:00+00:00",
-        "bestRound": "Q",
+        "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
-        "points": 11,
+        "points": 1,
         "level": "IS"
       },
       {
@@ -30201,9 +30182,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 51,
-    "totalLosses": 20,
+    "totalTournaments": 24,
+    "totalWins": 47,
+    "totalLosses": 19,
     "titles": 5,
     "thisYearTournaments": 23,
     "thisYearWins": 45,
@@ -30416,15 +30397,6 @@
         "tournamentId": null,
         "points": 15,
         "level": "C"
-      },
-      {
-        "name": "HERAKLION 11",
-        "startDate": "2025-11-10T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 33,
-        "level": "ITF"
       },
       {
         "name": "SELVA GARDENA",
@@ -32282,12 +32254,11 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "us-open",
-      "brisbane"
+      "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 40,
-    "totalLosses": 25,
+    "totalTournaments": 25,
+    "totalWins": 37,
+    "totalLosses": 24,
     "titles": 2,
     "thisYearTournaments": 23,
     "thisYearWins": 28,
@@ -32500,15 +32471,6 @@
         "tournamentId": null,
         "points": 12,
         "level": "IS"
-      },
-      {
-        "name": "BRISBANE 5",
-        "startDate": "2025-11-10T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": "brisbane",
-        "points": 20,
-        "level": "ITF"
       },
       {
         "name": "SYDNEY",
@@ -34164,12 +34126,11 @@
       "roland-garros",
       "wimbledon",
       "us-open",
-      "china-open",
-      "brisbane"
+      "china-open"
     ],
-    "totalTournaments": 19,
-    "totalWins": 23,
-    "totalLosses": 19,
+    "totalTournaments": 18,
+    "totalWins": 22,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 16,
     "thisYearWins": 17,
@@ -34319,15 +34280,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "BRISBANE 5",
-        "startDate": "2025-11-10T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": "brisbane",
-        "points": 6,
-        "level": "ITF"
       },
       {
         "name": "SYDNEY",

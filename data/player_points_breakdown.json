@@ -12124,7 +12124,7 @@
     ]
   },
   "claire-liu": {
-    "total": 885,
+    "total": 972,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12153,8 +12153,8 @@
       {
         "level": "WTA 250",
         "name": "26 Hong Kong",
-        "points": 163,
-        "round": "F"
+        "points": 250,
+        "round": "W"
       },
       {
         "level": "WTA 250",
@@ -14452,7 +14452,7 @@
     ]
   },
   "veronika-podrez": {
-    "total": 633,
+    "total": 659,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14480,15 +14480,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 POITERS/75",
+        "name": "26 Petange/75",
         "points": 75,
         "round": "W"
       },
       {
         "level": "Challengers",
-        "name": "26 Petange/75",
-        "points": 49,
-        "round": "F"
+        "name": "26 POITERS/75",
+        "points": 75,
+        "round": "W"
       },
       {
         "level": "Challengers",
