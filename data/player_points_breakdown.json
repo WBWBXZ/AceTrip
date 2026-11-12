@@ -380,7 +380,7 @@
     ]
   },
   "andreeva": {
-    "total": 6506,
+    "total": 6706,
     "entries": [
       {
         "level": "Grand Slam",
@@ -409,7 +409,7 @@
       {
         "level": "WTA Finals",
         "name": "26 Indian Wells",
-        "points": 200,
+        "points": 400,
         "round": "RR"
       },
       {
@@ -843,7 +843,7 @@
     ]
   },
   "svitolina": {
-    "total": 5121,
+    "total": 5321,
     "entries": [
       {
         "level": "Grand Slam",
@@ -868,6 +868,12 @@
         "name": "26 Wimbledon",
         "points": 10,
         "round": "R128"
+      },
+      {
+        "level": "WTA Finals",
+        "name": "26 Indian Wells",
+        "points": 200,
+        "round": "RR"
       },
       {
         "level": "WTA 1000",
@@ -913,13 +919,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Cincinnati",
+        "name": "26 Miami",
         "points": 65,
         "round": "R32"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Cincinnati",
         "points": 65,
         "round": "R32"
       },
@@ -13609,7 +13615,7 @@
     ]
   },
   "marina-bassols-ribera": {
-    "total": 597,
+    "total": 609,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13619,13 +13625,13 @@
       },
       {
         "level": "Grand Slam",
-        "name": "26 Wimbledon",
+        "name": "26 Australian Open",
         "points": 30,
         "round": "Q3"
       },
       {
         "level": "Grand Slam",
-        "name": "26 Australian Open",
+        "name": "26 Wimbledon",
         "points": 30,
         "round": "Q3"
       },
@@ -13655,13 +13661,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Kitzbuhel/125",
+        "name": "26 La Bisbal dEmpordà/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 La Bisbal dEmpordà/125",
+        "name": "26 Kitzbuhel/125",
         "points": 49,
         "round": "SF"
       },
@@ -13676,6 +13682,12 @@
         "name": "26 Portoroz/75",
         "points": 29,
         "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Sopo/125",
+        "points": 27,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -13694,12 +13706,6 @@
         "name": "25 Petange/75",
         "points": 16,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Sopo/125",
-        "points": 15,
-        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -13835,7 +13841,7 @@
     ]
   },
   "himeno-sakatsume": {
-    "total": 605,
+    "total": 612,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13917,6 +13923,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Brisbane/75",
+        "points": 16,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Manila/125",
         "points": 15,
         "round": "R16"
@@ -13929,20 +13941,14 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Luan/100",
-        "points": 12,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Tokyo/100",
         "points": 12,
         "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "26 Brisbane/75",
-        "points": 9,
+        "name": "26 Luan/100",
+        "points": 12,
         "round": "R16"
       }
     ]
@@ -15582,7 +15588,7 @@
     ]
   },
   "laura-samson": {
-    "total": 685,
+    "total": 697,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15652,6 +15658,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Sopo/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Buenos Aires/125",
         "points": 27,
         "round": "QF"
@@ -15677,12 +15689,6 @@
       {
         "level": "Challengers",
         "name": "26 Cali/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Sopo/125",
         "points": 15,
         "round": "R16"
       },
