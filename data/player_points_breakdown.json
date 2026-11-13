@@ -190,7 +190,7 @@
     ]
   },
   "pegula": {
-    "total": 5960,
+    "total": 6160,
     "entries": [
       {
         "level": "Grand Slam",
@@ -219,8 +219,8 @@
       {
         "level": "WTA Finals",
         "name": "26 Indian Wells",
-        "points": 200,
-        "round": "RR"
+        "points": 400,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -285,7 +285,7 @@
     ]
   },
   "gauff": {
-    "total": 5963,
+    "total": 6163,
     "entries": [
       {
         "level": "Grand Slam",
@@ -314,7 +314,7 @@
       {
         "level": "WTA Finals",
         "name": "26 Indian Wells",
-        "points": 200,
+        "points": 400,
         "round": "RR"
       },
       {
@@ -600,7 +600,7 @@
         "level": "WTA Finals",
         "name": "26 Indian Wells",
         "points": 400,
-        "round": "RR"
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -14423,7 +14423,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 573,
+    "total": 590,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14469,12 +14469,6 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Guangzhou",
-        "points": 12,
-        "round": "Q2"
-      },
-      {
-        "level": "WTA 250",
         "name": "26 Hong Kong",
         "points": 12,
         "round": "R32"
@@ -14514,6 +14508,12 @@
         "name": "26 Austin/125",
         "points": 33,
         "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Brisbane/75",
+        "points": 29,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -15588,14 +15588,8 @@
     ]
   },
   "laura-samson": {
-    "total": 697,
+    "total": 719,
     "entries": [
-      {
-        "level": "Grand Slam",
-        "name": "26 US Open",
-        "points": 2,
-        "round": "Q1"
-      },
       {
         "level": "Grand Slam",
         "name": "26 Roland Garros",
@@ -15605,6 +15599,12 @@
       {
         "level": "Grand Slam",
         "name": "26 Wimbledon",
+        "points": 2,
+        "round": "Q1"
+      },
+      {
+        "level": "Grand Slam",
+        "name": "26 US Open",
         "points": 2,
         "round": "Q1"
       },
@@ -15640,7 +15640,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Ljubljana/125",
+        "name": "25 Colina/125",
         "points": 49,
         "round": "SF"
       },
@@ -15652,15 +15652,15 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Colina/125",
+        "name": "26 Ljubljana/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
         "name": "26 Sopo/125",
-        "points": 27,
-        "round": "QF"
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -15670,13 +15670,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Madrid/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Quito/125",
+        "name": "26 Cali/125",
         "points": 15,
         "round": "R16"
       },
@@ -15688,7 +15682,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Cali/125",
+        "name": "26 Madrid/125",
+        "points": 15,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
+        "name": "25 Quito/125",
         "points": 15,
         "round": "R16"
       },
