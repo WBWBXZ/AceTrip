@@ -380,7 +380,7 @@
     ]
   },
   "andreeva": {
-    "total": 6706,
+    "total": 6906,
     "entries": [
       {
         "level": "Grand Slam",
@@ -409,8 +409,8 @@
       {
         "level": "WTA Finals",
         "name": "26 Indian Wells",
-        "points": 400,
-        "round": "RR"
+        "points": 600,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
@@ -843,7 +843,7 @@
     ]
   },
   "svitolina": {
-    "total": 5321,
+    "total": 5521,
     "entries": [
       {
         "level": "Grand Slam",
@@ -872,8 +872,8 @@
       {
         "level": "WTA Finals",
         "name": "26 Indian Wells",
-        "points": 200,
-        "round": "RR"
+        "points": 400,
+        "round": "SF"
       },
       {
         "level": "WTA 1000",
