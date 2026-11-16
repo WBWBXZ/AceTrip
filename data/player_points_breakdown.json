@@ -380,7 +380,7 @@
     ]
   },
   "andreeva": {
-    "total": 7306,
+    "total": 7806,
     "entries": [
       {
         "level": "Grand Slam",
@@ -409,8 +409,8 @@
       {
         "level": "WTA Finals",
         "name": "26 Indian Wells",
-        "points": 1000,
-        "round": "F"
+        "points": 1500,
+        "round": "W"
       },
       {
         "level": "WTA 1000",

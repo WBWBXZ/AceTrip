@@ -19,15 +19,16 @@
       "cincinnati-open",
       "us-open",
       "china-open",
-      "wuhan-open"
+      "wuhan-open",
+      "wta-finals"
     ],
-    "totalTournaments": 19,
-    "totalWins": 48,
-    "totalLosses": 17,
+    "totalTournaments": 20,
+    "totalWins": 51,
+    "totalLosses": 19,
     "titles": 2,
-    "thisYearTournaments": 19,
-    "thisYearWins": 48,
-    "thisYearLosses": 17,
+    "thisYearTournaments": 20,
+    "thisYearWins": 51,
+    "thisYearLosses": 19,
     "thisYearTitles": 2,
     "results": [
       {
@@ -200,6 +201,15 @@
         "tournamentId": "wuhan-open",
         "points": 215,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "F",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 800,
+        "level": "CH"
       }
     ]
   },
@@ -2050,15 +2060,16 @@
       "wimbledon",
       "us-open",
       "china-open",
-      "wuhan-open"
+      "wuhan-open",
+      "wta-finals"
     ],
-    "totalTournaments": 14,
+    "totalTournaments": 15,
     "totalWins": 41,
-    "totalLosses": 12,
+    "totalLosses": 14,
     "titles": 2,
-    "thisYearTournaments": 14,
+    "thisYearTournaments": 15,
     "thisYearWins": 41,
-    "thisYearLosses": 12,
+    "thisYearLosses": 14,
     "thisYearTitles": 2,
     "results": [
       {
@@ -2186,6 +2197,15 @@
         "tournamentId": "wuhan-open",
         "points": 120,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 0,
+        "level": "CH"
       }
     ]
   },
@@ -6399,9 +6419,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 22,
-    "totalWins": 43,
-    "totalLosses": 20,
+    "totalTournaments": 21,
+    "totalWins": 41,
+    "totalLosses": 19,
     "titles": 2,
     "thisYearTournaments": 19,
     "thisYearWins": 39,
@@ -6578,15 +6598,6 @@
         "tournamentId": "wuhan-open",
         "points": 1000,
         "level": "PM"
-      },
-      {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 27,
-        "level": "C"
       },
       {
         "name": "BUENOS AIRES 125",
@@ -9850,10 +9861,10 @@
       "china-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 28,
-    "totalWins": 33,
+    "totalTournaments": 27,
+    "totalWins": 28,
     "totalLosses": 27,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 25,
     "thisYearWins": 26,
     "thisYearLosses": 25,
@@ -10083,15 +10094,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 125,
-        "level": "C"
       },
       {
         "name": "BUENOS AIRES 125",
@@ -10867,9 +10869,9 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 31,
-    "totalLosses": 25,
+    "totalTournaments": 24,
+    "totalWins": 30,
+    "totalLosses": 24,
     "titles": 3,
     "thisYearTournaments": 23,
     "thisYearWins": 25,
@@ -11082,15 +11084,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
       },
       {
         "name": "FUJAIRAH",
@@ -12158,9 +12151,9 @@
       "ningbo-open",
       "dubai-championships"
     ],
-    "totalTournaments": 24,
+    "totalTournaments": 23,
     "totalWins": 49,
-    "totalLosses": 23,
+    "totalLosses": 22,
     "titles": 2,
     "thisYearTournaments": 21,
     "thisYearWins": 46,
@@ -12355,15 +12348,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "ITF"
       },
       {
         "name": "FUJAIRAH",
@@ -13144,9 +13128,9 @@
       "ningbo-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 29,
+    "totalTournaments": 28,
     "totalWins": 31,
-    "totalLosses": 30,
+    "totalLosses": 29,
     "titles": 0,
     "thisYearTournaments": 27,
     "thisYearWins": 29,
@@ -13395,15 +13379,6 @@
         "tournamentId": "toray-pan-pacific",
         "points": 1,
         "level": "P"
-      },
-      {
-        "name": "SYDNEY",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "ITF"
       },
       {
         "name": "PLAYFORD",
@@ -14624,9 +14599,9 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 27,
-    "totalWins": 34,
-    "totalLosses": 28,
+    "totalTournaments": 26,
+    "totalWins": 31,
+    "totalLosses": 27,
     "titles": 1,
     "thisYearTournaments": 26,
     "thisYearWins": 31,
@@ -14866,15 +14841,6 @@
         "tournamentId": "toray-pan-pacific",
         "points": 13,
         "level": "P"
-      },
-      {
-        "name": "SYDNEY",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 29,
-        "level": "ITF"
       }
     ]
   },
@@ -16201,10 +16167,10 @@
       "wuhan-open",
       "toray-pan-pacific"
     ],
-    "totalTournaments": 31,
-    "totalWins": 46,
+    "totalTournaments": 30,
+    "totalWins": 41,
     "totalLosses": 30,
-    "titles": 2,
+    "titles": 1,
     "thisYearTournaments": 29,
     "thisYearWins": 38,
     "thisYearLosses": 29,
@@ -16472,15 +16438,6 @@
         "level": "IS"
       },
       {
-        "name": "SYDNEY",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 75,
-        "level": "ITF"
-      },
-      {
         "name": "PLAYFORD",
         "startDate": "2025-11-24T00:00:00+00:00",
         "bestRound": "S",
@@ -16508,9 +16465,9 @@
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 28,
-    "totalLosses": 30,
+    "totalTournaments": 28,
+    "totalWins": 27,
+    "totalLosses": 29,
     "titles": 0,
     "thisYearTournaments": 27,
     "thisYearWins": 23,
@@ -16761,15 +16718,6 @@
         "level": "IS"
       },
       {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 15,
-        "level": "C"
-      },
-      {
         "name": "BUENOS AIRES 125",
         "startDate": "2025-11-24T00:00:00+00:00",
         "bestRound": "S",
@@ -16800,9 +16748,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 24,
-    "totalWins": 32,
-    "totalLosses": 24,
+    "totalTournaments": 23,
+    "totalWins": 31,
+    "totalLosses": 23,
     "titles": 1,
     "thisYearTournaments": 22,
     "thisYearWins": 26,
@@ -17008,15 +16956,6 @@
         "level": "PM"
       },
       {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
-      },
-      {
         "name": "TRNAVA 5",
         "startDate": "2025-11-24T00:00:00+00:00",
         "bestRound": "F",
@@ -17040,9 +16979,9 @@
       "wuhan-open",
       "ningbo-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 39,
-    "totalLosses": 22,
+    "totalTournaments": 24,
+    "totalWins": 36,
+    "totalLosses": 21,
     "titles": 3,
     "thisYearTournaments": 23,
     "thisYearWins": 33,
@@ -17255,15 +17194,6 @@
         "tournamentId": "ningbo-open",
         "points": 1,
         "level": "P"
-      },
-      {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "C"
       },
       {
         "name": "BUENOS AIRES 125",
@@ -19187,9 +19117,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 38,
-    "totalLosses": 28,
+    "totalTournaments": 28,
+    "totalWins": 36,
+    "totalLosses": 27,
     "titles": 1,
     "thisYearTournaments": 25,
     "thisYearWins": 30,
@@ -19422,15 +19352,6 @@
         "level": "C"
       },
       {
-        "name": "TRNAVA 4",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 11,
-        "level": "ITF"
-      },
-      {
         "name": "TRNAVA 5",
         "startDate": "2025-11-24T00:00:00+00:00",
         "bestRound": "Q",
@@ -19474,9 +19395,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 28,
-    "totalWins": 50,
-    "totalLosses": 27,
+    "totalTournaments": 27,
+    "totalWins": 47,
+    "totalLosses": 26,
     "titles": 2,
     "thisYearTournaments": 27,
     "thisYearWins": 47,
@@ -19725,15 +19646,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "TAKASAKI",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 39,
-        "level": "ITF"
       }
     ]
   },
@@ -19896,9 +19808,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 42,
-    "totalLosses": 22,
+    "totalTournaments": 24,
+    "totalWins": 39,
+    "totalLosses": 21,
     "titles": 4,
     "thisYearTournaments": 24,
     "thisYearWins": 39,
@@ -20120,15 +20032,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 29,
-        "level": "ITF"
       }
     ]
   },
@@ -21648,9 +21551,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 24,
     "totalWins": 40,
-    "totalLosses": 21,
+    "totalLosses": 20,
     "titles": 4,
     "thisYearTournaments": 24,
     "thisYearWins": 40,
@@ -21872,15 +21775,6 @@
         "tournamentId": "us-open",
         "points": 10,
         "level": "GS"
-      },
-      {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "ITF"
       }
     ]
   },
@@ -23183,9 +23077,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 32,
-    "totalWins": 29,
-    "totalLosses": 32,
+    "totalTournaments": 31,
+    "totalWins": 27,
+    "totalLosses": 31,
     "titles": 0,
     "thisYearTournaments": 30,
     "thisYearWins": 27,
@@ -23463,15 +23357,6 @@
         "level": "IS"
       },
       {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 16,
-        "level": "ITF"
-      },
-      {
         "name": "TRNAVA 5",
         "startDate": "2025-11-24T00:00:00+00:00",
         "bestRound": "R32",
@@ -23578,9 +23463,9 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 26,
+    "totalTournaments": 25,
     "totalWins": 26,
-    "totalLosses": 26,
+    "totalLosses": 25,
     "titles": 0,
     "thisYearTournaments": 23,
     "thisYearWins": 21,
@@ -23792,15 +23677,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
-        "level": "C"
-      },
-      {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
         "level": "C"
       },
       {
@@ -26948,9 +26824,9 @@
       "monterrey",
       "us-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 40,
-    "totalLosses": 29,
+    "totalTournaments": 28,
+    "totalWins": 36,
+    "totalLosses": 28,
     "titles": 1,
     "thisYearTournaments": 26,
     "thisYearWins": 33,
@@ -27189,15 +27065,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 27,
-        "level": "C"
-      },
-      {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 81,
         "level": "C"
       },
       {
@@ -28491,9 +28358,9 @@
       "china-open",
       "wuhan-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 44,
-    "totalLosses": 29,
+    "totalTournaments": 28,
+    "totalWins": 43,
+    "totalLosses": 28,
     "titles": 2,
     "thisYearTournaments": 27,
     "thisYearWins": 40,
@@ -28742,15 +28609,6 @@
         "tournamentId": null,
         "points": 12,
         "level": "IS"
-      },
-      {
-        "name": "SYDNEY",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
       },
       {
         "name": "PLAYFORD",
@@ -29056,9 +28914,9 @@
     "totalWins": 35,
     "totalLosses": 32,
     "titles": 0,
-    "thisYearTournaments": 29,
-    "thisYearWins": 34,
-    "thisYearLosses": 29,
+    "thisYearTournaments": 30,
+    "thisYearWins": 35,
+    "thisYearLosses": 30,
     "thisYearTitles": 0,
     "results": [
       {
@@ -29323,13 +29181,13 @@
         "level": "C"
       },
       {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
         "bestRound": "R16",
         "isChampion": false,
         "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
+        "points": 15,
+        "level": "C"
       },
       {
         "name": "TRNAVA 5",
@@ -29466,10 +29324,10 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 53,
+    "totalTournaments": 28,
+    "totalWins": 48,
     "totalLosses": 28,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 28,
     "thisYearWins": 48,
     "thisYearLosses": 28,
@@ -29726,15 +29584,6 @@
         "tournamentId": null,
         "points": 30,
         "level": "IS"
-      },
-      {
-        "name": "CHIHUAHUA 3",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 50,
-        "level": "ITF"
       }
     ]
   },
@@ -30279,9 +30128,9 @@
       "us-open",
       "ningbo-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 52,
-    "totalLosses": 23,
+    "totalTournaments": 24,
+    "totalWins": 48,
+    "totalLosses": 22,
     "titles": 2,
     "thisYearTournaments": 22,
     "thisYearWins": 45,
@@ -30485,15 +30334,6 @@
         "tournamentId": null,
         "points": 30,
         "level": "IS"
-      },
-      {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
-        "level": "ITF"
       },
       {
         "name": "TRNAVA 5",
@@ -30772,9 +30612,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 40,
-    "totalLosses": 30,
+    "totalTournaments": 29,
+    "totalWins": 38,
+    "totalLosses": 29,
     "titles": 0,
     "thisYearTournaments": 26,
     "thisYearWins": 37,
@@ -31014,15 +30854,6 @@
         "tournamentId": null,
         "points": 15,
         "level": "C"
-      },
-      {
-        "name": "PETANGE",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 16,
-        "level": "ITF"
       },
       {
         "name": "MONASTIR 47",
@@ -31340,10 +31171,10 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 27,
-    "totalWins": 38,
+    "totalTournaments": 26,
+    "totalWins": 33,
     "totalLosses": 28,
-    "titles": 1,
+    "titles": 0,
     "thisYearTournaments": 26,
     "thisYearWins": 33,
     "thisYearLosses": 28,
@@ -31582,15 +31413,6 @@
         "tournamentId": null,
         "points": 18,
         "level": "IS"
-      },
-      {
-        "name": "TAKASAKI",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
-        "isChampion": true,
-        "tournamentId": null,
-        "points": 100,
-        "level": "ITF"
       }
     ]
   },
@@ -31870,13 +31692,13 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 20,
+    "totalTournaments": 21,
     "totalWins": 31,
-    "totalLosses": 21,
+    "totalLosses": 22,
     "titles": 0,
-    "thisYearTournaments": 20,
+    "thisYearTournaments": 21,
     "thisYearWins": 31,
-    "thisYearLosses": 21,
+    "thisYearLosses": 22,
     "thisYearTitles": 0,
     "results": [
       {
@@ -32053,6 +31875,15 @@
       {
         "name": "CALI 125",
         "startDate": "2026-11-02T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "C"
+      },
+      {
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
         "bestRound": "R32",
         "isChampion": false,
         "tournamentId": null,
@@ -32374,9 +32205,9 @@
       "guadalajara",
       "china-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 41,
-    "totalLosses": 31,
+    "totalTournaments": 29,
+    "totalWins": 40,
+    "totalLosses": 30,
     "titles": 1,
     "thisYearTournaments": 29,
     "thisYearWins": 40,
@@ -32643,15 +32474,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "C"
-      },
-      {
-        "name": "CHIHUAHUA 3",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 6,
-        "level": "ITF"
       }
     ]
   },
@@ -32668,15 +32490,16 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "us-open"
+      "us-open",
+      "brisbane"
     ],
     "totalTournaments": 26,
-    "totalWins": 38,
+    "totalWins": 37,
     "totalLosses": 26,
     "titles": 2,
-    "thisYearTournaments": 24,
-    "thisYearWins": 29,
-    "thisYearLosses": 25,
+    "thisYearTournaments": 25,
+    "thisYearWins": 32,
+    "thisYearLosses": 26,
     "thisYearTitles": 1,
     "results": [
       {
@@ -32896,12 +32719,12 @@
         "level": "IS"
       },
       {
-        "name": "SYDNEY",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "F",
+        "name": "BRISBANE 6",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "S",
         "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
+        "tournamentId": "brisbane",
+        "points": 29,
         "level": "ITF"
       },
       {
@@ -32923,11 +32746,11 @@
     ],
     "totalTournaments": 26,
     "totalWins": 52,
-    "totalLosses": 24,
+    "totalLosses": 23,
     "titles": 3,
     "thisYearTournaments": 24,
     "thisYearWins": 50,
-    "thisYearLosses": 22,
+    "thisYearLosses": 21,
     "thisYearTitles": 3,
     "results": [
       {
@@ -34578,9 +34401,9 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 19,
-    "totalWins": 22,
-    "totalLosses": 19,
+    "totalTournaments": 18,
+    "totalWins": 21,
+    "totalLosses": 18,
     "titles": 0,
     "thisYearTournaments": 17,
     "thisYearWins": 17,
@@ -34739,15 +34562,6 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
-      },
-      {
-        "name": "SYDNEY",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "R16",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 9,
-        "level": "ITF"
       },
       {
         "name": "PLAYFORD",
@@ -35148,9 +34962,9 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 37,
-    "totalLosses": 23,
+    "totalTournaments": 25,
+    "totalWins": 34,
+    "totalLosses": 22,
     "titles": 3,
     "thisYearTournaments": 23,
     "thisYearWins": 31,
@@ -35362,15 +35176,6 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
-        "level": "C"
-      },
-      {
-        "name": "COLINA 125",
-        "startDate": "2025-11-17T00:00:00+00:00",
-        "bestRound": "S",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 49,
         "level": "C"
       },
       {
