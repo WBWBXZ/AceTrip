@@ -230,15 +230,16 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
-      "wuhan-open"
+      "wuhan-open",
+      "wta-finals"
     ],
-    "totalTournaments": 16,
-    "totalWins": 50,
-    "totalLosses": 14,
+    "totalTournaments": 17,
+    "totalWins": 52,
+    "totalLosses": 16,
     "titles": 2,
-    "thisYearTournaments": 16,
-    "thisYearWins": 50,
-    "thisYearLosses": 14,
+    "thisYearTournaments": 17,
+    "thisYearWins": 52,
+    "thisYearLosses": 16,
     "thisYearTitles": 2,
     "results": [
       {
@@ -384,6 +385,15 @@
         "tournamentId": "wuhan-open",
         "points": 10,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 400,
+        "level": "CH"
       }
     ]
   },
@@ -1906,15 +1916,16 @@
       "cincinnati-open",
       "us-open",
       "china-open",
-      "wuhan-open"
+      "wuhan-open",
+      "wta-finals"
     ],
-    "totalTournaments": 14,
-    "totalWins": 47,
-    "totalLosses": 11,
+    "totalTournaments": 15,
+    "totalWins": 48,
+    "totalLosses": 13,
     "titles": 3,
-    "thisYearTournaments": 14,
-    "thisYearWins": 47,
-    "thisYearLosses": 11,
+    "thisYearTournaments": 15,
+    "thisYearWins": 48,
+    "thisYearLosses": 13,
     "thisYearTitles": 3,
     "results": [
       {
@@ -2042,6 +2053,15 @@
         "tournamentId": "wuhan-open",
         "points": 10,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 200,
+        "level": "CH"
       }
     ]
   },
@@ -3637,15 +3657,16 @@
       "us-open",
       "guadalajara",
       "wuhan-open",
-      "ningbo-open"
+      "ningbo-open",
+      "wta-finals"
     ],
-    "totalTournaments": 14,
+    "totalTournaments": 15,
     "totalWins": 36,
-    "totalLosses": 12,
+    "totalLosses": 15,
     "titles": 2,
-    "thisYearTournaments": 14,
+    "thisYearTournaments": 15,
     "thisYearWins": 36,
-    "thisYearLosses": 12,
+    "thisYearLosses": 15,
     "thisYearTitles": 2,
     "results": [
       {
@@ -3773,6 +3794,15 @@
         "tournamentId": "ningbo-open",
         "points": 1,
         "level": "P"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 0,
+        "level": "CH"
       }
     ]
   },
@@ -4356,15 +4386,16 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
-      "china-open"
+      "china-open",
+      "wta-finals"
     ],
-    "totalTournaments": 16,
-    "totalWins": 48,
-    "totalLosses": 15,
+    "totalTournaments": 17,
+    "totalWins": 50,
+    "totalLosses": 16,
     "titles": 1,
-    "thisYearTournaments": 16,
-    "thisYearWins": 48,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 17,
+    "thisYearWins": 50,
+    "thisYearLosses": 16,
     "thisYearTitles": 1,
     "results": [
       {
@@ -4510,6 +4541,15 @@
         "tournamentId": "china-open",
         "points": 120,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 400,
+        "level": "CH"
       }
     ]
   },
@@ -4531,15 +4571,16 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
-      "china-open"
+      "china-open",
+      "wta-finals"
     ],
-    "totalTournaments": 17,
-    "totalWins": 36,
-    "totalLosses": 15,
+    "totalTournaments": 18,
+    "totalWins": 38,
+    "totalLosses": 17,
     "titles": 2,
-    "thisYearTournaments": 17,
-    "thisYearWins": 36,
-    "thisYearLosses": 15,
+    "thisYearTournaments": 18,
+    "thisYearWins": 38,
+    "thisYearLosses": 17,
     "thisYearTitles": 2,
     "results": [
       {
@@ -4694,6 +4735,15 @@
         "tournamentId": "china-open",
         "points": 120,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 400,
+        "level": "CH"
       }
     ]
   },
@@ -5064,14 +5114,15 @@
       "cincinnati-open",
       "us-open",
       "singapore-open",
-      "china-open"
+      "china-open",
+      "wta-finals"
     ],
-    "totalTournaments": 19,
-    "totalWins": 51,
+    "totalTournaments": 20,
+    "totalWins": 52,
     "totalLosses": 16,
     "titles": 3,
-    "thisYearTournaments": 19,
-    "thisYearWins": 51,
+    "thisYearTournaments": 20,
+    "thisYearWins": 52,
     "thisYearLosses": 16,
     "thisYearTitles": 3,
     "results": [
@@ -5245,6 +5296,15 @@
         "tournamentId": "china-open",
         "points": 650,
         "level": "PM"
+      },
+      {
+        "name": "WTA FINALS",
+        "startDate": "2026-11-08T00:00:00+00:00",
+        "bestRound": "",
+        "isChampion": false,
+        "tournamentId": "wta-finals",
+        "points": 1500,
+        "level": "CH"
       }
     ]
   },
@@ -17682,13 +17742,13 @@
       "us-open",
       "guadalajara"
     ],
-    "totalTournaments": 33,
-    "totalWins": 41,
-    "totalLosses": 31,
+    "totalTournaments": 34,
+    "totalWins": 42,
+    "totalLosses": 32,
     "titles": 2,
-    "thisYearTournaments": 32,
-    "thisYearWins": 40,
-    "thisYearLosses": 30,
+    "thisYearTournaments": 33,
+    "thisYearWins": 41,
+    "thisYearLosses": 31,
     "thisYearTitles": 2,
     "results": [
       {
@@ -17977,6 +18037,15 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 81,
+        "level": "C"
+      },
+      {
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
         "level": "C"
       },
       {
@@ -23463,13 +23532,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 25,
+    "totalTournaments": 26,
     "totalWins": 26,
-    "totalLosses": 25,
+    "totalLosses": 26,
     "titles": 0,
-    "thisYearTournaments": 23,
+    "thisYearTournaments": 24,
     "thisYearWins": 21,
-    "thisYearLosses": 23,
+    "thisYearLosses": 24,
     "thisYearTitles": 0,
     "results": [
       {
@@ -23677,6 +23746,15 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
+        "level": "C"
+      },
+      {
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
         "level": "C"
       },
       {
@@ -25435,13 +25513,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 30,
-    "totalWins": 33,
-    "totalLosses": 29,
+    "totalTournaments": 31,
+    "totalWins": 34,
+    "totalLosses": 30,
     "titles": 1,
-    "thisYearTournaments": 30,
-    "thisYearWins": 33,
-    "thisYearLosses": 29,
+    "thisYearTournaments": 31,
+    "thisYearWins": 34,
+    "thisYearLosses": 30,
     "thisYearTitles": 1,
     "results": [
       {
@@ -25708,6 +25786,15 @@
       {
         "name": "CALI 125",
         "startDate": "2026-11-02T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
+        "level": "C"
+      },
+      {
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
         "bestRound": "R16",
         "isChampion": false,
         "tournamentId": null,
@@ -30612,13 +30699,13 @@
       "us-open",
       "china-open"
     ],
-    "totalTournaments": 29,
-    "totalWins": 38,
-    "totalLosses": 29,
+    "totalTournaments": 30,
+    "totalWins": 40,
+    "totalLosses": 30,
     "titles": 0,
-    "thisYearTournaments": 26,
-    "thisYearWins": 37,
-    "thisYearLosses": 26,
+    "thisYearTournaments": 27,
+    "thisYearWins": 39,
+    "thisYearLosses": 27,
     "thisYearTitles": 0,
     "results": [
       {
@@ -30853,6 +30940,15 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
+        "level": "C"
+      },
+      {
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 27,
         "level": "C"
       },
       {
@@ -31169,15 +31265,16 @@
       "wimbledon",
       "national-bank-open",
       "cincinnati-open",
-      "us-open"
+      "us-open",
+      "brisbane"
     ],
-    "totalTournaments": 26,
-    "totalWins": 33,
-    "totalLosses": 28,
+    "totalTournaments": 27,
+    "totalWins": 35,
+    "totalLosses": 29,
     "titles": 0,
-    "thisYearTournaments": 26,
-    "thisYearWins": 33,
-    "thisYearLosses": 28,
+    "thisYearTournaments": 27,
+    "thisYearWins": 35,
+    "thisYearLosses": 29,
     "thisYearTitles": 0,
     "results": [
       {
@@ -31413,6 +31510,15 @@
         "tournamentId": null,
         "points": 18,
         "level": "IS"
+      },
+      {
+        "name": "BRISBANE 6",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": "brisbane",
+        "points": 16,
+        "level": "ITF"
       }
     ]
   },
@@ -32350,15 +32456,6 @@
         "level": "C"
       },
       {
-        "name": "WIMBLEDON",
-        "startDate": "2026-06-29T00:00:00+00:00",
-        "bestRound": "R64",
-        "isChampion": false,
-        "tournamentId": "wimbledon",
-        "points": 20,
-        "level": "GS"
-      },
-      {
         "name": "CARY, NC",
         "startDate": "2026-06-29T00:00:00+00:00",
         "bestRound": "R32",
@@ -32366,6 +32463,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "ITF"
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "wimbledon",
+        "points": 20,
+        "level": "GS"
       },
       {
         "name": "EVANSVILLE",
@@ -32862,15 +32968,6 @@
         "level": "C"
       },
       {
-        "name": "ELVAS",
-        "startDate": "2026-06-29T00:00:00+00:00",
-        "bestRound": "Q",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 11,
-        "level": "ITF"
-      },
-      {
         "name": "WIMBLEDON",
         "startDate": "2026-06-29T00:00:00+00:00",
         "bestRound": "R64",
@@ -32878,6 +32975,15 @@
         "tournamentId": "wimbledon",
         "points": 20,
         "level": "GS"
+      },
+      {
+        "name": "ELVAS",
+        "startDate": "2026-06-29T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 11,
+        "level": "ITF"
       },
       {
         "name": "CORROIOS-SEIXAL",
@@ -34399,15 +34505,16 @@
       "roland-garros",
       "wimbledon",
       "us-open",
-      "china-open"
+      "china-open",
+      "brisbane"
     ],
-    "totalTournaments": 18,
+    "totalTournaments": 19,
     "totalWins": 21,
-    "totalLosses": 18,
+    "totalLosses": 19,
     "titles": 0,
-    "thisYearTournaments": 17,
+    "thisYearTournaments": 18,
     "thisYearWins": 17,
-    "thisYearLosses": 17,
+    "thisYearLosses": 18,
     "thisYearTitles": 0,
     "results": [
       {
@@ -34562,6 +34669,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "IS"
+      },
+      {
+        "name": "BRISBANE 6",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": "brisbane",
+        "points": 1,
+        "level": "ITF"
       },
       {
         "name": "PLAYFORD",
@@ -34962,13 +35078,13 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 34,
-    "totalLosses": 22,
+    "totalTournaments": 26,
+    "totalWins": 37,
+    "totalLosses": 23,
     "titles": 3,
-    "thisYearTournaments": 23,
-    "thisYearWins": 31,
-    "thisYearLosses": 20,
+    "thisYearTournaments": 24,
+    "thisYearWins": 34,
+    "thisYearLosses": 21,
     "thisYearTitles": 3,
     "results": [
       {
@@ -35176,6 +35292,15 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 15,
+        "level": "C"
+      },
+      {
+        "name": "SOPO 125",
+        "startDate": "2026-11-09T00:00:00+00:00",
+        "bestRound": "S",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 49,
         "level": "C"
       },
       {

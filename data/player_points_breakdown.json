@@ -3231,7 +3231,7 @@
     ]
   },
   "chwalinska": {
-    "total": 3016,
+    "total": 3004,
     "entries": [
       {
         "level": "Grand Slam",
@@ -3313,12 +3313,6 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Colina/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Saint-Gaudens/75",
         "points": 16,
         "round": "QF"
@@ -3332,6 +3326,12 @@
       {
         "level": "Challengers",
         "name": "25 Quito/125",
+        "points": 15,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
+        "name": "25 Buenos Aires/125",
         "points": 15,
         "round": "R16"
       }
@@ -4824,7 +4824,7 @@
     ]
   },
   "oleksandra-oliynykova": {
-    "total": 957,
+    "total": 886,
     "entries": [
       {
         "level": "Grand Slam",
@@ -4911,10 +4911,10 @@
         "round": "SF"
       },
       {
-        "level": "Challengers",
-        "name": "25 Colina/125",
-        "points": 125,
-        "round": "W"
+        "level": "WTA 250",
+        "name": "26 Hamburg",
+        "points": 54,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -5918,7 +5918,7 @@
     ]
   },
   "zhang-shuai": {
-    "total": 802,
+    "total": 778,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6018,9 +6018,9 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Takasaki/100",
-        "points": 39,
-        "round": "SF"
+        "name": "26 Paris/125",
+        "points": 15,
+        "round": "R16"
       }
     ]
   },
@@ -6875,7 +6875,7 @@
     ]
   },
   "kimberly-birrell": {
-    "total": 1146,
+    "total": 1137,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6924,6 +6924,12 @@
         "name": "26 Miami",
         "points": 30,
         "round": "R128"
+      },
+      {
+        "level": "WTA 1000",
+        "name": "26 Doha",
+        "points": 20,
+        "round": "Q2"
       },
       {
         "level": "WTA 1000",
@@ -6977,12 +6983,6 @@
         "level": "Challengers",
         "name": "26 Austin/125",
         "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Sydney/75",
-        "points": 29,
         "round": "SF"
       }
     ]
@@ -7541,7 +7541,7 @@
     ]
   },
   "talia-gibson": {
-    "total": 1342,
+    "total": 1296,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7641,13 +7641,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Sydney/75",
-        "points": 75,
-        "round": "W"
+        "name": "26 Brisbane/75",
+        "points": 29,
+        "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Brisbane/75",
+        "name": "25 Playford/75",
         "points": 29,
         "round": "SF"
       }
@@ -7880,7 +7880,7 @@
     ]
   },
   "mayar-sherif": {
-    "total": 1006,
+    "total": 959,
     "entries": [
       {
         "level": "Grand Slam",
@@ -7893,6 +7893,12 @@
         "name": "26 US Open",
         "points": 10,
         "round": "R128"
+      },
+      {
+        "level": "Grand Slam",
+        "name": "26 Australian Open",
+        "points": 2,
+        "round": "Q1"
       },
       {
         "level": "Grand Slam",
@@ -7926,13 +7932,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Brescia/125",
+        "name": "26 Contrexeville/125",
         "points": 125,
         "round": "W"
       },
       {
         "level": "Challengers",
-        "name": "26 Contrexeville/125",
+        "name": "26 Brescia/125",
         "points": 125,
         "round": "W"
       },
@@ -7944,19 +7950,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Antalya/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
         "name": "25 Buenos Aires/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "25 Colina/125",
+        "name": "26 Antalya/125",
         "points": 49,
         "round": "SF"
       },
@@ -8879,7 +8879,7 @@
     ]
   },
   "lanlana-tararudee": {
-    "total": 1012,
+    "total": 1000,
     "entries": [
       {
         "level": "Grand Slam",
@@ -8979,13 +8979,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Takasaki/100",
-        "points": 39,
-        "round": "SF"
+        "name": "26 Jiujiang/125",
+        "points": 27,
+        "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Jiujiang/125",
+        "name": "26 Manila/125",
         "points": 27,
         "round": "QF"
       }
@@ -9075,7 +9075,7 @@
     ]
   },
   "maria-timofeeva": {
-    "total": 952,
+    "total": 932,
     "entries": [
       {
         "level": "Grand Slam",
@@ -9181,9 +9181,9 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 29,
-        "round": "SF"
+        "name": "26 Manama/75",
+        "points": 9,
+        "round": "R16"
       }
     ]
   },
@@ -10472,7 +10472,7 @@
     ]
   },
   "oksana-selekhmeteva": {
-    "total": 648,
+    "total": 647,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10572,13 +10572,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 16,
-        "round": "QF"
+        "name": "26 Courmayeur/125",
+        "points": 15,
+        "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "26 Courmayeur/125",
+        "name": "26 Samsun/125",
         "points": 15,
         "round": "R16"
       }
@@ -11077,7 +11077,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Petange/75",
+        "name": "26 Trnava/75",
         "points": 1,
         "round": "R32"
       }
@@ -11749,7 +11749,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Lisbon/125",
+        "name": "26 Colina/125",
         "points": 1,
         "round": "R32"
       }
@@ -11982,7 +11982,7 @@
     ]
   },
   "leolia-jeanjean": {
-    "total": 841,
+    "total": 762,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12039,6 +12039,12 @@
         "round": "Q2"
       },
       {
+        "level": "WTA 1000",
+        "name": "26 Miami",
+        "points": 2,
+        "round": "Q1"
+      },
+      {
         "level": "Challengers",
         "name": "26 Adana/125",
         "points": 125,
@@ -12046,9 +12052,9 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Colina/125",
-        "points": 81,
-        "round": "F"
+        "name": "26 Barranquilla/125",
+        "points": 49,
+        "round": "SF"
       },
       {
         "level": "Challengers",
@@ -12059,12 +12065,6 @@
       {
         "level": "Challengers",
         "name": "26 Contrexeville/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Barranquilla/125",
         "points": 49,
         "round": "SF"
       },
@@ -12830,12 +12830,6 @@
         "round": "QF"
       },
       {
-        "level": "WTA 250",
-        "name": "26 Hamburg",
-        "points": 1,
-        "round": "R32"
-      },
-      {
         "level": "Challengers",
         "name": "26 Modena/125",
         "points": 49,
@@ -12852,6 +12846,12 @@
         "name": "26 Cherbourg-en-Cotentin/50",
         "points": 6,
         "round": "R16"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Colina/125",
+        "points": 1,
+        "round": "R32"
       },
       {
         "level": "Challengers",
@@ -13046,7 +13046,7 @@
     ]
   },
   "mary-stoiana": {
-    "total": 646,
+    "total": 616,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13071,6 +13071,12 @@
         "name": "26 Cincinnati",
         "points": 30,
         "round": "R128"
+      },
+      {
+        "level": "WTA 1000",
+        "name": "26 Miami",
+        "points": 20,
+        "round": "Q2"
       },
       {
         "level": "WTA 500",
@@ -13098,19 +13104,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Chihuahua/50",
-        "points": 50,
-        "round": "W"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Ilkley/125",
+        "name": "26 Midland/125",
         "points": 49,
         "round": "SF"
       },
       {
         "level": "Challengers",
-        "name": "26 Midland/125",
+        "name": "26 Ilkley/125",
         "points": 49,
         "round": "SF"
       },
@@ -13128,13 +13128,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Birmingham/125",
+        "name": "26 Newport/125",
         "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Newport/125",
+        "name": "26 Birmingham/125",
         "points": 27,
         "round": "QF"
       },
@@ -13389,7 +13389,7 @@
     ]
   },
   "jeline-vandromme": {
-    "total": 622,
+    "total": 582,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13435,12 +13435,6 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 49,
-        "round": "F"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Wiesbaden/100",
         "points": 44,
         "round": "SF"
@@ -13459,13 +13453,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Kitzbuhel/125",
+        "name": "26 Figueira da Foz/125",
         "points": 27,
         "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Figueira da Foz/125",
+        "name": "26 Kitzbuhel/125",
         "points": 27,
         "round": "QF"
       },
@@ -13498,6 +13492,12 @@
         "name": "26 Croissy-Beaubourg/50",
         "points": 11,
         "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Andrezieux-Boutheon/75",
+        "points": 9,
+        "round": "R16"
       }
     ]
   },
@@ -13615,7 +13615,7 @@
     ]
   },
   "marina-bassols-ribera": {
-    "total": 609,
+    "total": 599,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13703,12 +13703,6 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Petange/75",
-        "points": 16,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Cali/125",
         "points": 15,
         "round": "R16"
@@ -13723,6 +13717,12 @@
         "level": "Challengers",
         "name": "26 Valencia/125",
         "points": 15,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Heraklion/50",
+        "points": 6,
         "round": "R16"
       }
     ]
@@ -13841,7 +13841,7 @@
     ]
   },
   "himeno-sakatsume": {
-    "total": 612,
+    "total": 514,
     "entries": [
       {
         "level": "Grand Slam",
@@ -13860,6 +13860,12 @@
         "name": "26 Roland Garros",
         "points": 30,
         "round": "Q3"
+      },
+      {
+        "level": "Grand Slam",
+        "name": "26 Wimbledon",
+        "points": 2,
+        "round": "Q1"
       },
       {
         "level": "WTA 1000",
@@ -13890,12 +13896,6 @@
         "name": "26 Nottingham",
         "points": 18,
         "round": "R32"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Takasaki/100",
-        "points": 100,
-        "round": "W"
       },
       {
         "level": "Challengers",
@@ -13935,13 +13935,13 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Gifu/100",
+        "name": "26 Tokyo/100",
         "points": 12,
         "round": "R16"
       },
       {
         "level": "Challengers",
-        "name": "26 Tokyo/100",
+        "name": "26 Gifu/100",
         "points": 12,
         "round": "R16"
       },
@@ -14423,7 +14423,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 590,
+    "total": 553,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14469,6 +14469,12 @@
       },
       {
         "level": "WTA 250",
+        "name": "26 Guangzhou",
+        "points": 12,
+        "round": "Q2"
+      },
+      {
+        "level": "WTA 250",
         "name": "26 Hong Kong",
         "points": 12,
         "round": "R32"
@@ -14489,12 +14495,6 @@
         "level": "Challengers",
         "name": "26 Gifu/100",
         "points": 65,
-        "round": "F"
-      },
-      {
-        "level": "Challengers",
-        "name": "25 Sydney/75",
-        "points": 49,
         "round": "F"
       },
       {
@@ -15129,7 +15129,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Luanda/125",
+        "name": "26 Trnava/75",
         "points": 1,
         "round": "R32"
       }
@@ -15249,7 +15249,7 @@
     ]
   },
   "maddison-inglis": {
-    "total": 548,
+    "total": 540,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15337,9 +15337,9 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Sydney/75",
-        "points": 9,
-        "round": "R16"
+        "name": "26 Sydney/75",
+        "points": 1,
+        "round": "R32"
       },
       {
         "level": "Challengers",
@@ -15588,8 +15588,20 @@
     ]
   },
   "laura-samson": {
-    "total": 719,
+    "total": 672,
     "entries": [
+      {
+        "level": "Grand Slam",
+        "name": "26 US Open",
+        "points": 2,
+        "round": "Q1"
+      },
+      {
+        "level": "Grand Slam",
+        "name": "26 Australian Open",
+        "points": 2,
+        "round": "Q1"
+      },
       {
         "level": "Grand Slam",
         "name": "26 Roland Garros",
@@ -15599,12 +15611,6 @@
       {
         "level": "Grand Slam",
         "name": "26 Wimbledon",
-        "points": 2,
-        "round": "Q1"
-      },
-      {
-        "level": "Grand Slam",
-        "name": "26 US Open",
         "points": 2,
         "round": "Q1"
       },
@@ -15640,13 +15646,7 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Colina/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Modena/125",
+        "name": "26 Sopo/125",
         "points": 49,
         "round": "SF"
       },
@@ -15658,7 +15658,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Sopo/125",
+        "name": "26 Modena/125",
         "points": 49,
         "round": "SF"
       },
@@ -15670,13 +15670,7 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Cali/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Kitzbuhel/125",
+        "name": "25 Quito/125",
         "points": 15,
         "round": "R16"
       },
@@ -15688,7 +15682,13 @@
       },
       {
         "level": "Challengers",
-        "name": "25 Quito/125",
+        "name": "26 Kitzbuhel/125",
+        "points": 15,
+        "round": "R16"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Cali/125",
         "points": 15,
         "round": "R16"
       },
