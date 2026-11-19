@@ -5918,7 +5918,7 @@
     ]
   },
   "zhang-shuai": {
-    "total": 778,
+    "total": 779,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6018,9 +6018,9 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Paris/125",
-        "points": 15,
-        "round": "R16"
+        "name": "26 Sydney/75",
+        "points": 16,
+        "round": "QF"
       }
     ]
   },
@@ -14423,7 +14423,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 553,
+    "total": 557,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14466,12 +14466,6 @@
         "name": "26 Osaka",
         "points": 18,
         "round": "R32"
-      },
-      {
-        "level": "WTA 250",
-        "name": "26 Guangzhou",
-        "points": 12,
-        "round": "Q2"
       },
       {
         "level": "WTA 250",
@@ -14519,6 +14513,12 @@
         "level": "Challengers",
         "name": "26 Vancouver/125",
         "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Sydney/75",
+        "points": 16,
         "round": "QF"
       },
       {
@@ -15023,7 +15023,7 @@
     ]
   },
   "suzan-lamens": {
-    "total": 409,
+    "total": 417,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15130,8 +15130,8 @@
       {
         "level": "Challengers",
         "name": "26 Trnava/75",
-        "points": 1,
-        "round": "R32"
+        "points": 9,
+        "round": "R16"
       }
     ]
   },
@@ -15588,7 +15588,7 @@
     ]
   },
   "laura-samson": {
-    "total": 685,
+    "total": 697,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15658,6 +15658,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Colina/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "25 Buenos Aires/125",
         "points": 27,
         "round": "QF"
@@ -15683,12 +15689,6 @@
       {
         "level": "Challengers",
         "name": "26 Cali/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Colina/125",
         "points": 15,
         "round": "R16"
       },
