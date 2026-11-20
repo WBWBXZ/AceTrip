@@ -5918,7 +5918,7 @@
     ]
   },
   "zhang-shuai": {
-    "total": 779,
+    "total": 792,
     "entries": [
       {
         "level": "Grand Slam",
@@ -6019,8 +6019,8 @@
       {
         "level": "Challengers",
         "name": "26 Sydney/75",
-        "points": 16,
-        "round": "QF"
+        "points": 29,
+        "round": "SF"
       }
     ]
   },
@@ -8315,7 +8315,7 @@
         "level": "Challengers",
         "name": "26 Queretaro/125",
         "points": 81,
-        "round": "SF"
+        "round": "F"
       }
     ]
   },
@@ -12874,7 +12874,7 @@
     ]
   },
   "lucia-bronzetti": {
-    "total": 569,
+    "total": 581,
     "entries": [
       {
         "level": "Grand Slam",
@@ -12938,6 +12938,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Colina/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Oeiras/125",
         "points": 27,
         "round": "QF"
@@ -12947,12 +12953,6 @@
         "name": "26 Prague/75",
         "points": 16,
         "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Colina/125",
-        "points": 15,
-        "round": "R16"
       },
       {
         "level": "Challengers",
@@ -15023,7 +15023,7 @@
     ]
   },
   "suzan-lamens": {
-    "total": 417,
+    "total": 424,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15117,14 +15117,14 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Dubrovnik/125",
-        "points": 15,
-        "round": "R16"
+        "name": "26 Trnava/75",
+        "points": 16,
+        "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Trnava/75",
-        "points": 9,
+        "name": "26 Dubrovnik/125",
+        "points": 15,
         "round": "R16"
       },
       {
