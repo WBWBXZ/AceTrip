@@ -23433,13 +23433,13 @@
       "cincinnati-open",
       "us-open"
     ],
-    "totalTournaments": 25,
-    "totalWins": 23,
-    "totalLosses": 25,
+    "totalTournaments": 26,
+    "totalWins": 24,
+    "totalLosses": 26,
     "titles": 0,
-    "thisYearTournaments": 24,
-    "thisYearWins": 21,
-    "thisYearLosses": 24,
+    "thisYearTournaments": 25,
+    "thisYearWins": 22,
+    "thisYearLosses": 25,
     "thisYearTitles": 0,
     "results": [
       {
@@ -23656,6 +23656,15 @@
         "isChampion": false,
         "tournamentId": null,
         "points": 1,
+        "level": "C"
+      },
+      {
+        "name": "COLINA 125",
+        "startDate": "2026-11-16T00:00:00+00:00",
+        "bestRound": "R16",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 15,
         "level": "C"
       },
       {
@@ -32321,15 +32330,6 @@
         "level": "C"
       },
       {
-        "name": "CARY, NC",
-        "startDate": "2026-06-29T00:00:00+00:00",
-        "bestRound": "R32",
-        "isChampion": false,
-        "tournamentId": null,
-        "points": 1,
-        "level": "ITF"
-      },
-      {
         "name": "WIMBLEDON",
         "startDate": "2026-06-29T00:00:00+00:00",
         "bestRound": "R64",
@@ -32337,6 +32337,15 @@
         "tournamentId": "wimbledon",
         "points": 20,
         "level": "GS"
+      },
+      {
+        "name": "CARY, NC",
+        "startDate": "2026-06-29T00:00:00+00:00",
+        "bestRound": "R32",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 1,
+        "level": "ITF"
       },
       {
         "name": "EVANSVILLE",
@@ -32464,13 +32473,13 @@
       "us-open",
       "brisbane"
     ],
-    "totalTournaments": 25,
-    "totalWins": 32,
-    "totalLosses": 26,
+    "totalTournaments": 26,
+    "totalWins": 34,
+    "totalLosses": 27,
     "titles": 1,
-    "thisYearTournaments": 25,
-    "thisYearWins": 32,
-    "thisYearLosses": 26,
+    "thisYearTournaments": 26,
+    "thisYearWins": 34,
+    "thisYearLosses": 27,
     "thisYearTitles": 1,
     "results": [
       {
@@ -32697,6 +32706,15 @@
         "tournamentId": "brisbane",
         "points": 29,
         "level": "ITF"
+      },
+      {
+        "name": "SYDNEY 3",
+        "startDate": "2026-11-16T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 16,
+        "level": "ITF"
       }
     ]
   },
@@ -32824,15 +32842,6 @@
         "level": "C"
       },
       {
-        "name": "WIMBLEDON",
-        "startDate": "2026-06-29T00:00:00+00:00",
-        "bestRound": "R64",
-        "isChampion": false,
-        "tournamentId": "wimbledon",
-        "points": 20,
-        "level": "GS"
-      },
-      {
         "name": "ELVAS",
         "startDate": "2026-06-29T00:00:00+00:00",
         "bestRound": "Q",
@@ -32840,6 +32849,15 @@
         "tournamentId": null,
         "points": 11,
         "level": "ITF"
+      },
+      {
+        "name": "WIMBLEDON",
+        "startDate": "2026-06-29T00:00:00+00:00",
+        "bestRound": "R64",
+        "isChampion": false,
+        "tournamentId": "wimbledon",
+        "points": 20,
+        "level": "GS"
       },
       {
         "name": "CORROIOS-SEIXAL",
@@ -33842,13 +33860,13 @@
       "wimbledon",
       "us-open"
     ],
-    "totalTournaments": 26,
-    "totalWins": 25,
-    "totalLosses": 26,
+    "totalTournaments": 27,
+    "totalWins": 27,
+    "totalLosses": 27,
     "titles": 1,
-    "thisYearTournaments": 26,
-    "thisYearWins": 25,
-    "thisYearLosses": 26,
+    "thisYearTournaments": 27,
+    "thisYearWins": 27,
+    "thisYearLosses": 27,
     "thisYearTitles": 1,
     "results": [
       {
@@ -34084,6 +34102,15 @@
         "tournamentId": null,
         "points": 1,
         "level": "C"
+      },
+      {
+        "name": "TRNAVA 4",
+        "startDate": "2026-11-16T00:00:00+00:00",
+        "bestRound": "Q",
+        "isChampion": false,
+        "tournamentId": null,
+        "points": 16,
+        "level": "ITF"
       }
     ]
   },
