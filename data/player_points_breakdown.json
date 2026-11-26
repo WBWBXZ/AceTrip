@@ -10632,7 +10632,7 @@
     ]
   },
   "veronika-erjavec": {
-    "total": 446,
+    "total": 458,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10672,13 +10672,13 @@
       },
       {
         "level": "WTA 250",
-        "name": "26 Eastbourne",
+        "name": "26 Auckland",
         "points": 12,
         "round": "Q2"
       },
       {
         "level": "WTA 250",
-        "name": "26 Auckland",
+        "name": "26 Eastbourne",
         "points": 12,
         "round": "Q2"
       },
@@ -10690,19 +10690,19 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Antalya/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Antalya/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Kitzbuhel/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Antalya/125",
-        "points": 49,
-        "round": "SF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Antalya/125",
         "points": 49,
         "round": "SF"
       },
@@ -10715,6 +10715,12 @@
       {
         "level": "Challengers",
         "name": "25 Quito/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Buenos Aires/125",
         "points": 27,
         "round": "QF"
       },
@@ -10733,12 +10739,6 @@
       {
         "level": "Challengers",
         "name": "26 Oeiras/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Buenos Aires/125",
         "points": 15,
         "round": "R16"
       }
@@ -11643,7 +11643,7 @@
     ]
   },
   "darja-semenistaja": {
-    "total": 439,
+    "total": 447,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11750,8 +11750,8 @@
       {
         "level": "Challengers",
         "name": "26 Florianópolis/75",
-        "points": 1,
-        "round": "R32"
+        "points": 9,
+        "round": "R16"
       }
     ]
   },
@@ -14423,7 +14423,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 494,
+    "total": 498,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14474,12 +14474,6 @@
         "round": "R32"
       },
       {
-        "level": "WTA 250",
-        "name": "26 Guangzhou",
-        "points": 12,
-        "round": "Q2"
-      },
-      {
         "level": "Challengers",
         "name": "26 Brisbane/75",
         "points": 75,
@@ -14513,6 +14507,12 @@
         "level": "Challengers",
         "name": "26 Vancouver/125",
         "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Playford/75",
+        "points": 16,
         "round": "QF"
       },
       {
