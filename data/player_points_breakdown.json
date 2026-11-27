@@ -11643,7 +11643,7 @@
     ]
   },
   "darja-semenistaja": {
-    "total": 447,
+    "total": 454,
     "entries": [
       {
         "level": "Grand Slam",
@@ -11743,14 +11743,14 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Modena/125",
-        "points": 15,
-        "round": "R16"
+        "name": "26 Florianópolis/75",
+        "points": 16,
+        "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Florianópolis/75",
-        "points": 9,
+        "name": "26 Modena/125",
+        "points": 15,
         "round": "R16"
       }
     ]
@@ -14423,7 +14423,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 498,
+    "total": 511,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14499,6 +14499,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Playford/75",
+        "points": 29,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Brisbane/75",
         "points": 29,
         "round": "SF"
@@ -14507,12 +14513,6 @@
         "level": "Challengers",
         "name": "26 Vancouver/125",
         "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Playford/75",
-        "points": 16,
         "round": "QF"
       },
       {
@@ -15023,7 +15023,7 @@
     ]
   },
   "suzan-lamens": {
-    "total": 431,
+    "total": 438,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15117,14 +15117,14 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Dubrovnik/125",
-        "points": 15,
-        "round": "R16"
+        "name": "26 Trnava/75",
+        "points": 16,
+        "round": "QF"
       },
       {
         "level": "Challengers",
-        "name": "26 Trnava/75",
-        "points": 9,
+        "name": "26 Dubrovnik/125",
+        "points": 15,
         "round": "R16"
       },
       {
@@ -15582,7 +15582,7 @@
     ]
   },
   "laura-samson": {
-    "total": 685,
+    "total": 697,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15652,6 +15652,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Buenos Aires/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Colina/125",
         "points": 27,
         "round": "QF"
@@ -15677,12 +15683,6 @@
       {
         "level": "Challengers",
         "name": "26 Cali/125",
-        "points": 15,
-        "round": "R16"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Buenos Aires/125",
         "points": 15,
         "round": "R16"
       },
