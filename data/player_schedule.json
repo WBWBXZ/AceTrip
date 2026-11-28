@@ -1554,15 +1554,14 @@
       "national-bank-open",
       "cincinnati-open",
       "us-open",
-      "china-open",
-      "wuhan-open"
+      "china-open"
     ],
-    "totalTournaments": 21,
-    "totalWins": 24,
+    "totalTournaments": 20,
+    "totalWins": 23,
     "totalLosses": 20,
     "titles": 0,
-    "thisYearTournaments": 21,
-    "thisYearWins": 24,
+    "thisYearTournaments": 20,
+    "thisYearWins": 23,
     "thisYearLosses": 20,
     "thisYearTitles": 0,
     "results": [
@@ -1744,15 +1743,6 @@
         "isChampion": false,
         "tournamentId": "china-open",
         "points": 65,
-        "level": "PM"
-      },
-      {
-        "name": "WUHAN",
-        "startDate": "2026-10-12T00:00:00+00:00",
-        "bestRound": "R64",
-        "isChampion": false,
-        "tournamentId": "wuhan-open",
-        "points": 390,
         "level": "PM"
       }
     ]

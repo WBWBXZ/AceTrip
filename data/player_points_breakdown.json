@@ -10632,7 +10632,7 @@
     ]
   },
   "veronika-erjavec": {
-    "total": 458,
+    "total": 480,
     "entries": [
       {
         "level": "Grand Slam",
@@ -10708,6 +10708,12 @@
       },
       {
         "level": "Challengers",
+        "name": "26 Buenos Aires/125",
+        "points": 49,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
         "name": "26 Dubrovnik/125",
         "points": 27,
         "round": "QF"
@@ -10715,12 +10721,6 @@
       {
         "level": "Challengers",
         "name": "25 Quito/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Buenos Aires/125",
         "points": 27,
         "round": "QF"
       },
@@ -14423,7 +14423,7 @@
     ]
   },
   "emerson-jones": {
-    "total": 511,
+    "total": 531,
     "entries": [
       {
         "level": "Grand Slam",
@@ -14493,15 +14493,15 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Austin/125",
-        "points": 33,
-        "round": "QF"
+        "name": "26 Playford/75",
+        "points": 49,
+        "round": "F"
       },
       {
         "level": "Challengers",
-        "name": "26 Playford/75",
-        "points": 29,
-        "round": "SF"
+        "name": "26 Austin/125",
+        "points": 33,
+        "round": "QF"
       },
       {
         "level": "Challengers",
@@ -15023,7 +15023,7 @@
     ]
   },
   "suzan-lamens": {
-    "total": 438,
+    "total": 451,
     "entries": [
       {
         "level": "Grand Slam",
@@ -15057,13 +15057,13 @@
       },
       {
         "level": "WTA 1000",
-        "name": "26 Miami",
+        "name": "26 Madrid",
         "points": 2,
         "round": "Q1"
       },
       {
         "level": "WTA 1000",
-        "name": "26 Madrid",
+        "name": "26 Miami",
         "points": 2,
         "round": "Q1"
       },
@@ -15099,20 +15099,20 @@
       },
       {
         "level": "Challengers",
-        "name": "26 Oeiras/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
-        "name": "26 Oeiras/125",
-        "points": 27,
-        "round": "QF"
-      },
-      {
-        "level": "Challengers",
         "name": "26 Trnava/75",
-        "points": 16,
+        "points": 29,
+        "round": "SF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Oeiras/125",
+        "points": 27,
+        "round": "QF"
+      },
+      {
+        "level": "Challengers",
+        "name": "26 Oeiras/125",
+        "points": 27,
         "round": "QF"
       },
       {
